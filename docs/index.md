@@ -4,10 +4,10 @@ layout: home
 hero:
   name: Awesome Hub
   text: 开源精选
-  tagline: 精心收集的优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发等全品类，助你发现好用的轮子。
+  tagline: 精心收集 100+ 优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具全品类，助你发现好用的轮子。
   actions:
     - theme: brand
-      text: 👇 直接往下看
+      text: 👇 直接往下看 100+ 精选
       link: '#所有项目'
     - theme: alt
       text: 贡献指南
@@ -19,7 +19,7 @@ hero:
 <script setup>
 </script>
 
-## 🎨 前端开发
+## 🎨 前端开发（15 个）
 
 <div class="ah-project-grid">
 
@@ -83,9 +83,99 @@ hero:
   site="https://element-plus.org"
 />
 
+<ProjectCard
+  name="angular/angular"
+  github="https://github.com/angular/angular"
+  description="Google 出品的企业级前端开发平台，一站式包含路由、表单、HTTP、SSR 等"
+  lang="TypeScript"
+  stars="95.7k"
+  updated="1 天前"
+  site="https://angular.io"
+/>
+
+<ProjectCard
+  name="sveltejs/svelte"
+  github="https://github.com/sveltejs/svelte"
+  description="编译式前端框架，无虚拟 DOM，构建产物极小，写法极简，性能极佳"
+  lang="JavaScript"
+  stars="79.5k"
+  updated="1 天前"
+  site="https://svelte.dev"
+/>
+
+<ProjectCard
+  name="webpack/webpack"
+  github="https://github.com/webpack/webpack"
+  description="现代 JavaScript 应用最经典的静态模块打包器，生态成熟，企业级项目标配"
+  lang="JavaScript"
+  stars="64.7k"
+  updated="1 周前"
+  site="https://webpack.js.org"
+/>
+
+<ProjectCard
+  name="vercel/next.js"
+  github="https://github.com/vercel/next.js"
+  description="React 全栈框架，业界 SSR/SSG/ISR 标杆，Vercel 出品，生态最完整"
+  lang="JavaScript"
+  stars="123k"
+  updated="1 天前"
+  site="https://nextjs.org"
+/>
+
+<ProjectCard
+  name="nuxt/nuxt"
+  github="https://github.com/nuxt/nuxt"
+  description="Vue 全栈框架，Nuxt 提供 SSR、SSG、API 层等全能力，Vue 生态官方推荐"
+  lang="TypeScript"
+  stars="52.9k"
+  updated="1 天前"
+  site="https://nuxt.com"
+/>
+
+<ProjectCard
+  name="remix-run/remix"
+  github="https://github.com/remix-run/remix"
+  description="基于 React Router 的现代全栈 Web 框架，专注 Web 标准，表单处理体验极佳"
+  lang="TypeScript"
+  stars="28.6k"
+  updated="2 天前"
+  site="https://remix.run"
+/>
+
+<ProjectCard
+  name="tailwindlabs/headlessui"
+  github="https://github.com/tailwindlabs/headlessui"
+  description="完全无样式、完全可访问的 React/Vue UI 组件，可配合 Tailwind 自由定制样式"
+  lang="TypeScript"
+  stars="25.6k"
+  updated="1 周前"
+  site="https://headlessui.com"
+/>
+
+<ProjectCard
+  name="radix-ui/primitives"
+  github="https://github.com/radix-ui/primitives"
+  description="高质量无样式的 React UI 组件原语，注重无障碍访问，shadcn/ui 底层组件库"
+  lang="TypeScript"
+  stars="16.6k"
+  updated="4 天前"
+  site="https://www.radix-ui.com"
+/>
+
+<ProjectCard
+  name="chakra-ui/chakra-ui"
+  github="https://github.com/chakra-ui/chakra-ui"
+  description="React 生态中最受欢迎的可访问性优先组件库，简单、模块化、组合式 API"
+  lang="TypeScript"
+  stars="38.4k"
+  updated="1 个月前"
+  site="https://v2.chakra-ui.com"
+/>
+
 </div>
 
-## ⚙️ 后端开发
+## ⚙️ 后端开发（14 个）
 
 <div class="ah-project-grid">
 
@@ -149,9 +239,89 @@ hero:
   site="https://grpc.io"
 />
 
+<ProjectCard
+  name="nestjs/nest"
+  github="https://github.com/nestjs/nest"
+  description="Node.js 企业级后端框架，TypeScript 原生，架构借鉴 Angular，模块化、依赖注入"
+  lang="TypeScript"
+  stars="67.6k"
+  updated="1 天前"
+  site="https://nestjs.com"
+/>
+
+<ProjectCard
+  name="django/django"
+  github="https://github.com/django/django"
+  description="Python 生态最成熟的全功能 Web 框架，自带 ORM、Admin、Auth、安全防护"
+  lang="Python"
+  stars="79.1k"
+  updated="1 天前"
+  site="https://www.djangoproject.com"
+/>
+
+<ProjectCard
+  name="pallets/flask"
+  github="https://github.com/pallets/flask"
+  description="Python 轻量微框架，灵活极简，适合 API 服务、快速原型和中小型项目"
+  lang="Python"
+  stars="68k"
+  updated="1 周前"
+  site="https://flask.palletsprojects.com"
+/>
+
+<ProjectCard
+  name="go-kratos/kratos"
+  github="https://github.com/go-kratos/kratos"
+  description="B 站开源的 Go 微服务框架，基于 Protobuf 代码生成，业界大规模落地验证"
+  lang="Go"
+  stars="23k"
+  updated="3 天前"
+  site="https://go-kratos.dev"
+/>
+
+<ProjectCard
+  name="labstack/echo"
+  github="https://github.com/labstack/echo"
+  description="Go 高性能极简 Web 框架，API 优雅，中间件丰富，和 Gin 并称 Go Web 双雄"
+  lang="Go"
+  stars="29.2k"
+  updated="1 个月前"
+  site="https://echo.labstack.com"
+/>
+
+<ProjectCard
+  name="tokio-rs/axum"
+  github="https://github.com/tokio-rs/axum"
+  description="Rust 官方 Tokio 团队出品的 Web 框架，开箱即用，与 Tower 生态无缝集成"
+  lang="Rust"
+  stars="17.4k"
+  updated="3 天前"
+  site="https://docs.rs/axum"
+/>
+
+<ProjectCard
+  name="dotnet/aspnetcore"
+  github="https://github.com/dotnet/aspnetcore"
+  description="微软出品的跨平台 ASP.NET Core 框架，企业级 .NET 后端首选，性能极强"
+  lang="C#"
+  stars="21k"
+  updated="1 天前"
+  site="https://dot.net"
+/>
+
+<ProjectCard
+  name="apache/dubbo"
+  github="https://github.com/apache/dubbo"
+  description="阿里开源后贡献给 Apache 的 Java RPC 框架，国内微服务生态的里程碑项目"
+  lang="Java"
+  stars="41.2k"
+  updated="2 天前"
+  site="https://dubbo.apache.org"
+/>
+
 </div>
 
-## 🤖 AI / 机器学习
+## 🤖 AI / 机器学习（13 个）
 
 <div class="ah-project-grid">
 
@@ -214,9 +384,78 @@ hero:
   site="https://ollama.com"
 />
 
+<ProjectCard
+  name="OpenBMB/ChatDev"
+  github="https://github.com/OpenBMB/ChatDev"
+  description="用多个 AI Agent 组成虚拟软件公司，聊天式地让 AI 团队自主开发完整软件"
+  lang="Python"
+  stars="31.8k"
+  updated="1 周前"
+  site="https://chatdev.opensource-ai.cn"
+/>
+
+<ProjectCard
+  name="SillyTavern/SillyTavern"
+  github="https://github.com/SillyTavern/SillyTavern"
+  description="最强大的本地 LLM 聊天前端，支持多模型后端、角色扮演、扩展、群组聊天"
+  lang="JavaScript"
+  stars="17.7k"
+  updated="2 天前"
+  site="https://sillytavernai.com"
+/>
+
+<ProjectCard
+  name="facebookresearch/llama"
+  github="https://github.com/facebookresearch/llama"
+  description="Meta 开源的 Llama 大语言模型官方仓库，从 Llama 1 到 Llama 3 的推理代码"
+  lang="Python"
+  stars="53k"
+  updated="1 个月前"
+  site="https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models"
+/>
+
+<ProjectCard
+  name="comfyanonymous/ComfyUI"
+  github="https://github.com/comfyanonymous/ComfyUI"
+  description="节点工作流式 Stable Diffusion WebUI，控制力极强，高级玩家首选"
+  lang="Python"
+  stars="54.6k"
+  updated="1 天前"
+/>
+
+<ProjectCard
+  name="modelscope/swift"
+  github="https://github.com/modelscope/swift"
+  description="魔搭社区开源的 LLM/多模态训练推理框架，支持 300+ 模型，极简易用"
+  lang="Python"
+  stars="8.4k"
+  updated="2 天前"
+  site="https://swift.readthedocs.io"
+/>
+
+<ProjectCard
+  name="microsoft/LightGBM"
+  github="https://github.com/microsoft/LightGBM"
+  description="微软出品的高效梯度提升决策树框架，Kaggle 竞赛和工业级排序/CTR 神器"
+  lang="C++"
+  stars="17k"
+  updated="1 个月前"
+  site="https://lightgbm.readthedocs.io"
+/>
+
+<ProjectCard
+  name="lmc-ai/muzic-ai"
+  github="https://github.com/lmc-ai/muzic-ai"
+  description="微软亚洲研究院出品的 AI 音乐开源研究系列，歌词/作曲/演唱全链路"
+  lang="Python"
+  stars="4.5k"
+  updated="3 个月前"
+  site="https://github.com/lmc-ai/muzic-ai"
+/>
+
 </div>
 
-## 🚀 DevOps
+## 🚀 DevOps（13 个）
 
 <div class="ah-project-grid">
 
@@ -280,9 +519,79 @@ hero:
   site="https://www.jenkins.io"
 />
 
+<ProjectCard
+  name="traefik/traefik"
+  github="https://github.com/traefik/traefik"
+  description="云原生现代反向代理与负载均衡器，自动服务发现、Let's Encrypt HTTPS、路由动态配置"
+  lang="Go"
+  stars="48.4k"
+  updated="1 周前"
+  site="https://traefik.io"
+/>
+
+<ProjectCard
+  name="cilium/cilium"
+  github="https://github.com/cilium/cilium"
+  description="基于 eBPF 的 Kubernetes CNI 网络与安全插件，Isovalent 出品，CNCF 毕业项目"
+  lang="Go"
+  stars="19.7k"
+  updated="1 天前"
+  site="https://cilium.io"
+/>
+
+<ProjectCard
+  name="helm/helm"
+  github="https://github.com/helm/helm"
+  description="Kubernetes 包管理工具，用 Chart 模板一键部署复杂应用到 K8s 集群"
+  lang="Go"
+  stars="26.4k"
+  updated="1 周前"
+  site="https://helm.sh"
+/>
+
+<ProjectCard
+  name="hashicorp/terraform"
+  github="https://github.com/hashicorp/terraform"
+  description="Infrastructure as Code 标杆工具，用 HCL 配置各大云厂商/基础设施资源"
+  lang="Go"
+  stars="43.7k"
+  updated="1 天前"
+  site="https://www.terraform.io"
+/>
+
+<ProjectCard
+  name="actions/runner"
+  github="https://github.com/actions/runner"
+  description="GitHub Actions 官方 runner，支持自建 runner，配合 GitHub 仓库 CI/CD"
+  lang="C#"
+  stars="4.8k"
+  updated="1 周前"
+  site="https://docs.github.com/en/actions"
+/>
+
+<ProjectCard
+  name="goharbor/harbor"
+  github="https://github.com/goharbor/harbor"
+  description="VMware 开源的企业级容器镜像仓库，支持扫描、复制、签名、RBAC 权限"
+  lang="Go"
+  stars="23.1k"
+  updated="1 周前"
+  site="https://goharbor.io"
+/>
+
+<ProjectCard
+  name="portainer/portainer"
+  github="https://github.com/portainer/portainer"
+  description="最易用的 Docker/K8s 可视化 Web 管理面板，一条命令即可管理容器"
+  lang="TypeScript"
+  stars="30k"
+  updated="2 周前"
+  site="https://www.portainer.io"
+/>
+
 </div>
 
-## 💾 数据库
+## 💾 数据库（12 个）
 
 <div class="ah-project-grid">
 
@@ -346,9 +655,69 @@ hero:
   site="https://www.prisma.io"
 />
 
+<ProjectCard
+  name="apache/iceberg"
+  github="https://github.com/apache/iceberg"
+  description="Apache 基金会顶级湖仓表格格式，规范数据湖读写，各大厂商生态支持"
+  lang="Java"
+  stars="5.7k"
+  updated="1 天前"
+  site="https://iceberg.apache.org"
+/>
+
+<ProjectCard
+  name="apache/pulsar"
+  github="https://github.com/apache/pulsar"
+  description="云原生分布式消息与流平台，多租户、分层存储、百万 Topic 无压力"
+  lang="Java"
+  stars="14.8k"
+  updated="1 周前"
+  site="https://pulsar.apache.org"
+/>
+
+<ProjectCard
+  name="valkey-io/valkey"
+  github="https://github.com/valkey-io/valkey"
+  description="Linux 基金会接管的 Redis 开源分支（替代 Redis 7.2.4），社区驱动、完全兼容"
+  lang="C"
+  stars="5.1k"
+  updated="2 天前"
+  site="https://valkey.io"
+/>
+
+<ProjectCard
+  name="tursodatabase/libsql"
+  github="https://github.com/tursodatabase/libsql"
+  description="SQLite 的开源分支，增加了复制、Raft、边缘同步、WASM 等现代能力"
+  lang="C++"
+  stars="30.2k"
+  updated="1 天前"
+  site="https://turso.tech/libsql"
+/>
+
+<ProjectCard
+  name="sqlalchemy/sqlalchemy"
+  github="https://github.com/sqlalchemy/sqlalchemy"
+  description="Python 最强大的数据库工具包和 ORM，兼顾 SQL 灵活度与对象模型"
+  lang="Python"
+  stars="10.1k"
+  updated="1 周前"
+  site="https://www.sqlalchemy.org"
+/>
+
+<ProjectCard
+  name="bytebase/bytebase"
+  github="https://github.com/bytebase/bytebase"
+  description="数据库 CI/CD 平台，支持 Schema 变更审核、数据查询、脱敏、备份一体化"
+  lang="Go"
+  stars="11.4k"
+  updated="1 天前"
+  site="https://www.bytebase.com"
+/>
+
 </div>
 
-## 📱 移动开发
+## 📱 移动开发（11 个）
 
 <div class="ah-project-grid">
 
@@ -412,9 +781,56 @@ hero:
   site="https://mui.com"
 />
 
+<ProjectCard
+  name="tamlm/weex"
+  github="https://github.com/alibaba/weex"
+  description="阿里开源的跨平台动态化框架（Vue 语法），一套代码编译为 iOS/Android/Web"
+  lang="JavaScript"
+  stars="18.3k"
+  updated="6 个月前"
+/>
+
+<ProjectCard
+  name="Tencent/Hippy"
+  github="https://github.com/Tencent/Hippy"
+  description="腾讯开源的跨端框架，微信、手机 QQ、腾讯视频等亿级 App 使用，性能优秀"
+  lang="JavaScript"
+  stars="8k"
+  updated="2 个月前"
+  site="https://hippyjs.org"
+/>
+
+<ProjectCard
+  name="alibaba/flutter-go"
+  github="https://github.com/alibaba/flutter-go"
+  description="阿里咸鱼团队开源的 Flutter 开发者资源大全，帮助快速上手 Flutter 开发"
+  lang="Dart"
+  stars="14.1k"
+  updated="2 年前"
+/>
+
+<ProjectCard
+  name="mrousavy/react-native-vision-camera"
+  github="https://github.com/mrousavy/react-native-vision-camera"
+  description="React Native 最强大的高性能相机组件，支持帧处理器、实时二维码、扫码"
+  lang="Swift"
+  stars="8.8k"
+  updated="1 周前"
+/>
+
+<ProjectCard
+  name="getsentry/sentry-react-native"
+  github="https://github.com/getsentry/sentry-react-native"
+  description="Sentry 官方 React Native 崩溃与性能监控 SDK，跨平台稳定上线必备"
+  lang="TypeScript"
+  stars="3.6k"
+  updated="1 周前"
+  site="https://sentry.io"
+/>
+
 </div>
 
-## ✨ 设计资源
+## ✨ 设计资源（11 个）
 
 <div class="ah-project-grid">
 
@@ -478,9 +894,58 @@ hero:
   site="https://ui.shadcn.com"
 />
 
+<ProjectCard
+  name="tabler/tabler-icons"
+  github="https://github.com/tabler/tabler-icons"
+  description="一套 5000+ 像素级完美、统一风格、MIT 协议的开源 SVG 图标库"
+  lang="TypeScript"
+  stars="10.1k"
+  updated="1 个月前"
+  site="https://tabler.io/icons"
+/>
+
+<ProjectCard
+  name="bytedance/IconPark"
+  github="https://github.com/bytedance/IconPark"
+  description="字节跳动出品的 2800+ 高质量开源图标库，支持 React/Vue/SVG 多框架"
+  lang="TypeScript"
+  stars="9.1k"
+  updated="1 年前"
+  site="https://iconpark.oceanengine.com"
+/>
+
+<ProjectCard
+  name="Atlassian/react-beautiful-dnd"
+  github="https://github.com/atlassian/react-beautiful-dnd"
+  description="Jira 出品的 React 拖拽排序库，交互最自然、性能好、列表嵌套体验极佳"
+  lang="JavaScript"
+  stars="32.7k"
+  updated="1 年前"
+/>
+
+<ProjectCard
+  name="animate-css/animate.css"
+  github="https://github.com/animate-css/animate.css"
+  description="最流行的 CSS 动画库，70+ 动画效果，加个 className 立刻动起来"
+  lang="CSS"
+  stars="80k"
+  updated="1 年前"
+  site="https://animate.style"
+/>
+
+<ProjectCard
+  name="floating-ui/floating-ui"
+  github="https://github.com/floating-ui/floating-ui"
+  description="Popper.js 继任者，定位 Tooltip/Popover/Dropdown 等浮层的低阶定位库"
+  lang="TypeScript"
+  stars="30.7k"
+  updated="1 个月前"
+  site="https://floating-ui.com"
+/>
+
 </div>
 
-## 🛠️ 效率工具
+## 🛠️ 效率工具（11 个）
 
 <div class="ah-project-grid">
 
@@ -542,6 +1007,56 @@ hero:
   stars="21.5k"
   updated="1 个月前"
   site="https://obsidian.md"
+/>
+
+<ProjectCard
+  name="AykutSarac/jsoncrack.com"
+  github="https://github.com/AykutSarac/jsoncrack.com"
+  description="把 JSON 数据可视化为图谱/思维导图的开源工具，一键导出图片，调试 JSON 神器"
+  lang="TypeScript"
+  stars="31.8k"
+  updated="1 周前"
+  site="https://jsoncrack.com"
+/>
+
+<ProjectCard
+  name="tldraw/tldraw"
+  github="https://github.com/tldraw/tldraw"
+  description="最流行的开源在线白板/无限画布协作库，API 友好，可嵌入任意 React 项目"
+  lang="TypeScript"
+  stars="39.5k"
+  updated="1 天前"
+  site="https://tldraw.dev"
+/>
+
+<ProjectCard
+  name="excalidraw/excalidraw"
+  github="https://github.com/excalidraw/excalidraw"
+  description="手绘风格的无限白板协作工具，画架构图、流程图、草图体验一流"
+  lang="TypeScript"
+  stars="78.6k"
+  updated="1 周前"
+  site="https://excalidraw.com"
+/>
+
+<ProjectCard
+  name="immich-app/immich"
+  github="https://github.com/immich-app/immich"
+  description="自建 Google Photos 替代方案，照片/视频备份、AI 人脸识别、地图相册齐全"
+  lang="Dart"
+  stars="50.3k"
+  updated="1 天前"
+  site="https://immich.app"
+/>
+
+<ProjectCard
+  name="tabbyML/tabby"
+  github="https://github.com/tabbyML/tabby"
+  description="开源的 GitHub Copilot 替代方案，自托管的 AI 代码补全服务"
+  lang="Rust"
+  stars="24.7k"
+  updated="2 天前"
+  site="https://tabby.tabbyml.com"
 />
 
 </div>
