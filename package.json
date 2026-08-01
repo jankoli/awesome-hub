@@ -1,0 +1,14 @@
+{
+  "name": "awesome-hub",
+  "version": "1.0.0",
+  "description": "Awesome Hub · 开源精选 — 精心收集的优质开源项目导航",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
