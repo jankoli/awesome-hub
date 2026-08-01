@@ -22,16 +22,6 @@
 | 14 | [campfirein/byterover-cli](https://github.com/campfirein/byterover-cli) | ByteRover CLI (brv) - The portable memory layer for  autonomous coding agents (formerly Cipher) | 4,928 |
 | 15 | [memodb-io/Acontext](https://github.com/memodb-io/Acontext) | Agent Skills as a Memory Layer | 3,616 |
 | 16 | [MemMachine/MemMachine](https://github.com/MemMachine/MemMachine) | Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable memory storage and retrieval to streamline AI agent state management for next-generation autonomous systems. | 3,342 |
-| 17 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 18 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -167,16 +157,6 @@
 | 15 | [Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss) | 🐢 Open-Source Evaluation & Testing library for LLM Agents | 5,726 |
 | 16 | [langwatch/langwatch](https://github.com/langwatch/langwatch) | The platform for LLM evaluations and AI agent testing | 3,449 |
 | 17 | [ianarawjo/ChainForge](https://github.com/ianarawjo/ChainForge) | An open-source visual programming environment for battle-testing prompts to LLMs. | 3,017 |
-| 18 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 19 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -202,16 +182,6 @@
 | 16 | [bowenliang123/markdown-exporter](https://github.com/bowenliang123/markdown-exporter) | An Agent Skill and Dify plugin to transform Markdown to files of DOCX, PPTX, XLSX, PNG, PDF, Mermaid, HTML, MD, CSV, JSON, XML. | 257 |
 | 17 | [WoodGoose/awesome-cow-plugins](https://github.com/WoodGoose/awesome-cow-plugins) | 这个仓库主要是收集CoW(chatgpt-on-wechat)与DoW(dify-on-wechat)的插件，欢迎补充加入看到、用过或新开发的插件。 | 212 |
 | 18 | [junjiem/dify-plugin-tools-mcp_sse](https://github.com/junjiem/dify-plugin-tools-mcp_sse) | Dify 1.0 Plugin MCP HTTP with SSE or Streamable HTTP transport Tools | 187 |
-| 19 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 20 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -235,16 +205,6 @@
 | 14 | [asdshi/ragent4LangGraph-standalone](https://github.com/asdshi/ragent4LangGraph-standalone) | 本项目基于 LangGraph 深度定制RAG，六阶段数据摄取流水线，支持多模态 PDF 解析、混合搜索（Dense + Sparse）及 RRF 融合算法。独创“三层记忆管理系统”，支持 Checkpoint 级的原子化回滚与长短期记忆隔离。内置 Ragas 评估全家桶与前后端可视化 Trace 追踪，让 RAG 从“黑盒测试”走向“工程确定性”。 | 81 |
 | 15 | [aws-solutions-library-samples/eks-troubleshooting-agentic-ai-chatops](https://github.com/aws-solutions-library-samples/eks-troubleshooting-agentic-ai-chatops) | This Guidance demonstrates how to address the complexity of troubleshooting Amazon EKS environments with multiple metrics and logs by implementing an agentic AI workflow that uses generative AI with RAG-enabled knowledge bases and chat interfaces to accelerate problem diagnosis. | 78 |
 | 16 | [PacktPublishing/Building-Natural-Language-and-LLM-Pipelines](https://github.com/PacktPublishing/Building-Natural-Language-and-LLM-Pipelines) | Building RAG and Agentic Applications with Haystack 2.0, RAGAS and LangGraph 1.0 published by Packt | 65 |
-| 17 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 18 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -269,16 +229,6 @@
 | 15 | [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex) | Incremental engine for long horizon agents 🌟 Star if you like it! | 11,149 |
 | 16 | [oramasearch/orama](https://github.com/oramasearch/orama) | 🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb. | 10,508 |
 | 17 | [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG) | A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines | 5,673 |
-| 18 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 19 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -302,16 +252,6 @@
 | 14 | [canonical/multipass](https://github.com/canonical/multipass) | Multipass orchestrates virtual Ubuntu instances | 9,198 |
 | 15 | [SeleniumHQ/docker-selenium](https://github.com/SeleniumHQ/docker-selenium) | Provides a simple way to run Selenium Grid with Chrome, Firefox, and Edge using Container Platform, making it easier to perform browser automation at scale | 8,642 |
 | 16 | [yunionio/cloudpods](https://github.com/yunionio/cloudpods) | An open-source cloud-native unified-cloud platform. 开源云原生融合云平台 | 2,925 |
-| 17 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 18 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -331,16 +271,6 @@
 | 10 | [SuperMarioYL/Bison](https://github.com/SuperMarioYL/Bison) | Enterprise GPU Resource Billing & Multi-Tenant Management Platform 企业级 GPU 资源计费与多租户管理平台 | 7 |
 | 11 | [api-evangelist/schematic](https://github.com/api-evangelist/schematic) | Schematic is a feature and entitlement management platform for SaaS companies, providing pricing, packaging, and metering capabilities. It enables engineering and product teams to manage feature flags, define subscription plans, track feature usage, and control customer entitlements without code changes. | 1 |
 | 12 | [api-evangelist/togai](https://github.com/api-evangelist/togai) | Togai is a metering and billing platform for software and SaaS products, purpose-built for consumption-based and usage-based pricing models. The Togai API provides programmatic access to customers, accounts, event ingestion, usage meters, price plans, invoices, credits, entitlements, and financial reporting. | 1 |
-| 13 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 14 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -363,16 +293,6 @@
 | 13 | [hsg4ok/LowcodeEngine-AntDesignPro](https://github.com/hsg4ok/LowcodeEngine-AntDesignPro) | 阿里巴巴开源的低代码引擎(Lowcode-Engine)与Ant Design Pro整合Demo | 104 |
 | 14 | [samchen08/vtj.pro](https://github.com/samchen08/vtj.pro) | 🔥  VTJ.PRO 是一个开源的、AI 驱动的 Vue3 企业级应用开发平台，通过 AI 智能体与可视化编排实现高效开发，并支持导出标准 Vue 代码以避免平台锁定。 | 76 |
 | 15 | [hcoles/QuickBuilder](https://github.com/hcoles/QuickBuilder) | The builder pattern without boilerplate code | 18 |
-| 16 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 17 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -390,16 +310,6 @@
 | 8 | [datawhalechina/diy-llm](https://github.com/datawhalechina/diy-llm) | 🎓 系统性大语言模型构建课程｜🛠️ 覆盖预训练数据工程、Tokenizer、Transformer、MoE、GPU 编程 (CUDA/Triton)、分布式训练、Scaling Laws、推理优化及对齐 (SFT/RLHF/GRPO)｜🚀 6 个渐进式作业 + 代码驱动，建立 LLM 全栈认知体系 | 1,116 |
 | 9 | [InternScience/GraphGen](https://github.com/InternScience/GraphGen) | GraphGen: Enhancing Supervised Fine-Tuning for LLMs with Knowledge-Driven Synthetic Data Generation | 1,088 |
 | 10 | [mst272/LLM-Dojo](https://github.com/mst272/LLM-Dojo) | 轻量级 LLM Post-training 框架，支持 SFT、RLVR、On-Policy KD、Guide KD 及混合训练；实现单轮/多轮 Guide 蒸馏、多教师蒸馏、Reward 混合训练与自动化数据分流👩‍🎓👨‍🎓 | 938 |
-| 11 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 12 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -424,16 +334,6 @@
 | 15 | [baichuan-inc/Baichuan2](https://github.com/baichuan-inc/Baichuan2) | A series of large language models developed by Baichuan Intelligent Technology | 4,089 |
 | 16 | [FareedKhan-dev/all-agentic-architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) | 35 production-grade agentic AI architectures (Reflexion, LATS, GraphRAG, MemGPT, Voyager, BrowserAgent, ...) — a Python library and runnable textbook with multi-provider LLM support and a 17-task benchmark leaderboard. | 4,042 |
 | 17 | [modelscope/evalscope](https://github.com/modelscope/evalscope) | A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking. | 3,172 |
-| 18 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 19 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -463,16 +363,6 @@
 | 20 | [XGenerationLab/XiYan-SQL](https://github.com/XGenerationLab/XiYan-SQL) | A MULTI-GENERATOR ENSEMBLE FRAMEWORK FOR NATURAL LANGUAGE TO SQL | 1,018 |
 | 21 | [sjjian/openhare](https://github.com/sjjian/openhare) | AI-powered desktop SQL client. Cross-platform. Built with Flutter. | 719 |
 | 22 | [cubenlp/ChatSQL](https://github.com/cubenlp/ChatSQL) | 自然语言转SQL，直接连接数据库查询 | 390 |
-| 23 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 24 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -500,16 +390,6 @@
 | 18 | [atilaahmettaner/tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) | TradingView MCP server — real-time market data, technical analysis, screeners & backtesting for Claude, ChatGPT, Cursor & any MCP client. Stocks, crypto, forex & futures across global exchanges. Hosted or self-host. | 3,749 |
 | 19 | [karthink/gptel](https://github.com/karthink/gptel) | A simple, extensible LLM client for Emacs | 3,461 |
 | 20 | [aigcpro/chataix](https://github.com/aigcpro/chataix) | chataix智能问答系统，汇聚：智能问答，AI绘图，思维导图，白板，各种智能小应用一体化的AI系统 | 79 |
-| 21 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 22 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -537,16 +417,6 @@
 | 18 | [bmorelli25/Become-A-Full-Stack-Web-Developer](https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer) | Free resources for learning Full Stack Web Development | 18,257 |
 | 19 | [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking) | :star:Github Ranking:star: Github stars and forks ranking list. Github Top100 stars list of different languages. Automatically update daily. \| Github仓库排名，每日自动更新 | 11,799 |
 | 20 | [mezod/awesome-indie](https://github.com/mezod/awesome-indie) | Resources for independent developers to make money | 11,660 |
-| 21 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 22 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -582,16 +452,6 @@
 | 26 | [sparticleinc/chatgpt-google-summary-extension](https://github.com/sparticleinc/chatgpt-google-summary-extension) | Chrome extension to view ChatGPT summaries alongside Google search results and YouTube videos, also supports Yahoo! ニュース、PubMed、PMC、NewsPicks、Github、Nikkei、 Bing、Google Patents, and any page summary. | 2,058 |
 | 27 | [lanbinleo/bili2text](https://github.com/lanbinleo/bili2text) | Bilibili视频转文字，一步到位，输入链接即可使用 | 1,817 |
 | 28 | [IndieKKY/bilibili-subtitle](https://github.com/IndieKKY/bilibili-subtitle) | 哔哔君 - 哔哩哔哩字幕列表浏览器扩展，功能包括点击跳转，下载字幕，总结字幕，翻译字幕等。 | 1,166 |
-| 29 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 30 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -617,16 +477,6 @@
 | 16 | [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way. | 14,277 |
 | 17 | [gpustack/gpustack](https://github.com/gpustack/gpustack) | A GPU cluster manager for high-performance AI model serving (vLLM, SGLang) and on-demand SSH-accessible GPU instances. | 5,422 |
 | 18 | [thu-pacman/chitu](https://github.com/thu-pacman/chitu) | High-performance inference framework for large language models, focusing on efficiency, flexibility, and availability. | 3,147 |
-| 19 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 20 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -653,16 +503,6 @@
 | 17 | [ckjbug/Hacking](https://github.com/ckjbug/Hacking) | 🌐Collate and develop network security, Hackers technical documentation and tools, code. | 2,164 |
 | 18 | [complexorganizations/wireguard-manager](https://github.com/complexorganizations/wireguard-manager) | ✔️ WireGuard-Manager is an innovative tool designed to streamline the deployment and management of WireGuard VPNs. Emphasizing user-friendliness and security, it simplifies the complexities of VPN configuration, offering a robust yet accessible solution for both personal and professional use. | 1,859 |
 | 19 | [securesocketfunneling/ssf](https://github.com/securesocketfunneling/ssf) | Secure Socket Funneling - Network tool and toolkit - TCP and UDP port forwarding, SOCKS proxy, remote shell, standalone and cross platform | 1,667 |
-| 20 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 21 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
 
@@ -685,15 +525,5 @@
 | 13 | [philcryer/lipsync](https://github.com/philcryer/lipsync) | lipsync sets up a lightweight service that provides command-line, Dropbox like syncing | 857 |
 | 14 | [plutonhq/pluton](https://github.com/plutonhq/pluton) | A modern, self-hosted backup solution for secure, encrypted backups across local and cloud storage. | 568 |
 | 15 | [drivebase/drivebase](https://github.com/drivebase/drivebase) | Drivebase is a cloud-agnostic file management platform for people and teams using multiple storage providers. 🚀 | 412 |
-| 16 | [contact/report-abuse?report=jankoli+%28user%29](https://github.com/contact/report-abuse?report=jankoli+%28user%29) | — | 0 |
-| 17 | [manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=](https://github.com/manifest.json" crossOrigin="use-credentials">
-
-  </head>
-
-  <body class=) | — | 0 |
 
 ---
