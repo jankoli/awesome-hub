@@ -17,17 +17,17 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '前端开发', link: '/frontend' },
-      { text: '后端开发', link: '/backend' },
-      { text: 'AI / 机器学习', link: '/ai-ml' },
       {
-        text: '更多分类',
+        text: '快速跳转',
         items: [
-          { text: 'DevOps', link: '/devops' },
-          { text: '数据库', link: '/database' },
-          { text: '移动开发', link: '/mobile' },
-          { text: '设计资源', link: '/design' },
-          { text: '效率工具', link: '/tools' },
+          { text: '🎨 前端开发', link: '/#🎨-前端开发' },
+          { text: '⚙️ 后端开发', link: '/#⚙️-后端开发' },
+          { text: '🤖 AI / 机器学习', link: '/#🤖-ai-机器学习' },
+          { text: '🚀 DevOps', link: '/#🚀-devops' },
+          { text: '💾 数据库', link: '/#💾-数据库' },
+          { text: '📱 移动开发', link: '/#📱-移动开发' },
+          { text: '✨ 设计资源', link: '/#✨-设计资源' },
+          { text: '🛠️ 效率工具', link: '/#🛠️-效率工具' },
         ],
       },
       { text: '贡献指南', link: '/contributing' },
@@ -37,29 +37,7 @@ export default defineConfig({
       },
     ],
 
-    sidebar: {
-      '/': [
-        {
-          text: '分类导航',
-          items: [
-            { text: '🎨 前端开发', link: '/frontend' },
-            { text: '⚙️ 后端开发', link: '/backend' },
-            { text: '🤖 AI / 机器学习', link: '/ai-ml' },
-            { text: '🚀 DevOps', link: '/devops' },
-            { text: '💾 数据库', link: '/database' },
-            { text: '📱 移动开发', link: '/mobile' },
-            { text: '✨ 设计资源', link: '/design' },
-            { text: '🛠️ 效率工具', link: '/tools' },
-          ],
-        },
-        {
-          text: '关于',
-          items: [
-            { text: '贡献指南', link: '/contributing' },
-          ],
-        },
-      ],
-    },
+    sidebar: false,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/jankoli/awesome-hub' },

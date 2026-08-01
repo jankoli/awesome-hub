@@ -1,30 +1,37 @@
 # 🎉 Awesome Hub · 开源精选
 
-> 精心收集的优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发等全品类，助你发现好用的轮子。
+> 精心收集的优质开源项目导航，**单页展示全部 48 个精选项目**，涵盖前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具全品类，助你发现好用的轮子。
 
 [![GitHub Pages](https://github.com/jankoli/awesome-hub/actions/workflows/deploy.yml/badge.svg)](https://github.com/jankoli/awesome-hub/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 🌐 访问地址
+
+**👉 https://jankoli.github.io/awesome-hub/**
+
+（单页展示所有项目 + 顶部快速跳转导航，再也不会点错 404 了）
+
 ## 🌟 特色
 
+- 🏠 **单页展示**：所有项目都在首页，滚动浏览或顶部快速跳转，零跳转 404
 - 🚀 **持续更新**：维护者定期筛选优质项目入库，紧跟开源前沿
-- 📁 **分类清晰**：8 大领域细分，各场景各技术栈一目了然
+- 📁 **八大分类**：前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具
 - 💯 **精挑细选**：只收录口碑好、维护活跃、真的好用的开源项目
-- 🎨 **精美卡片**：每个项目信息卡片化，语言、Star、更新时间一眼即知
-- 🔍 **站内搜索**：VitePress 内置本地搜索，快速按名称查找项目
+- 🎨 **精美卡片**：每个项目信息卡片化，语言（带配色）、Star、更新时间、官网一眼即知
+- 🔍 **站内搜索**：VitePress 内置本地搜索，右上角按名称/标签秒搜项目
 
 ## 📂 收录分类
 
-| 分类 | 说明 |
+| 分类 | 代表项目 |
 | --- | --- |
-| 🎨 [前端开发](https://jankoli.github.io/awesome-hub/frontend) | UI 框架、构建工具、组件库、可视化方案 |
-| ⚙️ [后端开发](https://jankoli.github.io/awesome-hub/backend) | Web 框架、微服务、RPC、API 工具 |
-| 🤖 [AI / 机器学习](https://jankoli.github.io/awesome-hub/ai-ml) | LLM 框架、AI 应用、模型库、训练工具 |
-| 🚀 [DevOps](https://jankoli.github.io/awesome-hub/devops) | 容器、K8s、CI/CD、监控、云原生 |
-| 💾 [数据库](https://jankoli.github.io/awesome-hub/database) | 关系型、NoSQL、NewSQL、缓存、ORM |
-| 📱 [移动开发](https://jankoli.github.io/awesome-hub/mobile) | 跨端框架、原生 SDK、UI 组件 |
-| ✨ [设计资源](https://jankoli.github.io/awesome-hub/design) | 图标库、配色、设计系统、素材 |
-| 🛠️ [效率工具](https://jankoli.github.io/awesome-hub/tools) | CLI 工具、编辑器、笔记、生产力 |
+| 🎨 前端开发 | Vue、React、Vite、VS Code、Ant Design、Element Plus |
+| ⚙️ 后端开发 | Spring Boot、Gin、Express、FastAPI、Actix-web、gRPC |
+| 🤖 AI / 机器学习 | Dify、LangChain、Transformers、PyTorch、SD WebUI、Ollama |
+| 🚀 DevOps | Docker、Kubernetes、Prometheus、Grafana、ArgoCD、Jenkins |
+| 💾 数据库 | PostgreSQL、Redis、ClickHouse、Kafka、MongoDB、Prisma |
+| 📱 移动开发 | Flutter、React Native、Compose Multiplatform、Lottie、Material UI |
+| ✨ 设计资源 | Bootstrap Icons、Lucide、Font Awesome、Tailwind CSS、Astro、shadcn/ui |
+| 🛠️ 效率工具 | fzf、Windows Terminal、Warp、AppFlowy、RustDesk、Obsidian |
 
 ## 🚀 快速开始
 
@@ -34,7 +41,7 @@
 # 安装依赖
 npm install
 
-# 启动开发服务器（默认 http://localhost:5173）
+# 启动开发服务器（默认 http://localhost:5173/awesome-hub/）
 npm run dev
 
 # 构建生产版本（输出到 docs/.vitepress/dist）
@@ -58,13 +65,13 @@ npm run preview
 
 ### 快速添加
 
-编辑对应分类的 `.md` 文件，插入 `<ProjectCard />` 组件：
+编辑 `docs/index.md`，在对应分类的 `<div class="ah-project-grid">` 区块内插入 `<ProjectCard />` 组件：
 
 ```vue
 <ProjectCard
   name="owner/repo"
   github="https://github.com/owner/repo"
-  description="项目的一句话介绍"
+  description="项目的一句话介绍，突出核心优势"
   lang="TypeScript"
   stars="12.3k"
   updated="3 天前"
