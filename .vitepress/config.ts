@@ -5,6 +5,7 @@ export default defineConfig({
   description: '精心收集的优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发等全品类',
   lang: 'zh-CN',
   cleanUrls: true,
+  base: '/awesome-hub/',
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
@@ -32,7 +33,7 @@ export default defineConfig({
       { text: '贡献指南', link: '/contributing' },
       {
         text: 'GitHub',
-        link: 'https://github.com/',
+        link: 'https://github.com/jankoli/awesome-hub',
       },
     ],
 
@@ -61,7 +62,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' },
+      { icon: 'github', link: 'https://github.com/jankoli/awesome-hub' },
     ],
 
     footer: {
