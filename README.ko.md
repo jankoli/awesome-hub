@@ -25,112 +25,112 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [vuejs/vue](https://github.com/vuejs/vue) | 渐进式 JavaScript 框架，易学易用，性能出色，适用场景丰富的 Web 前端框架 | Vue | 207k |
-| 2 | [facebook/react](https://github.com/facebook/react) | 用于构建用户界面的声明式、高效且灵活的 JavaScript 库，组件化开发的先驱 | JavaScript | 223k |
-| 3 | [vitejs/vite](https://github.com/vitejs/vite) | 下一代前端构建工具，利用原生 ES modules 提供极速的冷启动和热更新体验 | TypeScript | 68.5k |
-| 4 | [microsoft/vscode](https://github.com/microsoft/vscode) | 由微软出品的免费开源代码编辑器，支持几乎所有主流语言，插件生态极其丰富 | TypeScript | 162k |
-| 5 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 企业级 UI 设计语言和 React 组件库，开箱即用的精美高质量组件 | TypeScript | 91.3k |
-| 6 | [element-plus/element-plus](https://github.com/element-plus/element-plus) | 基于 Vue 3 的企业级 UI 组件库，面向设计师和开发者的精心之作 | Vue | 23.1k |
-| 7 | [angular/angular](https://github.com/angular/angular) | Google 出品的企业级前端开发平台，一站式包含路由、表单、HTTP、SSR 等 | TypeScript | 95.7k |
-| 8 | [sveltejs/svelte](https://github.com/sveltejs/svelte) | 编译式前端框架，无虚拟 DOM，构建产物极小，写法极简，性能极佳 | JavaScript | 79.5k |
-| 9 | [webpack/webpack](https://github.com/webpack/webpack) | 现代 JavaScript 应用最经典的静态模块打包器，生态成熟，企业级项目标配 | JavaScript | 64.7k |
-| 10 | [vercel/next.js](https://github.com/vercel/next.js) | React 全栈框架，业界 SSR/SSG/ISR 标杆，Vercel 出品，生态最完整 | JavaScript | 123k |
-| 11 | [nuxt/nuxt](https://github.com/nuxt/nuxt) | Vue 全栈框架，Nuxt 提供 SSR、SSG、API 层等全能力，Vue 生态官方推荐 | TypeScript | 52.9k |
-| 12 | [remix-run/remix](https://github.com/remix-run/remix) | 基于 React Router 的现代全栈 Web 框架，专注 Web 标准，表单处理体验极佳 | TypeScript | 28.6k |
-| 13 | [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) | 完全无样式、完全可访问的 React/Vue UI 组件，可配合 Tailwind 自由定制样式 | TypeScript | 25.6k |
-| 14 | [radix-ui/primitives](https://github.com/radix-ui/primitives) | 高质量无样式的 React UI 组件原语，注重无障碍访问，shadcn/ui 底层组件库 | TypeScript | 16.6k |
-| 15 | [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) | React 生态中最受欢迎的可访问性优先组件库，简单、模块化、组合式 API | TypeScript | 38.4k |
-| 16 | [solidjs/solid](https://github.com/solidjs/solid) | 高性能响应式 UI 库，真正细粒度更新，无虚拟 DOM，性能 benchmarks 顶尖 | TypeScript | 32k |
-| 17 | [preactjs/preact](https://github.com/preactjs/preact) | 仅 3KB 的 React 替代方案，API 完全兼容，体积极小，适合极致体积优化 | JavaScript | 37k |
-| 18 | [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) | 基于 React 和 GraphQL 的静态站点生成器，数据层灵活，插件生态丰富 | JavaScript | 55k |
-| 19 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | 全球最流行的 HTML/CSS/JS 响应式前端框架，快速搭建美观现代的网站 | JavaScript | 171k |
-| 20 | [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) | 国内最流行的 Vue 2 后台管理模板，开箱即用的中后台前端解决方案 | JavaScript | 88k |
-| 21 | [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 基于 Ant Design 的中后台前端/设计解决方案，开箱即用，企业级标配 | TypeScript | 36k |
-| 22 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | JavaScript 的类型超集，前端开发标配语言，类型安全提升代码质量 | TypeScript | 103k |
-| 23 | [babel/babel](https://github.com/babel/babel) | JavaScript 编译器，将 ES6+ 语法转换为兼容代码，前端工具链核心组件 | JavaScript | 43k |
-| 24 | [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | 零配置 Web 应用打包器，开箱即用，多核并行编译速度极快 | JavaScript | 43k |
-| 25 | [rollup/rollup](https://github.com/rollup/rollup) | ES6 模块打包器，Tree-shaking 先驱，类库打包首选工具 | JavaScript | 26k |
-| 26 | [evanw/esbuild](https://github.com/evanw/esbuild) | Go 编写的极速 JS/TS 打包器，比 Webpack 快 100 倍，Vite 底层引擎 | Go | 38k |
-| 27 | [swc-project/swc](https://github.com/swc-project/swc) | Rust 编写的 JS/TS 编译器，替代 Babel 的高速方案，Next.js 底层引擎 | Rust | 31k |
-| 28 | [postcss/postcss](https://github.com/postcss/postcss) | CSS 后处理器，通过插件转换 CSS，Autoprefixer 等工具的底层引擎 | JavaScript | 29k |
-| 29 | [sass/sass](https://github.com/sass/sass) | 最成熟的 CSS 预处理器，变量、嵌套、Mixin 一应俱全，CSS 开发效率利器 | Dart | 15k |
-| 30 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | VS Code 的编辑器内核，可在浏览器中嵌入功能完整的代码编辑器 | TypeScript | 41k |
-| 31 | [codemirror/codemirror5](https://github.com/codemirror/codemirror5) | 可高度扩展的浏览器代码编辑器，轻量灵活，支持上百种语言 | JavaScript | 26k |
-| 32 | [quilljs/quill](https://github.com/quilljs/quill) | 现代富文本编辑器，跨浏览器兼容，模块化架构，API 优雅 | JavaScript | 43k |
-| 33 | [swiper/swiper](https://github.com/swiper/swiper) | 现代移动端触摸滑块组件，支持 React/Vue/Web Components，动画流畅 | JavaScript | 40k |
-| 34 | [videojs/video.js](https://github.com/videojs/video.js) | HTML5 视频播放器，插件生态丰富，支持 HLS/DASH/广告，企业级首选 | JavaScript | 38k |
-| 35 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | UI 组件开发与文档工具，隔离环境开发组件，可视化测试与展示 | TypeScript | 85k |
-| 36 | [axios/axios](https://github.com/axios/axios) | 最流行的 HTTP 请求库，Promise API，拦截器、取消请求、自动 JSON | JavaScript | 107k |
-| 37 | [lodash/lodash](https://github.com/lodash/lodash) | JavaScript 实用工具库，提供数百个高效函数，前端开发必备瑞士军刀 | JavaScript | 60k |
-| 38 | [dayjs/dayjs](https://github.com/dayjs/dayjs) | 轻量日期处理库，仅 2KB，API 兼容 moment.js，现代项目首选 | JavaScript | 47k |
-| 39 | [date-fns/date-fns](https://github.com/date-fns/date-fns) | 现代日期工具库，模块化按需引入，Tree-shaking 友好，TypeScript 原生 | TypeScript | 35k |
-| 40 | [moment/moment](https://github.com/moment/moment) | 经典的日期处理库，功能全面，虽然已停止维护但仍在大量项目使用 | JavaScript | 48k |
-| 41 | [reduxjs/redux](https://github.com/reduxjs/redux) | 可预测的 JavaScript 状态容器，Flux 架构的最佳实现，大型应用标配 | TypeScript | 61k |
-| 42 | [TanStack/query](https://github.com/TanStack/query) | 强大的异步状态管理库（React Query），自动缓存、后台刷新、乐观更新 | TypeScript | 44k |
-| 43 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 简单可扩展的状态管理库，响应式编程，透明依赖追踪，代码更简洁 | TypeScript | 28k |
-| 44 | [immerjs/immer](https://github.com/immerjs/immer) | 不可变数据结构管理库，通过 Proxy 让你以可变方式写不可变代码 | TypeScript | 28k |
-| 45 | [rxjs/rxjs](https://github.com/rxjs/rxjs) | 响应式编程库，使用 Observable 序列组合异步和基于事件的程序 | TypeScript | 31k |
-| 46 | [d3/d3](https://github.com/d3/d3) | 数据驱动文档可视化库，SVG/Canvas 绑定数据，自定义图表能力极强 | JavaScript | 108k |
-| 47 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | 最流行的 JavaScript 3D 库，WebGL 封装，3D 场景/动画/游戏利器 | JavaScript | 104k |
-| 48 | [chartjs/Chart.js](https://github.com/chartjs/Chart.js) | 简单灵活的图表库，8 种图表类型，响应式设计，开箱即用 | JavaScript | 65k |
-| 49 | [apache/echarts](https://github.com/apache/echarts) | 百度开源的强大可视化图表库，支持 30+ 图表类型，大数据量渲染优秀 | TypeScript | 61k |
-| 50 | [recharts/recharts](https://github.com/recharts/recharts) | 基于 React 和 D3 的声明式图表库，组件化 API，简单易用 | JavaScript | 24k |
-| 51 | [facebook/jest](https://github.com/facebook/jest) | 功能全面的 JavaScript 测试框架，零配置快照测试、Mock、覆盖率 | TypeScript | 44k |
-| 52 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 由 Vite 驱动的下一代测试框架，原生 ESM，极速热更新，Jest 兼容 | TypeScript | 13k |
-| 53 | [cypress-io/cypress](https://github.com/cypress-io/cypress) | 现代端到端测试框架，浏览器内运行，实时调试，时间旅行，零配置 | JavaScript | 48k |
-| 54 | [microsoft/playwright](https://github.com/microsoft/playwright) | 跨浏览器自动化测试工具，一套 API 控制 Chromium/Firefox/WebKit | TypeScript | 70k |
-| 55 | [google/puppeteer](https://github.com/google/puppeteer) | Headless Chrome Node API，页面自动化、截图、PDF、性能测试利器 | TypeScript | 90k |
-| 56 | [prettier/prettier](https://github.com/prettier/prettier) | 代码格式化工具，支持 30+ 语言，保存即格式化，团队代码风格统一 | JavaScript | 50k |
-| 57 | [eslint/eslint](https://github.com/eslint/eslint) | JavaScript/TypeScript 代码检查工具，可自定义规则，代码质量保障 | JavaScript | 25k |
-| 58 | [nrwl/nx](https://github.com/nrwl/nx) | 智能构建系统，Monorepo 管理，支持 React/Angular/Node 等多框架 | TypeScript | 24k |
-| 59 | [typicode/husky](https://github.com/typicode/husky) | Git Hooks 管理工具，提交前自动检查/格式化，团队代码质量守护 | JavaScript | 33k |
-| 60 | [TanStack/table](https://github.com/TanStack/table) | 无头 UI 表格库，完全可定制，支持排序、筛选、分组、虚拟化 | TypeScript | 25k |
-| 61 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | Vue 3 的 Material Design 组件框架，组件丰富，企业级应用首选 | TypeScript | 40k |
-| 62 | [youzan/vant](https://github.com/youzan/vant) | 有赞出品的高质量 Vue 移动端组件库，60+ 组件，移动端商城首选 | TypeScript | 23k |
-| 63 | [pmndrs/zustand](https://github.com/pmndrs/zustand) | 极简轻量的 React 状态管理库 | TypeScript | 59k |
-| 64 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | 用文本生成流程图、时序图等图表 | TypeScript | 90k |
-| 65 | [pixijs/pixijs](https://github.com/pixijs/pixijs) | 高性能 2D WebGL 渲染引擎 | TypeScript | 48k |
-| 66 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) | 轻量移动友好的开源地图库 | JavaScript | 45k |
-| 67 | [react-hook-form/react-hook-form](https://github.com/react-hook-form/react-hook-form) | 高性能无依赖的 React 表单库 | TypeScript | 45k |
-| 68 | [pnpm/pnpm](https://github.com/pnpm/pnpm) | 快速磁盘节约的包管理器，原生支持 monorepo | Rust | 36k |
-| 69 | [lerna/lerna](https://github.com/lerna/lerna) | JavaScript monorepo 管理工具 | TypeScript | 36k |
-| 70 | [refinedev/refine](https://github.com/refinedev/refine) | 构建 CRUD 管理后台的 React 元框架 | TypeScript | 35k |
-| 71 | [jaredpalmer/formik](https://github.com/jaredpalmer/formik) | React 表单状态管理与校验库 | TypeScript | 34k |
-| 72 | [vercel/swr](https://github.com/vercel/swr) | React 远程数据请求与缓存库 | TypeScript | 32k |
-| 73 | [airbnb/lottie-web](https://github.com/airbnb/lottie-web) | 渲染 After Effects 导出动画的 Web 库 | JavaScript | 32k |
-| 74 | [fabricjs/fabric.js](https://github.com/fabricjs/fabric.js) | Canvas 图形交互编辑库 | TypeScript | 31k |
-| 75 | [alpinejs/alpine](https://github.com/alpinejs/alpine) | 轻量级响应式前端框架，无需构建步骤 | HTML | 32k |
-| 76 | [statelyai/xstate](https://github.com/statelyai/xstate) | 状态机与状态图库，建模复杂状态逻辑 | TypeScript | 30k |
-| 77 | [vercel/turborepo](https://github.com/vercel/turborepo) | 高性能 monorepo 构建系统，智能缓存 | Rust | 31k |
-| 78 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | 基于 Vue 的跨平台前端框架 | JavaScript | 27k |
-| 79 | [vueuse/vueuse](https://github.com/vueuse/vueuse) | Vue Composition API 实用工具集合 | TypeScript | 22k |
-| 80 | [vuejs/vuex](https://github.com/vuejs/vuex) | Vue 专属的状态管理模式与库 | JavaScript | 28k |
-| 81 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | 功能完善的现代 React UI 组件库与 hooks | TypeScript | 32k |
-| 82 | [react-bootstrap/react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) | 用 React 重写的 Bootstrap 组件库 | TypeScript | 23k |
-| 83 | [styled-components/styled-components](https://github.com/styled-components/styled-components) | 主流 CSS-in-JS 库，组件级样式封装 | TypeScript | 41k |
-| 84 | [phaserjs/phaser](https://github.com/phaserjs/phaser) | HTML5 2D 游戏开发框架 | JavaScript | 40k |
-| 85 | [hexojs/hexo](https://github.com/hexojs/hexo) | 快速简洁的静态博客生成器 | TypeScript | 42k |
-| 86 | [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) | 代码语法高亮库 | JavaScript | 25k |
-| 87 | [Popmotion/popmotion](https://github.com/Popmotion/popmotion) | 灵活的函数式动画引擎 | JavaScript | 20k |
-| 88 | [unocss/unocss](https://github.com/unocss/unocss) | 即时按需的原子化 CSS 引擎 | TypeScript | 19k |
-| 89 | [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | 以用户行为驱动测试 React 组件 | JavaScript | 20k |
-| 90 | [vuejs/pinia](https://github.com/vuejs/pinia) | Vue 官方推荐的状态管理库 | TypeScript | 15k |
-| 91 | [umijs/qiankun](https://github.com/umijs/qiankun) | 蚂蚁出品的微前端框架 | TypeScript | 17k |
-| 92 | [dream-num/Luckysheet](https://github.com/dream-num/Luckysheet) | 在线 Excel 风格电子表格组件 | JavaScript | 17k |
-| 93 | [single-spa/single-spa](https://github.com/single-spa/single-spa) | 将多个应用聚合为单一前端的微前端框架 | JavaScript | 14k |
-| 94 | [ag-grid/ag-grid](https://github.com/ag-grid/ag-grid) | 企业级高性能数据表格组件 | TypeScript | 16k |
-| 95 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | 高性能金融 K 线图表库 | TypeScript | 17k |
-| 96 | [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) | 现代响应式 SVG 图表库 | JavaScript | 15k |
-| 97 | [rjsf-team/react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) | 由 JSON Schema 自动生成 React 表单 | TypeScript | 16k |
-| 98 | [alibaba/formily](https://github.com/alibaba/formily) | 阿里开源的表单引擎与解决方案 | TypeScript | 13k |
-| 99 | [paperjs/paper.js](https://github.com/paperjs/paper.js) | Canvas 矢量图形脚本框架 | JavaScript | 15k |
-| 100 | [plouc/nivo](https://github.com/plouc/nivo) | 丰富的 React 数据可视化组件 | TypeScript | 14k |
-| 101 | [antvis/G2](https://github.com/antvis/G2) | 蚂蚁可视化语法图表库 | TypeScript | 13k |
-| 102 | [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | Rust 编写 webpack 兼容的打包工具 | Rust | 13k |
-| 103 | [TanStack/router](https://github.com/TanStack/router) | 类型安全的全栈 React 路由器 | TypeScript | 15k |
-| 104 | [openlayers/openlayers](https://github.com/openlayers/openlayers) | 功能强大的 Web 地图库 | JavaScript | 13k |
-| 105 | [jasmine/jasmine](https://github.com/jasmine/jasmine) | 行为驱动开发的 JavaScript 测试框架 | JavaScript | 16k |
-| 106 | [rough-stuff/rough.js](https://github.com/rough-stuff/rough.js) | 手绘风格图形绘制库 | TypeScript | 20k |
+| 1 | [vuejs/vue](https://github.com/vuejs/vue) | 프로그레시브 JavaScript 프레임워크, 배우고 사용하기 쉬움, 뛰어난 성능, 다양한 시나리오에 적합한 웹 프런트엔드 프레임워크 | Vue | 207k |
+| 2 | [facebook/react](https://github.com/facebook/react) | 사용자 인터페이스 구축을 위한 선언적이고 효율적이며 유연한 JavaScript 라이브러리이자 구성 요소 기반 개발의 선구자입니다. | JavaScript | 223k |
+| 3 | [vitejs/vite](https://github.com/vitejs/vite) | 매우 빠른 콜드 스타트 ​​및 핫 업데이트 경험을 제공하기 위해 기본 ES 모듈을 사용하는 차세대 프런트 엔드 빌드 도구 | TypeScript | 68.5k |
+| 4 | [microsoft/vscode](https://github.com/microsoft/vscode) | 거의 모든 주류 언어를 지원하고 매우 풍부한 플러그인 생태계를 갖춘 Microsoft에서 제작한 무료 오픈 소스 코드 편집기입니다. | TypeScript | 162k |
+| 5 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 엔터프라이즈급 UI 디자인 언어 및 React 구성 요소 라이브러리, 즉시 사용 가능한 아름답고 고품질 구성 요소 | TypeScript | 91.3k |
+| 6 | [element-plus/element-plus](https://github.com/element-plus/element-plus) | 디자이너와 개발자를 위한 세심한 작업인 Vue 3 기반의 엔터프라이즈급 UI 컴포넌트 라이브러리입니다. | Vue | 23.1k |
+| 7 | [angular/angular](https://github.com/angular/angular) | 라우팅, 폼, HTTP, SSR 등을 원스톱으로 제공하는 구글이 제작한 기업용 프론트엔드 개발 플랫폼입니다. | TypeScript | 95.7k |
+| 8 | [sveltejs/svelte](https://github.com/sveltejs/svelte) | 컴파일된 프런트 엔드 프레임워크, 가상 DOM 없음, 매우 작은 빌드 제품, 미니멀한 작성 및 뛰어난 성능 | JavaScript | 79.5k |
+| 9 | [webpack/webpack](https://github.com/webpack/webpack) | 엔터프라이즈 수준 프로젝트를 위한 성숙한 생태계와 표준을 갖춘 최신 JavaScript 애플리케이션을 위한 가장 고전적인 정적 모듈 패키저입니다. | JavaScript | 64.7k |
+| 10 | [vercel/next.js](https://github.com/vercel/next.js) | 가장 완벽한 생태계인 Vercel이 제작한 업계 SSR/SSG/ISR 벤치마크인 React 풀스택 프레임워크 | JavaScript | 123k |
+| 11 | [nuxt/nuxt](https://github.com/nuxt/nuxt) | Vue 풀스택 프레임워크인 Nuxt는 SSR, SSG, API 레이어 등과 같은 모든 기능을 제공하며 Vue 생태계에서 공식적으로 권장합니다. | TypeScript | 52.9k |
+| 12 | [remix-run/remix](https://github.com/remix-run/remix) | 웹 표준에 중점을 두고 뛰어난 양식 처리 경험을 제공하는 React Router 기반의 현대적인 풀 스택 웹 프레임워크 | TypeScript | 28.6k |
+| 13 | [tailwindlabs/headlessui](https://github.com/tailwindlabs/headlessui) | Tailwind를 사용하여 자유롭게 맞춤설정할 수 있는 스타일이 전혀 없고 완전히 액세스 가능한 React/Vue UI 구성요소입니다. | TypeScript | 25.6k |
+| 14 | [radix-ui/primitives](https://github.com/radix-ui/primitives) | 접근성, shadcn/ui 기본 구성 요소 라이브러리에 중점을 둔 고품질의 스타일이 지정되지 않은 React UI 구성 요소 기본 요소 | TypeScript | 16.6k |
+| 15 | [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) | 단순하고 모듈식이며 구성 가능한 API를 갖춘 React 생태계에서 가장 인기 있는 접근성 우선 구성 요소 라이브러리 | TypeScript | 38.4k |
+| 16 | [solidjs/solid](https://github.com/solidjs/solid) | 고성능 반응형 UI 라이브러리, 정말 세분화된 업데이트, 가상 DOM 없음, 최고 성능 벤치마크 | TypeScript | 32k |
+| 17 | [preactjs/preact](https://github.com/preactjs/preact) | 단 3KB의 React 대안, 완벽한 API 호환, 매우 작으며 극단적인 크기 최적화에 적합 | JavaScript | 37k |
+| 18 | [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) | 유연한 데이터 계층과 풍부한 플러그인 생태계를 갖춘 React 및 GraphQL 기반의 정적 사이트 생성기 | JavaScript | 55k |
+| 19 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | 세계에서 가장 인기 있는 HTML/CSS/JS 반응형 프런트 엔드 프레임워크로 아름답고 현대적인 웹사이트를 빠르게 구축하세요 | JavaScript | 171k |
+| 20 | [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) | 중국에서 가장 인기 있는 Vue 2 백엔드 관리 템플릿이자 즉시 사용 가능한 미드엔드 및 프런트엔드 솔루션 | JavaScript | 88k |
+| 21 | [ant-design/ant-design-pro](https://github.com/ant-design/ant-design-pro) | 즉시 사용 가능한 Ant Design 기반의 미들 및 백엔드 프런트엔드/디자인 솔루션, 엔터프라이즈급 표준 | TypeScript | 36k |
+| 22 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 프런트엔드 개발을 위한 표준 언어인 JavaScript 유형의 상위 집합, 유형 안전성이 코드 품질을 향상시킵니다. | TypeScript | 103k |
+| 23 | [babel/babel](https://github.com/babel/babel) | JavaScript 컴파일러는 ES6+ 구문을 프런트 엔드 도구 체인의 핵심 구성 요소인 호환 가능한 코드로 변환합니다. | JavaScript | 43k |
+| 24 | [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel) | 구성이 필요 없는 웹 애플리케이션 패키저, 즉시 사용 가능, 멀티 코어 병렬 컴파일이 매우 빠릅니다. | JavaScript | 43k |
+| 25 | [rollup/rollup](https://github.com/rollup/rollup) | ES6 모듈 패키저, 트리 쉐이킹의 선구자, 클래스 라이브러리 패키징에 선호되는 도구 | JavaScript | 26k |
+| 26 | [evanw/esbuild](https://github.com/evanw/esbuild) | Go로 작성된 매우 빠른 JS/TS 패키저, Webpack, Vite 기본 엔진보다 100배 빠릅니다. | Go | 38k |
+| 27 | [swc-project/swc](https://github.com/swc-project/swc) | Babel의 고속 대안이자 Next.js의 기본 엔진인 Rust로 작성된 JS/TS 컴파일러 | Rust | 31k |
+| 28 | [postcss/postcss](https://github.com/postcss/postcss) | CSS 포스트 프로세서, 플러그인, Autoprefixer 및 기타 도구를 통해 CSS를 변환하기 위한 기본 엔진 | JavaScript | 29k |
+| 29 | [sass/sass](https://github.com/sass/sass) | 변수, 중첩 및 믹스인을 모두 사용할 수 있는 가장 성숙한 CSS 전처리기, CSS 개발 효율성을 위한 강력한 도구 | Dart | 15k |
+| 30 | [microsoft/monaco-editor](https://github.com/microsoft/monaco-editor) | VS Code의 편집기 코어는 브라우저에 완전한 기능의 코드 편집기를 포함할 수 있습니다. | TypeScript | 41k |
+| 31 | [codemirror/codemirror5](https://github.com/codemirror/codemirror5) | 수백 가지 언어를 지원하는 확장성이 뛰어난 브라우저 코드 편집기, 가볍고 유연함 | JavaScript | 26k |
+| 32 | [quilljs/quill](https://github.com/quilljs/quill) | 최신 리치 텍스트 편집기, 브라우저 간 호환성, 모듈식 아키텍처, 우아한 API | JavaScript | 43k |
+| 33 | [swiper/swiper](https://github.com/swiper/swiper) | 최신 모바일 터치 슬라이더 구성 요소는 React/Vue/Web 구성 요소를 지원하며 부드러운 애니메이션을 가지고 있습니다. | JavaScript | 40k |
+| 34 | [videojs/video.js](https://github.com/videojs/video.js) | HTML5 비디오 플레이어, 풍부한 플러그인 에코시스템, HLS/DASH/광고 지원, 기업 수준을 위한 첫 번째 선택 | JavaScript | 38k |
+| 35 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | UI 구성요소 개발 및 문서화 도구, 격리된 환경 개발 구성요소, 시각적 테스트 및 표시 | TypeScript | 85k |
+| 36 | [axios/axios](https://github.com/axios/axios) | 가장 널리 사용되는 HTTP 요청 라이브러리, Promise API, 인터셉터, 취소 요청, 자동 JSON | JavaScript | 107k |
+| 37 | [lodash/lodash](https://github.com/lodash/lodash) | 수백 가지의 효율적인 기능을 제공하는 JavaScript 유틸리티 라이브러리, 프런트 엔드 개발을 위한 필수 스위스 군용 칼 | JavaScript | 60k |
+| 38 | [dayjs/dayjs](https://github.com/dayjs/dayjs) | 경량 날짜 처리 라이브러리, 단 2KB, moment.js와 호환되는 API, 최신 프로젝트에 선호 | JavaScript | 47k |
+| 39 | [date-fns/date-fns](https://github.com/date-fns/date-fns) | 최신 날짜 도구 라이브러리, 모듈식 온디맨드 도입, 트리 쉐이킹 친화적, TypeScript 기본 | TypeScript | 35k |
+| 40 | [moment/moment](https://github.com/moment/moment) | 포괄적인 기능을 갖춘 고전적인 날짜 처리 라이브러리입니다. 유지 관리가 중단되었지만 여전히 많은 프로젝트에서 사용되고 있습니다. | JavaScript | 48k |
+| 41 | [reduxjs/redux](https://github.com/reduxjs/redux) | 예측 가능한 JavaScript 상태 컨테이너, Flux 아키텍처의 최상의 구현, 대규모 애플리케이션의 표준 | TypeScript | 61k |
+| 42 | [TanStack/query](https://github.com/TanStack/query) | 강력한 비동기 상태 관리 라이브러리(React Query), 자동 캐싱, 백그라운드 새로 고침, 낙관적 업데이트 | TypeScript | 44k |
+| 43 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | 간단하고 확장 가능한 상태 관리 라이브러리, 반응형 프로그래밍, 투명한 종속성 추적 및 더 간단한 코드 | TypeScript | 28k |
+| 44 | [immerjs/immer](https://github.com/immerjs/immer) | 프록시를 통해 변경 가능한 방식으로 변경 불가능한 코드를 작성할 수 있는 변경 불가능한 데이터 구조 관리 라이브러리입니다. | TypeScript | 28k |
+| 45 | [rxjs/rxjs](https://github.com/rxjs/rxjs) | Observable 시퀀스를 사용하여 비동기 및 이벤트 기반 프로그램을 구성하는 반응형 프로그래밍 라이브러리 | TypeScript | 31k |
+| 46 | [d3/d3](https://github.com/d3/d3) | 데이터 기반 문서 시각화 라이브러리, SVG/캔버스 바인딩 데이터, 강력한 차트 사용자 정의 기능 | JavaScript | 108k |
+| 47 | [mrdoob/three.js](https://github.com/mrdoob/three.js) | 가장 널리 사용되는 JavaScript 3D 라이브러리, WebGL 패키지, 3D 장면/애니메이션/게임 도구 | JavaScript | 104k |
+| 48 | [chartjs/Chart.js](https://github.com/chartjs/Chart.js) | 간단하고 유연한 차트 라이브러리, 8가지 차트 유형, 반응형 디자인, 즉시 사용 가능 | JavaScript | 65k |
+| 49 | [apache/echarts](https://github.com/apache/echarts) | Baidu의 강력한 오픈 소스 시각적 차트 라이브러리는 30개 이상의 차트 유형을 지원하고 대량의 데이터에 대한 탁월한 렌더링을 제공합니다. | TypeScript | 61k |
+| 50 | [recharts/recharts](https://github.com/recharts/recharts) | 사용하기 쉬운 React 및 D3 기반의 선언적 차트 라이브러리, 구성 요소화된 API | JavaScript | 24k |
+| 51 | [facebook/jest](https://github.com/facebook/jest) | 포괄적인 JavaScript 테스트 프레임워크, 구성이 필요 없는 스냅샷 테스트, 모의 및 적용 범위 | TypeScript | 44k |
+| 52 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | Vite 기반의 차세대 테스트 프레임워크, 기본 ESM, 매우 빠른 핫 업데이트, Jest 호환 | TypeScript | 13k |
+| 53 | [cypress-io/cypress](https://github.com/cypress-io/cypress) | 최신 엔드투엔드 테스트 프레임워크, 브라우저 내 실행, 실시간 디버깅, 시간 여행, 제로 구성 | JavaScript | 48k |
+| 54 | [microsoft/playwright](https://github.com/microsoft/playwright) | Chromium/Firefox/WebKit을 제어하기 위한 API 세트인 크로스 브라우저 자동화 테스트 도구 | TypeScript | 70k |
+| 55 | [google/puppeteer](https://github.com/google/puppeteer) | 페이지 자동화, 스크린샷, PDF 및 성능 테스트를 위한 도구인 Headless Chrome Node API | TypeScript | 90k |
+| 56 | [prettier/prettier](https://github.com/prettier/prettier) | 코드 서식 지정 도구는 30개 이상의 언어, 저장 및 서식을 지원하며 팀의 코드 스타일이 통일되어 있습니다. | JavaScript | 50k |
+| 57 | [eslint/eslint](https://github.com/eslint/eslint) | JavaScript/TypeScript 코드 검사 도구, 사용자 정의 가능한 규칙, 코드 품질 보증 | JavaScript | 25k |
+| 58 | [nrwl/nx](https://github.com/nrwl/nx) | 지능형 빌드 시스템, Monorepo 관리는 React/Angular/Node와 같은 여러 프레임워크를 지원합니다. | TypeScript | 24k |
+| 59 | [typicode/husky](https://github.com/typicode/husky) | Git Hooks 관리 도구, 제출 전 자동 검사/포맷, 팀 코드 품질 보호 | JavaScript | 33k |
+| 60 | [TanStack/table](https://github.com/TanStack/table) | 완전히 사용자 정의 가능한 헤드리스 UI 테이블 라이브러리는 정렬, 필터링, 그룹화 및 가상화를 지원합니다. | TypeScript | 25k |
+| 61 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | 풍부한 구성 요소를 갖춘 Vue 3의 Material Design 구성 요소 프레임워크는 엔터프라이즈 수준 애플리케이션을 위한 첫 번째 선택입니다. | TypeScript | 40k |
+| 62 | [youzan/vant](https://github.com/youzan/vant) | Youzan이 제작한 고품질 Vue 모바일 컴포넌트 라이브러리, 60개 이상의 컴포넌트 포함, 모바일 몰의 첫 번째 선택 | TypeScript | 23k |
+| 63 | [pmndrs/zustand](https://github.com/pmndrs/zustand) | 미니멀하고 가벼운 React 상태 관리 라이브러리 | TypeScript | 59k |
+| 64 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | 텍스트를 사용하여 순서도, 시퀀스 다이어그램 등의 다이어그램 생성 | TypeScript | 90k |
+| 65 | [pixijs/pixijs](https://github.com/pixijs/pixijs) | 고성능 2D WebGL 렌더링 엔진 | TypeScript | 48k |
+| 66 | [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) | 경량의 모바일 친화적인 오픈 소스 지도 라이브러리 | JavaScript | 45k |
+| 67 | [react-hook-form/react-hook-form](https://github.com/react-hook-form/react-hook-form) | 고성능 종속성 없는 React 양식 라이브러리 | TypeScript | 45k |
+| 68 | [pnpm/pnpm](https://github.com/pnpm/pnpm) | 기본 모노레포 지원을 통한 빠른 디스크 절약 패키지 관리자 | Rust | 36k |
+| 69 | [lerna/lerna](https://github.com/lerna/lerna) | JavaScript 모노레포 관리 도구 | TypeScript | 36k |
+| 70 | [refinedev/refine](https://github.com/refinedev/refine) | CRUD 관리 백엔드 구축을 위한 React 메타 프레임워크 | TypeScript | 35k |
+| 71 | [jaredpalmer/formik](https://github.com/jaredpalmer/formik) | React 양식 상태 관리 및 검증 라이브러리 | TypeScript | 34k |
+| 72 | [vercel/swr](https://github.com/vercel/swr) | 원격 데이터 요청 및 캐싱 라이브러리 반응 | TypeScript | 32k |
+| 73 | [airbnb/lottie-web](https://github.com/airbnb/lottie-web) | After Effects에서 내보낸 애니메이션 렌더링을 위한 웹 라이브러리 | JavaScript | 32k |
+| 74 | [fabricjs/fabric.js](https://github.com/fabricjs/fabric.js) | 캔버스 그래픽 대화형 편집 라이브러리 | TypeScript | 31k |
+| 75 | [alpinejs/alpine](https://github.com/alpinejs/alpine) | 빌드 단계가 필요 없는 경량의 반응형 프런트엔드 프레임워크 | HTML | 32k |
+| 76 | [statelyai/xstate](https://github.com/statelyai/xstate) | 복잡한 상태 로직을 모델링하기 위한 상태 머신 및 상태 라이브러리 | TypeScript | 30k |
+| 77 | [vercel/turborepo](https://github.com/vercel/turborepo) | 고성능 모노레포 빌드 시스템, 스마트 캐싱 | Rust | 31k |
+| 78 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | Vue 기반 크로스 플랫폼 프런트엔드 프레임워크 | JavaScript | 27k |
+| 79 | [vueuse/vueuse](https://github.com/vueuse/vueuse) | Vue Composition API 유틸리티 컬렉션 | TypeScript | 22k |
+| 80 | [vuejs/vuex](https://github.com/vuejs/vuex) | Vue의 독점적인 상태 관리 모델 및 라이브러리 | JavaScript | 28k |
+| 81 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | 최신 React UI 구성 요소 및 후크의 모든 기능을 갖춘 라이브러리 | TypeScript | 32k |
+| 82 | [react-bootstrap/react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) | React로 재작성된 부트스트랩 구성요소 라이브러리 | TypeScript | 23k |
+| 83 | [styled-components/styled-components](https://github.com/styled-components/styled-components) | 주류 CSS-in-JS 라이브러리, 구성 요소 수준 스타일 캡슐화 | TypeScript | 41k |
+| 84 | [phaserjs/phaser](https://github.com/phaserjs/phaser) | HTML5 2D 게임 개발 프레임워크 | JavaScript | 40k |
+| 85 | [hexojs/hexo](https://github.com/hexojs/hexo) | 빠르고 간결한 정적 블로그 생성기 | TypeScript | 42k |
+| 86 | [highlightjs/highlight.js](https://github.com/highlightjs/highlight.js) | 코드 구문 강조 라이브러리 | JavaScript | 25k |
+| 87 | [Popmotion/popmotion](https://github.com/Popmotion/popmotion) | 유연한 기능적 애니메이션 엔진 | JavaScript | 20k |
+| 88 | [unocss/unocss](https://github.com/unocss/unocss) | 즉각적인 주문형 원자 CSS 엔진 | TypeScript | 19k |
+| 89 | [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | React 구성 요소의 사용자 행동 중심 테스트 | JavaScript | 20k |
+| 90 | [vuejs/pinia](https://github.com/vuejs/pinia) | Vue가 공식적으로 권장하는 상태 관리 라이브러리 | TypeScript | 15k |
+| 91 | [umijs/qiankun](https://github.com/umijs/qiankun) | Ant에서 제작한 마이크로 프론트엔드 프레임워크 | TypeScript | 17k |
+| 92 | [dream-num/Luckysheet](https://github.com/dream-num/Luckysheet) | 온라인 Excel 스타일 스프레드시트 구성 요소 | JavaScript | 17k |
+| 93 | [single-spa/single-spa](https://github.com/single-spa/single-spa) | 여러 애플리케이션을 단일 프런트엔드로 통합하는 마이크로 프런트엔드 프레임워크 | JavaScript | 14k |
+| 94 | [ag-grid/ag-grid](https://github.com/ag-grid/ag-grid) | 엔터프라이즈급 고성능 데이터 테이블 구성요소 | TypeScript | 16k |
+| 95 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | 고성능 금융 K라인 차트 라이브러리 | TypeScript | 17k |
+| 96 | [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) | 최신 반응형 SVG 차트 라이브러리 | JavaScript | 15k |
+| 97 | [rjsf-team/react-jsonschema-form](https://github.com/rjsf-team/react-jsonschema-form) | JSON 스키마에서 자동으로 React 양식 생성 | TypeScript | 16k |
+| 98 | [alibaba/formily](https://github.com/alibaba/formily) | Alibaba의 오픈 소스 양식 엔진 및 솔루션 | TypeScript | 13k |
+| 99 | [paperjs/paper.js](https://github.com/paperjs/paper.js) | 캔버스 벡터 그래픽 스크립팅 프레임워크 | JavaScript | 15k |
+| 100 | [plouc/nivo](https://github.com/plouc/nivo) | 풍부한 React 데이터 시각화 구성 요소 | TypeScript | 14k |
+| 101 | [antvis/G2](https://github.com/antvis/G2) | Ant 시각적 문법 차트 라이브러리 | TypeScript | 13k |
+| 102 | [web-infra-dev/rspack](https://github.com/web-infra-dev/rspack) | Rust로 웹팩 호환 패키징 도구 작성 | Rust | 13k |
+| 103 | [TanStack/router](https://github.com/TanStack/router) | 유형이 안전한 풀 스택 React 라우터 | TypeScript | 15k |
+| 104 | [openlayers/openlayers](https://github.com/openlayers/openlayers) | 강력한 웹 지도 라이브러리 | JavaScript | 13k |
+| 105 | [jasmine/jasmine](https://github.com/jasmine/jasmine) | 행동 중심 개발을 위한 JavaScript 테스트 프레임워크 | JavaScript | 16k |
+| 106 | [rough-stuff/rough.js](https://github.com/rough-stuff/rough.js) | 손으로 그린 ​​스타일의 그래픽 드로잉 라이브러리 | TypeScript | 20k |
 
 ---
 
@@ -140,76 +140,76 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | Java 生态最流行的 Web 开发框架，约定优于配置，快速构建生产级应用 | Java | 74.1k |
-| 2 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | Go 语言最高性能的 HTTP Web 框架之一，API 简洁，中间件生态完善 | Go | 79.2k |
-| 3 | [expressjs/express](https://github.com/expressjs/express) | Node.js 最经典、使用最广泛的 Web 框架，极简灵活，中间件生态成熟 | JavaScript | 64.7k |
-| 4 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | 基于 Python 类型提示的现代高性能 Web 框架，自动生成 API 文档，开发体验极佳 | Python | 80.8k |
-| 5 | [actix/actix-web](https://github.com/actix/actix-web) | Rust 生态最强大、功能最齐全的 Web 框架，性能强劲，类型安全 | Rust | 20.9k |
-| 6 | [grpc/grpc-go](https://github.com/grpc/grpc-go) | Google 开源的高性能 RPC 框架 Go 实现，支持 Protobuf，适合微服务间通信 | Go | 20.4k |
-| 7 | [nestjs/nest](https://github.com/nestjs/nest) | Node.js 企业级后端框架，TypeScript 原生，架构借鉴 Angular，模块化、依赖注入 | TypeScript | 67.6k |
-| 8 | [django/django](https://github.com/django/django) | Python 生态最成熟的全功能 Web 框架，自带 ORM、Admin、Auth、安全防护 | Python | 79.1k |
-| 9 | [pallets/flask](https://github.com/pallets/flask) | Python 轻量微框架，灵活极简，适合 API 服务、快速原型和中小型项目 | Python | 68k |
-| 10 | [go-kratos/kratos](https://github.com/go-kratos/kratos) | B 站开源的 Go 微服务框架，基于 Protobuf 代码生成，业界大规模落地验证 | Go | 23k |
-| 11 | [labstack/echo](https://github.com/labstack/echo) | Go 高性能极简 Web 框架，API 优雅，中间件丰富，和 Gin 并称 Go Web 双雄 | Go | 29.2k |
-| 12 | [tokio-rs/axum](https://github.com/tokio-rs/axum) | Rust 官方 Tokio 团队出品的 Web 框架，开箱即用，与 Tower 生态无缝集成 | Rust | 17.4k |
-| 13 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | 微软出品的跨平台 ASP.NET Core 框架，企业级 .NET 后端首选，性能极强 | C# | 21k |
-| 14 | [apache/dubbo](https://github.com/apache/dubbo) | 阿里开源后贡献给 Apache 的 Java RPC 框架，国内微服务生态的里程碑项目 | Java | 41.2k |
-| 15 | [golang/go](https://github.com/golang/go) | Google 开源的 Go 编程语言，简洁高效，并发原生支持，云原生时代首选 | Go | 127k |
-| 16 | [nodejs/node](https://github.com/nodejs/node) | Node.js JavaScript 运行时，基于 V8 引擎，事件驱动非阻塞 I/O，后端 JS 标杆 | JavaScript | 110k |
-| 17 | [rust-lang/rust](https://github.com/rust-lang/rust) | 系统级编程语言 Rust，内存安全无 GC，零成本抽象，性能与安全兼得 | Rust | 100k |
-| 18 | [denoland/deno](https://github.com/denoland/deno) | Node.js 创始人出品的现代 JavaScript/TypeScript 运行时，安全沙箱，原生 TS | TypeScript | 98k |
-| 19 | [oven-sh/bun](https://github.com/oven-sh/bun) | Zig 编写的极速 JavaScript 运行时，替代 Node.js，内置打包/转译/测试 | Zig | 76k |
-| 20 | [python/cpython](https://github.com/python/cpython) | Python 编程语言参考实现，全球最流行的编程语言之一，AI/数据/Web 通吃 | Python | 66k |
-| 21 | [ruby/ruby](https://github.com/ruby/ruby) | Ruby 编程语言，面向对象纯粹，开发者快乐优先，Rails 生态基石 | C | 22k |
-| 22 | [php/php-src](https://github.com/php/php-src) | PHP 解释器源码，Web 开发老牌语言，全球过半网站运行在 PHP 上 | C | 38k |
-| 23 | [spring-projects/spring-framework](https://github.com/spring-projects/spring-framework) | Spring 核心框架，IoC 容器和 AOP，Java 企业级开发的事实标准 | Java | 57k |
-| 24 | [koajs/koa](https://github.com/koajs/koa) | Express 原班团队打造的下一代 Node.js 框架，基于 async/await，更优雅 | JavaScript | 35k |
-| 25 | [fastify/fastify](https://github.com/fastify/fastify) | 高性能 Node.js Web 框架，Schema 验证，序列化极快，插件生态丰富 | JavaScript | 33k |
-| 26 | [eggjs/egg](https://github.com/eggjs/egg) | 阿里出品的企业级 Node.js 框架，约定优于配置，插件机制灵活 | JavaScript | 19k |
-| 27 | [rubyonrails/rails](https://github.com/rubyonrails/rails) | Ruby on Rails 全栈 Web 框架，约定优于配置，全栈开发效率极高 | Ruby | 56k |
-| 28 | [laravel/laravel](https://github.com/laravel/laravel) | PHP 生态最优雅的 Web 框架，语法表现力强，全栈工具链完善 | PHP | 79k |
-| 29 | [beego/beego](https://github.com/beego/beego) | 国产 Go 企业级 Web 框架，MVC 架构，文档完善，国内使用广泛 | Go | 32k |
-| 30 | [gofiber/fiber](https://github.com/gofiber/fiber) | Go 语言 Express 风格 Web 框架，极低内存占用，性能出色 | Go | 35k |
-| 31 | [go-chi/chi](https://github.com/go-chi/chi) | Go 语言轻量级 HTTP 路由器，标准库兼容，中间件丰富，极简设计 | Go | 18k |
-| 32 | [gorilla/mux](https://github.com/gorilla/mux) | Go 语言最经典的 HTTP 请求多路复用器，功能强大，URL 路由匹配灵活 | Go | 21k |
-| 33 | [go-kit/kit](https://github.com/go-kit/kit) | Go 语言微服务工具包，提供服务发现、负载均衡、熔断、日志等完整能力 | Go | 27k |
-| 34 | [rocket-rs/rocket](https://github.com/rocket-rs/rocket) | Rust 生态最流行的 Web 框架，类型安全，宏驱动 API，开发体验优秀 | Rust | 25k |
-| 35 | [quarkusio/quarkus](https://github.com/quarkusio/quarkus) | 云原生 Java 框架，启动快、内存低，原生 GraalVM 编译，K8s 友好 | Java | 14k |
-| 36 | [sanic-org/sanic](https://github.com/sanic-org/sanic) | Python 异步 Web 服务器，基于 uvloop，性能媲美 Go/Node.js | Python | 18k |
-| 37 | [tornadoweb/tornado](https://github.com/tornadoweb/tornado) | Python 经典 Web 框架与异步网络库，长连接/WebSocket 支持优秀 | Python | 22k |
-| 38 | [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) | Python 异步 HTTP 客户端/服务器框架，基于 asyncio，高性能异步 I/O | Python | 15k |
-| 39 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | Django 生态最流行的 REST API 框架，序列化、认证、权限一站搞定 | Python | 28k |
-| 40 | [meteor/meteor](https://github.com/meteor/meteor) | 全栈 JavaScript 平台，前后端统一，实时数据同步，快速原型开发利器 | JavaScript | 44k |
-| 41 | [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | 单文件开源后端，内嵌 SQLite + 实时订阅 + 认证 + 文件存储 + Admin UI | Go | 60k |
-| 42 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 完整的开源后端云平台，认证、数据库、存储、实时、函数，Firebase 替代 | TypeScript | 56.6k |
-| 43 | [supabase/supabase](https://github.com/supabase/supabase) | 开源 Firebase 替代方案，基于 PostgreSQL，Auth + DB + Storage + Realtime | TypeScript | 75k |
-| 44 | [strapi/strapi](https://github.com/strapi/strapi) | 最流行的开源 Headless CMS，可视化内容管理，自动生成 REST/GraphQL API | JavaScript | 64k |
-| 45 | [Directus/directus](https://github.com/Directus/directus) | 开源 Headless CMS 和数据库管理平台，即时生成 REST/GraphQL API | TypeScript | 30k |
-| 46 | [PayloadCMS/payload](https://github.com/PayloadCMS/payload) | Node.js/TypeScript 原生 Headless CMS，代码优先，完全可定制 | TypeScript | 30k |
-| 47 | [hasura/graphql-engine](https://github.com/hasura/graphql-engine) | PostgreSQL 即时生成 GraphQL API 引擎，无需写后端代码，实时订阅 | Haskell | 32k |
-| 48 | [celery/celery](https://github.com/celery/celery) | Python 分布式任务队列，异步任务/定时任务/工作流，生产级可靠 | Python | 25k |
-| 49 | [graphql/graphql-js](https://github.com/graphql/graphql-js) | GraphQL JavaScript 参考实现，Facebook 出品的 API 查询语言 | JavaScript | 20k |
-| 50 | [apollographql/apollo-server](https://github.com/apollographql/apollo-server) | 社区最流行的 GraphQL 服务器，支持 Express/Fastify/Lambda 等多种环境 | TypeScript | 14k |
-| 51 | [grpc/grpc](https://github.com/grpc/grpc) | Google 开源的高性能 RPC 框架，多语言支持，Protobuf 序列化，微服务通信标配 | C++ | 42k |
-| 52 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Google 的数据交换格式 Protocol Buffers，多语言支持，高效紧凑 | C++ | 67k |
-| 53 | [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | OpenAPI/Swagger 可视化 API 文档 UI，交互式测试 API 端点 | JavaScript | 27k |
-| 54 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | 根据 OpenAPI 规范自动生成客户端/服务端代码，支持 50+ 语言 | Java | 23k |
-| 55 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | Python 最强大的网络爬虫框架，异步高效，管道/中间件架构，数据采集利器 | Python | 53k |
-| 56 | [parse-community/parse-server](https://github.com/parse-community/parse-server) | 开源 BaaS 服务器，Node.js 驱动，兼容 Parse API，移动后端快速搭建 | JavaScript | 21.4k |
-| 57 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | 开源游戏后端服务器，实时多人、排行榜、匹配、社交功能一站搞定 | Go | 12.9k |
-| 58 | [encoredev/encore](https://github.com/encoredev/encore) | 后端开发平台，声明式基础设施，自动生成 API 文档和架构图 | Go | 12.2k |
-| 59 | [ghost/ghost](https://github.com/ghost/ghost) | Node.js 博客与发布平台 | JavaScript | 48k |
-| 60 | [directus/directus](https://github.com/directus/directus) | 实时 API 与无头 CMS | TypeScript | 29k |
-| 61 | [medusajs/medusa](https://github.com/medusajs/medusa) | 开源电商后端平台 | TypeScript | 27k |
-| 62 | [payloadcms/payload](https://github.com/payloadcms/payload) | TypeScript 无头 CMS 与应用框架 | TypeScript | 24k |
-| 63 | [saleor/saleor](https://github.com/saleor/saleor) | GraphQL 优先的开源电商平台 | Python | 21k |
-| 64 | [netty/netty](https://github.com/netty/netty) | 异步事件驱动 Java 网络框架 | Java | 33k |
-| 65 | [zeromicro/go-zero](https://github.com/zeromicro/go-zero) | 集成代码生成的 Go 微服务框架 | Go | 29k |
-| 66 | [go-micro/go-micro](https://github.com/go-micro/go-micro) | 可插拔的 Go 微服务开发框架 | Go | 22k |
-| 67 | [apache/shardingsphere](https://github.com/apache/shardingsphere) | 数据库分库分表中间件 | Java | 20k |
-| 68 | [eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x) | 响应式 Java 应用工具包 | Java | 14k |
-| 69 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | gRPC 转 RESTful API 代理 | Go | 18k |
-| 70 | [astral-sh/uv](https://github.com/astral-sh/uv) | 极速 Python 包与项目管理器 | Rust | 30k |
+| 1 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | Java 에코시스템에서 가장 널리 사용되는 웹 개발 프레임워크로, 구성보다 규칙이 우수하며 프로덕션 수준 애플리케이션을 빠르게 구축할 수 있습니다. | Java | 74.1k |
+| 2 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | 간단한 API와 완벽한 미들웨어 생태계를 갖춘 Go 언어의 최고 성능 HTTP 웹 프레임워크 중 하나 | Go | 79.2k |
+| 3 | [expressjs/express](https://github.com/expressjs/express) | Node.js는 가장 고전적이고 널리 사용되는 웹 프레임워크로, 미니멀하고 유연하며 성숙한 미들웨어 생태계를 갖추고 있습니다. | JavaScript | 64.7k |
+| 4 | [fastapi/fastapi](https://github.com/fastapi/fastapi) | API 문서를 자동으로 생성하고 탁월한 개발 경험을 제공하는 Python 유형 힌트를 기반으로 하는 최신 고성능 웹 프레임워크입니다. | Python | 80.8k |
+| 5 | [actix/actix-web](https://github.com/actix/actix-web) | Rust는 강력한 성능과 유형 안전성을 갖춘 생태계에서 가장 강력하고 포괄적인 웹 프레임워크입니다. | Rust | 20.9k |
+| 6 | [grpc/grpc-go](https://github.com/grpc/grpc-go) | Google의 오픈소스 고성능 RPC 프레임워크 Go 구현은 Protobuf를 지원하며 마이크로서비스 간 통신에 적합합니다. | Go | 20.4k |
+| 7 | [nestjs/nest](https://github.com/nestjs/nest) | Node.js 엔터프라이즈급 백엔드 프레임워크, TypeScript 네이티브, Angular에서 차용한 아키텍처, 모듈화, 종속성 주입 | TypeScript | 67.6k |
+| 8 | [django/django](https://github.com/django/django) | ORM, 관리, 인증 및 보안 보호 기능이 내장되어 있으며 Python 생태계에서 가장 성숙하고 모든 기능을 갖춘 웹 프레임워크입니다. | Python | 79.1k |
+| 9 | [pallets/flask](https://github.com/pallets/flask) | API 서비스, 신속한 프로토타이핑 및 중소 규모 프로젝트에 적합한 유연하고 미니멀한 Python 경량 마이크로 프레임워크 | Python | 68k |
+| 10 | [go-kratos/kratos](https://github.com/go-kratos/kratos) | Bilibili의 오픈 소스 Go 마이크로서비스 프레임워크는 Protobuf 코드 생성을 기반으로 하며 업계에서 대규모 구현으로 검증되었습니다. | Go | 23k |
+| 11 | [labstack/echo](https://github.com/labstack/echo) | Go는 우아한 API와 풍부한 미들웨어를 갖춘 고성능 미니멀리스트 웹 프레임워크입니다. 진과 함께 Go Web 듀오라고 불린다. | Go | 29.2k |
+| 12 | [tokio-rs/axum](https://github.com/tokio-rs/axum) | Rust는 공식 Tokio 팀에서 제작한 웹 프레임워크입니다. 즉시 사용 가능하며 Tower 생태계와 완벽하게 통합됩니다. | Rust | 17.4k |
+| 13 | [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore) | Microsoft에서 제작한 크로스 플랫폼 ASP.NET Core 프레임워크는 엔터프라이즈 수준 .NET 백엔드를 위한 첫 번째 선택이며 매우 강력한 성능을 제공합니다. | C# | 21k |
+| 14 | [apache/dubbo](https://github.com/apache/dubbo) | 국내 마이크로서비스 생태계의 획기적인 프로젝트인 오픈소스 이후 알리바바가 아파치에 기여한 Java RPC 프레임워크 | Java | 41.2k |
+| 15 | [golang/go](https://github.com/golang/go) | Google의 오픈소스 Go 프로그래밍 언어는 동시성을 기본적으로 지원하므로 간단하고 효율적입니다. 클라우드 네이티브 시대의 첫 번째 선택입니다. | Go | 127k |
+| 16 | [nodejs/node](https://github.com/nodejs/node) | V8 엔진, 이벤트 기반 비차단 I/O, 백엔드 JS 벤치마크를 기반으로 하는 Node.js JavaScript 런타임 | JavaScript | 110k |
+| 17 | [rust-lang/rust](https://github.com/rust-lang/rust) | 시스템 수준 프로그래밍 언어 Rust, GC 없는 메모리 안전성, 비용이 들지 않는 추상화, 성능과 보안 모두 | Rust | 100k |
+| 18 | [denoland/deno](https://github.com/denoland/deno) | 최신 JavaScript/TypeScript 런타임, 보안 샌드박스, Node.js 제작자의 기본 TS | TypeScript | 98k |
+| 19 | [oven-sh/bun](https://github.com/oven-sh/bun) | Node.js를 내장 패키징/번역/테스트로 대체하여 Zig가 작성한 매우 빠른 JavaScript 런타임 | Zig | 76k |
+| 20 | [python/cpython](https://github.com/python/cpython) | Python 프로그래밍 언어 참조 구현, 세계에서 가장 인기 있는 프로그래밍 언어 중 하나, AI/데이터/웹 올인원 | Python | 66k |
+| 21 | [ruby/ruby](https://github.com/ruby/ruby) | Ruby 프로그래밍 언어, 순수 객체 지향, 개발자 행복 우선, Rails 생태계의 초석 | C | 22k |
+| 22 | [php/php-src](https://github.com/php/php-src) | PHP 인터프리터 소스 코드, 웹 개발을 위해 오랫동안 확립된 언어, 전 세계 웹사이트의 절반 이상이 PHP에서 실행됨 | C | 38k |
+| 23 | [spring-projects/spring-framework](https://github.com/spring-projects/spring-framework) | Java 엔터프라이즈 개발의 사실상 표준인 Spring 코어 프레임워크, IoC 컨테이너 및 AOP | Java | 57k |
+| 24 | [koajs/koa](https://github.com/koajs/koa) | async/await를 기반으로 원래 Express 팀이 만든 차세대 Node.js 프레임워크가 더 우아합니다. | JavaScript | 35k |
+| 25 | [fastify/fastify](https://github.com/fastify/fastify) | 고성능 Node.js 웹 프레임워크, 스키마 검증, 매우 빠른 직렬화 및 풍부한 플러그인 생태계 | JavaScript | 33k |
+| 26 | [eggjs/egg](https://github.com/eggjs/egg) | Alibaba가 제작한 엔터프라이즈급 Node.js 프레임워크는 구성보다 규칙이 우수하고 플러그인 메커니즘이 유연합니다. | JavaScript | 19k |
+| 27 | [rubyonrails/rails](https://github.com/rubyonrails/rails) | Ruby on Rails 풀스택 웹 프레임워크, 구성보다 규칙이 더 우수하고 풀스택 개발이 매우 효율적입니다. | Ruby | 56k |
+| 28 | [laravel/laravel](https://github.com/laravel/laravel) | 강력한 표현 구문과 완전한 전체 스택 도구 체인을 갖춘 PHP 생태계에서 가장 우아한 웹 프레임워크 | PHP | 79k |
+| 29 | [beego/beego](https://github.com/beego/beego) | 국내 Go 기업급 웹 프레임워크, MVC 아키텍처, 전체 문서, 중국에서 널리 사용됨 | Go | 32k |
+| 30 | [gofiber/fiber](https://github.com/gofiber/fiber) | Go 언어 Express 스타일 웹 프레임워크, 매우 낮은 메모리 사용량 및 뛰어난 성능 | Go | 35k |
+| 31 | [go-chi/chi](https://github.com/go-chi/chi) | Go 언어 경량 HTTP 라우터, 표준 라이브러리 호환, 풍부한 미들웨어, 미니멀리스트 디자인 | Go | 18k |
+| 32 | [gorilla/mux](https://github.com/gorilla/mux) | 강력한 기능과 유연한 URL 라우팅 매칭을 갖춘 Go 언어의 가장 고전적인 HTTP 요청 멀티플렉서 | Go | 21k |
+| 33 | [go-kit/kit](https://github.com/go-kit/kit) | Go 언어 마이크로서비스 툴킷은 서비스 검색, 로드 밸런싱, 회로 차단기, 로깅과 같은 완전한 기능을 제공합니다. | Go | 27k |
+| 34 | [rocket-rs/rocket](https://github.com/rocket-rs/rocket) | 유형 안전성, 매크로 기반 API 및 탁월한 개발 경험을 갖춘 Rust 생태계에서 가장 인기 있는 웹 프레임워크입니다. | Rust | 25k |
+| 35 | [quarkusio/quarkus](https://github.com/quarkusio/quarkus) | 클라우드 네이티브 Java 프레임워크, 빠른 시작, 낮은 메모리, 네이티브 GraalVM 컴파일, K8s 친화적 | Java | 14k |
+| 36 | [sanic-org/sanic](https://github.com/sanic-org/sanic) | Go/Node.js와 비슷한 성능을 제공하는 uvloop 기반의 Python 비동기 웹 서버 | Python | 18k |
+| 37 | [tornadoweb/tornado](https://github.com/tornadoweb/tornado) | Python 클래식 웹 프레임워크 및 비동기 네트워크 라이브러리, 탁월한 장기 연결/WebSocket 지원 | Python | 22k |
+| 38 | [aio-libs/aiohttp](https://github.com/aio-libs/aiohttp) | asyncio 기반의 Python 비동기 HTTP 클라이언트/서버 프레임워크, 고성능 비동기 I/O | Python | 15k |
+| 39 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | Django 생태계에서 가장 널리 사용되는 REST API 프레임워크, 직렬화, 인증, 권한이 모두 원스톱으로 처리됩니다. | Python | 28k |
+| 40 | [meteor/meteor](https://github.com/meteor/meteor) | 풀스택 JavaScript 플랫폼, 통합 프런트엔드 및 백엔드, 실시간 데이터 동기화, 신속한 프로토타이핑 개발 도구 | JavaScript | 44k |
+| 41 | [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) | 단일 파일 오픈 소스 백엔드, 내장형 SQLite + 실시간 구독 + 인증 + 파일 저장소 + 관리 UI | Go | 60k |
+| 42 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | 완벽한 오픈소스 백엔드 클라우드 플랫폼, 인증, 데이터베이스, 스토리지, 실시간, 기능, Firebase 대체 | TypeScript | 56.6k |
+| 43 | [supabase/supabase](https://github.com/supabase/supabase) | PostgreSQL, 인증 + DB + 저장소 + 실시간을 기반으로 하는 오픈 소스 Firebase 대안 | TypeScript | 75k |
+| 44 | [strapi/strapi](https://github.com/strapi/strapi) | 가장 인기 있는 오픈 소스 Headless CMS, 시각적 콘텐츠 관리, 자동 생성된 REST/GraphQL API | JavaScript | 64k |
+| 45 | [Directus/directus](https://github.com/Directus/directus) | 오픈 소스 헤드리스 CMS 및 데이터베이스 관리 플랫폼, 즉시 REST/GraphQL API 생성 | TypeScript | 30k |
+| 46 | [PayloadCMS/payload](https://github.com/PayloadCMS/payload) | Node.js/TypeScript 네이티브 헤드리스 CMS, 코드 우선, 완전히 사용자 정의 가능 | TypeScript | 30k |
+| 47 | [hasura/graphql-engine](https://github.com/hasura/graphql-engine) | PostgreSQL은 백엔드 코드를 작성하지 않고도 즉시 GraphQL API 엔진을 생성하고 실시간 구독을 지원합니다. | Haskell | 32k |
+| 48 | [celery/celery](https://github.com/celery/celery) | Python 분산 작업 대기열, 비동기 작업/예약 작업/워크플로, 프로덕션 수준 안정성 | Python | 25k |
+| 49 | [graphql/graphql-js](https://github.com/graphql/graphql-js) | GraphQL JavaScript 참조 구현, Facebook에서 제작한 API 쿼리 언어 | JavaScript | 20k |
+| 50 | [apollographql/apollo-server](https://github.com/apollographql/apollo-server) | Express/Fastify/Lambda 및 기타 환경을 지원하는 커뮤니티에서 가장 인기 있는 GraphQL 서버 | TypeScript | 14k |
+| 51 | [grpc/grpc](https://github.com/grpc/grpc) | Google의 오픈소스 고성능 RPC 프레임워크, 다국어 지원, Protobuf 직렬화, 표준 마이크로서비스 통신 | C++ | 42k |
+| 52 | [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | Google의 데이터 교환 형식 프로토콜 버퍼, 다국어 지원, 효율적이고 컴팩트함 | C++ | 67k |
+| 53 | [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui) | OpenAPI/Swagger 시각적 API 문서 UI, 대화형 테스트 API 엔드포인트 | JavaScript | 27k |
+| 54 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | OpenAPI 사양에 따라 클라이언트/서버 코드를 자동으로 생성하고 50개 이상의 언어를 지원합니다. | Java | 23k |
+| 55 | [scrapy/scrapy](https://github.com/scrapy/scrapy) | Python의 가장 강력한 웹 크롤러 프레임워크, 비동기식 및 효율적인 파이프라인/미들웨어 아키텍처, 데이터 수집 도구 | Python | 53k |
+| 56 | [parse-community/parse-server](https://github.com/parse-community/parse-server) | 오픈 소스 BaaS 서버, Node.js 드라이버, Parse API와 호환, 모바일 백엔드 구축이 빠름 | JavaScript | 21.4k |
+| 57 | [heroiclabs/nakama](https://github.com/heroiclabs/nakama) | 오픈소스 게임 백엔드 서버, 실시간 멀티플레이, 랭킹, 매칭, 소셜 기능을 모두 원스톱으로 제공 | Go | 12.9k |
+| 58 | [encoredev/encore](https://github.com/encoredev/encore) | 백엔드 개발 플랫폼, 선언적 인프라가 API 문서 및 아키텍처 다이어그램을 자동으로 생성합니다. | Go | 12.2k |
+| 59 | [ghost/ghost](https://github.com/ghost/ghost) | Node.js 블로그 및 게시 플랫폼 | JavaScript | 48k |
+| 60 | [directus/directus](https://github.com/directus/directus) | 실시간 API와 헤드리스 CMS | TypeScript | 29k |
+| 61 | [medusajs/medusa](https://github.com/medusajs/medusa) | 오픈소스 전자상거래 백엔드 플랫폼 | TypeScript | 27k |
+| 62 | [payloadcms/payload](https://github.com/payloadcms/payload) | TypeScript 헤드리스 CMS 및 애플리케이션 프레임워크 | TypeScript | 24k |
+| 63 | [saleor/saleor](https://github.com/saleor/saleor) | GraphQL 최초의 오픈소스 전자상거래 플랫폼 | Python | 21k |
+| 64 | [netty/netty](https://github.com/netty/netty) | 비동기 이벤트 중심 Java 네트워킹 프레임워크 | Java | 33k |
+| 65 | [zeromicro/go-zero](https://github.com/zeromicro/go-zero) | 통합 코드 생성 기능을 갖춘 Go 마이크로서비스 프레임워크 | Go | 29k |
+| 66 | [go-micro/go-micro](https://github.com/go-micro/go-micro) | Pluggable Go 마이크로서비스 개발 프레임워크 | Go | 22k |
+| 67 | [apache/shardingsphere](https://github.com/apache/shardingsphere) | 데이터베이스 샤딩 및 테이블 샤딩 미들웨어 | Java | 20k |
+| 68 | [eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x) | 반응형 Java 앱 툴킷 | Java | 14k |
+| 69 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | gRPC에서 RESTful API 프록시로 | Go | 18k |
+| 70 | [astral-sh/uv](https://github.com/astral-sh/uv) | 매우 빠른 Python 패키지 및 프로젝트 관리자 | Rust | 30k |
 
 ---
 
@@ -219,94 +219,94 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [langgenius/dify](https://github.com/langgenius/dify) | 一站式大模型应用开发平台，可视化编排 Agent/RAG 工作流，支持一键部署 | TypeScript | 54.2k |
-| 2 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 构建 LLM 应用的主流框架，提供从提示工程、RAG 到 Agent 的一整套组件 | Python | 95.2k |
-| 3 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face 出品的预训练模型库，支持 PyTorch/TensorFlow，数千种模型开箱即用 | Python | 129k |
-| 4 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 当今最流行的深度学习框架，动态图、Pythonic 设计，科研和工业界都广泛使用 | Python | 80.8k |
-| 5 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 最受欢迎的 Stable Diffusion 本地 Web UI，插件生态庞大，AI 绘画必备 | Python | 140k |
-| 6 | [ollama/ollama](https://github.com/ollama/ollama) | 一行命令本地运行大模型的神器，支持 Llama、Qwen、Mistral 等数十种模型 | Go | 89.6k |
-| 7 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 用多个 AI Agent 组成虚拟软件公司，聊天式地让 AI 团队自主开发完整软件 | Python | 31.8k |
-| 8 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 最强大的本地 LLM 聊天前端，支持多模型后端、角色扮演、扩展、群组聊天 | JavaScript | 17.7k |
-| 9 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta 开源的 Llama 大语言模型官方仓库，从 Llama 1 到 Llama 3 的推理代码 | Python | 53k |
-| 10 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | 节点工作流式 Stable Diffusion WebUI，控制力极强，高级玩家首选 | Python | 54.6k |
-| 11 | [modelscope/swift](https://github.com/modelscope/swift) | 魔搭社区开源的 LLM/多模态训练推理框架，支持 300+ 模型，极简易用 | Python | 8.4k |
-| 12 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 微软出品的高效梯度提升决策树框架，Kaggle 竞赛和工业级排序/CTR 神器 | C++ | 17k |
-| 13 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | 微软亚洲研究院出品的 AI 音乐开源研究系列，歌词/作曲/演唱全链路 | Python | 4.5k |
-| 14 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google 开源的端到端机器学习平台，工业界部署最广泛，生态成熟 | C++ | 188k |
-| 15 | [keras-team/keras](https://github.com/keras-team/keras) | 高层神经网络 API，以易用性著称，可运行在 TensorFlow/JAX 之上 | Python | 62k |
-| 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python 最经典的机器学习库，分类/回归/聚类/降维，简单高效 | Python | 60k |
-| 17 | [google/jax](https://github.com/google/jax) | Google 出品的高性能数值计算库，自动微分、XLA 编译、并行计算 | Python | 31k |
-| 18 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 百度飞桨深度学习框架，国产唯一全套自研，产业级开源平台 | C++ | 22k |
-| 19 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 轻量 PyTorch 训练框架，结构化代码，多 GPU/TPU 训练，研究代码和生产解耦 | Python | 28k |
-| 20 | [fastai/fastai](https://github.com/fastai/fastai) | 深度学习库，高层 API 简洁，适合快速上手，顶层数据增强和训练策略 | Python | 26k |
-| 21 | [openai/whisper](https://github.com/openai/whisper) | OpenAI 开源的多语言语音识别模型，99 种语言，鲁棒性极强 | Python | 72k |
-| 22 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ 实现的 LLM 推理引擎，CPU/Mac 也能跑大模型，量化推理极快 | C++ | 70k |
-| 23 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 大语言模型官方仓库，开源权重，性能媲美闭源模型 | Python | 48k |
-| 24 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | LLM 数据框架，RAG 应用的首选，连接私有数据与大模型 | Python | 37k |
-| 25 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高吞吐 LLM 推理引擎，PagedAttention 技术，吞吐量远超 HuggingFace | Python | 30k |
-| 26 | [microsoft/autogen](https://github.com/microsoft/autogen) | 微软开源的多智能体对话框架，多个 AI Agent 协作完成复杂任务 | Python | 35k |
-| 27 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 多智能体编排框架，角色扮演、任务分配、协作流程编排，简洁好用 | Python | 25k |
-| 28 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 开源 AI 个人助手，连接你的笔记/文档/GitHub，本地或云端运行 | Python | 25k |
-| 29 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT 学术工具，论文翻译/润色/代码解析/批量处理，学术写作神器 | Python | 65k |
-| 30 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 免费 GPT API 聚合，逆向多个 AI 平台，免费使用多种大模型 | Python | 63k |
-| 31 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 本地私有 GPT，文档问答，完全离线运行，数据不出本地 | Python | 54k |
-| 32 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI 代码生成工具，描述需求即生成完整项目代码 | Python | 52k |
-| 33 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API 官方示例和最佳实践，使用指南和使用技巧合集 | Python | 60k |
-| 34 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | 清华开源的 ChatGLM-6B 中英双语对话模型，低成本部署，中文效果好 | Python | 41k |
-| 35 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | 阿里通义千问 Qwen2.5 系列模型，开源权重，中英文能力顶尖 | Python | 12k |
-| 36 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion 原始实现，潜在扩散模型，图像生成里程碑 | Python | 67k |
-| 37 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Focus on prompting 的图像生成 UI，简化 SD 操作，出图质量极高 | Python | 42k |
-| 38 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 条件控制图像生成，线稿/深度图/姿态控制，精确控制 AI 绘画 | Python | 30k |
-| 39 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 扩散模型库，支持 SD/SDXL/Flux 等，预训练模型和推理管道 | Python | 25k |
-| 40 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Stability AI 的生成模型仓库，SDXL/SD3 等模型发布地 | Python | 25k |
-| 41 | [opencv/opencv](https://github.com/opencv/opencv) | 开源计算机视觉库，图像处理/特征检测/目标跟踪，CV 领域基础设施 | C++ | 78k |
-| 42 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 目标检测模型，训练/推理/部署一站式，社区最活跃的 YOLO | Python | 52k |
-| 43 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 目标检测/分割/分类/姿态，最新最先进的 YOLO | Python | 30k |
-| 44 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM 分割一切模型，零样本分割任意目标，CV 基础模型突破 | Python | 48k |
-| 45 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab 目标检测工具箱，支持 50+ 算法，检测/分割/旋转框 | Python | 28k |
-| 46 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR 出品的视觉检测库，检测/分割/关键点，模块化设计 | Python | 30k |
-| 47 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU 实时人体姿态估计，2D/3D 多人骨架检测，体感交互利器 | C++ | 31k |
-| 48 | [explosion/spaCy](https://github.com/explosion/spaCy) | 工业级 NLP 库，分词/命名实体识别/文本分类/训练流程 | Python | 30k |
-| 49 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 预训练模型，NLM 里程碑，理解类任务标杆 | Python | 32k |
-| 50 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | 实时语音克隆，几秒钟音频即可克隆说话人声音 | Python | 52k |
-| 51 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR 序列到序列建模工具箱，翻译/摘要/语音，PyTorch 实现 | Python | 30k |
-| 52 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | 微软大模型训练优化系统，ZeRO/3D 并行，训练千亿参数模型 | Python | 35k |
-| 53 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 大模型并行训练框架，低成本训练大模型，支持万亿参数 | Python | 39k |
-| 54 | [ray-project/ray](https://github.com/ray-project/ray) | 分布式计算框架，分布式训练/超参调优/推理服务，Python 原生 | Python | 33k |
-| 55 | [huggingface/peft](https://github.com/huggingface/peft) | 参数高效微调库，LoRA/Prefix Tuning/AdaLoRA，低成本微调大模型 | Python | 16k |
-| 56 | [apache/spark](https://github.com/apache/spark) | 统一大数据分析引擎，分布式数据处理，MLlib/GraphX/SQL/Streaming | Scala | 40k |
-| 57 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML 生命周期管理平台，实验追踪/模型注册/部署/监控，MLOps 标配 | Python | 18k |
-| 58 | [huggingface/datasets](https://github.com/huggingface/datasets) | 数据集加载与处理库，1000+ 数据集，一行代码加载，预处理高效 | Python | 19k |
-| 59 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 向量相似性搜索库，十亿级向量检索，GPU 加速，RAG 系统核心 | C++ | 32k |
-| 60 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 自主 AI Agent，给定目标自动规划执行，AI 自主行动的先驱项目 | Python | 165k |
-| 61 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 提示词大全，100+ 角色提示词，激发大模型最佳表现 | HTML | 115k |
-| 62 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy 的最简 GPT 实现，教学级代码，理解 GPT 核心原理 | Python | 40k |
-| 63 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 动手学深度学习中文版，李沐出品，理论+代码+练习，入门首选教材 | Python | 60k |
-| 64 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 易用的 LLM 微调训练框架 | Python | 60k |
-| 65 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 快速构建数据与 ML 应用 UI | Python | 36k |
-| 66 | [openai/gym](https://github.com/openai/gym) | 强化学习环境接口工具包 | Python | 35k |
-| 67 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | 快速创建 ML 模型演示界面 | Python | 33k |
-| 68 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 从零构建大语言模型教程 | Python | 30k |
-| 69 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 数据分析与处理核心库 | Python | 44k |
-| 70 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 百度多语言 OCR 工具箱 | Python | 44k |
-| 71 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 优化的分布式梯度提升树库 | C++ | 26k |
-| 72 | [openai/CLIP](https://github.com/openai/CLIP) | 图文对比学习模型 | Python | 26k |
-| 73 | [shap/shap](https://github.com/shap/shap) | 模型解释与特征归因可视化库 | Python | 23k |
-| 74 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 驱动的浏览器自动化代理 | Python | 30k |
-| 75 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 拖拽式可视化 AI 智能体构建 | TypeScript | 45k |
-| 76 | [numpy/numpy](https://github.com/numpy/numpy) | 科学计算基础库 | Python | 28k |
-| 77 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 实现 | Python | 19k |
-| 78 | [facebook/prophet](https://github.com/facebook/prophet) | 自动化时间序列预测工具 | Python | 18k |
-| 79 | [gensim/gensim](https://github.com/gensim/gensim) | 主题建模与文档相似度库 | Python | 16k |
-| 80 | [networkx/networkx](https://github.com/networkx/networkx) | 复杂网络与图论分析库 | Python | 15k |
-| 81 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 绑图与数据可视化库 | Python | 20k |
-| 82 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 序列到序列建模工具包 | Python | 20k |
-| 83 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter 下一代交互式开发环境 | TypeScript | 14k |
-| 84 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 带注释的深度学习论文实现集 | Python | 14k |
-| 85 | [microsoft/nni](https://github.com/microsoft/nni) | 自动化机器学习 AutoML 工具包 | Python | 14k |
-| 86 | [nltk/nltk](https://github.com/nltk/nltk) | 自然语言处理工具包 | Python | 13k |
-| 87 | [scipy/scipy](https://github.com/scipy/scipy) | 科学与技术计算库 | Python | 13k |
-| 88 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 大语言模型权重与推理 | Python | 12k |
+| 1 | [langgenius/dify](https://github.com/langgenius/dify) | 원스톱 대규모 모델 애플리케이션 개발 플랫폼, 에이전트/RAG 워크플로를 시각적으로 조정하고 원클릭 배포를 지원합니다. | TypeScript | 54.2k |
+| 2 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LLM 애플리케이션 구축을 위한 주류 프레임워크로 프롬프트 엔지니어링, RAG에서 에이전트까지 완전한 구성요소 세트를 제공합니다. | Python | 95.2k |
+| 3 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face에서 생성된 사전 훈련된 모델 라이브러리는 PyTorch/TensorFlow를 지원하며 수천 개의 모델을 즉시 사용할 수 있습니다. | Python | 129k |
+| 4 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 오늘날 가장 인기 있는 딥 러닝 프레임워크, 동적 그래픽, Pythonic 디자인, 과학 연구 및 산업 분야에서 널리 사용됨 | Python | 80.8k |
+| 5 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | AI 페인팅에 꼭 필요한 대규모 플러그인 생태계를 갖춘 가장 인기 있는 Stable Diffusion 로컬 웹 UI | Python | 140k |
+| 6 | [ollama/ollama](https://github.com/ollama/ollama) | Llama, Qwen, Mistral 등과 같은 수십 개의 모델을 지원하는 한 줄의 명령으로 대규모 모델을 로컬에서 실행하기 위한 아티팩트입니다. | Go | 89.6k |
+| 7 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 여러 AI 에이전트를 활용해 가상 소프트웨어 회사를 구성하고 AI 팀이 채팅과 같은 방식으로 독립적으로 완전한 소프트웨어를 개발할 수 있도록 하세요. | Python | 31.8k |
+| 8 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 다중 모델 백엔드, 롤플레잉, 확장 기능, 그룹 채팅을 지원하는 가장 강력한 기본 LLM 채팅 프런트엔드 | JavaScript | 17.7k |
+| 9 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta의 오픈 소스 Llama 대규모 언어 모델 공식 저장소, Llama 1에서 Llama 3까지의 추론 코드 | Python | 53k |
+| 10 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | 강력한 제어 기능을 갖춘 노드 워크플로우 스타일 안정적인 확산 WebUI, 고급 플레이어를 위한 첫 번째 선택 | Python | 54.6k |
+| 11 | [modelscope/swift](https://github.com/modelscope/swift) | Moda 커뮤니티의 오픈 소스 LLM/다중 모드 교육 추론 프레임워크는 300개 이상의 모델을 지원하며 사용이 매우 쉽습니다. | Python | 8.4k |
+| 12 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 효율적인 그래디언트 부스팅 의사결정 트리 프레임워크, Kaggle 경쟁 및 Microsoft에서 생성한 산업 등급 정렬/CTR 아티팩트 | C++ | 17k |
+| 13 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | Microsoft Research Asia에서 제작한 AI 음악 오픈소스 연구 시리즈, 작사/작곡/노래 전체 링크 | Python | 4.5k |
+| 14 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google의 오픈소스 엔드 투 엔드 머신러닝 플랫폼은 업계에서 가장 널리 배포되어 있으며 성숙한 생태계를 갖추고 있습니다. | C++ | 188k |
+| 15 | [keras-team/keras](https://github.com/keras-team/keras) | 사용하기 쉬운 것으로 알려진 고급 신경망 API를 TensorFlow/JAX에서 실행할 수 있습니다. | Python | 62k |
+| 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python의 가장 고전적인 기계 학습 라이브러리, 분류/회귀/클러스터링/차원 축소, 간단하고 효율적 | Python | 60k |
+| 17 | [google/jax](https://github.com/google/jax) | Google이 제작한 고성능 수치 계산 라이브러리, 자동 미분, XLA 컴파일, 병렬 컴퓨팅 | Python | 31k |
+| 18 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | Baidu Flying Paddle 딥 러닝 프레임워크는 중국 유일의 완전 자체 개발 산업급 오픈 소스 플랫폼입니다. | C++ | 22k |
+| 19 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 경량 PyTorch 훈련 프레임워크, 구조화된 코드, 다중 GPU/TPU 훈련, 연구 코드 및 생산 분리 | Python | 28k |
+| 20 | [fastai/fastai](https://github.com/fastai/fastai) | 딥 러닝 라이브러리, 고급 API는 간단하고 빠르게 시작하는 데 적합하며 최고 수준의 데이터 향상 및 교육 전략을 제공합니다. | Python | 26k |
+| 21 | [openai/whisper](https://github.com/openai/whisper) | OpenAI 오픈 소스 다국어 음성 인식 모델, 99개 언어, 매우 강력함 | Python | 72k |
+| 22 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++로 구현된 LLM 추론 엔진, CPU/Mac도 대규모 모델을 실행할 수 있으며 정량적 추론이 매우 빠릅니다. | C++ | 70k |
+| 23 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 공식 언어 모델 저장소, 오픈 소스 가중치, 폐쇄 소스 모델과 유사한 성능 | Python | 48k |
+| 24 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | 개인 데이터와 대규모 모델을 연결하는 RAG 애플리케이션을 위한 첫 번째 선택인 LLM 데이터 프레임워크 | Python | 37k |
+| 25 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 높은 처리량의 LLM 추론 엔진, PagedAttention 기술, HuggingFace를 훨씬 능가하는 처리량 | Python | 30k |
+| 26 | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft의 오픈 소스 다중 에이전트 대화 프레임워크인 여러 AI 에이전트가 협력하여 복잡한 작업을 완료합니다. | Python | 35k |
+| 27 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 다중 에이전트 오케스트레이션 프레임워크, 역할극, 작업 할당, 협업 프로세스 오케스트레이션, 간단하고 사용하기 쉽습니다. | Python | 25k |
+| 28 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 오픈 소스 AI 개인 비서, 메모/문서/GitHub 연결, 로컬 또는 클라우드에서 실행 | Python | 25k |
+| 29 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT 학술 도구, 논문 번역/연마/코드 분석/일괄 처리, 학술 작문 결과물 | Python | 65k |
+| 30 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 무료 GPT API 집계, 여러 AI 플랫폼 리버스 엔지니어링, 여러 대형 모델 무료 사용 | Python | 63k |
+| 31 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 로컬 프라이빗 GPT, 문서 Q&A, 완전 오프라인 운영, 데이터가 로컬 영역을 벗어나지 않음 | Python | 54k |
+| 32 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI 코드 생성 도구, 요구 사항 설명 및 전체 프로젝트 코드 생성 | Python | 52k |
+| 33 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API 공식 예제 및 모범 사례, 사용 가이드 및 사용 팁 모음 | Python | 60k |
+| 34 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | Tsinghua의 오픈 소스 ChatGLM-6B 중국어-영어 이중 언어 대화 모델, 저렴한 배포, 좋은 중국어 효과 | Python | 41k |
+| 35 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | Alibaba Tongyi Qianwen Qwen2.5 시리즈 모델, 오픈 소스 가중치, 최고의 중국어 및 영어 기능 | Python | 12k |
+| 36 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion 원본 구현, 잠재 확산 모델, 이미지 생성 마일스톤 | Python | 67k |
+| 37 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Focus on Prompting의 이미지 생성 UI는 SD 작업을 단순화하고 매우 높은 품질의 이미지를 생성합니다. | Python | 42k |
+| 38 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 이미지 생성 조건 제어, 선 도안/깊이 맵/자세 제어, AI 페인팅 정밀 제어 | Python | 30k |
+| 39 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 확산 모델 라이브러리, SD/SDXL/Flux 등 지원, 사전 훈련된 모델 및 추론 파이프라인 | Python | 25k |
+| 40 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | SDXL/SD3 및 기타 모델이 출시되는 Stability AI 생성 모델 창고 | Python | 25k |
+| 41 | [opencv/opencv](https://github.com/opencv/opencv) | 오픈소스 컴퓨터 비전 라이브러리, 이미지 처리/특징 탐지/타겟 추적, CV 현장 인프라 | C++ | 78k |
+| 42 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 타겟 탐지 모델, 원스톱 학습/추론/배포, 가장 활발한 커뮤니티를 갖춘 YOLO | Python | 52k |
+| 43 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 표적 탐지/분할/분류/자세, 최신이자 가장 발전된 YOLO | Python | 30k |
+| 44 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM은 모든 모델을 분할할 수 있고, 제로 샘플은 모든 대상을 분할할 수 있으며, CV 기본 모델은 돌파할 수 있습니다. | Python | 48k |
+| 45 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab 개체 감지 도구 상자, 50개 이상의 알고리즘 지원, 감지/분할/회전 상자 | Python | 28k |
+| 46 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR에서 제작한 시각적 검사 라이브러리, 감지/분할/핵심점, 모듈형 설계 | Python | 30k |
+| 47 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU 실시간 인간 자세 추정, 2D/3D 다인원 골격 탐지, 체성감각 상호작용 도구 | C++ | 31k |
+| 48 | [explosion/spaCy](https://github.com/explosion/spaCy) | 산업용 등급 NLP 라이브러리, 단어 분할/명명된 엔터티 인식/텍스트 분류/훈련 프로세스 | Python | 30k |
+| 49 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 사전 학습 모델, NLM 마일스톤, 작업 벤치마크 이해 | Python | 32k |
+| 50 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | 실시간 음성 복제를 통해 단 몇 초의 오디오만으로 화자의 음성을 복제할 수 있습니다. | Python | 52k |
+| 51 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR 시퀀스-투-시퀀스 모델링 툴박스, 번역/요약/음성, PyTorch 구현 | Python | 30k |
+| 52 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft 대규모 모델 교육 최적화 시스템인 ZeRO/3D 병렬은 수천억 개의 매개변수 모델을 교육합니다. | Python | 35k |
+| 53 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 대형 모델 병렬 훈련 프레임워크, 대형 모델의 저비용 훈련, 수조 개의 매개변수 지원 | Python | 39k |
+| 54 | [ray-project/ray](https://github.com/ray-project/ray) | 분산 컴퓨팅 프레임워크, 분산 학습/초매개변수 튜닝/추론 서비스, Python 네이티브 | Python | 33k |
+| 55 | [huggingface/peft](https://github.com/huggingface/peft) | 효율적인 매개변수 미세 조정 라이브러리, LoRA/Prefix Tuning/AdaLoRA, 대형 모델의 저비용 미세 조정 | Python | 16k |
+| 56 | [apache/spark](https://github.com/apache/spark) | 통합 빅데이터 분석 엔진, 분산 데이터 처리, MLlib/GraphX/SQL/Streaming | Scala | 40k |
+| 57 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML 수명주기 관리 플랫폼, 실험 추적/모델 등록/배포/모니터링, MLOps 표준 | Python | 18k |
+| 58 | [huggingface/datasets](https://github.com/huggingface/datasets) | 데이터 세트 로딩 및 처리 라이브러리, 1000개 이상의 데이터 세트, 한 줄의 코드 로딩, 효율적인 전처리 | Python | 19k |
+| 59 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 벡터 유사성 검색 라이브러리, 10억 단위 벡터 검색, GPU 가속, RAG 시스템 코어 | C++ | 32k |
+| 60 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 자율 AI 에이전트, 주어진 목표의 자동 계획 및 실행, AI 자율 행동의 선구자 프로젝트 | Python | 165k |
+| 61 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 프롬프트 단어 수집, 100개 이상의 역할 프롬프트 단어, 대형 모델의 최고의 성능 자극 | HTML | 115k |
+| 62 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy의 가장 간단한 GPT 구현, 교육 수준 코드, GPT의 핵심 원칙 이해 | Python | 40k |
+| 63 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Li Mu가 제작한 실습형 딥러닝 중국어 버전, 이론+코드+연습, 초보자를 위한 1순위 교과서 | Python | 60k |
+| 64 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 사용하기 쉬운 LLM 미세 조정 교육 프레임워크 | Python | 60k |
+| 65 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 데이터 및 ML 애플리케이션 UI를 빠르게 구축 | Python | 36k |
+| 66 | [openai/gym](https://github.com/openai/gym) | 강화 학습 환경 인터페이스 툴킷 | Python | 35k |
+| 67 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML 모델 데모 인터페이스를 빠르게 생성 | Python | 33k |
+| 68 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 대규모 언어 모델을 처음부터 구축하는 방법에 대한 튜토리얼 | Python | 30k |
+| 69 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 데이터 분석 및 처리 핵심 라이브러리 | Python | 44k |
+| 70 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 다국어 OCR 도구 상자 | Python | 44k |
+| 71 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 최적화된 분산 그래디언트 부스팅 트리뱅크 | C++ | 26k |
+| 72 | [openai/CLIP](https://github.com/openai/CLIP) | 이미지와 텍스트 비교 학습 모델 | Python | 26k |
+| 73 | [shap/shap](https://github.com/shap/shap) | 모델 설명 및 특징 속성 시각화 라이브러리 | Python | 23k |
+| 74 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 기반 브라우저 자동화 에이전트 | Python | 30k |
+| 75 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 드래그 앤 드롭 방식의 시각적 AI 에이전트 구성 | TypeScript | 45k |
+| 76 | [numpy/numpy](https://github.com/numpy/numpy) | 과학 컴퓨팅 기본 라이브러리 | Python | 28k |
+| 77 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 구현 | Python | 19k |
+| 78 | [facebook/prophet](https://github.com/facebook/prophet) | 자동화된 시계열 예측 도구 | Python | 18k |
+| 79 | [gensim/gensim](https://github.com/gensim/gensim) | 주제 모델링 및 문서 유사성 라이브러리 | Python | 16k |
+| 80 | [networkx/networkx](https://github.com/networkx/networkx) | 복잡한 네트워크 및 그래프 이론 분석 라이브러리 | Python | 15k |
+| 81 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 그래프 바인딩 및 데이터 시각화 라이브러리 | Python | 20k |
+| 82 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 시퀀스-투-시퀀스 모델링 툴킷 | Python | 20k |
+| 83 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 차세대 대화형 개발 환경, Jupyter | TypeScript | 14k |
+| 84 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 주석이 달린 딥러닝 논문 구현 모음 | Python | 14k |
+| 85 | [microsoft/nni](https://github.com/microsoft/nni) | 자동화된 머신러닝 AutoML 툴킷 | Python | 14k |
+| 86 | [nltk/nltk](https://github.com/nltk/nltk) | 자연어 처리 툴킷 | Python | 13k |
+| 87 | [scipy/scipy](https://github.com/scipy/scipy) | 과학 및 기술 컴퓨팅 라이브러리 | Python | 13k |
+| 88 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 대규모 언어 모델 가중치 및 추론 | Python | 12k |
 
 ---
 
@@ -316,76 +316,76 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [moby/moby](https://github.com/moby/moby) | Docker 引擎的开源上游项目，容器技术的事实标准，应用打包部署必备 | Go | 68.6k |
-| 2 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | Google 开源的容器编排系统，云原生时代的操作系统，生产级容器调度平台 | Go | 109k |
-| 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | CNCF 毕业的开源监控告警系统，时序数据库 + PromQL 强大查询能力 | Go | 53.8k |
-| 4 | [grafana/grafana](https://github.com/grafana/grafana) | 最流行的开源可观测性仪表盘平台，接 Prometheus/Loki/Zabbix 等数十种数据源 | TypeScript | 64.9k |
-| 5 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | Kubernetes 声明式 GitOps 持续交付工具，自动同步集群状态与 Git 仓库 | Go | 16.8k |
-| 6 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 老牌开源 CI/CD 自动化服务器，插件生态极丰富，企业持续集成首选之一 | Java | 22.7k |
-| 7 | [traefik/traefik](https://github.com/traefik/traefik) | 云原生现代反向代理与负载均衡器，自动服务发现、Let's Encrypt HTTPS、路由动态配置 | Go | 48.4k |
-| 8 | [cilium/cilium](https://github.com/cilium/cilium) | 基于 eBPF 的 Kubernetes CNI 网络与安全插件，Isovalent 出品，CNCF 毕业项目 | Go | 19.7k |
-| 9 | [helm/helm](https://github.com/helm/helm) | Kubernetes 包管理工具，用 Chart 模板一键部署复杂应用到 K8s 集群 | Go | 26.4k |
-| 10 | [hashicorp/terraform](https://github.com/hashicorp/terraform) | Infrastructure as Code 标杆工具，用 HCL 配置各大云厂商/基础设施资源 | Go | 43.7k |
-| 11 | [actions/runner](https://github.com/actions/runner) | GitHub Actions 官方 runner，支持自建 runner，配合 GitHub 仓库 CI/CD | C# | 4.8k |
-| 12 | [goharbor/harbor](https://github.com/goharbor/harbor) | VMware 开源的企业级容器镜像仓库，支持扫描、复制、签名、RBAC 权限 | Go | 23.1k |
-| 13 | [portainer/portainer](https://github.com/portainer/portainer) | 最易用的 Docker/K8s 可视化 Web 管理面板，一条命令即可管理容器 | TypeScript | 30k |
-| 14 | [docker/compose](https://github.com/docker/compose) | 多容器 Docker 应用定义与运行工具，一条命令启动整套开发环境 | Go | 34k |
-| 15 | [containerd/containerd](https://github.com/containerd/containerd) | 容器运行时，Docker 底层引擎，CNCF 毕业项目，工业级稳定 | Go | 17k |
-| 16 | [k3s-io/k3s](https://github.com/k3s-io/k3s) | 轻量级 Kubernetes，单二进制文件，资源占用极低，边缘/IoT/家庭实验室首选 | Go | 28k |
-| 17 | [rancher/rancher](https://github.com/rancher/rancher) | 企业级容器管理平台，多 K8s 集群统一管理，一键部署 Rancher | Go | 23k |
-| 18 | [minikube/minikube](https://github.com/minikube/minikube) | 本地 Kubernetes 集群，单节点，开发测试专用，一条命令启动 K8s | Go | 29k |
-| 19 | [derailed/k9s](https://github.com/derailed/k9s) | Kubernetes 终端 UI 管理工具，实时查看 Pod/Service/Log，运维效率翻倍 | Go | 27k |
-| 20 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | 用 Docker 容器运行 K8s 节点，CI/CD 测试集群首选，轻量快速 | Go | 14k |
-| 21 | [ansible/ansible](https://github.com/ansible/ansible) | Red Hat 开源的 IT 自动化工具，Agentless，YAML 剧本，批量配置管理 | Python | 62k |
-| 22 | [hashicorp/vagrant](https://github.com/hashicorp/vagrant) | 虚拟机开发环境管理工具，声明式配置，一键创建/销毁开发环境 | Ruby | 26k |
-| 23 | [hashicorp/packer](https://github.com/hashicorp/packer) | 机器镜像构建工具，一次配置多平台同时构建 AWS/GCP/Azure 镜像 | Go | 15k |
-| 24 | [hashicorp/vault](https://github.com/hashicorp/vault) | 密钥管理系统，动态密钥、加密即服务、审计日志，企业安全基础设施 | Go | 31k |
-| 25 | [hashicorp/consul](https://github.com/hashicorp/consul) | 服务发现与配置中心，服务网格，健康检查，多数据中心支持 | Go | 28k |
-| 26 | [hashicorp/nomad](https://github.com/hashicorp/nomad) | 工作负载编排器，容器+非容器统一调度，比 K8s 更简单灵活 | Go | 15k |
-| 27 | [drone/drone](https://github.com/drone/drone) | 容器原生 CI/CD 平台，Docker 驱动，YAML 配置，自托管 CI/CD 轻量选择 | Go | 26k |
-| 28 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | Kubernetes 工作流引擎，DAG 任务编排，ML/数据管道在 K8s 上的首选 | Go | 15k |
-| 29 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 自托管 Git 服务，轻量级 GitHub 替代，Go 编写，一键 Docker 部署 | Go | 45k |
-| 30 | [gogs/gogs](https://github.com/gogs/gogs) | 自托管 Git 服务，Go 编写，极轻量，早期最流行的自建 Git 方案 | Go | 45k |
-| 31 | [gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq) | GitLab 社区版源码，完整的 DevOps 平台，CI/CD + 代码审查 + 制品仓库 | Ruby | 23k |
-| 32 | [renovatebot/renovate](https://github.com/renovatebot/renovate) | 自动依赖更新工具，扫描 package.json/requirements.txt 等并自动 PR | TypeScript | 17k |
-| 33 | [netdata/netdata](https://github.com/netdata/netdata) | 实时系统监控工具，零配置，高分辨率指标，开箱即用的精美监控面板 | C | 72k |
-| 34 | [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | CNCF 分布式链路追踪系统，OpenTelemetry 兼容，微服务调用链可视化 | Go | 20k |
-| 35 | [zipkin/zipkin](https://github.com/zipkin/zipkin) | 分布式链路追踪系统，Google Dapper 论文实现，老牌追踪方案 | Java | 17k |
-| 36 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 自动 HTTPS 的 Web 服务器，Caddyfile 配置极简，反向代理/静态文件 | Go | 58k |
-| 37 | [istio/istio](https://github.com/istio/istio) | 服务网格平台，流量管理/安全/可观测性，微服务治理全套方案 | Go | 36k |
-| 38 | [kong/kong](https://github.com/kong/kong) | 云原生 API 网关，插件生态丰富，认证/限流/监控，微服务 API 管理 | Lua | 41k |
-| 39 | [apache/apisix](https://github.com/apache/apisix) | 云原生 API 网关，Apache 顶级项目，动态路由/插件热加载，性能极强 | Lua | 15k |
-| 40 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 云原生代理，Lyft 开源，C++ 编写，xDS 动态配置，Service Mesh 数据面 | C++ | 25k |
-| 41 | [nginx/nginx](https://github.com/nginx/nginx) | 全球最流行的 Web 服务器和反向代理，高并发、低内存、HTTP/3 支持 | C | 25k |
-| 42 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 容器安全扫描工具，镜像/文件系统/Git 仓库漏洞扫描，CI/CD 集成 | Go | 23k |
-| 43 | [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | 密钥泄露扫描工具，扫描 Git 历史/文件系统/容器镜像中的敏感信息 | Go | 17k |
-| 44 | [open-policy-agent/opa](https://github.com/open-policy-agent/opa) | 通用策略引擎，Rego 语言编写策略，云原生授权/准入控制/K8s 策略 | Go | 10k |
-| 45 | [apache/airflow](https://github.com/apache/airflow) | 数据管道工作流调度平台，DAG 定义任务，Python 编写，数据工程标配 | Python | 37k |
-| 46 | [prefecthq/prefect](https://github.com/prefecthq/prefect) | 数据流编排框架，Python 原生，任务调度/状态管理/重试，比 Airflow 更现代 | Python | 17k |
-| 47 | [dagster-io/dagster](https://github.com/dagster-io/dagster) | 数据编排平台，资产驱动编程模型，数据质量/血缘/可观测性内置 | Python | 11k |
-| 48 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 事件驱动编排平台，YAML/代码定义工作流，300+ 触发器和任务插件 | Java | 10k |
-| 49 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | Apache 分布式任务调度系统，可视化 DAG，多租户，大数据调度平台 | Java | 13k |
-| 50 | [etcd-io/etcd](https://github.com/etcd-io/etcd) | 分布式键值存储，Raft 共识算法，Kubernetes 底层存储，强一致 | Go | 48k |
-| 51 | [minio/minio](https://github.com/minio/minio) | S3 兼容的对象存储服务器，Go 编写，云原生/边缘存储，极简部署 | Go | 50k |
-| 52 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 工作流自动化平台，可视化节点编排，400+ 集成，自托管 Zapier 替代 | TypeScript | 60k |
-| 53 | [appsmith/appsmith](https://github.com/appsmith/appsmith) | 低代码内部工具平台，拖拽式构建管理面板/仪表盘，连接任意数据库和 API | TypeScript | 35k |
-| 54 | [gohugoio/hugo](https://github.com/gohugoio/hugo) | 最流行的静态站点生成器，Go 编写，构建速度极快，模板系统强大 | Go | 76k |
-| 55 | [kubesphere/kubesphere](https://github.com/kubesphere/kubesphere) | 青云开源的 Kubernetes 容器平台，全栈云原生 PaaS，中文友好 | Go | 15k |
-| 56 | [fluxcd/flux2](https://github.com/fluxcd/flux2) | GitOps 持续交付工具，Kubernetes 原生，自动同步 Git 到集群 | Go | 10k |
-| 57 | [serverless/serverless](https://github.com/serverless/serverless) | Serverless 应用框架，多云支持（AWS/Azure/GCP），一键部署函数 | JavaScript | 46k |
-| 58 | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | HTTP/HTTPS 交互式代理工具，抓包/篡改/重放，API 调试利器 | Python | 38k |
-| 59 | [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) | Kubernetes 上的机器学习平台，Jupyter/训练/推理/管道，K8s ML 标配 | Python | 14k |
-| 60 | [prometheus-operator/prometheus-operator](https://github.com/prometheus-operator/prometheus-operator) | Kubernetes 上的 Prometheus 运算符，声明式管理监控配置 | Go | 10k |
-| 61 | [coder/code-server](https://github.com/coder/code-server) | 浏览器中运行 VS Code | TypeScript | 68k |
-| 62 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | 本地运行 Kubernetes 集群 | Go | 30k |
-| 63 | [grafana/loki](https://github.com/grafana/loki) | 水平可扩展日志聚合系统 | Go | 24k |
-| 64 | [apache/skywalking](https://github.com/apache/skywalking) | APM 应用性能监控系统 | Java | 24k |
-| 65 | [pulumi/pulumi](https://github.com/pulumi/pulumi) | 多语言基础设施即代码 | Go | 22k |
-| 66 | [openzipkin/zipkin](https://github.com/openzipkin/zipkin) | 分布式链路追踪系统 | Java | 17k |
-| 67 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 插件驱动的指标采集代理 | Go | 15k |
-| 68 | [openfaas/faas](https://github.com/openfaas/faas) | Serverless 函数即服务框架 | Go | 25k |
-| 69 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | Kubernetes 配置无模板管理 | Go | 11k |
-| 70 | [crossplane/crossplane](https://github.com/crossplane/crossplane) | 基于 K8s 的基础设施控制平面 | Go | 10k |
+| 1 | [moby/moby](https://github.com/moby/moby) | 애플리케이션 패키징 및 배포에 필수적인 컨테이너 기술의 사실상 표준인 Docker 엔진의 오픈 소스 업스트림 프로젝트입니다. | Go | 68.6k |
+| 2 | [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) | 구글의 오픈소스 컨테이너 오케스트레이션 시스템, 클라우드 네이티브 시대의 운영체제, 프로덕션급 컨테이너 스케줄링 플랫폼 | Go | 109k |
+| 3 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | CNCF를 졸업한 오픈 소스 모니터링 및 경보 시스템, 시계열 데이터베이스 + PromQL 강력한 쿼리 기능 | Go | 53.8k |
+| 4 | [grafana/grafana](https://github.com/grafana/grafana) | Prometheus/Loki/Zabbix와 같은 수십 개의 데이터 소스에 연결하는 가장 인기 있는 오픈 소스 관찰 대시보드 플랫폼 | TypeScript | 64.9k |
+| 5 | [argoproj/argo-cd](https://github.com/argoproj/argo-cd) | 클러스터 상태와 Git 저장소를 자동으로 동기화하는 Kubernetes 선언형 GitOps 지속적 전달 도구 | Go | 16.8k |
+| 6 | [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins) | 엔터프라이즈 연속 통합을 위한 첫 번째 선택 중 하나인 풍부한 플러그인 에코시스템을 갖춘 잘 확립된 오픈 소스 CI/CD 자동화 서버 | Java | 22.7k |
+| 7 | [traefik/traefik](https://github.com/traefik/traefik) | 클라우드 기반 최신 역방향 프록시 및 로드 밸런서, 자동 서비스 검색, Let's Encrypt HTTPS, 동적 라우팅 구성 | Go | 48.4k |
+| 8 | [cilium/cilium](https://github.com/cilium/cilium) | CNCF 졸업 프로젝트인 Isovalent에서 제작한 eBPF 기반의 Kubernetes CNI 네트워크 및 보안 플러그인입니다. | Go | 19.7k |
+| 9 | [helm/helm](https://github.com/helm/helm) | 차트 템플릿을 사용하여 한 번의 클릭으로 K8s 클러스터에 복잡한 애플리케이션을 배포하는 Kubernetes 패키지 관리 도구 | Go | 26.4k |
+| 10 | [hashicorp/terraform](https://github.com/hashicorp/terraform) | 코드형 인프라 벤치마크 도구, HCL을 사용하여 주요 클라우드 공급업체/인프라 리소스 구성 | Go | 43.7k |
+| 11 | [actions/runner](https://github.com/actions/runner) | GitHub Actions 공식 실행기, 자체 구축 실행기 지원 및 GitHub 창고 CI/CD와 협력 | C# | 4.8k |
+| 12 | [goharbor/harbor](https://github.com/goharbor/harbor) | VMware의 오픈 소스 엔터프라이즈급 컨테이너 이미지 웨어하우스는 검색, 복사, 서명 및 RBAC 권한을 지원합니다. | Go | 23.1k |
+| 13 | [portainer/portainer](https://github.com/portainer/portainer) | 가장 사용하기 쉬운 Docker/K8s 시각적 웹 관리 패널로 하나의 명령으로 컨테이너를 관리할 수 있습니다. | TypeScript | 30k |
+| 14 | [docker/compose](https://github.com/docker/compose) | 다중 컨테이너 Docker 애플리케이션 정의 및 실행 도구, 전체 개발 환경을 시작하는 하나의 명령 | Go | 34k |
+| 15 | [containerd/containerd](https://github.com/containerd/containerd) | 컨테이너 런타임, Docker 기본 엔진, CNCF 졸업 프로젝트, 산업 등급 안정성 | Go | 17k |
+| 16 | [k3s-io/k3s](https://github.com/k3s-io/k3s) | 경량 Kubernetes, 단일 바이너리 파일, 극히 낮은 리소스 사용량, 엣지/IoT/홈 랩을 위한 최우선 선택 | Go | 28k |
+| 17 | [rancher/rancher](https://github.com/rancher/rancher) | 엔터프라이즈급 컨테이너 관리 플랫폼, 여러 K8s 클러스터의 통합 관리, Rancher 원클릭 배포 | Go | 23k |
+| 18 | [minikube/minikube](https://github.com/minikube/minikube) | 로컬 Kubernetes 클러스터, 단일 노드, 개발 및 테스트 전용, K8s를 시작하는 하나의 명령 | Go | 29k |
+| 19 | [derailed/k9s](https://github.com/derailed/k9s) | Kubernetes 터미널 UI 관리 도구, Pod/서비스/로그를 실시간으로 확인하여 운영 및 유지 관리 효율성을 두 배로 높입니다. | Go | 27k |
+| 20 | [kubernetes-sigs/kind](https://github.com/kubernetes-sigs/kind) | Docker 컨테이너를 사용하여 가볍고 빠른 CI/CD 테스트 클러스터의 첫 번째 선택인 K8s 노드를 실행하세요. | Go | 14k |
+| 21 | [ansible/ansible](https://github.com/ansible/ansible) | Red Hat 오픈소스 IT 자동화 도구, Agentless, YAML 스크립트, 배치 구성 관리 | Python | 62k |
+| 22 | [hashicorp/vagrant](https://github.com/hashicorp/vagrant) | 가상 머신 개발 환경 관리 도구, 선언적 구성, 원클릭 개발 환경 생성/대상 | Ruby | 26k |
+| 23 | [hashicorp/packer](https://github.com/hashicorp/packer) | 머신 이미지 구축 도구, 여러 플랫폼을 동시에 구성하고 AWS/GCP/Azure 이미지를 동시에 구축 | Go | 15k |
+| 24 | [hashicorp/vault](https://github.com/hashicorp/vault) | 키 관리 시스템, 동적 키, 서비스형 암호화, 감사 로그, 엔터프라이즈 보안 인프라 | Go | 31k |
+| 25 | [hashicorp/consul](https://github.com/hashicorp/consul) | 서비스 검색 및 구성 센터, 서비스 그리드, 상태 점검, 멀티 데이터 센터 지원 | Go | 28k |
+| 26 | [hashicorp/nomad](https://github.com/hashicorp/nomad) | 워크로드 오케스트레이터, 컨테이너 + 비컨테이너 통합 스케줄링, K8보다 더 간단하고 유연함 | Go | 15k |
+| 27 | [drone/drone](https://github.com/drone/drone) | 컨테이너 네이티브 CI/CD 플랫폼, Docker 드라이버, YAML 구성, 자체 호스팅 CI/CD 경량 옵션 | Go | 26k |
+| 28 | [argoproj/argo-workflows](https://github.com/argoproj/argo-workflows) | Kubernetes 워크플로 엔진, DAG 작업 조정, ML/데이터 파이프라인은 K8s의 첫 번째 선택입니다. | Go | 15k |
+| 29 | [go-gitea/gitea](https://github.com/go-gitea/gitea) | 자체 호스팅 Git 서비스, 경량 GitHub 대안, Go로 작성, 원클릭 Docker 배포 | Go | 45k |
+| 30 | [gogs/gogs](https://github.com/gogs/gogs) | Go로 작성된 자체 호스팅 Git 서비스는 매우 가볍고 가장 인기 있는 초기 자체 구축 Git 솔루션입니다. | Go | 45k |
+| 31 | [gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq) | GitLab Community Edition 소스 코드, 완전한 DevOps 플랫폼, CI/CD + 코드 검토 + 제품 창고 | Ruby | 23k |
+| 32 | [renovatebot/renovate](https://github.com/renovatebot/renovate) | 자동 종속성 업데이트 도구, package.json/requirements.txt 등을 스캔하고 자동 PR | TypeScript | 17k |
+| 33 | [netdata/netdata](https://github.com/netdata/netdata) | 실시간 시스템 모니터링 도구, 제로 구성, 고해상도 표시기, 즉시 사용 가능한 아름다운 모니터링 패널 | C | 72k |
+| 34 | [jaegertracing/jaeger](https://github.com/jaegertracing/jaeger) | CNCF 분산 링크 추적 시스템, OpenTelemetry 호환, 마이크로서비스 콜 체인 시각화 | Go | 20k |
+| 35 | [zipkin/zipkin](https://github.com/zipkin/zipkin) | 분산 링크 추적 시스템, Google Dapper 종이 구현, 기존 추적 솔루션 | Java | 17k |
+| 36 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 자동 HTTPS 웹 서버, 최소 Caddyfile 구성, 역방향 프록시/정적 파일 | Go | 58k |
+| 37 | [istio/istio](https://github.com/istio/istio) | 서비스 그리드 플랫폼, 트래픽 관리/보안/관측성, 완벽한 마이크로서비스 거버넌스 솔루션 | Go | 36k |
+| 38 | [kong/kong](https://github.com/kong/kong) | 클라우드 네이티브 API 게이트웨이, 풍부한 플러그인 에코시스템, 인증/전류 제한/모니터링, 마이크로서비스 API 관리 | Lua | 41k |
+| 39 | [apache/apisix](https://github.com/apache/apisix) | 클라우드 네이티브 API 게이트웨이, Apache 최상위 프로젝트, 동적 라우팅/플러그인 핫 로딩, 매우 강력한 성능 | Lua | 15k |
+| 40 | [envoyproxy/envoy](https://github.com/envoyproxy/envoy) | 클라우드 네이티브 에이전트, Lyft 오픈 소스, C++로 작성, xDS 동적 구성, 서비스 메시 데이터 플레인 | C++ | 25k |
+| 41 | [nginx/nginx](https://github.com/nginx/nginx) | 세계에서 가장 널리 사용되는 웹 서버 및 역방향 프록시, 높은 동시성, 낮은 메모리, HTTP/3 지원 | C | 25k |
+| 42 | [aquasecurity/trivy](https://github.com/aquasecurity/trivy) | 컨테이너 보안 스캐닝 도구, 이미지/파일 시스템/Git 웨어하우스 취약점 스캐닝, CI/CD 통합 | Go | 23k |
+| 43 | [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) | 주요 유출 검사 도구, Git 기록/파일 시스템/컨테이너 이미지의 민감한 정보를 검사합니다. | Go | 17k |
+| 44 | [open-policy-agent/opa](https://github.com/open-policy-agent/opa) | 범용 정책 엔진, Rego 언어 작성 정책, 클라우드 네이티브 인증/허가 제어/K8s 정책 | Go | 10k |
+| 45 | [apache/airflow](https://github.com/apache/airflow) | 데이터 엔지니어링 표준인 Python으로 작성된 데이터 파이프라인 워크플로 예약 플랫폼, DAG 정의 작업 | Python | 37k |
+| 46 | [prefecthq/prefect](https://github.com/prefecthq/prefect) | 데이터 흐름 조정 프레임워크, Python 기본, 작업 예약/상태 관리/재시도, Airflow보다 더 현대적 | Python | 17k |
+| 47 | [dagster-io/dagster](https://github.com/dagster-io/dagster) | 데이터 오케스트레이션 플랫폼, 자산 중심 프로그래밍 모델, 데이터 품질/계보/관찰 가능성 내장 | Python | 11k |
+| 48 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 이벤트 기반 오케스트레이션 플랫폼, YAML/코드 정의 워크플로, 300개 이상의 트리거 및 작업 플러그인 | Java | 10k |
+| 49 | [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler) | Apache 분산 작업 스케줄링 시스템, 시각적 DAG, 다중 테넌트, 빅데이터 스케줄링 플랫폼 | Java | 13k |
+| 50 | [etcd-io/etcd](https://github.com/etcd-io/etcd) | 분산 키-값 저장소, Raft 합의 알고리즘, Kubernetes 기본 저장소, 강력한 일관성 | Go | 48k |
+| 51 | [minio/minio](https://github.com/minio/minio) | Go로 작성된 S3 호환 객체 스토리지 서버, 클라우드 네이티브/에지 스토리지, 최소 배포 | Go | 50k |
+| 52 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 워크플로 자동화 플랫폼, 시각적 노드 오케스트레이션, 400개 이상의 통합, 자체 호스팅 Zapier 대안 | TypeScript | 60k |
+| 53 | [appsmith/appsmith](https://github.com/appsmith/appsmith) | 로우 코드 내부 도구 플랫폼, 드래그 앤 드롭으로 관리 패널/대시보드 구축, 모든 데이터베이스 및 API 연결 | TypeScript | 35k |
+| 54 | [gohugoio/hugo](https://github.com/gohugoio/hugo) | Go로 작성된 가장 인기 있는 정적 사이트 생성기는 매우 빠른 빌드 속도와 강력한 템플릿 시스템을 갖추고 있습니다. | Go | 76k |
+| 55 | [kubesphere/kubesphere](https://github.com/kubesphere/kubesphere) | Qingyun의 오픈 소스 Kubernetes 컨테이너 플랫폼, 풀 스택 클라우드 기반 PaaS, 중국어 친화적 | Go | 15k |
+| 56 | [fluxcd/flux2](https://github.com/fluxcd/flux2) | Kubernetes에 기본으로 제공되는 GitOps 지속적 전달 도구는 Git을 클러스터에 자동으로 동기화합니다. | Go | 10k |
+| 57 | [serverless/serverless](https://github.com/serverless/serverless) | 서버리스 애플리케이션 프레임워크, 멀티 클라우드 지원(AWS/Azure/GCP), 원클릭 배포 기능 | JavaScript | 46k |
+| 58 | [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | HTTP/HTTPS 대화형 프록시 도구, 패킷 캡처/변조/재생, API 디버깅 도구 | Python | 38k |
+| 59 | [kubeflow/kubeflow](https://github.com/kubeflow/kubeflow) | Kubernetes, Jupyter/훈련/추론/파이프라인, K8s ML 표준의 기계 학습 플랫폼 | Python | 14k |
+| 60 | [prometheus-operator/prometheus-operator](https://github.com/prometheus-operator/prometheus-operator) | Kubernetes의 Prometheus 운영자는 모니터링 구성을 선언적으로 관리합니다. | Go | 10k |
+| 61 | [coder/code-server](https://github.com/coder/code-server) | 브라우저에서 VS Code 실행 | TypeScript | 68k |
+| 62 | [kubernetes/minikube](https://github.com/kubernetes/minikube) | Kubernetes 클러스터를 로컬에서 실행 | Go | 30k |
+| 63 | [grafana/loki](https://github.com/grafana/loki) | 수평 확장 가능한 로그 집계 시스템 | Go | 24k |
+| 64 | [apache/skywalking](https://github.com/apache/skywalking) | APM 애플리케이션 성능 모니터링 시스템 | Java | 24k |
+| 65 | [pulumi/pulumi](https://github.com/pulumi/pulumi) | 코드로서의 다국어 인프라 | Go | 22k |
+| 66 | [openzipkin/zipkin](https://github.com/openzipkin/zipkin) | 분산 링크 추적 시스템 | Java | 17k |
+| 67 | [influxdata/telegraf](https://github.com/influxdata/telegraf) | 플러그인 기반 지표 수집 에이전트 | Go | 15k |
+| 68 | [openfaas/faas](https://github.com/openfaas/faas) | 서버리스 FaaS(Function-as-a-Service) 프레임워크 | Go | 25k |
+| 69 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | Kubernetes 구성 템플릿 없는 관리 | Go | 11k |
+| 70 | [crossplane/crossplane](https://github.com/crossplane/crossplane) | K8s 기반 인프라 제어 평면 | Go | 10k |
 
 ---
 
@@ -395,74 +395,74 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [postgres/postgres](https://github.com/postgres/postgres) | 功能最强大的开源关系型数据库，支持 JSON、全文检索、GIS、自定义类型等高级特性 | C | 15.7k |
-| 2 | [redis/redis](https://github.com/redis/redis) | 内存键值数据库，速度极快，支持持久化、发布订阅、集群、多种数据结构 | C | 65.3k |
-| 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 俄罗斯开源的列式 OLAP 数据库，数十亿行亚秒级查询，性能极致的分析型数据库 | C++ | 35.5k |
-| 4 | [apache/kafka](https://github.com/apache/kafka) | Apache 基金会顶级分布式消息队列，高吞吐高可用，大数据管道与事件流标配 | Java | 29.7k |
-| 5 | [mongodb/mongo](https://github.com/mongodb/mongo) | 最流行的文档型 NoSQL 数据库，灵活的 JSON 数据模型，适合快速迭代的项目 | C++ | 26.4k |
-| 6 | [prisma/prisma](https://github.com/prisma/prisma) | 现代化的 TypeScript/Node.js ORM，Schema 驱动，类型安全，多数据库支持 | TypeScript | 38.4k |
-| 7 | [apache/iceberg](https://github.com/apache/iceberg) | Apache 基金会顶级湖仓表格格式，规范数据湖读写，各大厂商生态支持 | Java | 5.7k |
-| 8 | [apache/pulsar](https://github.com/apache/pulsar) | 云原生分布式消息与流平台，多租户、分层存储、百万 Topic 无压力 | Java | 14.8k |
-| 9 | [valkey-io/valkey](https://github.com/valkey-io/valkey) | Linux 基金会接管的 Redis 开源分支（替代 Redis 7.2.4），社区驱动、完全兼容 | C | 5.1k |
-| 10 | [tursodatabase/libsql](https://github.com/tursodatabase/libsql) | SQLite 的开源分支，增加了复制、Raft、边缘同步、WASM 等现代能力 | C++ | 30.2k |
-| 11 | [sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy) | Python 最强大的数据库工具包和 ORM，兼顾 SQL 灵活度与对象模型 | Python | 10.1k |
-| 12 | [bytebase/bytebase](https://github.com/bytebase/bytebase) | 数据库 CI/CD 平台，支持 Schema 变更审核、数据查询、脱敏、备份一体化 | Go | 11.4k |
-| 13 | [mysql/mysql-server](https://github.com/mysql/mysql-server) | MySQL 数据库服务端源码，全球使用最广泛的开源关系型数据库 | C++ | 11k |
-| 14 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 分布式搜索与分析引擎，全文检索/日志分析/向量搜索，ELK 核心组件 | Java | 72k |
-| 15 | [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | 轻量级开源搜索引擎，Rust 编写，毫秒级搜索，开箱即用，API 优雅 | Rust | 50k |
-| 16 | [typesense/typesense](https://github.com/typesense/typesense) | 开源搜索引擎，开箱即用 typo 容错，即时搜索体验，低延迟 | C++ | 23k |
-| 17 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 多模型数据库，文档+图+关系+向量统一，Rust 编写，嵌入式/分布式 | Rust | 30k |
-| 18 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | 分布式 SQL 数据库，兼容 PostgreSQL，全球强一致， survive 区域级故障 | Go | 31k |
-| 19 | [pingcap/tidb](https://github.com/pingcap/tidb) | PingCAP 开源的 HTAP 分布式数据库，MySQL 兼容，水平扩展，OLTP+OLAP | Go | 37k |
-| 20 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 蚂蚁集团开源的分布式关系数据库，金融级高可用，国产数据库标杆 | C++ | 13k |
-| 21 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | 嵌入式分析型数据库，SQLite for OLAP，进程内运行，零依赖，极快 | C++ | 25k |
-| 22 | [dolthub/dolt](https://github.com/dolthub/dolt) | 版本控制数据库，Git for data，支持 diff/branch/merge 数据变更 | Go | 18k |
-| 23 | [rqlite/rqlite](https://github.com/rqlite/rqlite) | 分布式 SQLite，Raft 共识，轻量级分布式数据库，简单可靠 | Go | 16k |
-| 24 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | Redis 兼容的内存数据库，多线程架构，性能比 Redis 快 25 倍 | C++ | 25k |
-| 25 | [rethinkdb/rethinkqdb](https://github.com/rethinkdb/rethinkqdb) | JSON 文档数据库，实时推送查询结果，ReQL 查询语言强大 | C++ | 26k |
-| 26 | [arangodb/arangodb](https://github.com/arangodb/arangodb) | 多模型数据库，文档/图/键值统一，AQL 查询语言，原生图数据库 | C++ | 14k |
-| 27 | [scylladb/scylladb](https://github.com/scylladb/scylladb) | Cassandra 兼容的 NoSQL 宽列数据库，C++ 重写，性能提升 10 倍 | C++ | 14k |
-| 28 | [tikv/tikv](https://github.com/tikv/tikv) | 分布式事务键值存储，Raft 共识，TiDB 底层存储，Rust 编写 | Rust | 15k |
-| 29 | [google/leveldb](https://github.com/google/leveldb) | Google 开源的嵌入式 KV 存储，LSM-Tree，写入极快，C++ 实现 | C++ | 36k |
-| 30 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | Meta 开源的嵌入式 KV 存储，LevelDB 增强版，SSD 优化，高性能 | C++ | 29k |
-| 31 | [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) | 分布式图数据库，Go 编写，GraphQL API，大规模图查询性能优秀 | Go | 21k |
-| 32 | [neo4j/neo4j](https://github.com/neo4j/neo4j) | 全球最流行的图数据库，Cypher 查询语言，原生图存储，关系挖掘利器 | Java | 13k |
-| 33 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 时间序列数据库，Telegraf+InfluxDB+Grafana 监控方案核心 | Go | 29k |
-| 34 | [timescale/timescaledb](https://github.com/timescale/timescaledb) | PostgreSQL 时间序列扩展，SQL 接口操作时序数据，自动分区 | C | 18k |
-| 35 | [questdb/questdb](https://github.com/questdb/questdb) | 高性能时间序列数据库，SQL 接口，列式存储，摄入速度极快 | Java | 15k |
-| 36 | [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) | 高性能时序数据库和监控方案，Prometheus 替代，资源占用极低 | Go | 13k |
-| 37 | [apache/druid](https://github.com/apache/druid) | 实时分析数据库，亚秒级查询，高并发，实时数据摄入，时序/OLAP | Java | 14k |
-| 38 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | 云原生向量数据库，十亿级向量检索，AI/RAG 系统核心组件 | Go | 30k |
-| 39 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 向量搜索引擎，Rust 编写，过滤+向量混合检索，RAG 系统优选 | Rust | 20k |
-| 40 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | AI 原生向量数据库，Python 优先，LLM 应用开发首选，极简 API | Python | 15k |
-| 41 | [weaviate/weaviate](https://github.com/weaviate/weaviate) | 向量搜索引擎，GraphQL API，模块化设计，支持多模态搜索 | Go | 11k |
-| 42 | [pgvector/pgvector](https://github.com/pgvector/pgvector) | PostgreSQL 向量搜索扩展，在 PG 中直接做向量检索，零额外组件 | C | 12k |
-| 43 | [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch) | Elasticsearch 开源分支，AWS 主导，搜索+分析引擎，完全开源 | Java | 10k |
-| 44 | [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) | 轻量级全文搜索引擎，Elasticsearch 替代，资源占用极低，Go 编写 | Go | 17k |
-| 45 | [SearXNG/searxng](https://github.com/SearXNG/searxng) | 隐私优先的元搜索引擎，聚合多个搜索引擎结果，不追踪用户 | Python | 14k |
-| 46 | [trinodb/trino](https://github.com/trinodb/trino) | 分布式 SQL 查询引擎，Presto 分支，联邦查询多数据源，OLAP 速查 | Java | 11k |
-| 47 | [prestodb/presto](https://github.com/prestodb/presto) | 分布式 SQL 查询引擎，Facebook 开源，联邦查询 Hive/MySQL/Kafka | Java | 16k |
-| 48 | [starrocks/starrocks](https://github.com/starrocks/starrocks) | 亚秒级 OLAP 数据库，MPP 架构，实时分析，国产 OLAP 新星 | C++ | 10k |
-| 49 | [apache/doris](https://github.com/apache/doris) | Apache 实时分析数据库，百度贡献，MPP 架构，亚秒级查询 | C++ | 13k |
-| 50 | [apache/rocketmq](https://github.com/apache/rocketmq) | Apache 分布式消息队列，阿里贡献，高可靠/高吞吐，国内消息队列标杆 | Java | 21k |
-| 51 | [rabbitmq/rabbitmq-server](https://github.com/rabbitmq/rabbitmq-server) | Erlang 编写的消息代理，AMQP 协议实现，路由灵活，企业级可靠 | Erlang | 12k |
-| 52 | [nats-io/nats-server](https://github.com/nats-io/nats-server) | 云原生消息系统，Go 编写，极简协议，高性能发布订阅 | Go | 16k |
-| 53 | [redpanda-data/redpanda](https://github.com/redpanda-data/redpanda) | Kafka 兼容的流数据平台，C++ 重写，无 ZooKeeper，性能提升数倍 | C++ | 10k |
-| 54 | [emqx/emqx](https://github.com/emqx/emqx) | MQTT 消息代理，Erlang 编写，千万级连接，物联网消息中间件首选 | Erlang | 14k |
-| 55 | [typeorm/typeorm](https://github.com/typeorm/typeorm) | TypeScript ORM，支持 Active Record/Data Mapper 模式，多数据库 | TypeScript | 34k |
-| 56 | [sequelize/sequelize](https://github.com/sequelize/sequelize) | Node.js 经典 ORM，Promise-based，多数据库支持，生态成熟 | JavaScript | 29k |
-| 57 | [knex/knex](https://github.com/knex/knex) | SQL 查询构建器，Node.js 生态，灵活构建 SQL，支持所有主流数据库 | JavaScript | 19k |
-| 58 | [go-gorm/gorm](https://github.com/go-gorm/gorm) | Go 语言最流行的 ORM，链式 API，关联/预加载/钩子/迁移一应俱全 | Go | 37k |
-| 59 | [ent/ent](https://github.com/ent/ent) | Facebook 开源的 Go 实体框架，Schema 定义生成代码，图式 ORM | Go | 15k |
-| 60 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 通用数据库管理工具，支持 80+ 数据库，SQL 编辑器/ER 图/数据导出 | Java | 40k |
-| 61 | [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | 现代化 SQL 编辑器，跨平台，美观 UI，支持 MySQL/PG/SQLite/SQL Server | TypeScript | 16k |
-| 62 | [delta-io/delta](https://github.com/delta-io/delta) | 数据湖存储格式，ACID 事务，时间旅行，Spark/Databricks 生态核心 | Scala | 8k |
-| 63 | [metabase/metabase](https://github.com/metabase/metabase) | 开源商业智能与数据分析工具 | Clojure | 39k |
-| 64 | [postgrest/postgrest](https://github.com/postgrest/postgrest) | PostgreSQL 自动 REST API 生成器 | Haskell | 23k |
-| 65 | [vitessio/vitess](https://github.com/vitessio/vitess) | MySQL 数据库水平分片集群方案 | Go | 19k |
-| 66 | [edgedb/edgedb](https://github.com/edgedb/edgedb) | 图关系型数据库，下一代 ORM | Python | 14k |
-| 67 | [citusdata/citus](https://github.com/citusdata/citus) | PostgreSQL 分布式扩展 | C | 12k |
-| 68 | [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) | 轻量级 TypeScript ORM | TypeScript | 23k |
+| 1 | [postgres/postgres](https://github.com/postgres/postgres) | JSON, 전체 텍스트 검색, GIS, 사용자 정의 유형 등과 같은 고급 기능을 지원하는 가장 강력한 오픈 소스 관계형 데이터베이스입니다. | C | 15.7k |
+| 2 | [redis/redis](https://github.com/redis/redis) | 매우 빠른 인메모리 키-값 데이터베이스는 지속성, 게시 및 구독, 클러스터링 및 다중 데이터 구조를 지원합니다. | C | 65.3k |
+| 3 | [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) | 러시아의 오픈 소스 컬럼형 OLAP 데이터베이스, 수십억 행의 1초 미만 쿼리, 최고의 성능을 갖춘 분석 데이터베이스 | C++ | 35.5k |
+| 4 | [apache/kafka](https://github.com/apache/kafka) | Apache Foundation의 최고 분산 메시지 대기열, 높은 처리량 및 고가용성, 빅데이터 파이프라인 및 이벤트 스트림 표준 | Java | 29.7k |
+| 5 | [mongodb/mongo](https://github.com/mongodb/mongo) | 가장 널리 사용되는 문서 기반 NoSQL 데이터베이스, 유연한 JSON 데이터 모델, 빠른 반복 프로젝트에 적합 | C++ | 26.4k |
+| 6 | [prisma/prisma](https://github.com/prisma/prisma) | 최신 TypeScript/Node.js ORM, 스키마 드라이버, 유형 안전성, 다중 데이터베이스 지원 | TypeScript | 38.4k |
+| 7 | [apache/iceberg](https://github.com/apache/iceberg) | Apache Foundation의 최고 Lake Warehouse 테이블 형식은 데이터 레이크 읽기 및 쓰기를 표준화하고 주요 제조업체의 생태계에서 지원됩니다. | Java | 5.7k |
+| 8 | [apache/pulsar](https://github.com/apache/pulsar) | 클라우드 기반 분산 메시징 및 스트리밍 플랫폼, 다중 테넌트, 계층적 스토리지, 수백만 개의 주제, 부담 없음 | Java | 14.8k |
+| 9 | [valkey-io/valkey](https://github.com/valkey-io/valkey) | Linux Foundation이 인수한 Redis의 오픈 소스 브랜치(Redis 7.2.4 대체), 커뮤니티 중심이며 완벽하게 호환됨 | C | 5.1k |
+| 10 | [tursodatabase/libsql](https://github.com/tursodatabase/libsql) | 복제, Raft, 에지 동기화 및 WASM과 같은 최신 기능을 추가하는 SQLite의 오픈 소스 포크 | C++ | 30.2k |
+| 11 | [sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy) | SQL 유연성과 객체 모델을 고려한 Python의 가장 강력한 데이터베이스 툴킷 및 ORM | Python | 10.1k |
+| 12 | [bytebase/bytebase](https://github.com/bytebase/bytebase) | 스키마 변경 검토, 데이터 쿼리, 둔감화 및 백업 통합을 지원하는 데이터베이스 CI/CD 플랫폼 | Go | 11.4k |
+| 13 | [mysql/mysql-server](https://github.com/mysql/mysql-server) | MySQL 데이터베이스 서버 소스 코드, 세계에서 가장 널리 사용되는 오픈 소스 관계형 데이터베이스 | C++ | 11k |
+| 14 | [elastic/elasticsearch](https://github.com/elastic/elasticsearch) | 분산검색 및 분석엔진, 전문검색/로그분석/벡터검색, ELK 핵심구성요소 | Java | 72k |
+| 15 | [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch) | Rust로 작성된 경량 오픈 소스 검색 엔진, 밀리초 검색, 즉시 사용 가능, 우아한 API | Rust | 50k |
+| 16 | [typesense/typesense](https://github.com/typesense/typesense) | 오픈 소스 검색 엔진, 즉시 사용 가능한 오타 허용, 즉각적인 검색 경험, 낮은 대기 시간 | C++ | 23k |
+| 17 | [surrealdb/surrealdb](https://github.com/surrealdb/surrealdb) | 다중 모델 데이터베이스, 문서 + 그래프 + 관계 + 벡터 통합, Rust로 작성, 임베디드/분산 | Rust | 30k |
+| 18 | [cockroachdb/cockroach](https://github.com/cockroachdb/cockroach) | PostgreSQL과 호환되고 전 세계적으로 강력한 일관성을 갖춘 분산 SQL 데이터베이스는 지역적 장애에도 살아남습니다. | Go | 31k |
+| 19 | [pingcap/tidb](https://github.com/pingcap/tidb) | PingCAP 오픈소스 HTAP 분산 데이터베이스, MySQL 호환, 수평 확장, OLTP+OLAP | Go | 37k |
+| 20 | [oceanbase/oceanbase](https://github.com/oceanbase/oceanbase) | 앤트그룹의 오픈소스 분산관계형 데이터베이스, 금융등급 ​​고가용성, 국내 데이터베이스 벤치마크 | C++ | 13k |
+| 21 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | 내장된 분석 데이터베이스인 OLAP용 SQLite는 종속성 없이 프로세스 내에서 매우 빠르게 실행됩니다. | C++ | 25k |
+| 22 | [dolthub/dolt](https://github.com/dolthub/dolt) | 버전 관리 데이터베이스, 데이터용 Git은 diff/branch/merge 데이터 변경을 지원합니다. | Go | 18k |
+| 23 | [rqlite/rqlite](https://github.com/rqlite/rqlite) | 분산 SQLite, Raft 합의, 경량 분산 데이터베이스, 간단하고 안정적 | Go | 16k |
+| 24 | [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | Redis 호환 인메모리 데이터베이스, 멀티스레드 아키텍처, Redis보다 25배 빠른 성능 | C++ | 25k |
+| 25 | [rethinkdb/rethinkqdb](https://github.com/rethinkdb/rethinkqdb) | JSON 문서 데이터베이스, 실시간 푸시 쿼리 결과 및 강력한 ReQL 쿼리 언어 | C++ | 26k |
+| 26 | [arangodb/arangodb](https://github.com/arangodb/arangodb) | 다중 모델 데이터베이스, 통합 문서/그래프/키 값, AQL 쿼리 언어, 기본 그래프 데이터베이스 | C++ | 14k |
+| 27 | [scylladb/scylladb](https://github.com/scylladb/scylladb) | Cassandra 호환 NoSQL 와이드 컬럼 데이터베이스, C++로 재작성, 10배 성능 향상 | C++ | 14k |
+| 28 | [tikv/tikv](https://github.com/tikv/tikv) | 분산 트랜잭션 키-값 저장소, Raft 합의, TiDB 기본 저장소, Rust로 작성됨 | Rust | 15k |
+| 29 | [google/leveldb](https://github.com/google/leveldb) | Google의 오픈소스 내장형 KV 스토리지, LSM-Tree, 초고속 쓰기, C++로 구현 | C++ | 36k |
+| 30 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | 메타 오픈소스 임베디드 KV 스토리지, 향상된 LevelDB 버전, SSD 최적화, 고성능 | C++ | 29k |
+| 31 | [dgraph-io/dgraph](https://github.com/dgraph-io/dgraph) | Go로 작성된 분산 그래프 데이터베이스, GraphQL API, 뛰어난 대규모 그래프 쿼리 성능 | Go | 21k |
+| 32 | [neo4j/neo4j](https://github.com/neo4j/neo4j) | 세계에서 가장 인기 있는 그래프 데이터베이스, Cypher 쿼리 언어, 기본 그래프 스토리지, 관계 마이닝 도구 | Java | 13k |
+| 33 | [influxdata/influxdb](https://github.com/influxdata/influxdb) | 시계열 데이터베이스, Telegraf+InfluxDB+Grafana 모니터링 솔루션 핵심 | Go | 29k |
+| 34 | [timescale/timescaledb](https://github.com/timescale/timescaledb) | PostgreSQL 시계열 확장, 시계열 데이터 운용을 위한 SQL 인터페이스, 자동 파티셔닝 | C | 18k |
+| 35 | [questdb/questdb](https://github.com/questdb/questdb) | 고성능 시계열 데이터베이스, SQL 인터페이스, 컬럼 스토리지, 매우 빠른 수집 | Java | 15k |
+| 36 | [VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) | 고성능 시계열 데이터베이스 및 모니터링 솔루션, Prometheus 대체, 매우 낮은 리소스 사용량 | Go | 13k |
+| 37 | [apache/druid](https://github.com/apache/druid) | 실시간 분석 데이터베이스, 1초 미만 쿼리, 높은 동시성, 실시간 데이터 수집, 타이밍/OLAP | Java | 14k |
+| 38 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | 클라우드 네이티브 벡터 데이터베이스, 10억 수준 벡터 검색, AI/RAG 시스템의 핵심 구성 요소 | Go | 30k |
+| 39 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | Rust로 작성된 벡터 검색 엔진, 필터링 + 벡터 하이브리드 검색, RAG 시스템 최적화 | Rust | 20k |
+| 40 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | AI 기본 벡터 데이터베이스, Python 우선, LLM 애플리케이션 개발 우선 선택, 미니멀리스트 API | Python | 15k |
+| 41 | [weaviate/weaviate](https://github.com/weaviate/weaviate) | 벡터 검색 엔진, GraphQL API, 모듈형 설계, 다중 모드 검색 지원 | Go | 11k |
+| 42 | [pgvector/pgvector](https://github.com/pgvector/pgvector) | PostgreSQL 벡터 검색 확장, 추가 구성요소 없이 PG에서 직접 벡터 검색 수행 | C | 12k |
+| 43 | [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch) | Elasticsearch 오픈 소스 브랜치, AWS 주도, 검색 + 분석 엔진, 완전한 오픈 소스 | Java | 10k |
+| 44 | [zincsearch/zincsearch](https://github.com/zincsearch/zincsearch) | 가벼운 전체 텍스트 검색 엔진, Elasticsearch 대체, 매우 낮은 리소스 사용량, Go로 작성됨 | Go | 17k |
+| 45 | [SearXNG/searxng](https://github.com/SearXNG/searxng) | 여러 검색 엔진의 결과를 집계하고 사용자를 추적하지 않는 개인 정보 보호 우선 메타 검색 엔진 | Python | 14k |
+| 46 | [trinodb/trino](https://github.com/trinodb/trino) | 분산 SQL 쿼리 엔진, Presto 브랜치, 여러 데이터 소스 통합 쿼리, OLAP 빠른 쿼리 | Java | 11k |
+| 47 | [prestodb/presto](https://github.com/prestodb/presto) | 분산 SQL 쿼리 엔진, Facebook 오픈 소스, 연합 쿼리 Hive/MySQL/Kafka | Java | 16k |
+| 48 | [starrocks/starrocks](https://github.com/starrocks/starrocks) | 서브초 OLAP 데이터베이스, MPP 아키텍처, 실시간 분석, 국내 OLAP 스타 | C++ | 10k |
+| 49 | [apache/doris](https://github.com/apache/doris) | Apache 실시간 분석 데이터베이스, Baidu 기여, MPP 아키텍처, 1초 미만 쿼리 | C++ | 13k |
+| 50 | [apache/rocketmq](https://github.com/apache/rocketmq) | Apache 분산 메시지 대기열, Alibaba 기여도, 높은 신뢰성/높은 처리량, 국내 메시지 대기열 벤치마크 | Java | 21k |
+| 51 | [rabbitmq/rabbitmq-server](https://github.com/rabbitmq/rabbitmq-server) | Erlang으로 작성된 메시지 브로커, AMQP 프로토콜 구현, 유연한 라우팅, 기업 수준의 신뢰성 | Erlang | 12k |
+| 52 | [nats-io/nats-server](https://github.com/nats-io/nats-server) | Go로 작성된 클라우드 네이티브 메시징 시스템, 최소 프로토콜, 고성능 게시 및 구독 | Go | 16k |
+| 53 | [redpanda-data/redpanda](https://github.com/redpanda-data/redpanda) | ZooKeeper 없이 C++로 다시 작성된 Kafka 호환 스트리밍 데이터 플랫폼, 성능이 여러 번 향상됨 | C++ | 10k |
+| 54 | [emqx/emqx](https://github.com/emqx/emqx) | 수천만 개의 연결을 갖춘 Erlang으로 작성된 MQTT 메시지 브로커는 IoT 메시지 미들웨어를 위한 첫 번째 선택입니다. | Erlang | 14k |
+| 55 | [typeorm/typeorm](https://github.com/typeorm/typeorm) | TypeScript ORM, Active Record/Data Mapper 모드, 다중 데이터베이스 지원 | TypeScript | 34k |
+| 56 | [sequelize/sequelize](https://github.com/sequelize/sequelize) | Node.js 클래식 ORM, Promise 기반, 다중 데이터베이스 지원, 성숙한 생태계 | JavaScript | 29k |
+| 57 | [knex/knex](https://github.com/knex/knex) | SQL 쿼리 빌더, Node.js 생태계, 유연한 SQL 구축, 모든 주류 데이터베이스 지원 | JavaScript | 19k |
+| 58 | [go-gorm/gorm](https://github.com/go-gorm/gorm) | Go 언어의 가장 인기 있는 ORM, 체인 API, 연결/사전 로드/후크/마이그레이션을 모두 사용할 수 있습니다. | Go | 37k |
+| 59 | [ent/ent](https://github.com/ent/ent) | Facebook의 오픈 소스 Go 엔터티 프레임워크, 스키마 정의 생성 코드, 스키마 ORM | Go | 15k |
+| 60 | [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) | 범용 데이터베이스 관리 도구, 80개 이상의 데이터베이스, SQL 편집기/ER 다이어그램/데이터 내보내기 지원 | Java | 40k |
+| 61 | [beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio) | 최신 SQL 편집기, 크로스 플랫폼, 아름다운 UI, MySQL/PG/SQLite/SQL Server 지원 | TypeScript | 16k |
+| 62 | [delta-io/delta](https://github.com/delta-io/delta) | 데이터 레이크 스토리지 형식, ACID 트랜잭션, 시간 여행, Spark/Databricks 생태학적 코어 | Scala | 8k |
+| 63 | [metabase/metabase](https://github.com/metabase/metabase) | 오픈 소스 비즈니스 인텔리전스 및 데이터 분석 도구 | Clojure | 39k |
+| 64 | [postgrest/postgrest](https://github.com/postgrest/postgrest) | PostgreSQL 자동 REST API 생성기 | Haskell | 23k |
+| 65 | [vitessio/vitess](https://github.com/vitessio/vitess) | MySQL 데이터베이스 수평 샤딩 클러스터 솔루션 | Go | 19k |
+| 66 | [edgedb/edgedb](https://github.com/edgedb/edgedb) | 그래프 관계형 데이터베이스, 차세대 ORM | Python | 14k |
+| 67 | [citusdata/citus](https://github.com/citusdata/citus) | PostgreSQL 분산 확장 | C | 12k |
+| 68 | [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) | 경량 TypeScript ORM | TypeScript | 23k |
 
 ---
 
@@ -472,99 +472,99 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [flutter/flutter](https://github.com/flutter/flutter) | Google 出品的跨平台 UI 框架，一套代码同时构建 iOS/Android/Web/桌面 应用 | Dart | 165k |
-| 2 | [facebook/react-native](https://github.com/facebook/react-native) | Meta 出品的 React 原生渲染框架，用 JavaScript/TS 写原生 App，社区生态庞大 | Java | 118k |
-| 3 | [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | JetBrains 出品的 Kotlin 跨平台声明式 UI，支持 Android/iOS/Desktop/Web | Kotlin | 18.7k |
-| 4 | [Tencent/QMUI_Android](https://github.com/Tencent/QMUI_Android) | 腾讯 QMUI 团队出品的 Android UI 库，提供大量常用组件与皮肤切换能力 | Java | 7.4k |
-| 5 | [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) | Airbnb 开源的动画库，可直接渲染 After Effects 导出的 JSON 动画，iOS 原生实现 | Swift | 25.9k |
-| 6 | [mui/material-ui](https://github.com/mui/material-ui) | 遵循 Google Material Design 的 React 组件库，支持 Web 也可配合 React Native 使用 | TypeScript | 94.3k |
-| 7 | [tamlm/weex](https://github.com/tamlm/weex) | 阿里开源的跨平台动态化框架（Vue 语法），一套代码编译为 iOS/Android/Web | JavaScript | 18.3k |
-| 8 | [Tencent/Hippy](https://github.com/Tencent/Hippy) | 腾讯开源的跨端框架，微信、手机 QQ、腾讯视频等亿级 App 使用，性能优秀 | JavaScript | 8k |
-| 9 | [alibaba/flutter-go](https://github.com/alibaba/flutter-go) | 阿里咸鱼团队开源的 Flutter 开发者资源大全，帮助快速上手 Flutter 开发 | Dart | 14.1k |
-| 10 | [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) | React Native 最强大的高性能相机组件，支持帧处理器、实时二维码、扫码 | Swift | 8.8k |
-| 11 | [getsentry/sentry-react-native](https://github.com/getsentry/sentry-react-native) | Sentry 官方 React Native 崩溃与性能监控 SDK，跨平台稳定上线必备 | TypeScript | 3.6k |
-| 12 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | Android 设备投屏与控制工具，USB/WiFi 低延迟镜像，开发调试神器 | C | 147k |
-| 13 | [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) | Flutter 优质资源合集，包/模板/教程/开源应用，Flutter 开发必收藏 | Dart | 61k |
-| 14 | [2dust/v2rayNG](https://github.com/2dust/v2rayNG) | Android 平台 V2Ray 客户端，Kotlin 编写，科学上网 Android 首选 | Kotlin | 60k |
-| 15 | [JetBrains/kotlin](https://github.com/JetBrains/kotlin) | JetBrains 出品的 Kotlin 编程语言，Android 官方首选语言，跨平台 | Kotlin | 53k |
-| 16 | [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework) | 跨平台移动 UI 工具包，Web 技术构建原生 iOS/Android 应用 | TypeScript | 53k |
-| 17 | [expo/expo](https://github.com/expo/expo) | React Native 开发框架，提供原生模块/API/构建/发布全套工具链 | TypeScript | 51k |
-| 18 | [skylot/jadx](https://github.com/skylot/jadx) | Dex 转 Java 反编译器，Android APK 逆向工程利器，GUI 界面友好 | Java | 50k |
-| 19 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | 开源 Spotify 客户端，Flutter 构建，无广告/免登录/下载离线 | Dart | 48k |
-| 20 | [android/architecture-samples](https://github.com/android/architecture-samples) | Google 官方 Android 架构示例，MVVM/Clean Architecture 最佳实践 | Kotlin | 46k |
-| 21 | [iina/iina](https://github.com/iina/iina) | macOS 现代视频播放器，Swift 编写，基于 mpv，UI 精美功能强大 | Swift | 46k |
-| 22 | [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) | Swift 优雅的 HTTP 网络库，链式 API，Swift 生态最流行的网络请求库 | Swift | 42k |
-| 23 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | iOS/Android 构建发布自动化工具，截图/签名/上传 App Store/Play 一条龙 | Ruby | 42k |
-| 24 | [dcloudio/uni-app](https://github.com/dcloudio/uni-app) | DCloud 出品的跨平台框架，Vue 语法，一套代码编译 iOS/Android/小程序/H5 | JavaScript | 42k |
-| 25 | [gkd-kit/gkd](https://github.com/gkd-kit/gkd) | 基于无障碍服务的 Android 自定义点击应用，去广告/自动操作神器 | Kotlin | 41k |
-| 26 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | Google 跨平台 ML 方案，人脸检测/手势识别/物体追踪，移动端推理 | C++ | 36k |
-| 27 | [airbnb/lottie-android](https://github.com/airbnb/lottie-android) | Airbnb Android 原生渲染 After Effects 动画库，JSON 驱动动画 | Java | 36k |
-| 28 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | Android 轻量级 YouTube 客户端，无广告/后台播放/下载，开源免费 | Java | 39k |
-| 29 | [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | Android 最强大的图表库，折线/柱状/饼图/雷达图，动画流畅 | Java | 38k |
-| 30 | [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) | Android Shadowsocks 客户端，Kotlin 编写，经典代理工具 | Kotlin | 37k |
-| 31 | [utmapp/UTM](https://github.com/utmapp/UTM) | iOS/macOS 虚拟机，QEMU 封装，在 iPhone 上运行 Windows/Linux | Swift | 35k |
-| 32 | [zxing/zxing](https://github.com/zxing/zxing) | Java/Android 条码扫描库，支持 1D/2D 条码，Google 官方推荐 | Java | 34k |
-| 33 | [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) | Android 开发工具集，80+ 常用工具类，Toast/SP/Log/Screen 一应俱全 | Java | 34k |
-| 34 | [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer) | B 站开源的基于 FFmpeg 的 Android/iOS 视频播放器，支持多种格式 | C | 33k |
-| 35 | [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) | 跨平台 .NET UI 框架，支持 Windows/Linux/macOS/iOS/Android/WASM | C# | 31k |
-| 36 | [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) | 基于 Qt 的 Android 投屏控制工具，跨平台，实时镜像+键鼠控制 | C++ | 31k |
-| 37 | [kodecocodes/swift-algorithm-club](https://github.com/kodecocodes/swift-algorithm-club) | Swift 算法与数据结构俱乐部，经典算法的 Swift 实现和讲解 | Swift | 29k |
-| 38 | [square/leakcanary](https://github.com/square/leakcanary) | Square 出品的 Android 内存泄漏检测库，自动检测，零配置接入 | Kotlin | 30k |
-| 39 | [ReVanced/revanced-manager](https://github.com/ReVanced/revanced-manager) | Android ReVanced 应用管理器，YouTube/Reddit 等应用补丁工具 | Kotlin | 29k |
-| 40 | [fyne-io/fyne](https://github.com/fyne-io/fyne) | Go 语言跨平台 GUI 工具包，一套代码运行 iOS/Android/Desktop | Go | 29k |
-| 41 | [Predidit/Kazumi](https://github.com/Predidit/Kazumi) | 自定义规则番剧采集 APP，Flutter 构建，多源聚合追番 | Dart | 28k |
-| 42 | [ente/ente](https://github.com/ente/ente) | 端到端加密云相册，自托管 Google Photos 替代，Flutter 全平台 | Dart | 28k |
-| 43 | [JunkFood02/Seal](https://github.com/JunkFood02/Seal) | 基于 yt-dlp 的 Android 下载器，视频/音频下载，Material Design 3 | Kotlin | 28k |
-| 44 | [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) | Android 短信转发器，验证码/通知自动转发到其他设备 | Kotlin | 27k |
-| 45 | [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) | Swift 优质库与资源列表，iOS 开发必收藏 | Ruby | 26k |
-| 46 | [react-native-elements/react-native-elements](https://github.com/react-native-elements/react-native-elements) | 跨平台 React Native UI 工具包，32+ 组件，纯 JS 实现 | MDX | 26k |
-| 47 | [SDWebImage/SDWebImage](https://github.com/SDWebImage/SDWebImage) | iOS 异步图片下载与缓存库，Objective-C 生态最流行的图片加载方案 | Objective-C | 26k |
-| 48 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | 跨平台下载器，Go 编写，HTTP/BitTorrent/magnet 支持，全平台 | Go | 26k |
-| 49 | [NativeScript/NativeScript](https://github.com/NativeScript/NativeScript) | 用 JavaScript/TypeScript 构建原生 iOS/Android 应用，直接调用原生 API | TypeScript | 26k |
-| 50 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | Java 跨平台游戏开发框架，桌面/Android/iOS/Web， indie 游戏首选 | Java | 25k |
-| 51 | [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) | Android APK 逆向工程工具，反编译/重打包，修改 APK 利器 | Java | 25k |
-| 52 | [scwang90/SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout) | Android 智能下拉刷新框架，支持多种 Header/Footer，自定义动画 | Java | 25k |
-| 53 | [ReactiveX/RxSwift](https://github.com/ReactiveX/RxSwift) | Swift 响应式编程库，Rx 系列的 Swift 实现，异步编程利器 | Swift | 25k |
-| 54 | [onevcat/Kingfisher](https://github.com/onevcat/Kingfisher) | Swift 轻量图片下载与缓存库，iOS 开发最流行的图片加载方案之一 | Swift | 24k |
-| 55 | [LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) | Android Xposed 框架替代品，Magisk 模块，Hook 系统 API | Java | 24k |
-| 56 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 腾讯开源的移动端神经网络推理框架，ARM 优化极致，端侧 AI 推理 | C++ | 24k |
-| 57 | [android/compose-samples](https://github.com/android/compose-samples) | Google Jetpack Compose 官方示例，学习 Compose 最佳实践 | Kotlin | 23k |
-| 58 | [dotnet/maui](https://github.com/dotnet/maui) | .NET 多平台应用 UI 框架，C# 一套代码构建 iOS/Android/macOS/Windows | C# | 23k |
-| 59 | [appium/appium](https://github.com/appium/appium) | 跨平台移动自动化测试框架，iOS/Android 通吃，WebDriver 协议 | TypeScript | 22k |
-| 60 | [android/nowinandroid](https://github.com/android/nowinandroid) | Google 官方完全用 Kotlin/Compose 构建的 Android 示例应用 | Kotlin | 22k |
-| 61 | [didi/DoKit](https://github.com/didi/DoKit) | 滴滴开源的泛前端研发效率平台，Android/iOS 调试/性能/UI 工具集 | Java | 20k |
-| 62 | [google/filament](https://github.com/google/filament) | Google 出品的实时基于物理的渲染引擎，Android/iOS/Desktop/Web | C++ | 20k |
-| 63 | [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) | 跨平台 2D/3D 游戏引擎，C++ 编写，iOS/Android/Web/桌面全平台 | C++ | 19k |
-| 64 | [kivy/kivy](https://github.com/kivy/kivy) | Python 跨平台 UI 框架，支持 iOS/Android/Desktop，Python 移动开发首选 | Python | 19k |
-| 65 | [Tencent/MMKV](https://github.com/Tencent/MMKV) | 腾讯开源的高效移动端键值存储框架，替代 SharedPreferences，性能极高 | C++ | 19k |
-| 66 | [framework7io/framework7](https://github.com/framework7io/framework7) | 构建 iOS/Android 应用的全功能 HTML 框架，Vue/React 组件 | JavaScript | 19k |
-| 67 | [ionic-team/capacitor](https://github.com/ionic-team/capacitor) | 跨平台原生运行时，Web App 包装为原生应用，Ionic 底层引擎 | TypeScript | 16k |
-| 68 | [SwifterSwift/SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) | 500+ Swift 原生扩展，标准库增强，iOS 开发效率翻倍 | Swift | 15k |
-| 69 | [coil-kt/coil](https://github.com/coil-kt/coil) | Android/Compose 图片加载库，Kotlin 协程驱动，现代 API 设计 | Kotlin | 12k |
-| 70 | [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) | Android Root 管理工具套件 | C++ | 48k |
-| 71 | [square/okhttp](https://github.com/square/okhttp) | Android HTTP 客户端 | Kotlin | 46k |
-| 72 | [square/retrofit](https://github.com/square/retrofit) | Android 类型安全 HTTP 客户端 | Java | 43k |
-| 73 | [bumptech/glide](https://github.com/bumptech/glide) | Android 图片加载缓存库 | Java | 35k |
-| 74 | [AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking) | iOS 网络请求库（经典） | Objective-C | 33k |
-| 75 | [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | React Native 路由导航库 | TypeScript | 23k |
-| 76 | [danielgindi/Charts](https://github.com/danielgindi/Charts) | iOS/tvOS 图表绘制库 | Swift | 28k |
-| 77 | [greenrobot/EventBus](https://github.com/greenrobot/EventBus) | Android 事件总线框架 | Java | 24k |
-| 78 | [SwiftyJSON/SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) | Swift JSON 解析处理库 | Swift | 22k |
-| 79 | [SnapKit/SnapKit](https://github.com/SnapKit/SnapKit) | Swift AutoLayout DSL 框架 | Swift | 20k |
-| 80 | [ReactiveCocoa/ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) | iOS 响应式编程框架 | Swift | 20k |
-| 81 | [JakeWharton/butterknife](https://github.com/JakeWharton/butterknife) | Android View 注入框架 | Java | 25k |
-| 82 | [google/flexbox-layout](https://github.com/google/flexbox-layout) | Android Flexbox 弹性布局 | Java | 18k |
-| 83 | [google/ExoPlayer](https://github.com/google/ExoPlayer) | Android 媒体播放器 | Java | 21k |
-| 84 | [Masonry/Masonry](https://github.com/Masonry/Masonry) | iOS AutoLayout 链式约束库 | Objective-C | 18k |
-| 85 | [Tencent/tinker](https://github.com/Tencent/tinker) | Android 热修复框架 | Java | 17k |
-| 86 | [google/dagger](https://github.com/google/dagger) | Android 依赖注入框架 | Java | 17k |
-| 87 | [CoderMJLee/MJRefresh](https://github.com/CoderMJLee/MJRefresh) | iOS 下拉刷新上拉加载控件 | Objective-C | 14k |
-| 88 | [instagram/IGListKit](https://github.com/instagram/IGListKit) | iOS 列表数据驱动 UI 框架 | Objective-C | 13k |
-| 89 | [CocoaLumberjack/CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) | iOS/macOS 日志框架 | Objective-C | 13k |
-| 90 | [square/picasso](https://github.com/square/picasso) | Android 图片加载库 | Java | 18k |
-| 91 | [callstack/react-native-paper](https://github.com/callstack/react-native-paper) | RN Material Design 组件库 | TypeScript | 13k |
-| 92 | [wix/react-native-navigation](https://github.com/wix/react-native-navigation) | RN 高性能原生导航方案 | TypeScript | 11k |
-| 93 | [xmartlabs/Eureka](https://github.com/xmartlabs/Eureka) | iOS 表单构建 Swift 库 | Swift | 12k |
+| 1 | [flutter/flutter](https://github.com/flutter/flutter) | Google에서 제작한 크로스 플랫폼 UI 프레임워크로, 코드 세트로 iOS/Android/웹/데스크톱 애플리케이션을 동시에 구축할 수 있습니다. | Dart | 165k |
+| 2 | [facebook/react-native](https://github.com/facebook/react-native) | 거대한 커뮤니티 생태계와 함께 JavaScript/TS를 사용하여 네이티브 앱을 작성하는 Meta에서 제작한 React 네이티브 렌더링 프레임워크 | Java | 118k |
+| 3 | [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | JetBrains에서 제작한 Kotlin 크로스 플랫폼 선언적 UI는 Android/iOS/데스크톱/웹을 지원합니다. | Kotlin | 18.7k |
+| 4 | [Tencent/QMUI_Android](https://github.com/Tencent/QMUI_Android) | Tencent의 QMUI 팀이 제작한 Android UI 라이브러리는 일반적으로 사용되는 수많은 구성 요소와 스킨 전환 기능을 제공합니다. | Java | 7.4k |
+| 5 | [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) | Airbnb의 오픈 소스 애니메이션 라이브러리는 After Effects에서 내보낸 JSON 애니메이션을 직접 렌더링할 수 있으며 iOS에서 기본적으로 구현됩니다. | Swift | 25.9k |
+| 6 | [mui/material-ui](https://github.com/mui/material-ui) | Google Material Design을 따르는 React 구성 요소 라이브러리는 웹을 지원하며 React Native와도 사용할 수 있습니다. | TypeScript | 94.3k |
+| 7 | [tamlm/weex](https://github.com/tamlm/weex) | iOS/Android/웹용으로 컴파일된 코드 세트인 Alibaba의 오픈 소스 크로스 플랫폼 동적 프레임워크(Vue 구문) | JavaScript | 18.3k |
+| 8 | [Tencent/Hippy](https://github.com/Tencent/Hippy) | Tencent의 오픈소스 크로스엔드 프레임워크는 WeChat, QQ Mobile, Tencent Video 등 수억 개의 앱에서 탁월한 성능으로 사용됩니다. | JavaScript | 8k |
+| 9 | [alibaba/flutter-go](https://github.com/alibaba/flutter-go) | Flutter 개발을 빠르게 시작하는 데 도움이 되도록 Alibaba Xianyu 팀에서 오픈소스로 제공하는 포괄적인 Flutter 개발자 리소스 모음입니다. | Dart | 14.1k |
+| 10 | [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) | React Native의 가장 강력한 고성능 카메라 구성 요소는 프레임 프로세서, 실시간 QR 코드 및 코드 스캔을 지원합니다. | Swift | 8.8k |
+| 11 | [getsentry/sentry-react-native](https://github.com/getsentry/sentry-react-native) | 안정적인 크로스 플랫폼 출시에 필수적인 Sentry의 공식 React Native 충돌 및 성능 모니터링 SDK | TypeScript | 3.6k |
+| 12 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | Android 장치 화면 투영 및 제어 도구, USB/WiFi 저지연 미러링, 개발 및 디버깅 아티팩트 | C | 147k |
+| 13 | [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) | Flutter 개발에 꼭 필요한 고품질 Flutter 리소스, 패키지/템플릿/튜토리얼/오픈 소스 애플리케이션 모음 | Dart | 61k |
+| 14 | [2dust/v2rayNG](https://github.com/2dust/v2rayNG) | Kotlin으로 작성된 Android 플랫폼 V2Ray 클라이언트, 과학적인 인터넷 액세스를 위한 첫 번째 선택 Android | Kotlin | 60k |
+| 15 | [JetBrains/kotlin](https://github.com/JetBrains/kotlin) | Android의 공식 선호 언어인 JetBrains에서 제작한 Kotlin 프로그래밍 언어, 크로스 플랫폼 | Kotlin | 53k |
+| 16 | [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework) | 크로스 플랫폼 모바일 UI 툴킷, 기본 iOS/Android 애플리케이션 구축을 위한 웹 기술 | TypeScript | 53k |
+| 17 | [expo/expo](https://github.com/expo/expo) | 네이티브 모듈/API/빌드/릴리스 완전한 도구 체인을 제공하는 React 네이티브 개발 프레임워크 | TypeScript | 51k |
+| 18 | [skylot/jadx](https://github.com/skylot/jadx) | Dex에서 Java 디컴파일러, Android APK 리버스 엔지니어링 도구, 친숙한 GUI 인터페이스 | Java | 50k |
+| 19 | [KRTirtho/spotube](https://github.com/KRTirtho/spotube) | Flutter로 구축된 오픈 소스 Spotify 클라이언트, 광고 없음/로그인 없음/오프라인 다운로드 | Dart | 48k |
+| 20 | [android/architecture-samples](https://github.com/android/architecture-samples) | Google 공식 Android 아키텍처 예시, MVVM/클린 아키텍처 모범 사례 | Kotlin | 46k |
+| 21 | [iina/iina](https://github.com/iina/iina) | mpv를 기반으로 Swift로 작성되었으며 아름다운 UI와 강력한 기능을 갖춘 macOS 최신 비디오 플레이어 | Swift | 46k |
+| 22 | [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) | Swift의 우아한 HTTP 네트워크 라이브러리, 연결된 API, Swift 생태계에서 가장 인기 있는 네트워크 요청 라이브러리 | Swift | 42k |
+| 23 | [fastlane/fastlane](https://github.com/fastlane/fastlane) | iOS/Android 빌드 및 릴리스 자동화 도구, 원스톱 스크린샷/서명/App Store/Play에 업로드 | Ruby | 42k |
+| 24 | [dcloudio/uni-app](https://github.com/dcloudio/uni-app) | DCloud에서 생성된 크로스 플랫폼 프레임워크, Vue 구문, iOS/Android/미니 프로그램/H5용 코드 컴파일 세트 | JavaScript | 42k |
+| 25 | [gkd-kit/gkd](https://github.com/gkd-kit/gkd) | 접근성 서비스 기반의 안드로이드 커스텀 클릭 애플리케이션, 광고 제거/자동 연산 아티팩트 | Kotlin | 41k |
+| 26 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | Google 크로스 플랫폼 ML 솔루션, 얼굴 인식/제스처 인식/객체 추적, 모바일 추론 | C++ | 36k |
+| 27 | [airbnb/lottie-android](https://github.com/airbnb/lottie-android) | Airbnb Android 기본 렌더링 After Effects 애니메이션 라이브러리, JSON 기반 애니메이션 | Java | 36k |
+| 28 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | Android 경량 YouTube 클라이언트, 광고 없음/백그라운드 재생/다운로드, 오픈 소스 및 무료 | Java | 39k |
+| 29 | [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | Android를 위한 가장 강력한 차트 라이브러리, 꺾은선형/열/원형 차트/레이더 차트, 부드러운 애니메이션 | Java | 38k |
+| 30 | [shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) | Kotlin으로 작성된 Android Shadowsocks 클라이언트, 클래식 프록시 도구 | Kotlin | 37k |
+| 31 | [utmapp/UTM](https://github.com/utmapp/UTM) | iOS/macOS 가상 머신, QEMU 패키지, iPhone에서 Windows/Linux 실행 | Swift | 35k |
+| 32 | [zxing/zxing](https://github.com/zxing/zxing) | Java/Android 바코드 스캐닝 라이브러리는 Google에서 공식적으로 권장하는 1D/2D 바코드를 지원합니다. | Java | 34k |
+| 33 | [Blankj/AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) | Android 개발 도구 세트, Toast/SP/Log/Screen 등 일반적으로 사용되는 80개 이상의 도구 | Java | 34k |
+| 34 | [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer) | FFmpeg 기반 Bilibili의 오픈 소스 Android/iOS 비디오 플레이어는 다양한 형식을 지원합니다. | C | 33k |
+| 35 | [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) | 크로스 플랫폼 .NET UI 프레임워크, Windows/Linux/macOS/iOS/Android/WASM 지원 | C# | 31k |
+| 36 | [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy) | Qt 기반의 Android 화면 투영 제어 도구, 크로스 플랫폼, 실시간 미러링 + 키보드 및 마우스 제어 | C++ | 31k |
+| 37 | [kodecocodes/swift-algorithm-club](https://github.com/kodecocodes/swift-algorithm-club) | Swift 알고리즘 및 데이터 구조 클럽, Swift 구현 및 기존 알고리즘 설명 | Swift | 29k |
+| 38 | [square/leakcanary](https://github.com/square/leakcanary) | Square에서 제작한 Android 메모리 누수 감지 라이브러리, 자동 감지, 제로 구성 액세스 | Kotlin | 30k |
+| 39 | [ReVanced/revanced-manager](https://github.com/ReVanced/revanced-manager) | Android ReVanced 애플리케이션 관리자, YouTube/Reddit 및 기타 애플리케이션 패치 도구 | Kotlin | 29k |
+| 40 | [fyne-io/fyne](https://github.com/fyne-io/fyne) | Go 언어 크로스 플랫폼 GUI 툴킷, 하나의 코드 세트로 iOS/Android/데스크톱 실행 | Go | 29k |
+| 41 | [Predidit/Kazumi](https://github.com/Predidit/Kazumi) | 팬 드라마를 따라잡기 위해 Flutter, 멀티 소스 집계로 구축된 맞춤형 규칙 팬 드라마 수집 APP | Dart | 28k |
+| 42 | [ente/ente](https://github.com/ente/ente) | 엔드투엔드 암호화된 클라우드 사진 앨범, 자체 호스팅 Google 포토 대체, Flutter 전체 플랫폼 | Dart | 28k |
+| 43 | [JunkFood02/Seal](https://github.com/JunkFood02/Seal) | yt-dlp, 비디오/오디오 다운로드, Material Design 3 기반 Android 다운로더 | Kotlin | 28k |
+| 44 | [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) | Android SMS 전달자, 자동으로 인증 코드/알림을 다른 장치에 전달 | Kotlin | 27k |
+| 45 | [matteocrippa/awesome-swift](https://github.com/matteocrippa/awesome-swift) | iOS 개발에 꼭 필요한 고품질 Swift 라이브러리 및 리소스 목록 | Ruby | 26k |
+| 46 | [react-native-elements/react-native-elements](https://github.com/react-native-elements/react-native-elements) | 크로스 플랫폼 React Native UI 툴킷, 32개 이상의 구성 요소, 순수 JS 구현 | MDX | 26k |
+| 47 | [SDWebImage/SDWebImage](https://github.com/SDWebImage/SDWebImage) | Objective-C 생태계에서 가장 널리 사용되는 이미지 로딩 솔루션인 iOS 비동기 이미지 다운로드 및 캐싱 라이브러리 | Objective-C | 26k |
+| 48 | [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) | Go로 작성된 크로스 플랫폼 다운로더는 HTTP/BitTorrent/magnet, 모든 플랫폼을 지원합니다. | Go | 26k |
+| 49 | [NativeScript/NativeScript](https://github.com/NativeScript/NativeScript) | JavaScript/TypeScript를 사용하여 기본 iOS/Android 애플리케이션을 구축하고 기본 API를 직접 호출합니다. | TypeScript | 26k |
+| 50 | [libgdx/libgdx](https://github.com/libgdx/libgdx) | Java 크로스 플랫폼 게임 개발 프레임워크, 데스크탑/Android/iOS/웹, 인디 게임에 선호 | Java | 25k |
+| 51 | [iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool) | Android APK 리버스 엔지니어링 도구, 디컴파일/리패키징, APK 수정 도구 | Java | 25k |
+| 52 | [scwang90/SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout) | Android 스마트 풀다운 새로 고침 프레임워크는 여러 머리글/바닥글 및 맞춤 애니메이션을 지원합니다. | Java | 25k |
+| 53 | [ReactiveX/RxSwift](https://github.com/ReactiveX/RxSwift) | Swift 반응형 프로그래밍 라이브러리, Rx 시리즈의 Swift 구현, 비동기 프로그래밍 도구 | Swift | 25k |
+| 54 | [onevcat/Kingfisher](https://github.com/onevcat/Kingfisher) | iOS용으로 개발된 가장 인기 있는 이미지 로딩 솔루션 중 하나인 Swift 경량 이미지 다운로드 및 캐싱 라이브러리 | Swift | 24k |
+| 55 | [LSPosed/LSPosed](https://github.com/LSPosed/LSPosed) | Android Xposed 프레임워크 교체, Magisk 모듈, Hook 시스템 API | Java | 24k |
+| 56 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | Tencent의 오픈 소스 모바일 신경망 추론 프레임워크, ARM 최적화, 온디바이스 AI 추론 | C++ | 24k |
+| 57 | [android/compose-samples](https://github.com/android/compose-samples) | Google Jetpack Compose 공식 샘플, Compose 권장사항 알아보기 | Kotlin | 23k |
+| 58 | [dotnet/maui](https://github.com/dotnet/maui) | .NET 다중 플랫폼 애플리케이션 UI 프레임워크, C# iOS/Android/macOS/Windows를 빌드하기 위한 코드 세트 | C# | 23k |
+| 59 | [appium/appium](https://github.com/appium/appium) | 크로스 플랫폼 모바일 자동화 테스트 프레임워크, iOS/Android 범용, WebDriver 프로토콜 | TypeScript | 22k |
+| 60 | [android/nowinandroid](https://github.com/android/nowinandroid) | 전적으로 Kotlin/Compose로 구축된 Google의 공식 Android 샘플 애플리케이션 | Kotlin | 22k |
+| 61 | [didi/DoKit](https://github.com/didi/DoKit) | Didi의 오픈소스 팬-프론트-엔드 R&D 효율성 플랫폼, Android/iOS 디버깅/성능/UI 도구 세트 | Java | 20k |
+| 62 | [google/filament](https://github.com/google/filament) | Google, Android/iOS/Desktop/Web의 실시간 물리 기반 렌더링 엔진 | C++ | 20k |
+| 63 | [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) | C++, iOS/Android/웹/데스크톱 전체 플랫폼으로 작성된 크로스 플랫폼 2D/3D 게임 엔진 | C++ | 19k |
+| 64 | [kivy/kivy](https://github.com/kivy/kivy) | Python 크로스 플랫폼 UI 프레임워크, iOS/Android/Desktop 지원, Python은 모바일 개발을 위한 첫 번째 선택입니다. | Python | 19k |
+| 65 | [Tencent/MMKV](https://github.com/Tencent/MMKV) | Tencent의 오픈 소스 및 효율적인 모바일 키-값 저장 프레임워크는 SharedPreferences를 대체하며 매우 높은 성능을 제공합니다. | C++ | 19k |
+| 66 | [framework7io/framework7](https://github.com/framework7io/framework7) | iOS/Android 애플리케이션, Vue/React 구성요소 구축을 위한 모든 기능을 갖춘 HTML 프레임워크 | JavaScript | 19k |
+| 67 | [ionic-team/capacitor](https://github.com/ionic-team/capacitor) | 크로스 플랫폼 네이티브 런타임, 네이티브 애플리케이션으로 패키지된 웹 앱, Ionic 기본 엔진 | TypeScript | 16k |
+| 68 | [SwifterSwift/SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) | 500개 이상의 Swift 기본 확장, 향상된 표준 라이브러리, 두 배의 iOS 개발 효율성 | Swift | 15k |
+| 69 | [coil-kt/coil](https://github.com/coil-kt/coil) | Android/Compose 이미지 로딩 라이브러리, Kotlin 코루틴 드라이버, 최신 API 디자인 | Kotlin | 12k |
+| 70 | [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) | Android 루트 관리 도구 모음 | C++ | 48k |
+| 71 | [square/okhttp](https://github.com/square/okhttp) | 안드로이드 HTTP 클라이언트 | Kotlin | 46k |
+| 72 | [square/retrofit](https://github.com/square/retrofit) | Android 유형 안전 HTTP 클라이언트 | Java | 43k |
+| 73 | [bumptech/glide](https://github.com/bumptech/glide) | Android 이미지 로딩 캐시 라이브러리 | Java | 35k |
+| 74 | [AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking) | iOS 네트워크 요청 라이브러리(클래식) | Objective-C | 33k |
+| 75 | [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | React Native 라우팅 탐색 라이브러리 | TypeScript | 23k |
+| 76 | [danielgindi/Charts](https://github.com/danielgindi/Charts) | iOS/tvOS 차트 그리기 라이브러리 | Swift | 28k |
+| 77 | [greenrobot/EventBus](https://github.com/greenrobot/EventBus) | Android 이벤트 버스 프레임워크 | Java | 24k |
+| 78 | [SwiftyJSON/SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) | Swift JSON 구문 분석 및 처리 라이브러리 | Swift | 22k |
+| 79 | [SnapKit/SnapKit](https://github.com/SnapKit/SnapKit) | Swift AutoLayout DSL 프레임워크 | Swift | 20k |
+| 80 | [ReactiveCocoa/ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) | iOS 반응형 프로그래밍 프레임워크 | Swift | 20k |
+| 81 | [JakeWharton/butterknife](https://github.com/JakeWharton/butterknife) | Android 뷰 삽입 프레임워크 | Java | 25k |
+| 82 | [google/flexbox-layout](https://github.com/google/flexbox-layout) | Android Flexbox 유연한 레이아웃 | Java | 18k |
+| 83 | [google/ExoPlayer](https://github.com/google/ExoPlayer) | 안드로이드 미디어 플레이어 | Java | 21k |
+| 84 | [Masonry/Masonry](https://github.com/Masonry/Masonry) | iOS AutoLayout 체인 제약 라이브러리 | Objective-C | 18k |
+| 85 | [Tencent/tinker](https://github.com/Tencent/tinker) | Android 핫픽스 프레임워크 | Java | 17k |
+| 86 | [google/dagger](https://github.com/google/dagger) | Android 종속성 주입 프레임워크 | Java | 17k |
+| 87 | [CoderMJLee/MJRefresh](https://github.com/CoderMJLee/MJRefresh) | 풀업 로딩 제어를 새로 고치는 iOS 풀다운 | Objective-C | 14k |
+| 88 | [instagram/IGListKit](https://github.com/instagram/IGListKit) | iOS 목록 데이터 기반 UI 프레임워크 | Objective-C | 13k |
+| 89 | [CocoaLumberjack/CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) | iOS/macOS 로깅 프레임워크 | Objective-C | 13k |
+| 90 | [square/picasso](https://github.com/square/picasso) | Android 이미지 로딩 라이브러리 | Java | 18k |
+| 91 | [callstack/react-native-paper](https://github.com/callstack/react-native-paper) | RN 머티리얼 디자인 구성요소 라이브러리 | TypeScript | 13k |
+| 92 | [wix/react-native-navigation](https://github.com/wix/react-native-navigation) | RN 고성능 네이티브 내비게이션 솔루션 | TypeScript | 11k |
+| 93 | [xmartlabs/Eureka](https://github.com/xmartlabs/Eureka) | iOS 양식 작성 Swift 라이브러리 | Swift | 12k |
 
 ---
 
@@ -574,81 +574,81 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [twbs/bootstrap-icons](https://github.com/twbs/bootstrap-icons) | Bootstrap 团队出品的开源图标库，2000+ 高质量 SVG 图标，免费商用 | Markdown | 7.9k |
-| 2 | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | Feather Icons 的社区继任者，简洁美观的开源 SVG 图标集，支持多种框架 | TypeScript | 10.7k |
-| 3 | [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) | 世界上最流行的图标字体和 SVG 图标库，免费版有数千图标，CDN 即用 | JavaScript | 75.2k |
-| 4 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 原子化 CSS 框架，以 utility-first 的方式快速构建现代 UI，无需写自定义 CSS | TypeScript | 82.5k |
-| 5 | [withastro/astro](https://github.com/withastro/astro) | 内容优先的岛屿架构静态站点生成器，可混用 React/Vue/Svelte 组件，文档站/博客利器 | TypeScript | 47.8k |
-| 6 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 可直接复制粘贴到项目中的精美 React 组件集合，非依赖包形式，自由度极高 | TypeScript | 67.9k |
-| 7 | [tabler/tabler-icons](https://github.com/tabler/tabler-icons) | 一套 5000+ 像素级完美、统一风格、MIT 协议的开源 SVG 图标库 | TypeScript | 10.1k |
-| 8 | [bytedance/IconPark](https://github.com/bytedance/IconPark) | 字节跳动出品的 2800+ 高质量开源图标库，支持 React/Vue/SVG 多框架 | TypeScript | 9.1k |
-| 9 | [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) | Jira 出品的 React 拖拽排序库，交互最自然、性能好、列表嵌套体验极佳 | JavaScript | 32.7k |
-| 10 | [animate-css/animate.css](https://github.com/animate-css/animate.css) | 最流行的 CSS 动画库，70+ 动画效果，加个 className 立刻动起来 | CSS | 80k |
-| 11 | [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) | Popper.js 继任者，定位 Tooltip/Popover/Dropdown 等浮层的低阶定位库 | TypeScript | 30.7k |
-| 12 | [saadeghi/daisyui](https://github.com/saadeghi/daisyui) | 最流行的 Tailwind CSS 组件库，简洁语义化 class，30+ 组件主题 | Svelte | 42k |
-| 13 | [jgthms/bulma](https://github.com/jgthms/bulma) | 基于 Flexbox 的现代 CSS 框架，纯 CSS 无 JS，语法优雅，响应式 | CSS | 50k |
-| 14 | [Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) | 基于自然语言的 UI 组件框架，语义化 HTML，人类可读的 class 命名 | JavaScript | 51k |
-| 15 | [necolas/normalize.css](https://github.com/necolas/normalize.css) | 现代化 CSS Reset 替代方案，跨浏览器一致性，项目标配 | CSS | 54k |
-| 16 | [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) | 基于 Bootstrap 5 的免费后台管理模板，组件丰富，开箱即用 | Astro | 46k |
-| 17 | [Dogfalo/materialize](https://github.com/Dogfalo/materialize) | 基于 Material Design 的 CSS 框架，组件齐全，响应式设计 | JavaScript | 39k |
-| 18 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | 图标字体聚合与补丁工具，给编程字体添加图标，终端美化必备 | CSS | 64k |
-| 19 | [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) | 专业前端模板，最佳实践起始项目，HTML/CSS/JS 优化配置 | JavaScript | 58k |
-| 20 | [juliangarnier/anime](https://github.com/juliangarnier/anime) | 轻量级 JavaScript 动画引擎，时间线/关键帧/SVG 动画，API 优雅 | JavaScript | 72k |
-| 21 | [greensock/GSAP](https://github.com/greensock/GSAP) | 业界标准 JavaScript 动画平台，性能最强，时间线/物理/滚动驱动 | JavaScript | 27k |
-| 22 | [motiondivision/motion](https://github.com/motiondivision/motion) | React/JS 现代动画库（原 Framer Motion），声明式动画 API | TypeScript | 33k |
-| 23 | [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) | 动画交互式 React 组件合集，200+ 精美组件，复制即用 | JavaScript | 45k |
-| 24 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | 动画精灵编辑器与像素画工具，独立游戏/像素艺术创作者首选 | C++ | 38k |
-| 25 | [feathericons/feather](https://github.com/feathericons/feather) | 简洁优美的开源图标集，24x24 SVG 图标，极简风格 | JavaScript | 26k |
-| 26 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 知名品牌 SVG 图标库，3000+ 品牌图标，开发者项目必备 | JavaScript | 26k |
-| 27 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | 节点式程序化图形设计工具，Rust 编写，矢量/光栅混合编辑 | Rust | 27k |
-| 28 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | 面向设计师的 AI 优先设计工具，可视化编辑 React 组件 | TypeScript | 26k |
-| 29 | [mdbootstrap/mdb-ui-kit](https://github.com/mdbootstrap/mdb-ui-kit) | Bootstrap 5 + Material Design UI Kit，75+ 组件，设计精美 | SCSS | 24k |
-| 30 | [iview/iview](https://github.com/iview/iview) | 基于 Vue 2.0 的高质量 UI 工具包，企业级中后台组件库 | Vue | 24k |
-| 31 | [pure-css/pure](https://github.com/pure-css/pure) | Yahoo 出品的小巧响应式 CSS 模块集，6KB 按需使用 | JavaScript | 24k |
-| 32 | [kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit) | 现代 React 起始套件，SSR/路由/GraphQL/认证，生产级模板 | TypeScript | 24k |
-| 33 | [pedronauck/docz](https://github.com/pedronauck/docz) | 组件文档工具，MDX 编写文档，实时预览组件，设计系统标配 | TypeScript | 24k |
-| 34 | [jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal) | 滚动触发元素动画库，零配置，网页滚动动画效果利器 | JavaScript | 22k |
-| 35 | [HeroTransitions/Hero](https://github.com/HeroTransitions/Hero) | iOS/tvOS 优雅转场动画库，Swift 编写，自定义转场效果 | Swift | 22k |
-| 36 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | PostCSS 插件，自动添加浏览器厂商前缀，CSS 兼容性自动化 | JavaScript | 22k |
-| 37 | [nostalgic-css/NES.css](https://github.com/nostalgic-css/NES.css) | NES 复古风 CSS 框架，8-bit 像素风格 UI，趣味十足 | SCSS | 22k |
-| 38 | [magicuidesign/magicui](https://github.com/magicuidesign/magicui) | 面向设计工程师的动画组件库，150+ React 组件，精美动效 | MDX | 22k |
-| 39 | [vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue) | 基于 Ant Design 的 Vue 企业级组件库，蚂蚁金服设计语言 | Vue | 22k |
-| 40 | [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) | 免费 Bootstrap 5 后台管理模板，响应式设计，组件丰富 | HTML | 21k |
-| 41 | [chokcoco/iCSS](https://github.com/chokcoco/iCSS) | CSS 技巧与特效合集，300+ CSS 效果实现，灵感来源 | JavaScript | 21k |
-| 42 | [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) | 纯 CSS 实现各种效果，展示 CSS 的强大能力 | HTML | 21k |
-| 43 | [adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro) | Adobe 出品的等宽编程字体，清晰易读，开发者最爱的字体之一 | CSS | 20k |
-| 44 | [githubnext/monaspace](https://github.com/githubnext/monaspace) | GitHub 出品的创新代码超家族字体，5 种风格可混排 | Shell | 20k |
-| 45 | [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) | 用代码创建动画视频，TypeScript 驱动，帧精确控制 | TypeScript | 19k |
-| 46 | [mojs/mojs](https://github.com/mojs/mojs) | Web 动效工具库， burst/twist/ripple 等特效，动画丰富 | CoffeeScript | 19k |
-| 47 | [tusen-ai/naive-ui](https://github.com/tusen-ai/naive-ui) | Vue 3 组件库，TypeScript 原生，80+ 组件，主题定制能力强 | TypeScript | 18k |
-| 48 | [ionic-team/ionicons](https://github.com/ionic-team/ionicons) | Ionic 出品的精美图标库， premium SVG 图标，Web/React/Vue | TypeScript | 18k |
-| 49 | [emotion-js/emotion](https://github.com/emotion-js/emotion) | 高性能 CSS-in-JS 库，styled/css 两种模式，React 生态主流方案 | JavaScript | 18k |
-| 50 | [less/less.js](https://github.com/less/less.js) | CSS 预处理器，变量/Mixin/嵌套，动态样式语言 | JavaScript | 17k |
-| 51 | [material-components/material-components-android](https://github.com/material-components/material-components-android) | Google Android Material Design 组件库，官方 Material 组件实现 | Java | 17k |
-| 52 | [material-components/material-components-web](https://github.com/material-components/material-components-web) | Google Web Material Design 组件库，官方组件实现 | TypeScript | 17k |
-| 53 | [picocss/pico](https://github.com/picocss/pico) | 语义 HTML 极简 CSS 框架，无需 class 即可构建美观页面 | CSS | 17k |
-| 54 | [tremorlabs/tremor-npm](https://github.com/tremorlabs/tremor-npm) | 构建图表与仪表盘的 React 组件库，数据可视化 UI 组件 | TypeScript | 16k |
-| 55 | [MaterialDesignInXAML/MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) | WPF/XAML 的 Material Design 组件库，.NET 桌面端 UI | C# | 16k |
-| 56 | [adobe/react-spectrum](https://github.com/adobe/react-spectrum) | Adobe 出品的自适应可访问 React 体验库，跨平台设计系统 | TypeScript | 16k |
-| 57 | [thomaspark/bootswatch](https://github.com/thomaspark/bootswatch) | Bootstrap 免费主题合集，26+ 主题，一键切换风格 | JavaScript | 15k |
-| 58 | [twbs/ratchet](https://github.com/twbs/ratchet) | 用 HTML/CSS/JS 构建移动应用的框架，Bootstrap 移动版 | CSS | 15k |
-| 59 | [konvajs/konva](https://github.com/konvajs/konva) | HTML5 Canvas 交互框架，2D 图形/拖拽/变换/事件，Canvas 开发利器 | TypeScript | 15k |
-| 60 | [formkit/auto-animate](https://github.com/formkit/auto-animate) | 零配置动画工具，一行代码为 DOM 变化添加平滑过渡动画 | TypeScript | 14k |
-| 61 | [shoelace-style/shoelace](https://github.com/shoelace-style/shoelace) | 现代 Web 组件库，框架无关，原生 Custom Elements，设计精美 | TypeScript | 14k |
-| 62 | [primer/css](https://github.com/primer/css) | GitHub 设计系统的 CSS 实现，Primer Design System 组件 | SCSS | 13k |
-| 63 | [IanLunn/Hover](https://github.com/IanLunn/Hover) | CSS3 悬停效果合集，链接/按钮/图标动画，即用型效果库 | SCSS | 29k |
-| 64 | [layui/layui](https://github.com/layui/layui) | 浏览器原生 Web UI 组件库，极简模块化，国内后台管理常用 | JavaScript | 31k |
-| 65 | [bulma/bulma](https://github.com/bulma/bulma) | 现代纯 CSS 响应式框架 | Sass | 49k |
-| 66 | [animejs/anime](https://github.com/animejs/anime) | 轻量级 JS 动画引擎 | JavaScript | 49k |
-| 67 | [Tabler/tabler](https://github.com/Tabler/tabler) | 现代化管理后台 UI 模板 | HTML | 38k |
-| 68 | [zurb/foundation-sites](https://github.com/zurb/foundation-sites) | 响应式前端开发框架 | HTML | 30k |
-| 69 | [framer/motion](https://github.com/framer/motion) | React 声明式动画库 | TypeScript | 23k |
-| 70 | [heroicons/heroicons](https://github.com/heroicons/heroicons) | Tailwind 团队 SVG 图标集 | JavaScript | 21k |
-| 71 | [uikit/uikit](https://github.com/uikit/uikit) | 轻量级模块化 CSS 框架 | JavaScript | 18k |
-| 72 | [microsoft/fluentui](https://github.com/microsoft/fluentui) | 微软 Fluent 设计系统 | TypeScript | 18k |
-| 73 | [react-icons/react-icons](https://github.com/react-icons/react-icons) | React 图标聚合库 | JavaScript | 12k |
-| 74 | [picturepan2/spectre](https://github.com/picturepan2/spectre) | 轻量响应式 CSS 框架 | HTML | 11k |
-| 75 | [primefaces/primevue](https://github.com/primefaces/primevue) | Vue UI 组件库 | Vue | 14k |
+| 1 | [twbs/bootstrap-icons](https://github.com/twbs/bootstrap-icons) | 2000개 이상의 고품질 SVG 아이콘이 포함된 Bootstrap 팀에서 제작한 오픈 소스 아이콘 라이브러리(상업용 무료) | Markdown | 7.9k |
+| 2 | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) | 여러 프레임워크를 지원하는 간단하고 아름다운 오픈 소스 SVG 아이콘 세트인 Feather Icons의 커뮤니티 후속 제품입니다. | TypeScript | 10.7k |
+| 3 | [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) | 세계에서 가장 인기 있는 아이콘 글꼴 및 SVG 아이콘 라이브러리, 수천 개의 아이콘이 포함된 무료 버전, 바로 사용할 수 있는 CDN | JavaScript | 75.2k |
+| 4 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | 사용자 정의 CSS를 작성하지 않고도 유틸리티 우선 방식으로 최신 UI를 빠르게 구축할 수 있도록 CSS 프레임워크를 원자화합니다. | TypeScript | 82.5k |
+| 5 | [withastro/astro](https://github.com/withastro/astro) | 문서 사이트/블로그 도구인 React/Vue/Svelte 구성 요소를 혼합할 수 있는 콘텐츠 우선 아일랜드 아키텍처 정적 사이트 생성기 | TypeScript | 47.8k |
+| 6 | [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 독립적인 패키지 형태로 높은 자유도를 가지고 프로젝트에 직접 복사하여 붙여넣을 수 있는 정교한 React 구성 요소 모음 | TypeScript | 67.9k |
+| 7 | [tabler/tabler-icons](https://github.com/tabler/tabler-icons) | 5000개 이상의 완벽한 픽셀, 통합 스타일, MIT 라이선스 오픈 소스 SVG 아이콘 라이브러리 세트 | TypeScript | 10.1k |
+| 8 | [bytedance/IconPark](https://github.com/bytedance/IconPark) | React/Vue/SVG 멀티 프레임워크를 지원하는 ByteDance에서 제작한 2800개 이상의 고품질 오픈 소스 아이콘 라이브러리 | TypeScript | 9.1k |
+| 9 | [atlassian/react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) | 가장 자연스러운 상호 작용, 우수한 성능 및 우수한 목록 중첩 경험을 갖춘 Jira에서 제작한 React 드래그 앤 드롭 정렬 라이브러리 | JavaScript | 32.7k |
+| 10 | [animate-css/animate.css](https://github.com/animate-css/animate.css) | 가장 인기 있는 CSS 애니메이션 라이브러리, 70개 이상의 애니메이션 효과, className을 추가하면 즉시 움직이기 시작합니다. | CSS | 80k |
+| 11 | [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui) | 도구 설명/팝오버/드롭다운 및 기타 부동 레이어의 위치를 ​​지정하기 위한 하위 수준 위치 지정 라이브러리인 Popper.js의 후속 버전입니다. | TypeScript | 30.7k |
+| 12 | [saadeghi/daisyui](https://github.com/saadeghi/daisyui) | 가장 인기 있는 Tailwind CSS 구성 요소 라이브러리, 간결하고 의미 있는 클래스, 30개 이상의 구성 요소 테마 | Svelte | 42k |
+| 13 | [jgthms/bulma](https://github.com/jgthms/bulma) | Flexbox 기반의 최신 CSS 프레임워크, JS가 없는 순수 CSS, 우아한 구문, 반응형 | CSS | 50k |
+| 14 | [Semantic-Org/Semantic-UI](https://github.com/Semantic-Org/Semantic-UI) | 자연어, 의미론적 HTML, 사람이 읽을 수 있는 클래스 이름 지정을 기반으로 하는 UI 구성 요소 프레임워크 | JavaScript | 51k |
+| 15 | [necolas/normalize.css](https://github.com/necolas/normalize.css) | 최신 CSS 재설정 대안, 브라우저 간 일관성, 프로젝트 표준 | CSS | 54k |
+| 16 | [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) | 구성 요소가 풍부하고 즉시 사용할 수 있는 Bootstrap 5 기반의 무료 배경 관리 템플릿 | Astro | 46k |
+| 17 | [Dogfalo/materialize](https://github.com/Dogfalo/materialize) | 머티리얼 디자인, 완전한 구성 요소, 반응형 디자인을 기반으로 하는 CSS 프레임워크 | JavaScript | 39k |
+| 18 | [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | 아이콘 글꼴 집계 및 패치 도구, 프로그래밍 글꼴에 아이콘 추가, 터미널 미화에 필수 | CSS | 64k |
+| 19 | [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) | 전문적인 프론트 엔드 템플릿, 모범 사례 스타터 프로젝트, HTML/CSS/JS 최적화 구성 | JavaScript | 58k |
+| 20 | [juliangarnier/anime](https://github.com/juliangarnier/anime) | 경량 JavaScript 애니메이션 엔진, 타임라인/키프레임/SVG 애니메이션, 우아한 API | JavaScript | 72k |
+| 21 | [greensock/GSAP](https://github.com/greensock/GSAP) | 가장 강력한 성능, 타임라인/물리/스크롤 드라이버를 갖춘 업계 표준 JavaScript 애니메이션 플랫폼 | JavaScript | 27k |
+| 22 | [motiondivision/motion](https://github.com/motiondivision/motion) | React/JS 최신 애니메이션 라이브러리(이전의 Framer Motion), 선언적 애니메이션 API | TypeScript | 33k |
+| 23 | [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) | 애니메이션 대화형 React 구성 요소 컬렉션, 200개 이상의 정교한 구성 요소, 복사 및 사용 가능 | JavaScript | 45k |
+| 24 | [aseprite/aseprite](https://github.com/aseprite/aseprite) | 독립 게임/픽셀 아트 제작자를 위한 첫 번째 선택인 애니메이션 스프라이트 편집기 및 픽셀 페인팅 도구 | C++ | 38k |
+| 25 | [feathericons/feather](https://github.com/feathericons/feather) | 간단하고 아름다운 오픈 소스 아이콘 세트, 24x24 SVG 아이콘, 미니멀리스트 스타일 | JavaScript | 26k |
+| 26 | [simple-icons/simple-icons](https://github.com/simple-icons/simple-icons) | 잘 알려진 브랜드 SVG 아이콘 라이브러리, 3000개 이상의 브랜드 아이콘, 개발자 프로젝트의 필수품 | JavaScript | 26k |
+| 27 | [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite) | Rust로 작성된 노드 기반 절차적 그래픽 디자인 도구, 벡터/래스터 하이브리드 편집 | Rust | 27k |
+| 28 | [onlook-dev/onlook](https://github.com/onlook-dev/onlook) | 디자이너가 React 구성 요소를 시각적으로 편집할 수 있는 AI 우선 디자인 도구 | TypeScript | 26k |
+| 29 | [mdbootstrap/mdb-ui-kit](https://github.com/mdbootstrap/mdb-ui-kit) | Bootstrap 5 + 머티리얼 디자인 UI 키트, 75개 이상의 구성 요소, 아름답게 디자인됨 | SCSS | 24k |
+| 30 | [iview/iview](https://github.com/iview/iview) | Vue 2.0 기반의 고품질 UI 툴킷, 엔터프라이즈급 미드엔드 및 백엔드 컴포넌트 라이브러리 | Vue | 24k |
+| 31 | [pure-css/pure](https://github.com/pure-css/pure) | Yahoo의 작은 반응형 CSS 모듈 세트, 주문형 사용을 위한 6KB | JavaScript | 24k |
+| 32 | [kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit) | Modern React 스타터 키트, SSR/라우팅/GraphQL/인증, 프로덕션 등급 템플릿 | TypeScript | 24k |
+| 33 | [pedronauck/docz](https://github.com/pedronauck/docz) | 부품 문서화 도구, MDX 문서 작성, 부품 실시간 미리보기, 표준 설계 시스템 | TypeScript | 24k |
+| 34 | [jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal) | 스크롤 트리거 요소 애니메이션 라이브러리, 제로 구성, 웹 페이지 스크롤 애니메이션 효과 도구 | JavaScript | 22k |
+| 35 | [HeroTransitions/Hero](https://github.com/HeroTransitions/Hero) | Swift로 작성된 iOS/tvOS 우아한 전환 애니메이션 라이브러리, 사용자 정의 가능한 전환 효과 | Swift | 22k |
+| 36 | [postcss/autoprefixer](https://github.com/postcss/autoprefixer) | PostCSS 플러그인, 자동으로 브라우저 공급업체 접두사 추가, 자동 CSS 호환성 | JavaScript | 22k |
+| 37 | [nostalgic-css/NES.css](https://github.com/nostalgic-css/NES.css) | NES 복고풍 스타일 CSS 프레임워크, 8비트 픽셀 스타일 UI, 재미가 가득 | SCSS | 22k |
+| 38 | [magicuidesign/magicui](https://github.com/magicuidesign/magicui) | 디자인 엔지니어를 위한 애니메이션 구성 요소 라이브러리, 150개 이상의 React 구성 요소, 정교한 애니메이션 | MDX | 22k |
+| 39 | [vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue) | Ant Design, Ant Financial 디자인 언어를 기반으로 한 Vue 엔터프라이즈급 컴포넌트 라이브러리 | Vue | 22k |
+| 40 | [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) | 무료 Bootstrap 5 백엔드 관리 템플릿, 반응형 디자인, 풍부한 구성 요소 | HTML | 21k |
+| 41 | [chokcoco/iCSS](https://github.com/chokcoco/iCSS) | CSS 기술 및 특수 효과 모음, 300개 이상의 CSS 효과 구현, 영감의 원천 | JavaScript | 21k |
+| 42 | [you-dont-need/You-Dont-Need-JavaScript](https://github.com/you-dont-need/You-Dont-Need-JavaScript) | 순수 CSS는 다양한 효과를 구현하고 CSS의 위력을 보여줍니다. | HTML | 21k |
+| 43 | [adobe-fonts/source-code-pro](https://github.com/adobe-fonts/source-code-pro) | Adobe에서 제작한 고정 너비 프로그래밍 글꼴로, 명확하고 읽기 쉬우며 개발자가 선호하는 글꼴 중 하나입니다. | CSS | 20k |
+| 44 | [githubnext/monaspace](https://github.com/githubnext/monaspace) | GitHub에서 제작한 혁신적인 코드 슈퍼패밀리 글꼴, 5가지 스타일 혼합 가능 | Shell | 20k |
+| 45 | [motion-canvas/motion-canvas](https://github.com/motion-canvas/motion-canvas) | TypeScript로 구동되는 코드를 사용하여 프레임 단위로 정확한 제어를 통해 애니메이션 비디오를 제작하세요 | TypeScript | 19k |
+| 46 | [mojs/mojs](https://github.com/mojs/mojs) | 웹 애니메이션 도구 라이브러리, 버스트/트위스트/잔물결 및 기타 특수 효과, 풍부한 애니메이션 | CoffeeScript | 19k |
+| 47 | [tusen-ai/naive-ui](https://github.com/tusen-ai/naive-ui) | Vue 3 구성 요소 라이브러리, TypeScript 기본, 80개 이상의 구성 요소, 강력한 테마 사용자 정의 기능 | TypeScript | 18k |
+| 48 | [ionic-team/ionicons](https://github.com/ionic-team/ionicons) | Ionic에서 제작한 아름다운 아이콘 라이브러리, 프리미엄 SVG 아이콘, Web/React/Vue | TypeScript | 18k |
+| 49 | [emotion-js/emotion](https://github.com/emotion-js/emotion) | 고성능 CSS-in-JS 라이브러리, 스타일/CSS 두 가지 모드, React 생태계의 주류 솔루션 | JavaScript | 18k |
+| 50 | [less/less.js](https://github.com/less/less.js) | CSS 전처리기, 변수/믹스인/중첩, 동적 스타일 언어 | JavaScript | 17k |
+| 51 | [material-components/material-components-android](https://github.com/material-components/material-components-android) | Google Android Material Design 구성 요소 라이브러리, 공식 Material 구성 요소 구현 | Java | 17k |
+| 52 | [material-components/material-components-web](https://github.com/material-components/material-components-web) | Google Web Material Design 구성 요소 라이브러리, 공식 구성 요소 구현 | TypeScript | 17k |
+| 53 | [picocss/pico](https://github.com/picocss/pico) | 시맨틱 HTML 미니멀리스트 CSS 프레임워크를 사용하면 클래스 없이도 아름다운 페이지를 구축할 수 있습니다. | CSS | 17k |
+| 54 | [tremorlabs/tremor-npm](https://github.com/tremorlabs/tremor-npm) | 차트 및 대시보드 구축을 위한 React 구성 요소 라이브러리, 데이터 시각화 UI 구성 요소 | TypeScript | 16k |
+| 55 | [MaterialDesignInXAML/MaterialDesignInXamlToolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit) | WPF/XAML, .NET 데스크톱 UI용 머티리얼 디자인 구성 요소 라이브러리 | C# | 16k |
+| 56 | [adobe/react-spectrum](https://github.com/adobe/react-spectrum) | 크로스 플랫폼 디자인 시스템인 Adobe의 적응형 및 액세스 가능한 React 경험 라이브러리 | TypeScript | 16k |
+| 57 | [thomaspark/bootswatch](https://github.com/thomaspark/bootswatch) | Bootstrap 무료 테마 컬렉션, 26개 이상의 테마, 한 번의 클릭으로 스타일 전환 | JavaScript | 15k |
+| 58 | [twbs/ratchet](https://github.com/twbs/ratchet) | HTML/CSS/JS, Bootstrap 모바일 버전으로 모바일 애플리케이션을 구축하기 위한 프레임워크 | CSS | 15k |
+| 59 | [konvajs/konva](https://github.com/konvajs/konva) | HTML5 Canvas 상호작용 프레임워크, 2D 그래픽/드래그/변환/이벤트, Canvas 개발 도구 | TypeScript | 15k |
+| 60 | [formkit/auto-animate](https://github.com/formkit/auto-animate) | 구성이 필요 없는 애니메이션 도구, 한 줄의 코드로 DOM 변경에 대한 원활한 전환 애니메이션 추가 | TypeScript | 14k |
+| 61 | [shoelace-style/shoelace](https://github.com/shoelace-style/shoelace) | 최신 웹 구성 요소 라이브러리, 프레임워크 독립적인 기본 사용자 정의 요소, 아름답게 디자인됨 | TypeScript | 14k |
+| 62 | [primer/css](https://github.com/primer/css) | GitHub 디자인 시스템의 CSS 구현, Primer 디자인 시스템 구성 요소 | SCSS | 13k |
+| 63 | [IanLunn/Hover](https://github.com/IanLunn/Hover) | CSS3 호버 효과 컬렉션, 링크/버튼/아이콘 애니메이션, 즉시 사용 가능한 효과 라이브러리 | SCSS | 29k |
+| 64 | [layui/layui](https://github.com/layui/layui) | 국내 백엔드 관리에 일반적으로 사용되는 브라우저 기본 웹 UI 구성 요소 라이브러리, 미니멀리스트 및 모듈식 | JavaScript | 31k |
+| 65 | [bulma/bulma](https://github.com/bulma/bulma) | 현대적인 순수 CSS 반응형 프레임워크 | Sass | 49k |
+| 66 | [animejs/anime](https://github.com/animejs/anime) | 경량 JS 애니메이션 엔진 | JavaScript | 49k |
+| 67 | [Tabler/tabler](https://github.com/Tabler/tabler) | 최신 관리 백엔드 UI 템플릿 | HTML | 38k |
+| 68 | [zurb/foundation-sites](https://github.com/zurb/foundation-sites) | 반응형 프런트엔드 개발 프레임워크 | HTML | 30k |
+| 69 | [framer/motion](https://github.com/framer/motion) | React 선언적 애니메이션 라이브러리 | TypeScript | 23k |
+| 70 | [heroicons/heroicons](https://github.com/heroicons/heroicons) | Tailwind 팀 SVG 아이콘 세트 | JavaScript | 21k |
+| 71 | [uikit/uikit](https://github.com/uikit/uikit) | 경량 모듈식 CSS 프레임워크 | JavaScript | 18k |
+| 72 | [microsoft/fluentui](https://github.com/microsoft/fluentui) | Microsoft Fluent 디자인 시스템 | TypeScript | 18k |
+| 73 | [react-icons/react-icons](https://github.com/react-icons/react-icons) | React 아이콘 집계 라이브러리 | JavaScript | 12k |
+| 74 | [picturepan2/spectre](https://github.com/picturepan2/spectre) | 경량의 반응형 CSS 프레임워크 | HTML | 11k |
+| 75 | [primefaces/primevue](https://github.com/primefaces/primevue) | Vue UI 구성 요소 라이브러리 | Vue | 14k |
 
 ---
 
@@ -658,114 +658,114 @@
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [junegunn/fzf](https://github.com/junegunn/fzf) | 模糊搜索神器，命令行交互式查找文件、历史命令、进程等，速度飞快 | Go | 69.8k |
-| 2 | [microsoft/terminal](https://github.com/microsoft/terminal) | 微软新一代 Windows 终端，多标签、GPU 渲染、支持 WSL/PowerShell/CMD 合一 | C++ | 94.6k |
-| 3 | [warpdotdev/Warp](https://github.com/warpdotdev/Warp) | 现代化 Rust 终端，内建 AI 命令补全、命令块、团队共享脚本，速度一流 | Rust | 21.3k |
-| 4 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Notion 的开源替代品，用 Rust + Flutter 构建，本地优先，隐私可控，支持 AI | Dart | 59.4k |
-| 5 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 开源的 TeamViewer 替代方案，远程桌面工具，自建服务器，全平台支持 | Rust | 72.5k |
-| 6 | [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) | 基于本地 Markdown 文件的强大知识管理与笔记软件，双链图谱和插件生态极佳 | JavaScript | 21.5k |
-| 7 | [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) | 把 JSON 数据可视化为图谱/思维导图的开源工具，一键导出图片，调试 JSON 神器 | TypeScript | 31.8k |
-| 8 | [tldraw/tldraw](https://github.com/tldraw/tldraw) | 最流行的开源在线白板/无限画布协作库，API 友好，可嵌入任意 React 项目 | TypeScript | 39.5k |
-| 9 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 手绘风格的无限白板协作工具，画架构图、流程图、草图体验一流 | TypeScript | 78.6k |
-| 10 | [immich-app/immich](https://github.com/immich-app/immich) | 自建 Google Photos 替代方案，照片/视频备份、AI 人脸识别、地图相册齐全 | Dart | 50.3k |
-| 11 | [tabbyML/tabby](https://github.com/tabbyML/tabby) | 开源的 GitHub Copilot 替代方案，自托管的 AI 代码补全服务 | Rust | 24.7k |
-| 12 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 社区驱动的 zsh 配置框架，200+ 插件/140+ 主题，终端美化必备 | Shell | 189k |
-| 13 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 功能最强的命令行音视频下载器，支持 1000+ 网站，youtube-dl 增强版 | Python | 182k |
-| 14 | [neovim/neovim](https://github.com/neovim/neovim) | 注重可扩展性的 Vim 分支，Lua 脚本，LSP 原生，现代终端编辑器 | Vim Script | 101k |
-| 15 | [nvbn/thefuck](https://github.com/nvbn/thefuck) | 自动纠正上一条命令的终端工具，拼错命令自动修复，终端开发效率提升 | Python | 98k |
-| 16 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | Node 版本管理器，多版本 Node.js 切换，前端开发必备 | Shell | 94k |
-| 17 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 按用户名跨社交网络搜索账号的 OSINT 工具，网络安全调查利器 | Python | 88k |
-| 18 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | Git 命令的终端 UI 工具，可视化 Git 操作，提交/分支/Rebase 更高效 | Go | 81k |
-| 19 | [Eugeny/tabby](https://github.com/Eugeny/tabby) | 现代化终端，TypeScript/React 构建，多标签/SSH/SFTP/串口，界面美观 | TypeScript | 74k |
-| 20 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 下一代知识库，Notion + Miro 结合体，本地优先，隐私安全 | TypeScript | 71k |
-| 21 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | 递归正则搜索工具，Rust 编写，比 grep 快 10 倍，终端搜索利器 | Rust | 67k |
-| 22 | [git/git](https://github.com/git/git) | Git 版本控制系统源码镜像，所有开发者都在用的基础工具 | C | 62k |
-| 23 | [usememos/memos](https://github.com/usememos/memos) | 自托管快速笔记工具，轻量级，Markdown 支持，知识管理开源方案 | Go | 62k |
-| 24 | [atom/atom](https://github.com/atom/atom) | GitHub 出品的可 hack 的文本编辑器，Electron 先驱，已停止维护但影响深远 | JavaScript | 61k |
-| 25 | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | 网络级广告拦截器，DNS 级别去广告，家庭网络广告黑洞 | Shell | 60k |
-| 26 | [sharkdp/bat](https://github.com/sharkdp/bat) | cat 的现代替代品，语法高亮 + Git 集成 + 行号，终端查看文件利器 | Rust | 60k |
-| 27 | [marktext/marktext](https://github.com/marktext/marktext) | 简洁优雅的 Markdown 编辑器，所见即所得，实时预览 | TypeScript | 59k |
-| 28 | [termux/termux-app](https://github.com/termux/termux-app) | Android 终端模拟器，在手机上运行 Linux 命令行，移动开发利器 | Java | 58k |
-| 29 | [Textualize/rich](https://github.com/Textualize/rich) | Python 终端富文本与美化格式库，颜色/表格/进度条/Markdown 渲染 | Python | 57k |
-| 30 | [laurent22/joplin](https://github.com/laurent22/joplin) | 隐私优先的笔记应用，端到端加密，多端同步，Evernote 替代 | TypeScript | 56k |
-| 31 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | 微软跨平台 PowerShell，Windows/Linux/macOS 通用的命令行 Shell | C# | 55k |
-| 32 | [wagoodman/dive](https://github.com/wagoodman/dive) | 探索 Docker 镜像每层内容的工具，分析镜像大小/层/效率 | Go | 54k |
-| 33 | [Aider-AI/aider](https://github.com/Aider-AI/aider) | 终端 AI 结对编程工具，让 AI 直接修改你的代码并自动 Git 提交 | Python | 48k |
-| 34 | [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | 纯 Shell 实现的 ACME 协议 SSL 证书客户端，自动申请/续期 Let's Encrypt | Shell | 47k |
-| 35 | [slab/quill](https://github.com/slab/quill) | 现代 WYSIWYG 富文本编辑器，跨浏览器，模块化架构 | TypeScript | 47k |
-| 36 | [google/zx](https://github.com/google/zx) | 用 JavaScript 写 Shell 脚本的工具，Bash 替代方案，适合复杂脚本 | JavaScript | 46k |
-| 37 | [cli/cli](https://github.com/cli/cli) | GitHub 官方命令行工具，在终端管理 PR/Issue/Action/Repo | Go | 46k |
-| 38 | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | 思源笔记，隐私优先的自托管个人知识管理系统，块级引用/双向链接 | TypeScript | 46k |
-| 39 | [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) | 科幻风终端模拟器，全屏科幻 UI，系统监控/键盘/显示酷炫 | JavaScript | 45k |
-| 40 | [pyenv/pyenv](https://github.com/pyenv/pyenv) | Python 版本管理器，多版本 Python 切换，Python 开发必备 | Shell | 45k |
-| 41 | [vercel/hyper](https://github.com/vercel/hyper) | 基于网页技术的终端，Electron + React，可主题化/插件化 | TypeScript | 45k |
-| 42 | [files-community/Files](https://github.com/files-community/Files) | 现代化文件管理器，Windows 平台，Fluent Design，标签页/双面板 | C# | 45k |
-| 43 | [spf13/cobra](https://github.com/spf13/cobra) | 现代 Go CLI 命令库，子命令/Flag/帮助自动生成，Go CLI 开发首选 | Go | 44k |
-| 44 | [logseq/logseq](https://github.com/logseq/logseq) | 隐私优先的知识管理平台，本地优先，大纲式笔记/双向链接/日志 | Clojure | 44k |
-| 45 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | 强大的 Go TUI 框架，Elm 架构，构建精美终端应用 | Go | 44k |
-| 46 | [sharkdp/fd](https://github.com/sharkdp/fd) | find 的现代替代品，Rust 编写，更快更友好的文件搜索 | Rust | 44k |
-| 47 | [Unitech/pm2](https://github.com/Unitech/pm2) | Node.js 生产环境进程管理器，守护进程/日志/负载均衡/零停机重启 | JavaScript | 43k |
-| 48 | [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | 无损视频/音频编辑工具，快速剪切/合并无需重新编码 | TypeScript | 43k |
-| 49 | [chubin/cheat.sh](https://github.com/chubin/cheat.sh) | 命令行速查表工具，一条命令查看各种语言/工具的使用速查 | Python | 42k |
-| 50 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | 极速终端文件管理器，Rust 编写，异步 I/O，预览/搜索/批量操作 | Rust | 41k |
-| 51 | [nushell/nushell](https://github.com/nushell/nushell) | 新型 Shell，结构化数据管道，表格/JSON/CSV 原生处理 | Rust | 40k |
-| 52 | [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) | 开发者在线工具集，加密/解码/格式化/生成/转换，开发常用工具箱 | Vue | 40k |
-| 53 | [koalaman/shellcheck](https://github.com/koalaman/shellcheck) | Shell 脚本静态分析工具，发现脚本中的问题和不良实践 | Haskell | 40k |
-| 54 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 用 React 构建交互式命令行应用，组件化 CLI 开发 | TypeScript | 40k |
-| 55 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | Windows 截图/录屏/上传工具，功能极其强大，开源免费 | C# | 39k |
-| 56 | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | 更聪明的 cd 命令，Rust 编写，基于频率自动跳转目录 | Rust | 38k |
-| 57 | [httpie/cli](https://github.com/httpie/cli) | 现代友好的命令行 HTTP 客户端，语法简洁，JSON/颜色/会话 | Python | 38k |
-| 58 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | 无头富文本编辑器框架，可扩展/可定制，React/Vue 组件 | TypeScript | 38k |
-| 59 | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 构建个人知识库的笔记应用，层级结构/克隆/关系图/脚本 | TypeScript | 37k |
-| 60 | [Textualize/textual](https://github.com/Textualize/textual) | Python 精简应用框架，终端中构建丰富 UI 应用，CSS 样式 | Python | 37k |
-| 61 | [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) | Linux 命令大全搜索工具，500+ 命令详解，中文最全 | Markdown | 36k |
-| 62 | [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | zsh 自动补全建议插件，类似 fish shell 的自动建议 | Shell | 36k |
-| 63 | [zellij-org/zellij](https://github.com/zellij-org/zellij) | 内置电池的终端工作区，Rust 编写，多标签/布局/会话 | Rust | 35k |
-| 64 | [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | GPU 加速跨平台终端模拟器，Python 配置，图片显示/连字 | Python | 34k |
-| 65 | [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) | 用户友好的命令行 Shell，开箱即用智能补全，无需配置 | Rust | 34k |
-| 66 | [nicolargo/glances](https://github.com/nicolargo/glances) | 系统监控工具，top/htop 替代，跨平台/远程/Web UI | Python | 33k |
-| 67 | [VSCodium/vscodium](https://github.com/VSCodium/vscodium) | 去除微软品牌和遥测的 VS Code，完全开源，社区维护 | Shell | 33k |
-| 68 | [codex-team/editor.js](https://github.com/codex-team/editor.js) | 块状富文本编辑器，输出干净 JSON 数据，所见即所得 | TypeScript | 32k |
-| 69 | [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) | 专业跨平台 SSH/Telnet/Serial/Shell/Sftp 终端工具 | C | 32k |
-| 70 | [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) | 完全可定制的富文本编辑器框架，React 生态，插件化 | TypeScript | 32k |
-| 71 | [tqdm/tqdm](https://github.com/tqdm/tqdm) | Python 进度条库，快速可扩展，循环/命令行/多进程进度显示 | Python | 31k |
-| 72 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | Shell 历史同步工具，SQLite 存储/全文搜索/多设备同步 | Rust | 31k |
-| 73 | [micro-editor/micro](https://github.com/micro-editor/micro) | 现代直观的终端文本编辑器，Go 编写，简单易用，Nano 替代 | Go | 29k |
-| 74 | [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) | Notepad++ 官方仓库，Windows 经典文本编辑器，免费开源 | C++ | 29k |
-| 75 | [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) | 命令行基准测试工具，Rust 编写，统计/预热/预热/对比 | Rust | 29k |
-| 76 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Git 仓库密钥泄露检测工具，扫描代码中的密钥/Token/密码 | Go | 28k |
-| 77 | [NvChad/NvChad](https://github.com/NvChad/NvChad) | 极速 Neovim 配置框架，Lua 编写，启动快/美观/插件管理 | Lua | 28k |
-| 78 | [wezterm/wezterm](https://github.com/wezterm/wezterm) | GPU 加速跨平台终端复用器，Rust 编写，Lua 配置/连字/图片 | Rust | 28k |
-| 79 | [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | 为懒人准备的 Neovim 配置框架，Lua 编写，开箱即用/插件管理 | Lua | 27k |
-| 80 | [zed-industries/zed](https://github.com/zed-industries/zed) | Rust 高性能代码编辑器 | Rust | 85k |
-| 81 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | 去中心化持续文件同步 | Go | 63k |
-| 82 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 直播录屏软件 | C | 60k |
-| 83 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | GPU 加速跨平台终端 | Rust | 56k |
-| 84 | [nocodb/nocodb](https://github.com/nocodb/nocodb) | 开源 Airtable 替代方案 | TypeScript | 50k |
-| 85 | [rclone/rclone](https://github.com/rclone/rclone) | 命令行云存储同步工具 | Go | 47k |
-| 86 | [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) | Zsh 高速主题 | Shell | 48k |
-| 87 | [starship/starship](https://github.com/starship/starship) | 跨 Shell 智能提示符 | Rust | 45k |
-| 88 | [localsend/localsend](https://github.com/localsend/localsend) | 跨平台局域网文件传输 | Dart | 42k |
-| 89 | [jgraph/drawio](https://github.com/jgraph/drawio) | 在线图表绘制工具 | JavaScript | 40k |
-| 90 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 低代码内部工具构建平台 | JavaScript | 37k |
-| 91 | [vim/vim](https://github.com/vim/vim) | Vi Improved 文本编辑器 | Vim Script | 37k |
-| 92 | [tmux/tmux](https://github.com/tmux/tmux) | 终端复用器 | C | 35k |
-| 93 | [lapce/lapce](https://github.com/lapce/lapce) | Rust 原生代码编辑器 | Rust | 34k |
-| 94 | [helix-editor/helix](https://github.com/helix-editor/helix) | Kakoune 风格终端编辑器 | Rust | 34k |
-| 95 | [penpot/penpot](https://github.com/penpot/penpot) | 开源设计协作平台 | Clojure | 33k |
-| 96 | [amix/vimrc](https://github.com/amix/vimrc) | Vim 强大配置方案 | Vim Script | 28k |
-| 97 | [lossless-cut/lossless-cut](https://github.com/lossless-cut/lossless-cut) | 无损视频音频剪辑 | TypeScript | 26k |
-| 98 | [restic/restic](https://github.com/restic/restic) | 快速安全备份工具 | Go | 26k |
-| 99 | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | 电子书管理转换工具 | Python | 19k |
-| 100 | [wez/wezterm](https://github.com/wez/wezterm) | GPU 加速跨平台终端 | Rust | 18k |
-| 101 | [ether/etherpad-lite](https://github.com/ether/etherpad-lite) | 实时协作文档编辑器 | JavaScript | 17k |
-| 102 | [bitwarden/server](https://github.com/bitwarden/server) | 开源密码管理器服务端 | C# | 15k |
-| 103 | [eza-community/eza](https://github.com/eza-community/eza) | ls 命令现代替代工具 | Rust | 13k |
-| 104 | [audacity/audacity](https://github.com/audacity/audacity) | 跨平台音频编辑器 | C++ | 12k |
-| 105 | [keeweb/keeweb](https://github.com/keeweb/keeweb) | 跨平台 KeePass 密码管理器 | JavaScript | 12k |
-| 106 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 手写笔记与 PDF 标注工具 | C++ | 11k |
-| 107 | [notesnook/notesnook](https://github.com/notesnook/notesnook) | 端到端加密隐私笔记 | TypeScript | 10k |
-| 108 | [zotero/zotero](https://github.com/zotero/zotero) | 文献管理与研究工具 | JavaScript | 10k |
+| 1 | [junegunn/fzf](https://github.com/junegunn/fzf) | 퍼지 검색 아티팩트, 파일, 기록 명령, 프로세스 등에 대한 명령줄 대화형 검색이 매우 빠릅니다. | Go | 69.8k |
+| 2 | [microsoft/terminal](https://github.com/microsoft/terminal) | Microsoft의 차세대 Windows 터미널은 여러 탭, GPU 렌더링 기능을 갖추고 있으며 WSL/PowerShell/CMD 통합을 지원합니다. | C++ | 94.6k |
+| 3 | [warpdotdev/Warp](https://github.com/warpdotdev/Warp) | 최신 Rust 터미널, 내장 AI 명령 완성, 명령 블록, 팀 공유 스크립트, 최고 속도 | Rust | 21.3k |
+| 4 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Rust + Flutter로 구축된 Notion의 오픈 소스 대안, 로컬 우선, 개인 정보 보호 제어 가능, AI 지원 | Dart | 59.4k |
+| 5 | [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | 오픈 소스 TeamViewer 대안, 원격 데스크톱 도구, 자체 구축 서버, 전체 플랫폼 지원 | Rust | 72.5k |
+| 6 | [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) | 뛰어난 듀얼 체인 맵과 플러그인 에코시스템을 갖춘 로컬 Markdown 파일을 기반으로 하는 강력한 지식 관리 및 메모 작성 소프트웨어 | JavaScript | 21.5k |
+| 7 | [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com) | JSON 데이터를 그래프/마인드 맵으로 시각화하고, 한 번의 클릭으로 이미지를 내보내고, JSON 아티팩트를 디버그하는 오픈 소스 도구입니다. | TypeScript | 31.8k |
+| 8 | [tldraw/tldraw](https://github.com/tldraw/tldraw) | 가장 인기 있는 오픈 소스 온라인 화이트보드/무한 캔버스 협업 라이브러리, API 친화적, 모든 React 프로젝트에 내장 가능 | TypeScript | 39.5k |
+| 9 | [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 손으로 그린 ​​스타일의 무제한 화이트보드 공동 작업 도구로 아키텍처 다이어그램, 순서도 및 스케치 그리기에 대한 최고 수준의 경험을 제공합니다. | TypeScript | 78.6k |
+| 10 | [immich-app/immich](https://github.com/immich-app/immich) | 사진/동영상 백업, AI 얼굴 인식 및 지도 앨범을 갖춘 Google 포토의 자체 구축 대안 | Dart | 50.3k |
+| 11 | [tabbyML/tabby](https://github.com/tabbyML/tabby) | 오픈 소스 GitHub Copilot 대안, 자체 호스팅 AI 코드 완성 서비스 | Rust | 24.7k |
+| 12 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 커뮤니티 기반 zsh 구성 프레임워크, 200개 이상의 플러그인/140개 이상의 테마, 터미널 미화에 필수 | Shell | 189k |
+| 13 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) | 가장 강력한 명령줄 오디오 및 비디오 다운로더는 1000개 이상의 웹사이트, youtube-dl의 향상된 버전을 지원합니다. | Python | 182k |
+| 14 | [neovim/neovim](https://github.com/neovim/neovim) | 확장성에 초점을 맞춘 Vim 포크, Lua 스크립팅, LSP 기본, 최신 터미널 편집기 | Vim Script | 101k |
+| 15 | [nvbn/thefuck](https://github.com/nvbn/thefuck) | 이전 명령을 자동으로 수정하고, 철자가 틀린 명령을 자동으로 수정하며, 터미널 개발 효율성을 향상시키는 터미널 도구 | Python | 98k |
+| 16 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | 노드 버전 관리자, 다중 버전 Node.js 전환, 프론트엔드 개발에 필수 | Shell | 94k |
+| 17 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 강력한 네트워크 보안 조사 도구인 사용자 이름으로 소셜 네트워크에서 계정을 검색하는 OSINT 도구 | Python | 88k |
+| 18 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | Git 명령을 위한 터미널 UI 도구로 Git 작업을 시각화하여 커밋/브랜치/리베이스를 더욱 효율적으로 만듭니다. | Go | 81k |
+| 19 | [Eugeny/tabby](https://github.com/Eugeny/tabby) | TypeScript/React, 멀티탭/SSH/SFTP/직렬 포트, 아름다운 인터페이스로 구축된 최신 터미널 | TypeScript | 74k |
+| 20 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | Notion + Miro, 로컬 우선순위, 개인 정보 보호 및 보안의 조합인 차세대 지식 베이스 | TypeScript | 71k |
+| 21 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | Rust로 작성된 재귀 일반 검색 도구는 강력한 터미널 검색 도구인 grep보다 10배 빠릅니다. | Rust | 67k |
+| 22 | [git/git](https://github.com/git/git) | 모든 개발자가 사용하는 기본 도구인 Git 버전 관리 시스템 소스코드 이미지 | C | 62k |
+| 23 | [usememos/memos](https://github.com/usememos/memos) | 자체 호스팅된 빠른 메모 작성 도구, 경량, Markdown 지원, 지식 관리를 위한 오픈 소스 솔루션 | Go | 62k |
+| 24 | [atom/atom](https://github.com/atom/atom) | Electron의 선구자인 GitHub가 제작한 해킹 가능한 텍스트 편집기는 유지 관리를 중단했지만 광범위한 영향력을 가지고 있습니다. | JavaScript | 61k |
+| 25 | [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole) | 네트워크 수준의 광고 차단기, DNS 수준의 광고 제거, 홈 네트워크 광고 블랙홀 | Shell | 60k |
+| 26 | [sharkdp/bat](https://github.com/sharkdp/bat) | cat의 현대적인 대안, 구문 강조 + Git 통합 + 줄 번호, 터미널에서 파일을 보기 위한 강력한 도구 | Rust | 60k |
+| 27 | [marktext/marktext](https://github.com/marktext/marktext) | 간단하고 우아한 마크다운 편집기, 보이는 대로 얻는다, 실시간 미리보기 | TypeScript | 59k |
+| 28 | [termux/termux-app](https://github.com/termux/termux-app) | Android 터미널 에뮬레이터, 휴대폰에서 Linux 명령줄 실행, 모바일 개발 도구 | Java | 58k |
+| 29 | [Textualize/rich](https://github.com/Textualize/rich) | Python 터미널 리치 텍스트 및 미화 형식 라이브러리, 색상/테이블/진행률 표시줄/마크다운 렌더링 | Python | 57k |
+| 30 | [laurent22/joplin](https://github.com/laurent22/joplin) | 개인 정보 보호를 최우선으로 하는 메모 작성 애플리케이션, 엔드투엔드 암호화, 멀티엔드 동기화, Evernote 대체 | TypeScript | 56k |
+| 31 | [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) | Windows/Linux/macOS용 공통 명령줄 셸인 Microsoft 크로스 플랫폼 PowerShell | C# | 55k |
+| 32 | [wagoodman/dive](https://github.com/wagoodman/dive) | Docker 이미지의 각 레이어 내용을 탐색하고 이미지 크기/레이어/효율성을 분석하는 도구 | Go | 54k |
+| 33 | [Aider-AI/aider](https://github.com/Aider-AI/aider) | AI가 코드를 직접 수정하고 자동으로 Git을 커밋할 수 있게 해주는 터미널 AI 쌍 프로그래밍 도구 | Python | 48k |
+| 34 | [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | ACME 프로토콜 SSL 인증서 클라이언트의 Pure Shell 구현, 자동 적용/갱신 Let's Encrypt | Shell | 47k |
+| 35 | [slab/quill](https://github.com/slab/quill) | 최신 WYSIWYG 리치 텍스트 편집기, 크로스 브라우저, 모듈식 아키텍처 | TypeScript | 47k |
+| 36 | [google/zx](https://github.com/google/zx) | 복잡한 스크립트에 적합한 Bash의 대안인 JavaScript로 쉘 스크립트를 작성하기 위한 도구 | JavaScript | 46k |
+| 37 | [cli/cli](https://github.com/cli/cli) | GitHub 공식 명령줄 도구, 터미널에서 PR/Issue/Action/Repo 관리 | Go | 46k |
+| 38 | [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) | 개인 정보 보호를 최우선으로 하는 자체 호스팅 개인 지식 관리 시스템인 Siyuan Notes, 블록 수준 인용/양방향 링크 | TypeScript | 46k |
+| 39 | [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) | 공상과학 스타일 터미널 에뮬레이터, 전체 화면 공상과학 UI, 멋진 시스템 모니터링/키보드/디스플레이 | JavaScript | 45k |
+| 40 | [pyenv/pyenv](https://github.com/pyenv/pyenv) | Python 버전 관리자, 다중 버전 Python 전환, Python 개발에 필수 | Shell | 45k |
+| 41 | [vercel/hyper](https://github.com/vercel/hyper) | 웹 기술 기반의 터미널 Electron + React 테마/플러그인 가능 | TypeScript | 45k |
+| 42 | [files-community/Files](https://github.com/files-community/Files) | 최신 파일 관리자, Windows 플랫폼, Fluent 디자인, 탭/이중 패널 | C# | 45k |
+| 43 | [spf13/cobra](https://github.com/spf13/cobra) | 최신 Go CLI 명령 라이브러리, 하위 명령/플래그/도움말이 자동으로 생성되며 Go CLI 개발을 위한 첫 번째 선택입니다. | Go | 44k |
+| 44 | [logseq/logseq](https://github.com/logseq/logseq) | 개인 정보 보호 우선 지식 관리 플랫폼, 로컬 우선 순위, 개요 메모/양방향 링크/로그 | Clojure | 44k |
+| 45 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | 강력한 Go TUI 프레임워크, Elm 아키텍처, 아름다운 터미널 애플리케이션 구축 | Go | 44k |
+| 46 | [sharkdp/fd](https://github.com/sharkdp/fd) | 보다 빠르고 친숙한 파일 검색을 위해 Rust로 작성된 find의 현대적인 대체품 | Rust | 44k |
+| 47 | [Unitech/pm2](https://github.com/Unitech/pm2) | Node.js 프로덕션 환경 프로세스 관리자, 데몬 프로세스/로그/로드 밸런싱/다운타임 제로 재시작 | JavaScript | 43k |
+| 48 | [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | 무손실 비디오/오디오 편집 도구, 재인코딩 없이 빠른 자르기/병합 | TypeScript | 43k |
+| 49 | [chubin/cheat.sh](https://github.com/chubin/cheat.sh) | 명령줄 치트 시트 도구, 다양한 언어/도구의 사용법 치트 시트를 보는 하나의 명령 | Python | 42k |
+| 50 | [sxyazi/yazi](https://github.com/sxyazi/yazi) | Rust로 작성된 매우 빠른 터미널 파일 관리자, 비동기 I/O, 미리보기/검색/배치 작업 | Rust | 41k |
+| 51 | [nushell/nushell](https://github.com/nushell/nushell) | 새로운 셸, 구조화된 데이터 파이프라인, 테이블/JSON/CSV 기본 처리 | Rust | 40k |
+| 52 | [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) | 개발자 온라인 툴셋, 암호화/디코딩/포맷/생성/변환, 공통 개발 툴박스 | Vue | 40k |
+| 53 | [koalaman/shellcheck](https://github.com/koalaman/shellcheck) | 스크립트의 문제와 나쁜 사례를 찾아내는 쉘 스크립트 정적 분석 도구 | Haskell | 40k |
+| 54 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | React를 사용하여 대화형 명령줄 애플리케이션 및 구성 요소 기반 CLI 개발 구축 | TypeScript | 40k |
+| 55 | [ShareX/ShareX](https://github.com/ShareX/ShareX) | 매우 강력한 Windows 스크린샷/녹화/업로드 도구, 오픈 소스 및 무료 | C# | 39k |
+| 56 | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | Rust로 작성된 더 똑똑한 cd 명령은 빈도에 따라 자동으로 디렉터리를 이동합니다. | Rust | 38k |
+| 57 | [httpie/cli](https://github.com/httpie/cli) | 간결한 구문, JSON/색상/세션을 갖춘 현대적이고 친숙한 명령줄 HTTP 클라이언트 | Python | 38k |
+| 58 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | 헤드리스 리치 텍스트 편집기 프레임워크, 확장 가능/사용자 정의 가능, React/Vue 구성 요소 | TypeScript | 38k |
+| 59 | [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) | 개인 지식 베이스, 계층 구조/클론/관계 다이어그램/스크립트 구축을 위한 메모 작성 애플리케이션 | TypeScript | 37k |
+| 60 | [Textualize/textual](https://github.com/Textualize/textual) | Python의 간소화된 애플리케이션 프레임워크, 터미널에서 풍부한 UI 애플리케이션 구축, CSS 스타일 | Python | 37k |
+| 61 | [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) | Linux 명령 백과사전 검색 도구, 500개 이상의 명령에 대한 자세한 설명, 중국어로 가장 완벽함 | Markdown | 36k |
+| 62 | [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | zsh 자동 완성 제안 플러그인, fish shell의 자동 제안과 유사 | Shell | 36k |
+| 63 | [zellij-org/zellij](https://github.com/zellij-org/zellij) | Rust로 작성된 내장 배터리가 있는 터미널 작업 공간, 여러 탭/레이아웃/세션 | Rust | 35k |
+| 64 | [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | GPU 가속 크로스 플랫폼 터미널 에뮬레이터, Python 구성, 이미지 표시/합자 | Python | 34k |
+| 65 | [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) | 즉시 사용 가능한 스마트 완성 기능을 갖춘 사용자 친화적인 명령줄 셸, 구성이 필요하지 않음 | Rust | 34k |
+| 66 | [nicolargo/glances](https://github.com/nicolargo/glances) | 시스템 모니터링 도구, 상단/htop 교체, 크로스 플랫폼/원격/웹 UI | Python | 33k |
+| 67 | [VSCodium/vscodium](https://github.com/VSCodium/vscodium) | Microsoft 브랜딩 및 원격 측정이 없는 VS Code, 완전 오픈 소스, 커뮤니티에서 유지 관리 | Shell | 33k |
+| 68 | [codex-team/editor.js](https://github.com/codex-team/editor.js) | 서식 있는 텍스트 편집기를 차단하고 깨끗한 JSON 데이터를 출력합니다. 보이는 대로 결과를 얻을 수 있습니다. | TypeScript | 32k |
+| 69 | [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) | 전문적인 크로스 플랫폼 SSH/Telnet/Serial/Shell/Sftp 터미널 도구 | C | 32k |
+| 70 | [ianstormtaylor/slate](https://github.com/ianstormtaylor/slate) | 완전히 사용자 정의 가능한 서식 있는 텍스트 편집기 프레임워크, React 생태계, 플러그인 | TypeScript | 32k |
+| 71 | [tqdm/tqdm](https://github.com/tqdm/tqdm) | Python 진행률 표시줄 라이브러리, 빠르고 확장 가능, 루프/명령줄/다중 프로세스 진행률 표시 | Python | 31k |
+| 72 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | 쉘 히스토리 동기화 도구, SQLite 스토리지/전체 텍스트 검색/다중 장치 동기화 | Rust | 31k |
+| 73 | [micro-editor/micro](https://github.com/micro-editor/micro) | Go로 작성되고 사용하기 쉬운 현대적이고 직관적인 터미널 텍스트 편집기, Nano 대체 | Go | 29k |
+| 74 | [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) | Notepad++ 공식 저장소, Windows 클래식 텍스트 편집기, 무료 오픈 소스 | C++ | 29k |
+| 75 | [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) | Rust로 작성된 명령줄 벤치마킹 도구, 통계/워밍업/워밍업/비교 | Rust | 29k |
+| 76 | [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) | Git 웨어하우스 키 누출 감지 도구, 코드의 키/토큰/비밀번호를 검색합니다. | Go | 28k |
+| 77 | [NvChad/NvChad](https://github.com/NvChad/NvChad) | Lua로 작성된 매우 빠른 Neovim 구성 프레임워크, 빠른 시작/아름다운/플러그인 관리 | Lua | 28k |
+| 78 | [wezterm/wezterm](https://github.com/wezterm/wezterm) | Rust, Lua 구성/합자/이미지로 작성된 GPU 가속 크로스 플랫폼 터미널 멀티플렉서 | Rust | 28k |
+| 79 | [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | 게으른 사람들을 위한 Neovim 구성 프레임워크, Lua로 작성, 즉시 사용 가능한/플러그인 관리 | Lua | 27k |
+| 80 | [zed-industries/zed](https://github.com/zed-industries/zed) | Rust 고성능 코드 편집기 | Rust | 85k |
+| 81 | [syncthing/syncthing](https://github.com/syncthing/syncthing) | 분산형 연속 파일 동기화 | Go | 63k |
+| 82 | [obsproject/obs-studio](https://github.com/obsproject/obs-studio) | 라이브 화면 녹화 소프트웨어 | C | 60k |
+| 83 | [alacritty/alacritty](https://github.com/alacritty/alacritty) | GPU 가속 크로스 플랫폼 터미널 | Rust | 56k |
+| 84 | [nocodb/nocodb](https://github.com/nocodb/nocodb) | 오픈 소스 Airtable 대안 | TypeScript | 50k |
+| 85 | [rclone/rclone](https://github.com/rclone/rclone) | 명령줄 클라우드 스토리지 동기화 도구 | Go | 47k |
+| 86 | [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) | Zsh 고속 테마 | Shell | 48k |
+| 87 | [starship/starship](https://github.com/starship/starship) | 크로스 셸 스마트 프롬프트 | Rust | 45k |
+| 88 | [localsend/localsend](https://github.com/localsend/localsend) | 크로스 플랫폼 LAN 파일 전송 | Dart | 42k |
+| 89 | [jgraph/drawio](https://github.com/jgraph/drawio) | 온라인 차트 그리기 도구 | JavaScript | 40k |
+| 90 | [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet) | 로우코드 내부 도구 구축 플랫폼 | JavaScript | 37k |
+| 91 | [vim/vim](https://github.com/vim/vim) | Vi 향상된 텍스트 편집기 | Vim Script | 37k |
+| 92 | [tmux/tmux](https://github.com/tmux/tmux) | 터미널 멀티플렉서 | C | 35k |
+| 93 | [lapce/lapce](https://github.com/lapce/lapce) | Rust 네이티브 코드 편집기 | Rust | 34k |
+| 94 | [helix-editor/helix](https://github.com/helix-editor/helix) | Kakoune 스타일 터미널 편집기 | Rust | 34k |
+| 95 | [penpot/penpot](https://github.com/penpot/penpot) | 오픈소스 디자인 협업 플랫폼 | Clojure | 33k |
+| 96 | [amix/vimrc](https://github.com/amix/vimrc) | Vim의 강력한 구성 솔루션 | Vim Script | 28k |
+| 97 | [lossless-cut/lossless-cut](https://github.com/lossless-cut/lossless-cut) | 무손실 비디오 오디오 편집 | TypeScript | 26k |
+| 98 | [restic/restic](https://github.com/restic/restic) | 빠르고 안전한 백업 도구 | Go | 26k |
+| 99 | [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | 전자책 관리 변환 도구 | Python | 19k |
+| 100 | [wez/wezterm](https://github.com/wez/wezterm) | GPU 가속 크로스 플랫폼 터미널 | Rust | 18k |
+| 101 | [ether/etherpad-lite](https://github.com/ether/etherpad-lite) | 실시간 협업 문서 편집기 | JavaScript | 17k |
+| 102 | [bitwarden/server](https://github.com/bitwarden/server) | 오픈 소스 비밀번호 관리자 서버 | C# | 15k |
+| 103 | [eza-community/eza](https://github.com/eza-community/eza) | ls 명령을 현대적으로 대체 | Rust | 13k |
+| 104 | [audacity/audacity](https://github.com/audacity/audacity) | 크로스 플랫폼 오디오 편집기 | C++ | 12k |
+| 105 | [keeweb/keeweb](https://github.com/keeweb/keeweb) | 크로스 플랫폼 KeePass 비밀번호 관리자 | JavaScript | 12k |
+| 106 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 손으로 쓴 메모 및 PDF 주석 도구 | C++ | 11k |
+| 107 | [notesnook/notesnook](https://github.com/notesnook/notesnook) | 종단간 암호화된 개인 정보 보호 노트 | TypeScript | 10k |
+| 108 | [zotero/zotero](https://github.com/zotero/zotero) | 문서 관리 및 연구 도구 | JavaScript | 10k |
 
 ---
 
