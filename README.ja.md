@@ -19,6 +19,7 @@
 
 ---
 
+<a id="frontend-development"></a>
 ## 🎨 FRONTEND DEVELOPMENT
 
 > 106 プロジェクト
@@ -134,6 +135,7 @@
 
 ---
 
+<a id="backend-development"></a>
 ## ⚙️ BACKEND DEVELOPMENT
 
 > 70 プロジェクト
@@ -213,6 +215,7 @@
 
 ---
 
+<a id="ai--machine-learning"></a>
 ## 🤖 AI / MACHINE LEARNING
 
 > 88 プロジェクト
@@ -310,6 +313,7 @@
 
 ---
 
+<a id="devops"></a>
 ## 🚀 DEVOPS
 
 > 70 プロジェクト
@@ -389,6 +393,7 @@
 
 ---
 
+<a id="database"></a>
 ## 💾 DATABASE
 
 > 68 プロジェクト
@@ -466,6 +471,7 @@
 
 ---
 
+<a id="mobile-development"></a>
 ## 📱 MOBILE DEVELOPMENT
 
 > 93 プロジェクト
@@ -568,6 +574,7 @@
 
 ---
 
+<a id="design-resources"></a>
 ## ✨ DESIGN RESOURCES
 
 > 75 プロジェクト
@@ -652,6 +659,7 @@
 
 ---
 
+<a id="productivity-tools"></a>
 ## 🛠️ PRODUCTIVITY TOOLS
 
 > 108 プロジェクト
