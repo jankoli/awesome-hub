@@ -8,18 +8,18 @@
 
 ## 📑 目次
 
-- [🎨 FRONTEND DEVELOPMENT (106)](#frontend-development)
-- [⚙️ BACKEND DEVELOPMENT (70)](#backend-development)
-- [🤖 AI / MACHINE LEARNING (88)](#ai--machine-learning)
-- [🚀 DEVOPS (70)](#devops)
-- [💾 DATABASE (68)](#database)
-- [📱 MOBILE DEVELOPMENT (96)](#mobile-development)
-- [✨ DESIGN RESOURCES (79)](#design-resources)
-- [🛠️ PRODUCTIVITY TOOLS (110)](#productivity-tools)
+- [🎨 フロントエンド開発 (106)](#frontend-development)
+- [⚙️ バックエンド開発 (70)](#backend-development)
+- [🤖 AI / 機械学習 (88)](#ai--machine-learning)
+- [🚀 DevOps (70)](#devops)
+- [💾 データベース (68)](#database)
+- [📱 モバイル開発 (96)](#mobile-development)
+- [✨ デザインリソース (79)](#design-resources)
+- [🛠️ 生産性ツール (110)](#productivity-tools)
 
 ---
 
-<h2 id="frontend-development">🎨 FRONTEND DEVELOPMENT</h2>
+<h2 id="frontend-development">🎨 フロントエンド開発</h2>
 
 > 106 プロジェクト
 
@@ -134,7 +134,7 @@
 
 ---
 
-<h2 id="backend-development">⚙️ BACKEND DEVELOPMENT</h2>
+<h2 id="backend-development">⚙️ バックエンド開発</h2>
 
 > 70 プロジェクト
 
@@ -213,7 +213,7 @@
 
 ---
 
-<h2 id="ai--machine-learning">🤖 AI / MACHINE LEARNING</h2>
+<h2 id="ai--machine-learning">🤖 AI / 機械学習</h2>
 
 > 88 プロジェクト
 
@@ -310,7 +310,7 @@
 
 ---
 
-<h2 id="devops">🚀 DEVOPS</h2>
+<h2 id="devops">🚀 DevOps</h2>
 
 > 70 プロジェクト
 
@@ -389,7 +389,7 @@
 
 ---
 
-<h2 id="database">💾 DATABASE</h2>
+<h2 id="database">💾 データベース</h2>
 
 > 68 プロジェクト
 
@@ -466,7 +466,7 @@
 
 ---
 
-<h2 id="mobile-development">📱 MOBILE DEVELOPMENT</h2>
+<h2 id="mobile-development">📱 モバイル開発</h2>
 
 > 93 プロジェクト
 
@@ -568,7 +568,7 @@
 
 ---
 
-<h2 id="design-resources">✨ DESIGN RESOURCES</h2>
+<h2 id="design-resources">✨ デザインリソース</h2>
 
 > 75 プロジェクト
 
@@ -652,7 +652,7 @@
 
 ---
 
-<h2 id="productivity-tools">🛠️ PRODUCTIVITY TOOLS</h2>
+<h2 id="productivity-tools">🛠️ 生産性ツール</h2>
 
 > 108 プロジェクト
 

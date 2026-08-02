@@ -8,18 +8,18 @@
 
 ## 📑 Содержание
 
-- [🎨 FRONTEND DEVELOPMENT (106)](#frontend-development)
-- [⚙️ BACKEND DEVELOPMENT (70)](#backend-development)
-- [🤖 AI / MACHINE LEARNING (88)](#ai--machine-learning)
+- [🎨 ФРОНТЕНД-РАЗРАБОТКА (106)](#frontend-development)
+- [⚙️ БЭКЕНД-РАЗРАБОТКА (70)](#backend-development)
+- [🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ (88)](#ai--machine-learning)
 - [🚀 DEVOPS (70)](#devops)
-- [💾 DATABASE (68)](#database)
-- [📱 MOBILE DEVELOPMENT (96)](#mobile-development)
-- [✨ DESIGN RESOURCES (79)](#design-resources)
-- [🛠️ PRODUCTIVITY TOOLS (110)](#productivity-tools)
+- [💾 БАЗЫ ДАННЫХ (68)](#database)
+- [📱 МОБИЛЬНАЯ РАЗРАБОТКА (96)](#mobile-development)
+- [✨ ДИЗАЙН-РЕСУРСЫ (79)](#design-resources)
+- [🛠️ ИНСТРУМЕНТЫ ПРОДУКТИВНОСТИ (110)](#productivity-tools)
 
 ---
 
-<h2 id="frontend-development">🎨 FRONTEND DEVELOPMENT</h2>
+<h2 id="frontend-development">🎨 ФРОНТЕНД-РАЗРАБОТКА</h2>
 
 > 106 проектов
 
@@ -134,7 +134,7 @@
 
 ---
 
-<h2 id="backend-development">⚙️ BACKEND DEVELOPMENT</h2>
+<h2 id="backend-development">⚙️ БЭКЕНД-РАЗРАБОТКА</h2>
 
 > 70 проектов
 
@@ -213,7 +213,7 @@
 
 ---
 
-<h2 id="ai--machine-learning">🤖 AI / MACHINE LEARNING</h2>
+<h2 id="ai--machine-learning">🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ</h2>
 
 > 88 проектов
 
@@ -389,7 +389,7 @@
 
 ---
 
-<h2 id="database">💾 DATABASE</h2>
+<h2 id="database">💾 БАЗЫ ДАННЫХ</h2>
 
 > 68 проектов
 
@@ -466,7 +466,7 @@
 
 ---
 
-<h2 id="mobile-development">📱 MOBILE DEVELOPMENT</h2>
+<h2 id="mobile-development">📱 МОБИЛЬНАЯ РАЗРАБОТКА</h2>
 
 > 93 проектов
 
@@ -568,7 +568,7 @@
 
 ---
 
-<h2 id="design-resources">✨ DESIGN RESOURCES</h2>
+<h2 id="design-resources">✨ ДИЗАЙН-РЕСУРСЫ</h2>
 
 > 75 проектов
 
@@ -652,7 +652,7 @@
 
 ---
 
-<h2 id="productivity-tools">🛠️ PRODUCTIVITY TOOLS</h2>
+<h2 id="productivity-tools">🛠️ ИНСТРУМЕНТЫ ПРОДУКТИВНОСТИ</h2>
 
 > 108 проектов
 

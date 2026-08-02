@@ -18,18 +18,18 @@
 
 ## 📑 目录
 
-- [🎨 FRONTEND DEVELOPMENT (106)](#frontend-development)
-- [⚙️ BACKEND DEVELOPMENT (70)](#backend-development)
-- [🤖 AI / MACHINE LEARNING (88)](#ai--machine-learning)
-- [🚀 DEVOPS (70)](#devops)
-- [💾 DATABASE (68)](#database)
-- [📱 MOBILE DEVELOPMENT (96)](#mobile-development)
-- [✨ DESIGN RESOURCES (79)](#design-resources)
-- [🛠️ PRODUCTIVITY TOOLS (110)](#productivity-tools)
+- [🎨 前端开发 (106)](#frontend-development)
+- [⚙️ 后端开发 (70)](#backend-development)
+- [🤖 AI / 机器学习 (88)](#ai--machine-learning)
+- [🚀 DevOps (70)](#devops)
+- [💾 数据库 (68)](#database)
+- [📱 移动开发 (96)](#mobile-development)
+- [✨ 设计资源 (79)](#design-resources)
+- [🛠️ 效率工具 (110)](#productivity-tools)
 
 ---
 
-<h2 id="frontend-development">🎨 FRONTEND DEVELOPMENT</h2>
+<h2 id="frontend-development">🎨 前端开发</h2>
 
 > 106 个项目
 
@@ -144,7 +144,7 @@
 
 ---
 
-<h2 id="backend-development">⚙️ BACKEND DEVELOPMENT</h2>
+<h2 id="backend-development">⚙️ 后端开发</h2>
 
 > 70 个项目
 
@@ -223,7 +223,7 @@
 
 ---
 
-<h2 id="ai--machine-learning">🤖 AI / MACHINE LEARNING</h2>
+<h2 id="ai--machine-learning">🤖 AI / 机器学习</h2>
 
 > 88 个项目
 
@@ -320,7 +320,7 @@
 
 ---
 
-<h2 id="devops">🚀 DEVOPS</h2>
+<h2 id="devops">🚀 DevOps</h2>
 
 > 70 个项目
 
@@ -399,7 +399,7 @@
 
 ---
 
-<h2 id="database">💾 DATABASE</h2>
+<h2 id="database">💾 数据库</h2>
 
 > 68 个项目
 
@@ -476,7 +476,7 @@
 
 ---
 
-<h2 id="mobile-development">📱 MOBILE DEVELOPMENT</h2>
+<h2 id="mobile-development">📱 移动开发</h2>
 
 > 93 个项目
 
@@ -578,7 +578,7 @@
 
 ---
 
-<h2 id="design-resources">✨ DESIGN RESOURCES</h2>
+<h2 id="design-resources">✨ 设计资源</h2>
 
 > 75 个项目
 
@@ -662,7 +662,7 @@
 
 ---
 
-<h2 id="productivity-tools">🛠️ PRODUCTIVITY TOOLS</h2>
+<h2 id="productivity-tools">🛠️ 效率工具</h2>
 
 > 108 个项目
 
