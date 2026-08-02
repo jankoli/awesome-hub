@@ -1,6 +1,6 @@
 # 🎉 Awesome Hub · オープンソース
 
-> 厳選オープンソースプロジェクトナビ。カテゴリー別整理、プロジェクト名クリックで原著リポジトリへ。
+> > 10k+ スターの厳選オープンソースプロジェクト 707+ 件。AI エージェントフレームワーク、RAG フレームワーク、エージェントメモリ、フロントエンド、バックエンド、AI/ML、DevOps、データベース、モバイル、デザイン、生産性ツールの 11 カテゴリーに整理。プロジェクト名クリックで原著リポジトリへ。
 
 **Language / 语言:** [简体中文](README.md) | [English](README.en.md) | **日本語** | [한국어](README.ko.md) | [Русский](README.ru.md)
 
@@ -8,15 +8,75 @@
 
 ## 📑 目次
 
+- [🤝 AI エージェントフレームワーク (20)](#ai-agent-frameworks)
+- [📚 RAG フレームワーク (7)](#rag-frameworks)
+- [🧠 エージェントメモリ (4)](#agent-memory)
 - [🎨 フロントエンド開発 (106)](#frontend-development)
 - [⚙️ バックエンド開発 (70)](#backend-development)
-- [🤖 AI / 機械学習 (82)](#ai--machine-learning)
+- [🤖 AI / 機械学習 (80)](#ai--machine-learning)
 - [🚀 DevOps (70)](#devops)
 - [💾 データベース (68)](#database)
 - [📱 モバイル開発 (96)](#mobile-development)
 - [✨ デザインリソース (79)](#design-resources)
 - [🛠️ 生産性ツール (110)](#productivity-tools)
-- [🤝 AI エージェントフレームワーク (20)](#ai-agent-frameworks)
+
+---
+
+<h2 id="ai-agent-frameworks">🤝 AI エージェントフレームワーク</h2>
+
+> 20 プロジェクト
+
+| # | プロジェクト | 概要 | 言語 | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 自律型 AI エージェントの先駆け、目標を与えると自動計画・実行、AI 自律行動の画期的なプロジェクト | Python | 186k |
+| 2 | [langgenius/dify](https://github.com/langgenius/dify) | オールインワン LLM アプリ開発プラットフォーム、Agent/RAG ワークフローを視覚的に編成、ワンクリックデプロイ | TypeScript | 151k |
+| 3 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LLM アプリ構築の主流フレームワーク、プロンプトエンジニアリング、RAG、Agent フルスタックコンポーネント | Python | 143k |
+| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI エージェントにブラウザを制御させ、Web 操作やインタラクションタスクを自動化 | Python | 108k |
+| 5 | [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) | ローカルコード実行エージェント、LLM が直接コンピュータを操作して各種タスクを完了 | Python | 68k |
+| 6 | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft のマルチエージェント会話フレームワーク、複数の AI エージェントが協力して複雑なタスクを完了 | Python | 60k |
+| 7 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | マルチエージェント編成フレームワーク、ロールプレイ、タスク割り当て、協力ワークフロー、シンプルで使いやすい | Python | 56k |
+| 8 | [flowiseai/flowise](https://github.com/flowiseai/flowise) | LLM アプリと Agent ワークフローをビジュアルドラッグ＆ドロップで構築、ローコードノーコード開発 | TypeScript | 55k |
+| 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 有向グラフで Agent フローをモデリング、状態永続化と Human-in-the-loop をサポート | Python | 39k |
+| 10 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | Stanford 製、プログラミングパラダイムで LLM アプリを構築、プロンプトを自動最適化 | Python | 37k |
+| 11 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | マルチエージェントで仮想ソフトウェア会社を構成、チャットで自律的にソフトウェアを開発 | Python | 34k |
+| 12 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | HuggingFace の軽量 Agent フレームワーク、コードエージェント優先設計、極めてシンプル | Python | 29k |
+| 13 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | OpenAI 公式 Agent SDK、ネイティブツール呼び出しとエージェントハンドオフ機構 | Python | 28k |
+| 14 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Microsoft の LLM 統合フレームワーク、プラグインアーキテクチャ、.NET/Python/Java 対応 | C# | 28k |
+| 15 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | LLM アプリフレームワーク、検索と QA パイプラインに特化、コンポーネント自由交換可能 | Python | 26k |
+| 16 | [openai/swarm](https://github.com/openai/swarm) | OpenAI のマルチエージェント実験フレームワーク、軽量なエージェントハンドオフとルーティング | Python | 22k |
+| 17 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Pydantic スタイルの Agent フレームワーク、型安全、構造化出力 | Python | 19k |
+| 18 | [frdel/agent-zero](https://github.com/frdel/agent-zero) | オープンソース自律 AI エージェントフレームワーク、カスタムツールとメモリシステム対応 | Python | 19k |
+| 19 | [camel-ai/camel](https://github.com/camel-ai/camel) | マルチエージェントロールプレイフレームワーク、大規模 LLM 社会知能を探索 | Python | 18k |
+| 20 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | AI エージェント用セキュアコード実行サンドボックス、任意の言語対応、クラウド隔離 | Python | 13k |
+
+---
+
+<h2 id="rag-frameworks">📚 RAG フレームワーク</h2>
+
+> 7 プロジェクト
+
+| # | プロジェクト | 概要 | 言語 | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 深度ドキュメント解析 RAG エンジン、複雑フォーマットのスマートスライスと引用追跡をサポート | Go | 87k |
+| 2 | [Embedchain/embedchain](https://github.com/Embedchain/embedchain) | RAG フレームワーク、数行でナレッジベース QA アプリを構築、複数データソース対応 | Python | 62k |
+| 3 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | LLM データフレームワーク、RAG アプリの首选、プライベートデータと大モデルを接続 | Python | 51k |
+| 4 | [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) | 生成 AI セカンドブレイン、ドキュメントと知識を対話可能な AI アシスタントに変換 | Python | 39k |
+| 5 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | ベクトル類似度検索ライブラリ、10 億規模のベクトル検索、GPU 加速、RAG システムコア | C++ | 32k |
+| 6 | [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | クリーンな RAG ドキュメント QA ツール、複数 LLM と埋め込みモデル対応、ローカルデプロイに優しい | Python | 26k |
+| 7 | [vanna-ai/vanna](https://github.com/vanna-ai/vanna) | SQL RAG フレームワーク、自然言語でデータベースをクエリ、自動トレーニングと最適化 | Python | 24k |
+
+---
+
+<h2 id="agent-memory">🧠 エージェントメモリ</h2>
+
+> 4 プロジェクト
+
+| # | プロジェクト | 概要 | 言語 | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | AI エージェント汎用メモリレイヤー、クロスセッション永続メモリ、マルチモデルマルチプラットフォーム | Python | 62k |
+| 2 | [getzep/graphiti](https://github.com/getzep/graphiti) | 時系列ナレッジグラフメモリエンジン、Agent に構造化メモリと推論能力を提供 | Python | 29k |
+| 3 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | AI エージェント永続メモリフレームワーク、動作を自動キャプチャ、クロスエージェントメモリ共有 | TypeScript | 26k |
+| 4 | [letta-ai/letta](https://github.com/letta-ai/letta) | 旧 MemGPT、エージェントメモリ OS、長期メモリと自己編集機能 | Python | 24k |
 
 ---
 
@@ -216,7 +276,7 @@
 
 <h2 id="ai--machine-learning">🤖 AI / 機械学習</h2>
 
-> 82 プロジェクト
+> 80 プロジェクト
 
 | # | プロジェクト | 概要 | 言語 | ⭐ Stars |
 |---|---|---|---|---|
@@ -273,35 +333,34 @@
 | 51 | [apache/spark](https://github.com/apache/spark) | 統合ビッグデータ分析エンジン、分散データ処理、MLlib/GraphX/SQL/Streaming | Scala | 40k |
 | 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML ライフサイクル管理プラットフォーム、実験追跡/モデル登録/展開/モニタリング、MLOps 標準 | Python | 18k |
 | 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | データセットのロードおよび処理ライブラリ、1000 以上のデータセット、1 行のコードロード、効率的な前処理 | Python | 19k |
-| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | ベクトル類似検索ライブラリ、10億レベルのベクトル検索、GPUアクセラレーション、RAGシステムコア | C++ | 32k |
-| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT プロンプト ワード コレクション、100 以上の役割プロンプト ワード、大規模モデルの最高のパフォーマンスを刺激 | HTML | 115k |
-| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy の最も単純な GPT 実装、教育レベルのコード、GPT の中心原則の理解 | Python | 40k |
-| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 実践型ディープラーニング中国語版、Li Mu プロデュース、理論 + コード + 演習、初心者向けの第一選択教科書 | Python | 60k |
-| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 使いやすい LLM 微調整トレーニング フレームワーク | Python | 60k |
-| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | データと ML アプリケーション UI を迅速に構築する | Python | 36k |
-| 60 | [openai/gym](https://github.com/openai/gym) | 強化学習環境インターフェイス ツールキット | Python | 35k |
-| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML モデルのデモンストレーション インターフェイスを迅速に作成 | Python | 33k |
-| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 大規模な言語モデルをゼロから構築するチュートリアル | Python | 30k |
-| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | データ分析・処理コアライブラリ | Python | 44k |
-| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 多言語 OCR ツールボックス | Python | 44k |
-| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 最適化された分散勾配ブースティング ツリーバンク | C++ | 26k |
-| 66 | [openai/CLIP](https://github.com/openai/CLIP) | 画像とテキストの比較学習モデル | Python | 26k |
-| 67 | [shap/shap](https://github.com/shap/shap) | モデルの説明と特徴属性の視覚化ライブラリ | Python | 23k |
-| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI を活用したブラウザ自動化エージェント | Python | 30k |
-| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | ドラッグ＆ドロップによるビジュアルAIエージェント構築 | TypeScript | 45k |
-| 70 | [numpy/numpy](https://github.com/numpy/numpy) | 科学技術計算基礎ライブラリ | Python | 28k |
-| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch の実装 | Python | 19k |
-| 72 | [facebook/prophet](https://github.com/facebook/prophet) | 自動時系列予測ツール | Python | 18k |
-| 73 | [gensim/gensim](https://github.com/gensim/gensim) | トピックモデリングとドキュメント類似性ライブラリ | Python | 16k |
-| 74 | [networkx/networkx](https://github.com/networkx/networkx) | 複雑なネットワークとグラフ理論の解析ライブラリ | Python | 15k |
-| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python グラフ バインディングおよびデータ視覚化ライブラリ | Python | 20k |
-| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | シーケンスツーシーケンス モデリング ツールキット | Python | 20k |
-| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter、次世代のインタラクティブな開発環境 | TypeScript | 14k |
-| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 深層学習に関する論文実装の注釈付きコレクション | Python | 14k |
-| 79 | [microsoft/nni](https://github.com/microsoft/nni) | 自動機械学習 AutoML ツールキット | Python | 14k |
-| 80 | [nltk/nltk](https://github.com/nltk/nltk) | 自然言語処理ツールキット | Python | 13k |
-| 81 | [scipy/scipy](https://github.com/scipy/scipy) | 科学技術コンピューティング図書館 | Python | 13k |
-| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 大規模言語モデルの重みと推論 | Python | 12k |
+| 54 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT プロンプト ワード コレクション、100 以上の役割プロンプト ワード、大規模モデルの最高のパフォーマンスを刺激 | HTML | 115k |
+| 55 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy の最も単純な GPT 実装、教育レベルのコード、GPT の中心原則の理解 | Python | 40k |
+| 56 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 実践型ディープラーニング中国語版、Li Mu プロデュース、理論 + コード + 演習、初心者向けの第一選択教科書 | Python | 60k |
+| 57 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 使いやすい LLM 微調整トレーニング フレームワーク | Python | 60k |
+| 58 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | データと ML アプリケーション UI を迅速に構築する | Python | 36k |
+| 59 | [openai/gym](https://github.com/openai/gym) | 強化学習環境インターフェイス ツールキット | Python | 35k |
+| 60 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML モデルのデモンストレーション インターフェイスを迅速に作成 | Python | 33k |
+| 61 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 大規模な言語モデルをゼロから構築するチュートリアル | Python | 30k |
+| 62 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | データ分析・処理コアライブラリ | Python | 44k |
+| 63 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 多言語 OCR ツールボックス | Python | 44k |
+| 64 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 最適化された分散勾配ブースティング ツリーバンク | C++ | 26k |
+| 65 | [openai/CLIP](https://github.com/openai/CLIP) | 画像とテキストの比較学習モデル | Python | 26k |
+| 66 | [shap/shap](https://github.com/shap/shap) | モデルの説明と特徴属性の視覚化ライブラリ | Python | 23k |
+| 67 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI を活用したブラウザ自動化エージェント | Python | 30k |
+| 68 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | ドラッグ＆ドロップによるビジュアルAIエージェント構築 | TypeScript | 45k |
+| 69 | [numpy/numpy](https://github.com/numpy/numpy) | 科学技術計算基礎ライブラリ | Python | 28k |
+| 70 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch の実装 | Python | 19k |
+| 71 | [facebook/prophet](https://github.com/facebook/prophet) | 自動時系列予測ツール | Python | 18k |
+| 72 | [gensim/gensim](https://github.com/gensim/gensim) | トピックモデリングとドキュメント類似性ライブラリ | Python | 16k |
+| 73 | [networkx/networkx](https://github.com/networkx/networkx) | 複雑なネットワークとグラフ理論の解析ライブラリ | Python | 15k |
+| 74 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python グラフ バインディングおよびデータ視覚化ライブラリ | Python | 20k |
+| 75 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | シーケンスツーシーケンス モデリング ツールキット | Python | 20k |
+| 76 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter、次世代のインタラクティブな開発環境 | TypeScript | 14k |
+| 77 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 深層学習に関する論文実装の注釈付きコレクション | Python | 14k |
+| 78 | [microsoft/nni](https://github.com/microsoft/nni) | 自動機械学習 AutoML ツールキット | Python | 14k |
+| 79 | [nltk/nltk](https://github.com/nltk/nltk) | 自然言語処理ツールキット | Python | 13k |
+| 80 | [scipy/scipy](https://github.com/scipy/scipy) | 科学技術コンピューティング図書館 | Python | 13k |
+| 81 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 大規模言語モデルの重みと推論 | Python | 12k |
 
 ---
 
@@ -764,4 +823,20 @@
 
 ---
 
-**厳選プロジェクト計 678 件** | MIT ライセンスでオープンソース
+**厳選プロジェクト計 707 件** | MIT ライセンスでオープンソース
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jankoli/awesome-hub&type=Date)](https://star-history.com/#jankoli/awesome-hub&Date)
+
+---
+
+## 🤝 貢献
+
+素晴らしいプロジェクトの追加 PR を歓迎します！[貢献ガイド](CONTRIBUTING.md)をお読みください。
+
+## 📄 License
+
+[MIT](LICENSE) © 2026 Awesome Hub

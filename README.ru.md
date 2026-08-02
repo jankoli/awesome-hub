@@ -1,6 +1,6 @@
 # 🎉 Awesome Hub · Open Source
 
-> Навигация по отобранным open-source проектам, организованным по категориям. Нажмите на название для перехода к оригинальному репозиторию.
+> > 707+ отобранных open-source проектов с 10k+ звёздами, в 11 категориях: фреймворки ИИ-агентов, RAG-фреймворки, память агентов, фронтенд, бэкенд, ИИ/ML, DevOps, базы данных, мобильная разработка, дизайн и продуктивность. Нажмите на проект, чтобы перейти к оригинальному репозиторию.
 
 **Language / язык:** [简体中文](README.md) | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | **Русский**
 
@@ -8,15 +8,75 @@
 
 ## 📑 Содержание
 
+- [🤝 ФРЕЙМВОРКИ ИИ-АГЕНТОВ (20)](#ai-agent-frameworks)
+- [📚 RAG-ФРЕЙМВОРКИ (7)](#rag-frameworks)
+- [🧠 ПАМЯТЬ АГЕНТОВ (4)](#agent-memory)
 - [🎨 ФРОНТЕНД-РАЗРАБОТКА (106)](#frontend-development)
 - [⚙️ БЭКЕНД-РАЗРАБОТКА (70)](#backend-development)
-- [🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ (82)](#ai--machine-learning)
+- [🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ (80)](#ai--machine-learning)
 - [🚀 DEVOPS (70)](#devops)
 - [💾 БАЗЫ ДАННЫХ (68)](#database)
 - [📱 МОБИЛЬНАЯ РАЗРАБОТКА (96)](#mobile-development)
 - [✨ ДИЗАЙН-РЕСУРСЫ (79)](#design-resources)
 - [🛠️ ИНСТРУМЕНТЫ ПРОДУКТИВНОСТИ (110)](#productivity-tools)
-- [🤝 ФРЕЙМВОРКИ ИИ-АГЕНТОВ (20)](#ai-agent-frameworks)
+
+---
+
+<h2 id="ai-agent-frameworks">🤝 ФРЕЙМВОРКИ ИИ-АГЕНТОВ</h2>
+
+> 20 проектов
+
+| # | Проект | Описание | Язык | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Пионер автономных ИИ-агентов, получает цель и сам планирует выполнение, новаторский проект автономного ИИ | Python | 186k |
+| 2 | [langgenius/dify](https://github.com/langgenius/dify) | Универсальная платформа для LLM-приложений, визуальная оркестрация Agent/RAG, деплой в один клик | TypeScript | 151k |
+| 3 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Популярный фреймворк для LLM-приложений, prompt engineering, RAG, компоненты Agent | Python | 143k |
+| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | ИИ-агент управляет браузером, автоматизация веб-операций и задач взаимодействия | Python | 108k |
+| 5 | [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) | Локальный агент выполнения кода, LLM напрямую управляет компьютером | Python | 68k |
+| 6 | [microsoft/autogen](https://github.com/microsoft/autogen) | Мультиагентный фреймворк от Microsoft, ИИ-агенты сотрудничают в сложных задачах | Python | 60k |
+| 7 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Фреймворк оркестрации мультиагентов, ролевые модели, распределение задач, совместные процессы | Python | 56k |
+| 8 | [flowiseai/flowise](https://github.com/flowiseai/flowise) | Визуальный конструктор LLM-приложений и Agent-процессов, low-code/no-code разработка | TypeScript | 55k |
+| 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Моделирование Agent-потоков направленными графами, сохранение состояния и Human-in-the-loop | Python | 39k |
+| 10 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | Стэнфордский фреймворк, программная парадигма для LLM-приложений, автооптимизация промптов | Python | 37k |
+| 11 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Мультиагентная виртуальная софтверная компания, разработка ПО через чат | Python | 34k |
+| 12 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | Легковесный Agent-фреймворк от HuggingFace, code-agent-first дизайн | Python | 29k |
+| 13 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | Официальный Agent SDK от OpenAI, нативные вызовы инструментов и передача агентов | Python | 28k |
+| 14 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Фреймворк интеграции LLM от Microsoft, плагинная архитектура, .NET/Python/Java | C# | 28k |
+| 15 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | Фреймворк LLM-приложений, фокус на поиск и QA-пайплайны, взаимозаменяемые компоненты | Python | 26k |
+| 16 | [openai/swarm](https://github.com/openai/swarm) | Экспериментальный мультиагентный фреймворк OpenAI, лёгкая передача и маршрутизация | Python | 22k |
+| 17 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Agent-фреймворк в стиле Pydantic, типобезопасность, структурированный вывод | Python | 19k |
+| 18 | [frdel/agent-zero](https://github.com/frdel/agent-zero) | Открытый автономный ИИ-агент фреймворк, кастомные инструменты и системы памяти | Python | 19k |
+| 19 | [camel-ai/camel](https://github.com/camel-ai/camel) | Фреймворк ролевых мультиагентов, исследование социального интеллекта LLM | Python | 18k |
+| 20 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | Безопасная песочница выполнения кода для ИИ-агентов, любые языки, облачная изоляция | Python | 13k |
+
+---
+
+<h2 id="rag-frameworks">📚 RAG-ФРЕЙМВОРКИ</h2>
+
+> 7 проектов
+
+| # | Проект | Описание | Язык | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | RAG-движок с глубоким разбором документов, умная нарезка сложных форматов и отслеживание цитат | Go | 87k |
+| 2 | [Embedchain/embedchain](https://github.com/Embedchain/embedchain) | RAG-фреймворк, QA-приложение на базе знаний в несколько строк, множество источников | Python | 62k |
+| 3 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | LLM-фреймворк данных, первый выбор для RAG, соединяет приватные данные с LLM | Python | 51k |
+| 4 | [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) | Генеративный ИИ второй мозг, превращает документы в диалогового ИИ-помощника | Python | 39k |
+| 5 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | Библиотека векторного поиска, миллиардные векторы, GPU-ускорение, ядро RAG | C++ | 32k |
+| 6 | [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | Аккуратный RAG-инструмент для QA, поддержка нескольких LLM, локальное развёртывание | Python | 26k |
+| 7 | [vanna-ai/vanna](https://github.com/vanna-ai/vanna) | SQL RAG-фреймворк, запросы к БД на естественном языке, автообучение и оптимизация | Python | 24k |
+
+---
+
+<h2 id="agent-memory">🧠 ПАМЯТЬ АГЕНТОВ</h2>
+
+> 4 проектов
+
+| # | Проект | Описание | Язык | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Универсальный слой памяти ИИ-агентов, персистентная память между сессиями, мульти-модели | Python | 62k |
+| 2 | [getzep/graphiti](https://github.com/getzep/graphiti) | Темпоральный граф знаний для памяти, структурированная память и рассуждения для агентов | Python | 29k |
+| 3 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | Персистентная память ИИ-агентов, автозахват поведения, общая память между агентами | TypeScript | 26k |
+| 4 | [letta-ai/letta](https://github.com/letta-ai/letta) | Бывший MemGPT, ОС памяти агентов, долговременная память и самоедактирование | Python | 24k |
 
 ---
 
@@ -216,7 +276,7 @@
 
 <h2 id="ai--machine-learning">🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ</h2>
 
-> 82 проектов
+> 80 проектов
 
 | # | Проект | Описание | Язык | ⭐ Stars |
 |---|---|---|---|---|
@@ -273,35 +333,34 @@
 | 51 | [apache/spark](https://github.com/apache/spark) | Унифицированный механизм анализа больших данных, распределенная обработка данных, MLlib/GraphX/SQ... | Scala | 40k |
 | 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | Платформа управления жизненным циклом машинного обучения, отслеживание экспериментов/регистрация ... | Python | 18k |
 | 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | Библиотека загрузки и обработки наборов данных, более 1000 наборов данных, загрузка одной строки ... | Python | 19k |
-| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | Библиотека поиска по сходству векторов, поиск векторов на миллиардном уровне, ускорение на графич... | C++ | 32k |
-| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | Коллекция подсказок ChatGPT, более 100 ролевых слов, стимулирующих максимальную производительност... | HTML | 115k |
-| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Простейшая реализация GPT от Karpathy, код уровня обучения, понимание основных принципов GPT. | Python | 40k |
-| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Практическая китайская версия глубокого обучения, разработанная Ли Му, теория + код + упражнения,... | Python | 60k |
-| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | Простая в использовании система тонкой настройки обучения LLM | Python | 60k |
-| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | Быстро создавайте данные и пользовательские интерфейсы приложений машинного обучения. | Python | 36k |
-| 60 | [openai/gym](https://github.com/openai/gym) | Набор инструментов для интерфейса среды обучения с подкреплением | Python | 35k |
-| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Быстрое создание демонстрационного интерфейса модели машинного обучения | Python | 33k |
-| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Учебник по построению большой языковой модели с нуля | Python | 30k |
-| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Базовая библиотека анализа и обработки данных | Python | 44k |
-| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Многоязычный набор инструментов оптического распознавания символов Baidu | Python | 44k |
-| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | Оптимизированный древовидный банк повышения распределенного градиента | C++ | 26k |
-| 66 | [openai/CLIP](https://github.com/openai/CLIP) | Модель обучения сравнению изображений и текста | Python | 26k |
-| 67 | [shap/shap](https://github.com/shap/shap) | Объяснение модели и библиотека визуализации атрибуции функций | Python | 23k |
-| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Агент автоматизации браузера на базе искусственного интеллекта | Python | 30k |
-| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Создание визуального агента ИИ с помощью перетаскивания | TypeScript | 45k |
-| 70 | [numpy/numpy](https://github.com/numpy/numpy) | Базовая библиотека научных вычислений | Python | 28k |
-| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Реализация Vision Transformer PyTorch | Python | 19k |
-| 72 | [facebook/prophet](https://github.com/facebook/prophet) | Инструменты автоматического прогнозирования временных рядов | Python | 18k |
-| 73 | [gensim/gensim](https://github.com/gensim/gensim) | Библиотека тематического моделирования и сходства документов | Python | 16k |
-| 74 | [networkx/networkx](https://github.com/networkx/networkx) | Библиотека анализа комплексной теории сетей и графов | Python | 15k |
-| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Библиотека привязки графиков и визуализации данных Python | Python | 20k |
-| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | Набор инструментов для моделирования последовательностей | Python | 20k |
-| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter, интерактивная среда разработки нового поколения. | TypeScript | 14k |
-| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | Аннотированный сборник реализаций документов по глубокому обучению | Python | 14k |
-| 79 | [microsoft/nni](https://github.com/microsoft/nni) | Набор инструментов AutoML для автоматизированного машинного обучения | Python | 14k |
-| 80 | [nltk/nltk](https://github.com/nltk/nltk) | Набор инструментов для обработки естественного языка | Python | 13k |
-| 81 | [scipy/scipy](https://github.com/scipy/scipy) | Библиотека научно-технической вычислительной техники | Python | 13k |
-| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Веса и вывод большой языковой модели Meta LLaMA | Python | 12k |
+| 54 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | Коллекция подсказок ChatGPT, более 100 ролевых слов, стимулирующих максимальную производительност... | HTML | 115k |
+| 55 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Простейшая реализация GPT от Karpathy, код уровня обучения, понимание основных принципов GPT. | Python | 40k |
+| 56 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Практическая китайская версия глубокого обучения, разработанная Ли Му, теория + код + упражнения,... | Python | 60k |
+| 57 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | Простая в использовании система тонкой настройки обучения LLM | Python | 60k |
+| 58 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | Быстро создавайте данные и пользовательские интерфейсы приложений машинного обучения. | Python | 36k |
+| 59 | [openai/gym](https://github.com/openai/gym) | Набор инструментов для интерфейса среды обучения с подкреплением | Python | 35k |
+| 60 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Быстрое создание демонстрационного интерфейса модели машинного обучения | Python | 33k |
+| 61 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Учебник по построению большой языковой модели с нуля | Python | 30k |
+| 62 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Базовая библиотека анализа и обработки данных | Python | 44k |
+| 63 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Многоязычный набор инструментов оптического распознавания символов Baidu | Python | 44k |
+| 64 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | Оптимизированный древовидный банк повышения распределенного градиента | C++ | 26k |
+| 65 | [openai/CLIP](https://github.com/openai/CLIP) | Модель обучения сравнению изображений и текста | Python | 26k |
+| 66 | [shap/shap](https://github.com/shap/shap) | Объяснение модели и библиотека визуализации атрибуции функций | Python | 23k |
+| 67 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Агент автоматизации браузера на базе искусственного интеллекта | Python | 30k |
+| 68 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Создание визуального агента ИИ с помощью перетаскивания | TypeScript | 45k |
+| 69 | [numpy/numpy](https://github.com/numpy/numpy) | Базовая библиотека научных вычислений | Python | 28k |
+| 70 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Реализация Vision Transformer PyTorch | Python | 19k |
+| 71 | [facebook/prophet](https://github.com/facebook/prophet) | Инструменты автоматического прогнозирования временных рядов | Python | 18k |
+| 72 | [gensim/gensim](https://github.com/gensim/gensim) | Библиотека тематического моделирования и сходства документов | Python | 16k |
+| 73 | [networkx/networkx](https://github.com/networkx/networkx) | Библиотека анализа комплексной теории сетей и графов | Python | 15k |
+| 74 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Библиотека привязки графиков и визуализации данных Python | Python | 20k |
+| 75 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | Набор инструментов для моделирования последовательностей | Python | 20k |
+| 76 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter, интерактивная среда разработки нового поколения. | TypeScript | 14k |
+| 77 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | Аннотированный сборник реализаций документов по глубокому обучению | Python | 14k |
+| 78 | [microsoft/nni](https://github.com/microsoft/nni) | Набор инструментов AutoML для автоматизированного машинного обучения | Python | 14k |
+| 79 | [nltk/nltk](https://github.com/nltk/nltk) | Набор инструментов для обработки естественного языка | Python | 13k |
+| 80 | [scipy/scipy](https://github.com/scipy/scipy) | Библиотека научно-технической вычислительной техники | Python | 13k |
+| 81 | [meta-llama/llama](https://github.com/meta-llama/llama) | Веса и вывод большой языковой модели Meta LLaMA | Python | 12k |
 
 ---
 
@@ -764,4 +823,20 @@
 
 ---
 
-**Всего 678 отобранных проектов** | Open source под MIT лицензией
+**Всего 707 отобранных проектов** | Open source под MIT лицензией
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jankoli/awesome-hub&type=Date)](https://star-history.com/#jankoli/awesome-hub&Date)
+
+---
+
+## 🤝 Участие
+
+PR по добавлению новых проектов приветствуются! Прочитайте [руководство по участию](CONTRIBUTING.md).
+
+## 📄 License
+
+[MIT](LICENSE) © 2026 Awesome Hub

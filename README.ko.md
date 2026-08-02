@@ -1,6 +1,6 @@
 # 🎉 Awesome Hub · 오픈소스
 
-> 엄선된 오픈소스 프로젝트 네비게이션. 카테고리별 정리, 프로젝트명 클릭 시 원본 저장소로 이동.
+> > 10k+ 스타 엄선된 오픈소스 프로젝트 707+ 개. AI 에이전트 프레임워크, RAG 프레임워크, 에이전트 메모리, 프론트엔드, 백엔드, AI/ML, DevOps, 데이터베이스, 모바일, 디자인, 생산성 도구의 11 카테고리로 정리. 프로젝트명 클릭 시 원작 리포지토리로 이동.
 
 **Language / 语言:** [简体中文](README.md) | [English](README.en.md) | [日本語](README.ja.md) | **한국어** | [Русский](README.ru.md)
 
@@ -8,15 +8,75 @@
 
 ## 📑 목차
 
+- [🤝 AI 에이전트 프레임워크 (20)](#ai-agent-frameworks)
+- [📚 RAG 프레임워크 (7)](#rag-frameworks)
+- [🧠 에이전트 메모리 (4)](#agent-memory)
 - [🎨 프론트엔드 개발 (106)](#frontend-development)
 - [⚙️ 백엔드 개발 (70)](#backend-development)
-- [🤖 AI / 머신러닝 (82)](#ai--machine-learning)
+- [🤖 AI / 머신러닝 (80)](#ai--machine-learning)
 - [🚀 DevOps (70)](#devops)
 - [💾 데이터베이스 (68)](#database)
 - [📱 모바일 개발 (96)](#mobile-development)
 - [✨ 디자인 리소스 (79)](#design-resources)
 - [🛠️ 생산성 도구 (110)](#productivity-tools)
-- [🤝 AI 에이전트 프레임워크 (20)](#ai-agent-frameworks)
+
+---
+
+<h2 id="ai-agent-frameworks">🤝 AI 에이전트 프레임워크</h2>
+
+> 20 프로젝트
+
+| # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 자율 AI 에이전트 선구자, 목표를 주면 자동 계획 및 실행, AI 자율 행동의 획기적인 프로젝트 | Python | 186k |
+| 2 | [langgenius/dify](https://github.com/langgenius/dify) | 올인원 LLM 앱 개발 플랫폼, Agent/RAG 워크플로우 시각적 편성, 원클릭 배포 | TypeScript | 151k |
+| 3 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LLM 앱 구축의 주류 프레임워크, 프롬프트 엔지니어링, RAG, Agent 풀스택 컴포넌트 | Python | 143k |
+| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 에이전트가 브라우저를 제어, 웹 작업 및 상호작용 자동화 | Python | 108k |
+| 5 | [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) | 로컬 코드 실행 에이전트, LLM이 직접 컴퓨터를 조작하여 다양한 작업 수행 | Python | 68k |
+| 6 | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft의 멀티 에이전트 대화 프레임워크, 여러 AI 에이전트가 협력하여 복잡한 작업 수행 | Python | 60k |
+| 7 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 멀티 에이전트 오케스트레이션 프레임워크, 역할 수행, 작업 할당, 협업 워크플로우, 간편함 | Python | 56k |
+| 8 | [flowiseai/flowise](https://github.com/flowiseai/flowise) | LLM 앱과 Agent 워크플로우를 시각적 드래그앤드롭으로 구축, 로우코드 노코드 개발 | TypeScript | 55k |
+| 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 방향 그래프로 Agent 흐름 모델링, 상태 지속성 및 Human-in-the-loop 지원 | Python | 39k |
+| 10 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | Stanford 제작, 프로그래밍 패러다임으로 LLM 앱 구축, 프롬프트 자동 최적화 | Python | 37k |
+| 11 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 멀티 에이전트로 가상 소프트웨어 회사 구성, 채팅으로 자율적 소프트웨어 개발 | Python | 34k |
+| 12 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | HuggingFace 경량 Agent 프레임워크, 코드 에이전트 우선 설계, 매우 간단함 | Python | 29k |
+| 13 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | OpenAI 공식 Agent SDK, 네이티브 도구 호출 및 에이전트 핸드오프 메커니즘 | Python | 28k |
+| 14 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Microsoft LLM 통합 프레임워크, 플러그인 아키텍처, .NET/Python/Java 지원 | C# | 28k |
+| 15 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | LLM 앱 프레임워크, 검색 및 QA 파이프라인 중심, 컴포넌트 자유 교체 가능 | Python | 26k |
+| 16 | [openai/swarm](https://github.com/openai/swarm) | OpenAI 멀티 에이전트 실험 프레임워크, 경량 에이전트 핸드오프 및 라우팅 | Python | 22k |
+| 17 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Pydantic 스타일 Agent 프레임워크, 타입 안전, 구조화된 출력 | Python | 19k |
+| 18 | [frdel/agent-zero](https://github.com/frdel/agent-zero) | 오픈소스 자율 AI 에이전트 프레임워크, 커스텀 도구 및 메모리 시스템 지원 | Python | 19k |
+| 19 | [camel-ai/camel](https://github.com/camel-ai/camel) | 멀티 에이전트 역할 수행 프레임워크, 대규모 LLM 사회 지능 탐구 | Python | 18k |
+| 20 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | AI 에이전트 보안 코드 실행 샌드박스, 모든 언어 지원, 클라우드 격리 | Python | 13k |
+
+---
+
+<h2 id="rag-frameworks">📚 RAG 프레임워크</h2>
+
+> 7 프로젝트
+
+| # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 심층 문서 파싱 RAG 엔진, 복잡한 형식의 스마트 슬라이스 및 인용 추적 지원 | Go | 87k |
+| 2 | [Embedchain/embedchain](https://github.com/Embedchain/embedchain) | RAG 프레임워크, 몇 줄로 지식베이스 QA 앱 구축, 다중 데이터 소스 지원 | Python | 62k |
+| 3 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | LLM 데이터 프레임워크, RAG 앱의首选, 프라이빗 데이터와 대모델 연결 | Python | 51k |
+| 4 | [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) | 생성 AI 세컨드 브레인, 문서와 지식을 대화 가능한 AI 어시스턴트로 변환 | Python | 39k |
+| 5 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 벡터 유사도 검색 라이브러리, 10억 규모 벡터 검색, GPU 가속, RAG 시스템 코어 | C++ | 32k |
+| 6 | [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | 깔끔한 RAG 문서 QA 도구, 다중 LLM 및 임베딩 모델 지원, 로컬 배포 친화적 | Python | 26k |
+| 7 | [vanna-ai/vanna](https://github.com/vanna-ai/vanna) | SQL RAG 프레임워크, 자연어로 데이터베이스 쿼리, 자동 학습 및 최적화 | Python | 24k |
+
+---
+
+<h2 id="agent-memory">🧠 에이전트 메모리</h2>
+
+> 4 프로젝트
+
+| # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | AI 에이전트 범용 메모리 레이어, 크로스 세션 지속 메모리, 멀티모델 멀티플랫폼 | Python | 62k |
+| 2 | [getzep/graphiti](https://github.com/getzep/graphiti) | 시계열 지식 그래프 메모리 엔진, Agent에 구조화된 메모리 및 추론 능력 제공 | Python | 29k |
+| 3 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | AI 에이전트 지속 메모리 프레임워크, 행동 자동 캡처, 크로스 에이전트 메모리 공유 | TypeScript | 26k |
+| 4 | [letta-ai/letta](https://github.com/letta-ai/letta) | 구 MemGPT, 에이전트 메모리 OS, 장기 메모리 및 자기 편집 기능 | Python | 24k |
 
 ---
 
@@ -273,35 +333,34 @@
 | 51 | [apache/spark](https://github.com/apache/spark) | 통합 빅데이터 분석 엔진, 분산 데이터 처리, MLlib/GraphX/SQL/Streaming | Scala | 40k |
 | 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML 수명주기 관리 플랫폼, 실험 추적/모델 등록/배포/모니터링, MLOps 표준 | Python | 18k |
 | 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | 데이터 세트 로딩 및 처리 라이브러리, 1000개 이상의 데이터 세트, 한 줄의 코드 로딩, 효율적인 전처리 | Python | 19k |
-| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 벡터 유사성 검색 라이브러리, 10억 단위 벡터 검색, GPU 가속, RAG 시스템 코어 | C++ | 32k |
-| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 프롬프트 단어 수집, 100개 이상의 역할 프롬프트 단어, 대형 모델의 최고의 성능 자극 | HTML | 115k |
-| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy의 가장 간단한 GPT 구현, 교육 수준 코드, GPT의 핵심 원칙 이해 | Python | 40k |
-| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Li Mu가 제작한 실습형 딥러닝 중국어 버전, 이론+코드+연습, 초보자를 위한 1순위 교과서 | Python | 60k |
-| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 사용하기 쉬운 LLM 미세 조정 교육 프레임워크 | Python | 60k |
-| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 데이터 및 ML 애플리케이션 UI를 빠르게 구축 | Python | 36k |
-| 60 | [openai/gym](https://github.com/openai/gym) | 강화 학습 환경 인터페이스 툴킷 | Python | 35k |
-| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML 모델 데모 인터페이스를 빠르게 생성 | Python | 33k |
-| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 대규모 언어 모델을 처음부터 구축하는 방법에 대한 튜토리얼 | Python | 30k |
-| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 데이터 분석 및 처리 핵심 라이브러리 | Python | 44k |
-| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 다국어 OCR 도구 상자 | Python | 44k |
-| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 최적화된 분산 그래디언트 부스팅 트리뱅크 | C++ | 26k |
-| 66 | [openai/CLIP](https://github.com/openai/CLIP) | 이미지와 텍스트 비교 학습 모델 | Python | 26k |
-| 67 | [shap/shap](https://github.com/shap/shap) | 모델 설명 및 특징 속성 시각화 라이브러리 | Python | 23k |
-| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 기반 브라우저 자동화 에이전트 | Python | 30k |
-| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 드래그 앤 드롭 방식의 시각적 AI 에이전트 구성 | TypeScript | 45k |
-| 70 | [numpy/numpy](https://github.com/numpy/numpy) | 과학 컴퓨팅 기본 라이브러리 | Python | 28k |
-| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 구현 | Python | 19k |
-| 72 | [facebook/prophet](https://github.com/facebook/prophet) | 자동화된 시계열 예측 도구 | Python | 18k |
-| 73 | [gensim/gensim](https://github.com/gensim/gensim) | 주제 모델링 및 문서 유사성 라이브러리 | Python | 16k |
-| 74 | [networkx/networkx](https://github.com/networkx/networkx) | 복잡한 네트워크 및 그래프 이론 분석 라이브러리 | Python | 15k |
-| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 그래프 바인딩 및 데이터 시각화 라이브러리 | Python | 20k |
-| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 시퀀스-투-시퀀스 모델링 툴킷 | Python | 20k |
-| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 차세대 대화형 개발 환경, Jupyter | TypeScript | 14k |
-| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 주석이 달린 딥러닝 논문 구현 모음 | Python | 14k |
-| 79 | [microsoft/nni](https://github.com/microsoft/nni) | 자동화된 머신러닝 AutoML 툴킷 | Python | 14k |
-| 80 | [nltk/nltk](https://github.com/nltk/nltk) | 자연어 처리 툴킷 | Python | 13k |
-| 81 | [scipy/scipy](https://github.com/scipy/scipy) | 과학 및 기술 컴퓨팅 라이브러리 | Python | 13k |
-| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 대규모 언어 모델 가중치 및 추론 | Python | 12k |
+| 54 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 프롬프트 단어 수집, 100개 이상의 역할 프롬프트 단어, 대형 모델의 최고의 성능 자극 | HTML | 115k |
+| 55 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy의 가장 간단한 GPT 구현, 교육 수준 코드, GPT의 핵심 원칙 이해 | Python | 40k |
+| 56 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Li Mu가 제작한 실습형 딥러닝 중국어 버전, 이론+코드+연습, 초보자를 위한 1순위 교과서 | Python | 60k |
+| 57 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 사용하기 쉬운 LLM 미세 조정 교육 프레임워크 | Python | 60k |
+| 58 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 데이터 및 ML 애플리케이션 UI를 빠르게 구축 | Python | 36k |
+| 59 | [openai/gym](https://github.com/openai/gym) | 강화 학습 환경 인터페이스 툴킷 | Python | 35k |
+| 60 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML 모델 데모 인터페이스를 빠르게 생성 | Python | 33k |
+| 61 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 대규모 언어 모델을 처음부터 구축하는 방법에 대한 튜토리얼 | Python | 30k |
+| 62 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 데이터 분석 및 처리 핵심 라이브러리 | Python | 44k |
+| 63 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 다국어 OCR 도구 상자 | Python | 44k |
+| 64 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 최적화된 분산 그래디언트 부스팅 트리뱅크 | C++ | 26k |
+| 65 | [openai/CLIP](https://github.com/openai/CLIP) | 이미지와 텍스트 비교 학습 모델 | Python | 26k |
+| 66 | [shap/shap](https://github.com/shap/shap) | 모델 설명 및 특징 속성 시각화 라이브러리 | Python | 23k |
+| 67 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 기반 브라우저 자동화 에이전트 | Python | 30k |
+| 68 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 드래그 앤 드롭 방식의 시각적 AI 에이전트 구성 | TypeScript | 45k |
+| 69 | [numpy/numpy](https://github.com/numpy/numpy) | 과학 컴퓨팅 기본 라이브러리 | Python | 28k |
+| 70 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 구현 | Python | 19k |
+| 71 | [facebook/prophet](https://github.com/facebook/prophet) | 자동화된 시계열 예측 도구 | Python | 18k |
+| 72 | [gensim/gensim](https://github.com/gensim/gensim) | 주제 모델링 및 문서 유사성 라이브러리 | Python | 16k |
+| 73 | [networkx/networkx](https://github.com/networkx/networkx) | 복잡한 네트워크 및 그래프 이론 분석 라이브러리 | Python | 15k |
+| 74 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 그래프 바인딩 및 데이터 시각화 라이브러리 | Python | 20k |
+| 75 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 시퀀스-투-시퀀스 모델링 툴킷 | Python | 20k |
+| 76 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 차세대 대화형 개발 환경, Jupyter | TypeScript | 14k |
+| 77 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 주석이 달린 딥러닝 논문 구현 모음 | Python | 14k |
+| 78 | [microsoft/nni](https://github.com/microsoft/nni) | 자동화된 머신러닝 AutoML 툴킷 | Python | 14k |
+| 79 | [nltk/nltk](https://github.com/nltk/nltk) | 자연어 처리 툴킷 | Python | 13k |
+| 80 | [scipy/scipy](https://github.com/scipy/scipy) | 과학 및 기술 컴퓨팅 라이브러리 | Python | 13k |
+| 81 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 대규모 언어 모델 가중치 및 추론 | Python | 12k |
 
 ---
 
@@ -764,4 +823,20 @@
 
 ---
 
-**엄선된 프로젝트 총 678 개** | MIT 라이선스 오픈소스
+**엄선된 프로젝트 총 707 개** | MIT 라이선스 오픈소스
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jankoli/awesome-hub&type=Date)](https://star-history.com/#jankoli/awesome-hub&Date)
+
+---
+
+## 🤝 기여
+
+더 많은 훌륭한 프로젝트 추가 PR을 환영합니다! [기여 가이드](CONTRIBUTING.md)를 읽어주세요.
+
+## 📄 License
+
+[MIT](LICENSE) © 2026 Awesome Hub

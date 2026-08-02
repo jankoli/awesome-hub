@@ -1,13 +1,13 @@
-# 🎉 Awesome Hub · Open Source — 678+ Best Projects with 10k+ Stars
+# 🎉 Awesome Hub · Open Source — 707+ Best Projects with 10k+ Stars
 
 [![GitHub stars](https://img.shields.io/github/stars/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
 [![GitHub forks](https://img.shields.io/github/forks/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Projects](https://img.shields.io/badge/Projects-698+-brightgreen)](https://github.com/jankoli/awesome-hub)
-[![Categories](https://img.shields.io/badge/Categories-9-blue)](https://github.com/jankoli/awesome-hub)
+[![Projects](https://img.shields.io/badge/Projects-707+-brightgreen)](https://github.com/jankoli/awesome-hub)
+[![Categories](https://img.shields.io/badge/Categories-11-blue)](https://github.com/jankoli/awesome-hub)
 [![Languages](https://img.shields.io/badge/Languages-5-red)](https://github.com/jankoli/awesome-hub)
 
-> 678+ curated open-source projects with 10k+ stars, organized into 8 categories: Frontend, Backend, AI/ML, DevOps, Database, Mobile, Design & Productivity. Click any project to visit its original repository.
+> > 707+ curated open-source projects with 10k+ stars, organized into 11 categories: AI Agent Frameworks, RAG Frameworks, Agent Memory, Frontend, Backend, AI/ML, DevOps, Database, Mobile, Design & Productivity. Click any project to visit its original repository.
 
 **Language / 语言:** [简体中文](README.md) | **English** | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
 
@@ -17,15 +17,75 @@
 
 ## 📑 Contents
 
+- [🤝 AI AGENT FRAMEWORKS (20)](#ai-agent-frameworks)
+- [📚 RAG FRAMEWORKS (7)](#rag-frameworks)
+- [🧠 AGENT MEMORY (4)](#agent-memory)
 - [🎨 FRONTEND DEVELOPMENT (106)](#frontend-development)
 - [⚙️ BACKEND DEVELOPMENT (70)](#backend-development)
-- [🤖 AI / MACHINE LEARNING (82)](#ai--machine-learning)
+- [🤖 AI / MACHINE LEARNING (80)](#ai--machine-learning)
 - [🚀 DEVOPS (70)](#devops)
 - [💾 DATABASE (68)](#database)
 - [📱 MOBILE DEVELOPMENT (96)](#mobile-development)
 - [✨ DESIGN RESOURCES (79)](#design-resources)
 - [🛠️ PRODUCTIVITY TOOLS (110)](#productivity-tools)
-- [🤝 AI AGENT FRAMEWORKS (20)](#ai-agent-frameworks)
+
+---
+
+<h2 id="ai-agent-frameworks">🤝 AI AGENT FRAMEWORKS</h2>
+
+> 20 projects
+
+| # | Project | Description | Lang | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Pioneer autonomous AI Agent, given a goal it auto-plans and executes, the groundbreaking project for AI autonomous action | Python | 186k |
+| 2 | [langgenius/dify](https://github.com/langgenius/dify) | All-in-one LLM app platform, visual Agent/RAG workflow orchestration, one-click deployment | TypeScript | 151k |
+| 3 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Mainstream framework for building LLM apps, prompt engineering, RAG, full-stack Agent components | Python | 143k |
+| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Let AI Agent control browsers, automating web operations and interaction tasks | Python | 108k |
+| 5 | [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) | Local code execution Agent, lets LLM directly control computer to accomplish various tasks | Python | 68k |
+| 6 | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft's multi-agent conversation framework, multiple AI Agents collaborate on complex tasks | Python | 60k |
+| 7 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Multi-agent orchestration framework, role-playing, task assignment, collaborative workflow, simple and effective | Python | 56k |
+| 8 | [flowiseai/flowise](https://github.com/flowiseai/flowise) | Visual drag-and-drop builder for LLM apps and Agent workflows, low-code no-code development | TypeScript | 55k |
+| 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Directed graph modeling for Agent flows, supports state persistence and Human-in-the-loop | Python | 39k |
+| 10 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | Stanford's programming paradigm for LLM apps, automatic prompt optimization | Python | 37k |
+| 11 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Multi-Agent virtual software company, chat-based autonomous software development | Python | 34k |
+| 12 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | HuggingFace lightweight Agent framework, code-agent-first design, extremely simple | Python | 29k |
+| 13 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | OpenAI official Agent SDK, native tool calling and agent handoff mechanisms | Python | 28k |
+| 14 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Microsoft LLM integration framework, plugin architecture, supports .NET/Python/Java | C# | 28k |
+| 15 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | LLM app framework, focused on search and QA pipelines, freely swappable components | Python | 26k |
+| 16 | [openai/swarm](https://github.com/openai/swarm) | OpenAI multi-agent experimental framework, lightweight Agent handoff and routing | Python | 22k |
+| 17 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Pydantic-style Agent framework, type-safe, structured output | Python | 19k |
+| 18 | [frdel/agent-zero](https://github.com/frdel/agent-zero) | Open-source autonomous AI Agent framework, supports custom tools and memory systems | Python | 19k |
+| 19 | [camel-ai/camel](https://github.com/camel-ai/camel) | Multi-agent role-playing framework, exploring large-scale LLM social intelligence | Python | 18k |
+| 20 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | AI Agent secure code execution sandbox, supports any language, cloud-isolated | Python | 13k |
+
+---
+
+<h2 id="rag-frameworks">📚 RAG FRAMEWORKS</h2>
+
+> 7 projects
+
+| # | Project | Description | Lang | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Deep document parsing RAG engine, intelligent slicing for complex formats with citation tracing | Go | 87k |
+| 2 | [Embedchain/embedchain](https://github.com/Embedchain/embedchain) | RAG framework, build knowledge base QA apps in a few lines, supports multiple data sources | Python | 62k |
+| 3 | [run-llama/llama_index](https://github.com/run-llama/llama_index) | LLM data framework, first choice for RAG apps, connects private data with LLMs | Python | 51k |
+| 4 | [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr) | Generative AI second brain, turns documents and knowledge into conversational AI assistants | Python | 39k |
+| 5 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | Vector similarity search library, billion-scale vector retrieval, GPU accelerated, RAG core | C++ | 32k |
+| 6 | [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | Clean RAG document QA tool, supports multiple LLMs and embedding models, local-friendly | Python | 26k |
+| 7 | [vanna-ai/vanna](https://github.com/vanna-ai/vanna) | SQL RAG framework, query databases in natural language, auto-training and optimization | Python | 24k |
+
+---
+
+<h2 id="agent-memory">🧠 AGENT MEMORY</h2>
+
+> 4 projects
+
+| # | Project | Description | Lang | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | AI Agent universal memory layer, cross-session persistent memory, multi-model multi-platform | Python | 62k |
+| 2 | [getzep/graphiti](https://github.com/getzep/graphiti) | Temporal knowledge graph memory engine, provides structured memory and reasoning for Agents | Python | 29k |
+| 3 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | AI Agent persistent memory framework, auto-captures behavior, cross-Agent shared memory | TypeScript | 26k |
+| 4 | [letta-ai/letta](https://github.com/letta-ai/letta) | Formerly MemGPT, Agent memory OS, long-term memory and self-editing capabilities | Python | 24k |
 
 ---
 
@@ -225,7 +285,7 @@
 
 <h2 id="ai--machine-learning">🤖 AI / MACHINE LEARNING</h2>
 
-> 82 projects
+> 80 projects
 
 | # | Project | Description | Lang | ⭐ Stars |
 |---|---|---|---|---|
@@ -282,35 +342,34 @@
 | 51 | [apache/spark](https://github.com/apache/spark) | Unified big data analysis engine, distributed data processing, MLlib/GraphX/SQL/Streaming | Scala | 40k |
 | 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML life cycle management platform, experiment tracking/model registration/deployment/monitoring, ... | Python | 18k |
 | 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | Data set loading and processing library, 1000+ data sets, one line of code loading, efficient pre... | Python | 19k |
-| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | Vector similarity search library, billion-level vector retrieval, GPU acceleration, RAG system core | C++ | 32k |
-| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT prompt word collection, 100+ role prompt words, stimulating the best performance of large... | HTML | 115k |
-| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy’s simplest GPT implementation, teaching-level code, understanding the core principles of... | Python | 40k |
-| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Hands-on deep learning Chinese version, produced by Li Mu, theory + code + exercises, the first c... | Python | 60k |
-| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | Easy-to-use LLM fine-tuning training framework | Python | 60k |
-| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | Quickly build data and ML application UIs | Python | 36k |
-| 60 | [openai/gym](https://github.com/openai/gym) | Reinforcement Learning Environment Interface Toolkit | Python | 35k |
-| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Quickly create ML model demonstration interface | Python | 33k |
-| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Tutorial on building a large language model from scratch | Python | 30k |
-| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Data analysis and processing core library | Python | 44k |
-| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu multi-language OCR toolbox | Python | 44k |
-| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | Optimized distributed gradient boosting treebank | C++ | 26k |
-| 66 | [openai/CLIP](https://github.com/openai/CLIP) | Image and text comparison learning model | Python | 26k |
-| 67 | [shap/shap](https://github.com/shap/shap) | Model explanation and feature attribution visualization library | Python | 23k |
-| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI-powered browser automation agent | Python | 30k |
-| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Drag-and-drop visual AI agent construction | TypeScript | 45k |
-| 70 | [numpy/numpy](https://github.com/numpy/numpy) | Scientific Computing Basic Library | Python | 28k |
-| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch implementation | Python | 19k |
-| 72 | [facebook/prophet](https://github.com/facebook/prophet) | Automated time series forecasting tools | Python | 18k |
-| 73 | [gensim/gensim](https://github.com/gensim/gensim) | Topic modeling and document similarity library | Python | 16k |
-| 74 | [networkx/networkx](https://github.com/networkx/networkx) | Complex network and graph theory analysis library | Python | 15k |
-| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python graph binding and data visualization library | Python | 20k |
-| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | Sequence-to-sequence modeling toolkit | Python | 20k |
-| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter, the next generation interactive development environment | TypeScript | 14k |
-| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | Annotated collection of deep learning paper implementations | Python | 14k |
-| 79 | [microsoft/nni](https://github.com/microsoft/nni) | Automated Machine Learning AutoML Toolkit | Python | 14k |
-| 80 | [nltk/nltk](https://github.com/nltk/nltk) | Natural Language Processing Toolkit | Python | 13k |
-| 81 | [scipy/scipy](https://github.com/scipy/scipy) | Scientific and Technical Computing Library | Python | 13k |
-| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA large language model weights and inference | Python | 12k |
+| 54 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT prompt word collection, 100+ role prompt words, stimulating the best performance of large... | HTML | 115k |
+| 55 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy’s simplest GPT implementation, teaching-level code, understanding the core principles of... | Python | 40k |
+| 56 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Hands-on deep learning Chinese version, produced by Li Mu, theory + code + exercises, the first c... | Python | 60k |
+| 57 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | Easy-to-use LLM fine-tuning training framework | Python | 60k |
+| 58 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | Quickly build data and ML application UIs | Python | 36k |
+| 59 | [openai/gym](https://github.com/openai/gym) | Reinforcement Learning Environment Interface Toolkit | Python | 35k |
+| 60 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Quickly create ML model demonstration interface | Python | 33k |
+| 61 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Tutorial on building a large language model from scratch | Python | 30k |
+| 62 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Data analysis and processing core library | Python | 44k |
+| 63 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu multi-language OCR toolbox | Python | 44k |
+| 64 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | Optimized distributed gradient boosting treebank | C++ | 26k |
+| 65 | [openai/CLIP](https://github.com/openai/CLIP) | Image and text comparison learning model | Python | 26k |
+| 66 | [shap/shap](https://github.com/shap/shap) | Model explanation and feature attribution visualization library | Python | 23k |
+| 67 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI-powered browser automation agent | Python | 30k |
+| 68 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Drag-and-drop visual AI agent construction | TypeScript | 45k |
+| 69 | [numpy/numpy](https://github.com/numpy/numpy) | Scientific Computing Basic Library | Python | 28k |
+| 70 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch implementation | Python | 19k |
+| 71 | [facebook/prophet](https://github.com/facebook/prophet) | Automated time series forecasting tools | Python | 18k |
+| 72 | [gensim/gensim](https://github.com/gensim/gensim) | Topic modeling and document similarity library | Python | 16k |
+| 73 | [networkx/networkx](https://github.com/networkx/networkx) | Complex network and graph theory analysis library | Python | 15k |
+| 74 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python graph binding and data visualization library | Python | 20k |
+| 75 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | Sequence-to-sequence modeling toolkit | Python | 20k |
+| 76 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter, the next generation interactive development environment | TypeScript | 14k |
+| 77 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | Annotated collection of deep learning paper implementations | Python | 14k |
+| 78 | [microsoft/nni](https://github.com/microsoft/nni) | Automated Machine Learning AutoML Toolkit | Python | 14k |
+| 79 | [nltk/nltk](https://github.com/nltk/nltk) | Natural Language Processing Toolkit | Python | 13k |
+| 80 | [scipy/scipy](https://github.com/scipy/scipy) | Scientific and Technical Computing Library | Python | 13k |
+| 81 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA large language model weights and inference | Python | 12k |
 
 ---
 
@@ -773,42 +832,12 @@
 
 ---
 
-**678 curated projects in total** | Open source under MIT License
-
----
-
-<h2 id="ai-agent-frameworks">🤝 AI AGENT FRAMEWORKS</h2>
-
-> 20 projects
-
-
-| # | Project | Description | Language | ⭐ Stars |
-|---|---|---|---|---|
-| 1 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Autonomous AI Agent pioneer, given a goal it auto-plans and executes, groundbreaking self-acting AI | Python | 186k |
-| 2 | [langgenius/dify](https://github.com/langgenius/dify) | All-in-one LLM app development platform, visual Agent/RAG workflow orchestration, one-click deploy | TypeScript | 151k |
-| 3 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Leading framework for building LLM apps, full-stack components for prompting, RAG, and agents | Python | 143k |
-| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI Agent that controls browsers to automate web interaction tasks | Python | 108k |
-| 5 | [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) | Local code execution agent, lets LLM directly control your computer to complete tasks | Python | 68k |
-| 6 | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft's open-source multi-agent conversation framework, multiple AI agents collaborate on complex tasks | Python | 60k |
-| 7 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Multi-agent orchestration framework with role-playing, task delegation, and collaborative workflows | Python | 56k |
-| 8 | [flowiseai/flowise](https://github.com/flowiseai/flowise) | Visual drag-and-drop builder for LLM apps and Agent workflows, low-code no-code development | TypeScript | 55k |
-| 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Directed graph modeling for Agent workflows, with state persistence and human-in-the-loop | Python | 39k |
-| 10 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | Stanford's framework for building LLM apps with programming paradigms, auto-optimizes prompts | Python | 37k |
-| 11 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Multi-agent virtual software company, autonomously develops complete software through chat | Python | 34k |
-| 12 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | HuggingFace's lightweight Agent framework, code-agent-first design, minimal and easy to use | Python | 29k |
-| 13 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | OpenAI's official Agent SDK with native tool calling and agent handoff mechanisms | Python | 28k |
-| 14 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | Microsoft's LLM integration framework, plugin architecture, supports .NET/Python/Java | C# | 28k |
-| 15 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | LLM app framework focused on search and QA pipelines, freely swappable components | Python | 26k |
-| 16 | [openai/swarm](https://github.com/openai/swarm) | OpenAI's experimental multi-agent framework, lightweight agent handoff and routing | Python | 22k |
-| 17 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Pydantic-style Agent framework, type-safe with structured outputs | Python | 19k |
-| 18 | [frdel/agent-zero](https://github.com/frdel/agent-zero) | Open-source autonomous AI Agent framework with custom tools and memory system | Python | 19k |
-| 19 | [camel-ai/camel](https://github.com/camel-ai/camel) | Multi-agent role-playing framework for exploring large-scale LLM social intelligence | Python | 18k |
-| 20 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | Secure code execution sandbox for AI Agents, supports any language, cloud-isolated | Python | 13k |
-
-
----
+**707+ curated projects** | Open source under MIT License
 
 ## 🔍 What can you find here?
+- **Agent memory** / 智能体记忆 / エージェントメモリ
+- **RAG frameworks** / RAG 框架 / RAGフレームワーク
+- **AI agent frameworks** / AI 智能体框架 / AIエージェントフレームワーク
 
 If you're searching for any of these, this project is for you:
 
