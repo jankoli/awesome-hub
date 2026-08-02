@@ -314,7 +314,7 @@ onMounted(() => {
 :global(.goog-te-banner-frame) { display: none !important; }
 :global(.goog-tooltip) { display: none !important; }
 :global(.goog-tooltip:hover) { display: none !important; }
-:global(body { top: 0 !important; }) 
+:global(body) { top: 0 !important; }
 :global(.skiptranslate) { display: none !important; }
 
 @media (max-width: 640px) {

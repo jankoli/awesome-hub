@@ -4,7 +4,6 @@ export default defineConfig({
   title: 'Awesome Hub · 开源精选',
   description: '600+ curated open-source projects across Frontend, Backend, AI, DevOps, Database, Mobile, Design & Productivity.',
   lang: 'zh-CN',
-  cleanUrls: true,
   base: '/awesome-hub/',
 
   head: [
