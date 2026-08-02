@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Awesome Hub · 开源精选',
-  description: '精心收集的优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发等全品类',
+  description: '精心收集的优质开源项目导航，500+ 项目涵盖前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具全品类',
   lang: 'zh-CN',
   cleanUrls: true,
   base: '/awesome-hub/',
