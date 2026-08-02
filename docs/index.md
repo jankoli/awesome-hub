@@ -4,10 +4,10 @@ layout: home
 hero:
   name: Awesome Hub
   text: 开源精选
-  tagline: 精心收集 500+ 优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具全品类，助你发现好用的轮子。
+  tagline: 精心收集 600+ 优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具全品类，助你发现好用的轮子。
   actions:
     - theme: brand
-      text: 👇 直接往下看 500+ 精选
+      text: 👇 直接往下看 600+ 精选
       link: '#所有项目'
     - theme: alt
       text: 贡献指南
@@ -20,7 +20,7 @@ hero:
 </script>
 
 
-## 🎨 前端开发（62 个）
+## 🎨 前端开发（106 个）
 
 <div class="ah-project-grid">
 
@@ -642,10 +642,447 @@ hero:
   site="https://vant-ui.dev"
 />
 
+
+<ProjectCard
+  name="pmndrs/zustand"
+  github="https://github.com/pmndrs/zustand"
+  description="极简轻量的 React 状态管理库"
+  lang="TypeScript"
+  stars="59k"
+  updated="近期"
+  site="https://zustand-demo.pmnd.rs"
+/>
+
+<ProjectCard
+  name="mermaid-js/mermaid"
+  github="https://github.com/mermaid-js/mermaid"
+  description="用文本生成流程图、时序图等图表"
+  lang="TypeScript"
+  stars="90k"
+  updated="近期"
+  site="https://mermaid.ai"
+/>
+
+<ProjectCard
+  name="pixijs/pixijs"
+  github="https://github.com/pixijs/pixijs"
+  description="高性能 2D WebGL 渲染引擎"
+  lang="TypeScript"
+  stars="48k"
+  updated="近期"
+  site="https://pixijs.com"
+/>
+
+<ProjectCard
+  name="Leaflet/Leaflet"
+  github="https://github.com/Leaflet/Leaflet"
+  description="轻量移动友好的开源地图库"
+  lang="JavaScript"
+  stars="45k"
+  updated="近期"
+  site="https://leafletjs.com"
+/>
+
+<ProjectCard
+  name="react-hook-form/react-hook-form"
+  github="https://github.com/react-hook-form/react-hook-form"
+  description="高性能无依赖的 React 表单库"
+  lang="TypeScript"
+  stars="45k"
+  updated="近期"
+  site="https://react-hook-form.com"
+/>
+
+<ProjectCard
+  name="pnpm/pnpm"
+  github="https://github.com/pnpm/pnpm"
+  description="快速磁盘节约的包管理器，原生支持 monorepo"
+  lang="Rust"
+  stars="36k"
+  updated="近期"
+  site="https://pnpm.io"
+/>
+
+<ProjectCard
+  name="lerna/lerna"
+  github="https://github.com/lerna/lerna"
+  description="JavaScript monorepo 管理工具"
+  lang="TypeScript"
+  stars="36k"
+  updated="近期"
+  site="https://lerna.js.org"
+/>
+
+<ProjectCard
+  name="refinedev/refine"
+  github="https://github.com/refinedev/refine"
+  description="构建 CRUD 管理后台的 React 元框架"
+  lang="TypeScript"
+  stars="35k"
+  updated="近期"
+  site="https://refine.dev"
+/>
+
+<ProjectCard
+  name="jaredpalmer/formik"
+  github="https://github.com/jaredpalmer/formik"
+  description="React 表单状态管理与校验库"
+  lang="TypeScript"
+  stars="34k"
+  updated="近期"
+  site="https://formik.org"
+/>
+
+<ProjectCard
+  name="vercel/swr"
+  github="https://github.com/vercel/swr"
+  description="React 远程数据请求与缓存库"
+  lang="TypeScript"
+  stars="32k"
+  updated="近期"
+  site="https://swr.vercel.app"
+/>
+
+<ProjectCard
+  name="airbnb/lottie-web"
+  github="https://github.com/airbnb/lottie-web"
+  description="渲染 After Effects 导出动画的 Web 库"
+  lang="JavaScript"
+  stars="32k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="fabricjs/fabric.js"
+  github="https://github.com/fabricjs/fabric.js"
+  description="Canvas 图形交互编辑库"
+  lang="TypeScript"
+  stars="31k"
+  updated="近期"
+  site="https://fabricjs.com"
+/>
+
+<ProjectCard
+  name="alpinejs/alpine"
+  github="https://github.com/alpinejs/alpine"
+  description="轻量级响应式前端框架，无需构建步骤"
+  lang="HTML"
+  stars="32k"
+  updated="近期"
+  site="https://alpinejs.dev"
+/>
+
+<ProjectCard
+  name="statelyai/xstate"
+  github="https://github.com/statelyai/xstate"
+  description="状态机与状态图库，建模复杂状态逻辑"
+  lang="TypeScript"
+  stars="30k"
+  updated="近期"
+  site="https://stately.ai"
+/>
+
+<ProjectCard
+  name="vercel/turborepo"
+  github="https://github.com/vercel/turborepo"
+  description="高性能 monorepo 构建系统，智能缓存"
+  lang="Rust"
+  stars="31k"
+  updated="近期"
+  site="https://turborepo.dev"
+/>
+
+<ProjectCard
+  name="quasarframework/quasar"
+  github="https://github.com/quasarframework/quasar"
+  description="基于 Vue 的跨平台前端框架"
+  lang="JavaScript"
+  stars="27k"
+  updated="近期"
+  site="https://quasar.dev"
+/>
+
+<ProjectCard
+  name="vueuse/vueuse"
+  github="https://github.com/vueuse/vueuse"
+  description="Vue Composition API 实用工具集合"
+  lang="TypeScript"
+  stars="22k"
+  updated="近期"
+  site="https://vueuse.org"
+/>
+
+<ProjectCard
+  name="vuejs/vuex"
+  github="https://github.com/vuejs/vuex"
+  description="Vue 专属的状态管理模式与库"
+  lang="JavaScript"
+  stars="28k"
+  updated="近期"
+  site="https://vuex.vuejs.org"
+/>
+
+<ProjectCard
+  name="mantinedev/mantine"
+  github="https://github.com/mantinedev/mantine"
+  description="功能完善的现代 React UI 组件库与 hooks"
+  lang="TypeScript"
+  stars="32k"
+  updated="近期"
+  site="https://mantine.dev"
+/>
+
+<ProjectCard
+  name="react-bootstrap/react-bootstrap"
+  github="https://github.com/react-bootstrap/react-bootstrap"
+  description="用 React 重写的 Bootstrap 组件库"
+  lang="TypeScript"
+  stars="23k"
+  updated="近期"
+  site="https://react-bootstrap.github.io"
+/>
+
+<ProjectCard
+  name="styled-components/styled-components"
+  github="https://github.com/styled-components/styled-components"
+  description="主流 CSS-in-JS 库，组件级样式封装"
+  lang="TypeScript"
+  stars="41k"
+  updated="近期"
+  site="https://styled-components.com"
+/>
+
+<ProjectCard
+  name="phaserjs/phaser"
+  github="https://github.com/phaserjs/phaser"
+  description="HTML5 2D 游戏开发框架"
+  lang="JavaScript"
+  stars="40k"
+  updated="近期"
+  site="https://phaser.io"
+/>
+
+<ProjectCard
+  name="hexojs/hexo"
+  github="https://github.com/hexojs/hexo"
+  description="快速简洁的静态博客生成器"
+  lang="TypeScript"
+  stars="42k"
+  updated="近期"
+  site="https://hexo.io"
+/>
+
+<ProjectCard
+  name="highlightjs/highlight.js"
+  github="https://github.com/highlightjs/highlight.js"
+  description="代码语法高亮库"
+  lang="JavaScript"
+  stars="25k"
+  updated="近期"
+  site="https://highlightjs.org"
+/>
+
+<ProjectCard
+  name="Popmotion/popmotion"
+  github="https://github.com/Popmotion/popmotion"
+  description="灵活的函数式动画引擎"
+  lang="JavaScript"
+  stars="20k"
+  updated="近期"
+  site="https://popmotion.io"
+/>
+
+<ProjectCard
+  name="unocss/unocss"
+  github="https://github.com/unocss/unocss"
+  description="即时按需的原子化 CSS 引擎"
+  lang="TypeScript"
+  stars="19k"
+  updated="近期"
+  site="https://unocss.dev"
+/>
+
+<ProjectCard
+  name="testing-library/react-testing-library"
+  github="https://github.com/testing-library/react-testing-library"
+  description="以用户行为驱动测试 React 组件"
+  lang="JavaScript"
+  stars="20k"
+  updated="近期"
+  site="https://testing-library.com"
+/>
+
+<ProjectCard
+  name="vuejs/pinia"
+  github="https://github.com/vuejs/pinia"
+  description="Vue 官方推荐的状态管理库"
+  lang="TypeScript"
+  stars="15k"
+  updated="近期"
+  site="https://pinia.vuejs.org"
+/>
+
+<ProjectCard
+  name="umijs/qiankun"
+  github="https://github.com/umijs/qiankun"
+  description="蚂蚁出品的微前端框架"
+  lang="TypeScript"
+  stars="17k"
+  updated="近期"
+  site="https://qiankun.umijs.org"
+/>
+
+<ProjectCard
+  name="dream-num/Luckysheet"
+  github="https://github.com/dream-num/Luckysheet"
+  description="在线 Excel 风格电子表格组件"
+  lang="JavaScript"
+  stars="17k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="single-spa/single-spa"
+  github="https://github.com/single-spa/single-spa"
+  description="将多个应用聚合为单一前端的微前端框架"
+  lang="JavaScript"
+  stars="14k"
+  updated="近期"
+  site="https://single-spa.js.org"
+/>
+
+<ProjectCard
+  name="ag-grid/ag-grid"
+  github="https://github.com/ag-grid/ag-grid"
+  description="企业级高性能数据表格组件"
+  lang="TypeScript"
+  stars="16k"
+  updated="近期"
+  site="https://ag-grid.com"
+/>
+
+<ProjectCard
+  name="tradingview/lightweight-charts"
+  github="https://github.com/tradingview/lightweight-charts"
+  description="高性能金融 K 线图表库"
+  lang="TypeScript"
+  stars="17k"
+  updated="近期"
+  site="https://tradingview.com"
+/>
+
+<ProjectCard
+  name="apexcharts/apexcharts.js"
+  github="https://github.com/apexcharts/apexcharts.js"
+  description="现代响应式 SVG 图表库"
+  lang="JavaScript"
+  stars="15k"
+  updated="近期"
+  site="https://apexcharts.com"
+/>
+
+<ProjectCard
+  name="rjsf-team/react-jsonschema-form"
+  github="https://github.com/rjsf-team/react-jsonschema-form"
+  description="由 JSON Schema 自动生成 React 表单"
+  lang="TypeScript"
+  stars="16k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="alibaba/formily"
+  github="https://github.com/alibaba/formily"
+  description="阿里开源的表单引擎与解决方案"
+  lang="TypeScript"
+  stars="13k"
+  updated="近期"
+  site="https://formilyjs.org"
+/>
+
+<ProjectCard
+  name="paperjs/paper.js"
+  github="https://github.com/paperjs/paper.js"
+  description="Canvas 矢量图形脚本框架"
+  lang="JavaScript"
+  stars="15k"
+  updated="近期"
+  site="https://paperjs.org"
+/>
+
+<ProjectCard
+  name="plouc/nivo"
+  github="https://github.com/plouc/nivo"
+  description="丰富的 React 数据可视化组件"
+  lang="TypeScript"
+  stars="14k"
+  updated="近期"
+  site="https://nivo.rocks"
+/>
+
+<ProjectCard
+  name="antvis/G2"
+  github="https://github.com/antvis/G2"
+  description="蚂蚁可视化语法图表库"
+  lang="TypeScript"
+  stars="13k"
+  updated="近期"
+  site="https://g2.antv.antgroup.com"
+/>
+
+<ProjectCard
+  name="web-infra-dev/rspack"
+  github="https://github.com/web-infra-dev/rspack"
+  description="Rust 编写 webpack 兼容的打包工具"
+  lang="Rust"
+  stars="13k"
+  updated="近期"
+  site="https://rspack.rs"
+/>
+
+<ProjectCard
+  name="TanStack/router"
+  github="https://github.com/TanStack/router"
+  description="类型安全的全栈 React 路由器"
+  lang="TypeScript"
+  stars="15k"
+  updated="近期"
+  site="https://tanstack.com/router"
+/>
+
+<ProjectCard
+  name="openlayers/openlayers"
+  github="https://github.com/openlayers/openlayers"
+  description="功能强大的 Web 地图库"
+  lang="JavaScript"
+  stars="13k"
+  updated="近期"
+  site="https://openlayers.org"
+/>
+
+<ProjectCard
+  name="jasmine/jasmine"
+  github="https://github.com/jasmine/jasmine"
+  description="行为驱动开发的 JavaScript 测试框架"
+  lang="JavaScript"
+  stars="16k"
+  updated="近期"
+  site="https://jasmine.github.io"
+/>
+
+<ProjectCard
+  name="rough-stuff/rough.js"
+  github="https://github.com/rough-stuff/rough.js"
+  description="手绘风格图形绘制库"
+  lang="TypeScript"
+  stars="20k"
+  updated="近期"
+  site="https://roughjs.com"
+/>
 </div>
 
 
-## ⚙️ 后端开发（58 个）
+## ⚙️ 后端开发（70 个）
 
 <div class="ah-project-grid">
 
@@ -1229,10 +1666,129 @@ hero:
   site="https://encore.dev"
 />
 
+
+<ProjectCard
+  name="ghost/ghost"
+  github="https://github.com/ghost/ghost"
+  description="Node.js 博客与发布平台"
+  lang="JavaScript"
+  stars="48k"
+  updated="近期"
+  site="https://ghost.org"
+/>
+
+<ProjectCard
+  name="directus/directus"
+  github="https://github.com/directus/directus"
+  description="实时 API 与无头 CMS"
+  lang="TypeScript"
+  stars="29k"
+  updated="近期"
+  site="https://directus.io"
+/>
+
+<ProjectCard
+  name="medusajs/medusa"
+  github="https://github.com/medusajs/medusa"
+  description="开源电商后端平台"
+  lang="TypeScript"
+  stars="27k"
+  updated="近期"
+  site="https://medusajs.com"
+/>
+
+<ProjectCard
+  name="payloadcms/payload"
+  github="https://github.com/payloadcms/payload"
+  description="TypeScript 无头 CMS 与应用框架"
+  lang="TypeScript"
+  stars="24k"
+  updated="近期"
+  site="https://payloadcms.com"
+/>
+
+<ProjectCard
+  name="saleor/saleor"
+  github="https://github.com/saleor/saleor"
+  description="GraphQL 优先的开源电商平台"
+  lang="Python"
+  stars="21k"
+  updated="近期"
+  site="https://saleor.io"
+/>
+
+<ProjectCard
+  name="netty/netty"
+  github="https://github.com/netty/netty"
+  description="异步事件驱动 Java 网络框架"
+  lang="Java"
+  stars="33k"
+  updated="近期"
+  site="https://netty.io"
+/>
+
+<ProjectCard
+  name="zeromicro/go-zero"
+  github="https://github.com/zeromicro/go-zero"
+  description="集成代码生成的 Go 微服务框架"
+  lang="Go"
+  stars="29k"
+  updated="近期"
+  site="https://go-zero.dev"
+/>
+
+<ProjectCard
+  name="go-micro/go-micro"
+  github="https://github.com/go-micro/go-micro"
+  description="可插拔的 Go 微服务开发框架"
+  lang="Go"
+  stars="22k"
+  updated="近期"
+  site="https://go-micro.dev"
+/>
+
+<ProjectCard
+  name="apache/shardingsphere"
+  github="https://github.com/apache/shardingsphere"
+  description="数据库分库分表中间件"
+  lang="Java"
+  stars="20k"
+  updated="近期"
+  site="https://shardingsphere.apache.org"
+/>
+
+<ProjectCard
+  name="eclipse-vertx/vert.x"
+  github="https://github.com/eclipse-vertx/vert.x"
+  description="响应式 Java 应用工具包"
+  lang="Java"
+  stars="14k"
+  updated="近期"
+  site="https://vertx.io"
+/>
+
+<ProjectCard
+  name="grpc-ecosystem/grpc-gateway"
+  github="https://github.com/grpc-ecosystem/grpc-gateway"
+  description="gRPC 转 RESTful API 代理"
+  lang="Go"
+  stars="18k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="astral-sh/uv"
+  github="https://github.com/astral-sh/uv"
+  description="极速 Python 包与项目管理器"
+  lang="Rust"
+  stars="30k"
+  updated="近期"
+  site="https://docs.astral.sh/uv"
+/>
 </div>
 
 
-## 🤖 AI / 机器学习（63 个）
+## 🤖 AI / 机器学习（88 个）
 
 <div class="ah-project-grid">
 
@@ -1840,10 +2396,249 @@ hero:
   site="https://zh.d2l.ai"
 />
 
+
+<ProjectCard
+  name="hiyouga/LLaMA-Factory"
+  github="https://github.com/hiyouga/LLaMA-Factory"
+  description="易用的 LLM 微调训练框架"
+  lang="Python"
+  stars="60k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="streamlit/streamlit"
+  github="https://github.com/streamlit/streamlit"
+  description="快速构建数据与 ML 应用 UI"
+  lang="Python"
+  stars="36k"
+  updated="近期"
+  site="https://streamlit.io"
+/>
+
+<ProjectCard
+  name="openai/gym"
+  github="https://github.com/openai/gym"
+  description="强化学习环境接口工具包"
+  lang="Python"
+  stars="35k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="gradio-app/gradio"
+  github="https://github.com/gradio-app/gradio"
+  description="快速创建 ML 模型演示界面"
+  lang="Python"
+  stars="33k"
+  updated="近期"
+  site="https://gradio.app"
+/>
+
+<ProjectCard
+  name="rasbt/LLMs-from-scratch"
+  github="https://github.com/rasbt/LLMs-from-scratch"
+  description="从零构建大语言模型教程"
+  lang="Python"
+  stars="30k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="pandas-dev/pandas"
+  github="https://github.com/pandas-dev/pandas"
+  description="数据分析与处理核心库"
+  lang="Python"
+  stars="44k"
+  updated="近期"
+  site="https://pandas.pydata.org"
+/>
+
+<ProjectCard
+  name="PaddlePaddle/PaddleOCR"
+  github="https://github.com/PaddlePaddle/PaddleOCR"
+  description="百度多语言 OCR 工具箱"
+  lang="Python"
+  stars="44k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="dmlc/xgboost"
+  github="https://github.com/dmlc/xgboost"
+  description="优化的分布式梯度提升树库"
+  lang="C++"
+  stars="26k"
+  updated="近期"
+  site="https://xgboost.ai"
+/>
+
+<ProjectCard
+  name="openai/CLIP"
+  github="https://github.com/openai/CLIP"
+  description="图文对比学习模型"
+  lang="Python"
+  stars="26k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="shap/shap"
+  github="https://github.com/shap/shap"
+  description="模型解释与特征归因可视化库"
+  lang="Python"
+  stars="23k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="browser-use/browser-use"
+  github="https://github.com/browser-use/browser-use"
+  description="AI 驱动的浏览器自动化代理"
+  lang="Python"
+  stars="30k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="FlowiseAI/Flowise"
+  github="https://github.com/FlowiseAI/Flowise"
+  description="拖拽式可视化 AI 智能体构建"
+  lang="TypeScript"
+  stars="45k"
+  updated="近期"
+  site="https://flowiseai.com"
+/>
+
+<ProjectCard
+  name="numpy/numpy"
+  github="https://github.com/numpy/numpy"
+  description="科学计算基础库"
+  lang="Python"
+  stars="28k"
+  updated="近期"
+  site="https://numpy.org"
+/>
+
+<ProjectCard
+  name="lucidrains/vit-pytorch"
+  github="https://github.com/lucidrains/vit-pytorch"
+  description="Vision Transformer PyTorch 实现"
+  lang="Python"
+  stars="19k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="facebook/prophet"
+  github="https://github.com/facebook/prophet"
+  description="自动化时间序列预测工具"
+  lang="Python"
+  stars="18k"
+  updated="近期"
+  site="https://facebook.github.io/prophet"
+/>
+
+<ProjectCard
+  name="gensim/gensim"
+  github="https://github.com/gensim/gensim"
+  description="主题建模与文档相似度库"
+  lang="Python"
+  stars="16k"
+  updated="近期"
+  site="https://radimrehurek.com/gensim"
+/>
+
+<ProjectCard
+  name="networkx/networkx"
+  github="https://github.com/networkx/networkx"
+  description="复杂网络与图论分析库"
+  lang="Python"
+  stars="15k"
+  updated="近期"
+  site="https://networkx.org"
+/>
+
+<ProjectCard
+  name="matplotlib/matplotlib"
+  github="https://github.com/matplotlib/matplotlib"
+  description="Python 绑图与数据可视化库"
+  lang="Python"
+  stars="20k"
+  updated="近期"
+  site="https://matplotlib.org"
+/>
+
+<ProjectCard
+  name="pytorch/fairseq"
+  github="https://github.com/pytorch/fairseq"
+  description="序列到序列建模工具包"
+  lang="Python"
+  stars="20k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="jupyterlab/jupyterlab"
+  github="https://github.com/jupyterlab/jupyterlab"
+  description="Jupyter 下一代交互式开发环境"
+  lang="TypeScript"
+  stars="14k"
+  updated="近期"
+  site="https://jupyterlab.readthedocs.io"
+/>
+
+<ProjectCard
+  name="labmlai/annotated_deep_learning_paper_implementations"
+  github="https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+  description="带注释的深度学习论文实现集"
+  lang="Python"
+  stars="14k"
+  updated="近期"
+  site="https://nn.labml.ai"
+/>
+
+<ProjectCard
+  name="microsoft/nni"
+  github="https://github.com/microsoft/nni"
+  description="自动化机器学习 AutoML 工具包"
+  lang="Python"
+  stars="14k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="nltk/nltk"
+  github="https://github.com/nltk/nltk"
+  description="自然语言处理工具包"
+  lang="Python"
+  stars="13k"
+  updated="近期"
+  site="https://www.nltk.org"
+/>
+
+<ProjectCard
+  name="scipy/scipy"
+  github="https://github.com/scipy/scipy"
+  description="科学与技术计算库"
+  lang="Python"
+  stars="13k"
+  updated="近期"
+  site="https://scipy.org"
+/>
+
+<ProjectCard
+  name="meta-llama/llama"
+  github="https://github.com/meta-llama/llama"
+  description="Meta LLaMA 大语言模型权重与推理"
+  lang="Python"
+  stars="12k"
+  updated="近期"
+/>
 </div>
 
 
-## 🚀 DevOps（60 个）
+## 🚀 DevOps（70 个）
 
 <div class="ah-project-grid">
 
@@ -2444,10 +3239,110 @@ hero:
   updated="近期"
 />
 
+
+<ProjectCard
+  name="coder/code-server"
+  github="https://github.com/coder/code-server"
+  description="浏览器中运行 VS Code"
+  lang="TypeScript"
+  stars="68k"
+  updated="近期"
+  site="https://coder.com"
+/>
+
+<ProjectCard
+  name="kubernetes/minikube"
+  github="https://github.com/kubernetes/minikube"
+  description="本地运行 Kubernetes 集群"
+  lang="Go"
+  stars="30k"
+  updated="近期"
+  site="https://minikube.sigs.k8s.io"
+/>
+
+<ProjectCard
+  name="grafana/loki"
+  github="https://github.com/grafana/loki"
+  description="水平可扩展日志聚合系统"
+  lang="Go"
+  stars="24k"
+  updated="近期"
+  site="https://grafana.com/oss/loki"
+/>
+
+<ProjectCard
+  name="apache/skywalking"
+  github="https://github.com/apache/skywalking"
+  description="APM 应用性能监控系统"
+  lang="Java"
+  stars="24k"
+  updated="近期"
+  site="https://skywalking.apache.org"
+/>
+
+<ProjectCard
+  name="pulumi/pulumi"
+  github="https://github.com/pulumi/pulumi"
+  description="多语言基础设施即代码"
+  lang="Go"
+  stars="22k"
+  updated="近期"
+  site="https://www.pulumi.com"
+/>
+
+<ProjectCard
+  name="openzipkin/zipkin"
+  github="https://github.com/openzipkin/zipkin"
+  description="分布式链路追踪系统"
+  lang="Java"
+  stars="17k"
+  updated="近期"
+  site="https://zipkin.io"
+/>
+
+<ProjectCard
+  name="influxdata/telegraf"
+  github="https://github.com/influxdata/telegraf"
+  description="插件驱动的指标采集代理"
+  lang="Go"
+  stars="15k"
+  updated="近期"
+  site="https://www.influxdata.com"
+/>
+
+<ProjectCard
+  name="openfaas/faas"
+  github="https://github.com/openfaas/faas"
+  description="Serverless 函数即服务框架"
+  lang="Go"
+  stars="25k"
+  updated="近期"
+  site="https://www.openfaas.com"
+/>
+
+<ProjectCard
+  name="kubernetes-sigs/kustomize"
+  github="https://github.com/kubernetes-sigs/kustomize"
+  description="Kubernetes 配置无模板管理"
+  lang="Go"
+  stars="11k"
+  updated="近期"
+  site="https://kustomize.io"
+/>
+
+<ProjectCard
+  name="crossplane/crossplane"
+  github="https://github.com/crossplane/crossplane"
+  description="基于 K8s 的基础设施控制平面"
+  lang="Go"
+  stars="10k"
+  updated="近期"
+  site="https://www.crossplane.io"
+/>
 </div>
 
 
-## 💾 数据库（62 个）
+## 💾 数据库（68 个）
 
 <div class="ah-project-grid">
 
@@ -3070,10 +3965,70 @@ hero:
   site="https://delta.io"
 />
 
+
+<ProjectCard
+  name="metabase/metabase"
+  github="https://github.com/metabase/metabase"
+  description="开源商业智能与数据分析工具"
+  lang="Clojure"
+  stars="39k"
+  updated="近期"
+  site="https://www.metabase.com"
+/>
+
+<ProjectCard
+  name="postgrest/postgrest"
+  github="https://github.com/postgrest/postgrest"
+  description="PostgreSQL 自动 REST API 生成器"
+  lang="Haskell"
+  stars="23k"
+  updated="近期"
+  site="https://postgrest.org"
+/>
+
+<ProjectCard
+  name="vitessio/vitess"
+  github="https://github.com/vitessio/vitess"
+  description="MySQL 数据库水平分片集群方案"
+  lang="Go"
+  stars="19k"
+  updated="近期"
+  site="https://vitess.io"
+/>
+
+<ProjectCard
+  name="edgedb/edgedb"
+  github="https://github.com/edgedb/edgedb"
+  description="图关系型数据库，下一代 ORM"
+  lang="Python"
+  stars="14k"
+  updated="近期"
+  site="https://www.edgedb.com"
+/>
+
+<ProjectCard
+  name="citusdata/citus"
+  github="https://github.com/citusdata/citus"
+  description="PostgreSQL 分布式扩展"
+  lang="C"
+  stars="12k"
+  updated="近期"
+  site="https://www.citusdata.com"
+/>
+
+<ProjectCard
+  name="drizzle-team/drizzle-orm"
+  github="https://github.com/drizzle-team/drizzle-orm"
+  description="轻量级 TypeScript ORM"
+  lang="TypeScript"
+  stars="23k"
+  updated="近期"
+  site="https://orm.drizzle.team"
+/>
 </div>
 
 
-## 📱 移动开发（72 个）
+## 📱 移动开发（96 个）
 
 <div class="ah-project-grid">
 
@@ -3767,10 +4722,237 @@ hero:
   site="https://coil-kt.github.io/coil"
 />
 
+
+<ProjectCard
+  name="topjohnwu/Magisk"
+  github="https://github.com/topjohnwu/Magisk"
+  description="Android Root 管理工具套件"
+  lang="C++"
+  stars="48k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="square/okhttp"
+  github="https://github.com/square/okhttp"
+  description="Android HTTP 客户端"
+  lang="Kotlin"
+  stars="46k"
+  updated="近期"
+  site="https://square.github.io/okhttp"
+/>
+
+<ProjectCard
+  name="square/retrofit"
+  github="https://github.com/square/retrofit"
+  description="Android 类型安全 HTTP 客户端"
+  lang="Java"
+  stars="43k"
+  updated="近期"
+  site="https://square.github.io/retrofit"
+/>
+
+<ProjectCard
+  name="bumptech/glide"
+  github="https://github.com/bumptech/glide"
+  description="Android 图片加载缓存库"
+  lang="Java"
+  stars="35k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="AFNetworking/AFNetworking"
+  github="https://github.com/AFNetworking/AFNetworking"
+  description="iOS 网络请求库（经典）"
+  lang="Objective-C"
+  stars="33k"
+  updated="近期"
+  site="https://afnetworking.com"
+/>
+
+<ProjectCard
+  name="react-navigation/react-navigation"
+  github="https://github.com/react-navigation/react-navigation"
+  description="React Native 路由导航库"
+  lang="TypeScript"
+  stars="23k"
+  updated="近期"
+  site="https://reactnavigation.org"
+/>
+
+<ProjectCard
+  name="danielgindi/Charts"
+  github="https://github.com/danielgindi/Charts"
+  description="iOS/tvOS 图表绘制库"
+  lang="Swift"
+  stars="28k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="greenrobot/EventBus"
+  github="https://github.com/greenrobot/EventBus"
+  description="Android 事件总线框架"
+  lang="Java"
+  stars="24k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="SwiftyJSON/SwiftyJSON"
+  github="https://github.com/SwiftyJSON/SwiftyJSON"
+  description="Swift JSON 解析处理库"
+  lang="Swift"
+  stars="22k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="SnapKit/SnapKit"
+  github="https://github.com/SnapKit/SnapKit"
+  description="Swift AutoLayout DSL 框架"
+  lang="Swift"
+  stars="20k"
+  updated="近期"
+  site="https://snapkit.github.io"
+/>
+
+<ProjectCard
+  name="ReactiveCocoa/ReactiveCocoa"
+  github="https://github.com/ReactiveCocoa/ReactiveCocoa"
+  description="iOS 响应式编程框架"
+  lang="Swift"
+  stars="20k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="JakeWharton/butterknife"
+  github="https://github.com/JakeWharton/butterknife"
+  description="Android View 注入框架"
+  lang="Java"
+  stars="25k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="google/flexbox-layout"
+  github="https://github.com/google/flexbox-layout"
+  description="Android Flexbox 弹性布局"
+  lang="Java"
+  stars="18k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="google/ExoPlayer"
+  github="https://github.com/google/ExoPlayer"
+  description="Android 媒体播放器"
+  lang="Java"
+  stars="21k"
+  updated="近期"
+  site="https://exoplayer.dev"
+/>
+
+<ProjectCard
+  name="Masonry/Masonry"
+  github="https://github.com/Masonry/Masonry"
+  description="iOS AutoLayout 链式约束库"
+  lang="Objective-C"
+  stars="18k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="Tencent/tinker"
+  github="https://github.com/Tencent/tinker"
+  description="Android 热修复框架"
+  lang="Java"
+  stars="17k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="google/dagger"
+  github="https://github.com/google/dagger"
+  description="Android 依赖注入框架"
+  lang="Java"
+  stars="17k"
+  updated="近期"
+  site="https://dagger.dev"
+/>
+
+<ProjectCard
+  name="CoderMJLee/MJRefresh"
+  github="https://github.com/CoderMJLee/MJRefresh"
+  description="iOS 下拉刷新上拉加载控件"
+  lang="Objective-C"
+  stars="14k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="instagram/IGListKit"
+  github="https://github.com/instagram/IGListKit"
+  description="iOS 列表数据驱动 UI 框架"
+  lang="Objective-C"
+  stars="13k"
+  updated="近期"
+  site="https://iglistkit.com"
+/>
+
+<ProjectCard
+  name="CocoaLumberjack/CocoaLumberjack"
+  github="https://github.com/CocoaLumberjack/CocoaLumberjack"
+  description="iOS/macOS 日志框架"
+  lang="Objective-C"
+  stars="13k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="square/picasso"
+  github="https://github.com/square/picasso"
+  description="Android 图片加载库"
+  lang="Java"
+  stars="18k"
+  updated="近期"
+  site="https://square.github.io/picasso"
+/>
+
+<ProjectCard
+  name="callstack/react-native-paper"
+  github="https://github.com/callstack/react-native-paper"
+  description="RN Material Design 组件库"
+  lang="TypeScript"
+  stars="13k"
+  updated="近期"
+  site="https://reactnativepaper.com"
+/>
+
+<ProjectCard
+  name="wix/react-native-navigation"
+  github="https://github.com/wix/react-native-navigation"
+  description="RN 高性能原生导航方案"
+  lang="TypeScript"
+  stars="11k"
+  updated="近期"
+  site="https://wix.github.io/react-native-navigation"
+/>
+
+<ProjectCard
+  name="xmartlabs/Eureka"
+  github="https://github.com/xmartlabs/Eureka"
+  description="iOS 表单构建 Swift 库"
+  lang="Swift"
+  stars="12k"
+  updated="近期"
+/>
 </div>
 
 
-## ✨ 设计资源（68 个）
+## ✨ 设计资源（79 个）
 
 <div class="ah-project-grid">
 
@@ -4432,10 +5614,120 @@ hero:
   site="https://layui.dev"
 />
 
+
+<ProjectCard
+  name="bulma/bulma"
+  github="https://github.com/bulma/bulma"
+  description="现代纯 CSS 响应式框架"
+  lang="Sass"
+  stars="49k"
+  updated="近期"
+  site="https://bulma.io"
+/>
+
+<ProjectCard
+  name="animejs/anime"
+  github="https://github.com/animejs/anime"
+  description="轻量级 JS 动画引擎"
+  lang="JavaScript"
+  stars="49k"
+  updated="近期"
+  site="https://animejs.com"
+/>
+
+<ProjectCard
+  name="Tabler/tabler"
+  github="https://github.com/Tabler/tabler"
+  description="现代化管理后台 UI 模板"
+  lang="HTML"
+  stars="38k"
+  updated="近期"
+  site="https://tabler.io"
+/>
+
+<ProjectCard
+  name="zurb/foundation-sites"
+  github="https://github.com/zurb/foundation-sites"
+  description="响应式前端开发框架"
+  lang="HTML"
+  stars="30k"
+  updated="近期"
+  site="https://get.foundation"
+/>
+
+<ProjectCard
+  name="framer/motion"
+  github="https://github.com/framer/motion"
+  description="React 声明式动画库"
+  lang="TypeScript"
+  stars="23k"
+  updated="近期"
+  site="https://www.framer.com/motion"
+/>
+
+<ProjectCard
+  name="heroicons/heroicons"
+  github="https://github.com/heroicons/heroicons"
+  description="Tailwind 团队 SVG 图标集"
+  lang="JavaScript"
+  stars="21k"
+  updated="近期"
+  site="https://heroicons.com"
+/>
+
+<ProjectCard
+  name="uikit/uikit"
+  github="https://github.com/uikit/uikit"
+  description="轻量级模块化 CSS 框架"
+  lang="JavaScript"
+  stars="18k"
+  updated="近期"
+  site="https://getuikit.com"
+/>
+
+<ProjectCard
+  name="microsoft/fluentui"
+  github="https://github.com/microsoft/fluentui"
+  description="微软 Fluent 设计系统"
+  lang="TypeScript"
+  stars="18k"
+  updated="近期"
+  site="https://fluentui.microsoft.com"
+/>
+
+<ProjectCard
+  name="react-icons/react-icons"
+  github="https://github.com/react-icons/react-icons"
+  description="React 图标聚合库"
+  lang="JavaScript"
+  stars="12k"
+  updated="近期"
+  site="https://react-icons.github.io/react-icons"
+/>
+
+<ProjectCard
+  name="picturepan2/spectre"
+  github="https://github.com/picturepan2/spectre"
+  description="轻量响应式 CSS 框架"
+  lang="HTML"
+  stars="11k"
+  updated="近期"
+  site="https://picturepan2.github.io/spectre"
+/>
+
+<ProjectCard
+  name="primefaces/primevue"
+  github="https://github.com/primefaces/primevue"
+  description="Vue UI 组件库"
+  lang="Vue"
+  stars="14k"
+  updated="近期"
+  site="https://primevue.org"
+/>
 </div>
 
 
-## 🛠️ 效率工具（81 个）
+## 🛠️ 效率工具（110 个）
 
 <div class="ah-project-grid">
 
@@ -5228,4 +6520,290 @@ hero:
   site="https://lazyvim.org"
 />
 
+
+<ProjectCard
+  name="zed-industries/zed"
+  github="https://github.com/zed-industries/zed"
+  description="Rust 高性能代码编辑器"
+  lang="Rust"
+  stars="85k"
+  updated="近期"
+  site="https://zed.dev"
+/>
+
+<ProjectCard
+  name="syncthing/syncthing"
+  github="https://github.com/syncthing/syncthing"
+  description="去中心化持续文件同步"
+  lang="Go"
+  stars="63k"
+  updated="近期"
+  site="https://syncthing.net"
+/>
+
+<ProjectCard
+  name="obsproject/obs-studio"
+  github="https://github.com/obsproject/obs-studio"
+  description="直播录屏软件"
+  lang="C"
+  stars="60k"
+  updated="近期"
+  site="https://obsproject.com"
+/>
+
+<ProjectCard
+  name="alacritty/alacritty"
+  github="https://github.com/alacritty/alacritty"
+  description="GPU 加速跨平台终端"
+  lang="Rust"
+  stars="56k"
+  updated="近期"
+  site="https://alacritty.org"
+/>
+
+<ProjectCard
+  name="nocodb/nocodb"
+  github="https://github.com/nocodb/nocodb"
+  description="开源 Airtable 替代方案"
+  lang="TypeScript"
+  stars="50k"
+  updated="近期"
+  site="https://nocodb.com"
+/>
+
+<ProjectCard
+  name="rclone/rclone"
+  github="https://github.com/rclone/rclone"
+  description="命令行云存储同步工具"
+  lang="Go"
+  stars="47k"
+  updated="近期"
+  site="https://rclone.org"
+/>
+
+<ProjectCard
+  name="romkatv/powerlevel10k"
+  github="https://github.com/romkatv/powerlevel10k"
+  description="Zsh 高速主题"
+  lang="Shell"
+  stars="48k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="starship/starship"
+  github="https://github.com/starship/starship"
+  description="跨 Shell 智能提示符"
+  lang="Rust"
+  stars="45k"
+  updated="近期"
+  site="https://starship.rs"
+/>
+
+<ProjectCard
+  name="localsend/localsend"
+  github="https://github.com/localsend/localsend"
+  description="跨平台局域网文件传输"
+  lang="Dart"
+  stars="42k"
+  updated="近期"
+  site="https://localsend.org"
+/>
+
+<ProjectCard
+  name="jgraph/drawio"
+  github="https://github.com/jgraph/drawio"
+  description="在线图表绘制工具"
+  lang="JavaScript"
+  stars="40k"
+  updated="近期"
+  site="https://www.drawio.com"
+/>
+
+<ProjectCard
+  name="ToolJet/ToolJet"
+  github="https://github.com/ToolJet/ToolJet"
+  description="低代码内部工具构建平台"
+  lang="JavaScript"
+  stars="37k"
+  updated="近期"
+  site="https://tooljet.com"
+/>
+
+<ProjectCard
+  name="vim/vim"
+  github="https://github.com/vim/vim"
+  description="Vi Improved 文本编辑器"
+  lang="Vim Script"
+  stars="37k"
+  updated="近期"
+  site="https://www.vim.org"
+/>
+
+<ProjectCard
+  name="tmux/tmux"
+  github="https://github.com/tmux/tmux"
+  description="终端复用器"
+  lang="C"
+  stars="35k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="lapce/lapce"
+  github="https://github.com/lapce/lapce"
+  description="Rust 原生代码编辑器"
+  lang="Rust"
+  stars="34k"
+  updated="近期"
+  site="https://lapce.dev"
+/>
+
+<ProjectCard
+  name="helix-editor/helix"
+  github="https://github.com/helix-editor/helix"
+  description="Kakoune 风格终端编辑器"
+  lang="Rust"
+  stars="34k"
+  updated="近期"
+  site="https://helix-editor.com"
+/>
+
+<ProjectCard
+  name="penpot/penpot"
+  github="https://github.com/penpot/penpot"
+  description="开源设计协作平台"
+  lang="Clojure"
+  stars="33k"
+  updated="近期"
+  site="https://penpot.app"
+/>
+
+<ProjectCard
+  name="amix/vimrc"
+  github="https://github.com/amix/vimrc"
+  description="Vim 强大配置方案"
+  lang="Vim Script"
+  stars="28k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="lossless-cut/lossless-cut"
+  github="https://github.com/lossless-cut/lossless-cut"
+  description="无损视频音频剪辑"
+  lang="TypeScript"
+  stars="26k"
+  updated="近期"
+  site="https://losslesscut.com"
+/>
+
+<ProjectCard
+  name="restic/restic"
+  github="https://github.com/restic/restic"
+  description="快速安全备份工具"
+  lang="Go"
+  stars="26k"
+  updated="近期"
+  site="https://restic.net"
+/>
+
+<ProjectCard
+  name="kovidgoyal/calibre"
+  github="https://github.com/kovidgoyal/calibre"
+  description="电子书管理转换工具"
+  lang="Python"
+  stars="19k"
+  updated="近期"
+  site="https://calibre-ebook.com"
+/>
+
+<ProjectCard
+  name="wez/wezterm"
+  github="https://github.com/wez/wezterm"
+  description="GPU 加速跨平台终端"
+  lang="Rust"
+  stars="18k"
+  updated="近期"
+  site="https://wezfurlong.org/wezterm"
+/>
+
+<ProjectCard
+  name="ether/etherpad-lite"
+  github="https://github.com/ether/etherpad-lite"
+  description="实时协作文档编辑器"
+  lang="JavaScript"
+  stars="17k"
+  updated="近期"
+  site="https://etherpad.org"
+/>
+
+<ProjectCard
+  name="bitwarden/server"
+  github="https://github.com/bitwarden/server"
+  description="开源密码管理器服务端"
+  lang="C#"
+  stars="15k"
+  updated="近期"
+  site="https://bitwarden.com"
+/>
+
+<ProjectCard
+  name="eza-community/eza"
+  github="https://github.com/eza-community/eza"
+  description="ls 命令现代替代工具"
+  lang="Rust"
+  stars="13k"
+  updated="近期"
+/>
+
+<ProjectCard
+  name="audacity/audacity"
+  github="https://github.com/audacity/audacity"
+  description="跨平台音频编辑器"
+  lang="C++"
+  stars="12k"
+  updated="近期"
+  site="https://www.audacityteam.org"
+/>
+
+<ProjectCard
+  name="keeweb/keeweb"
+  github="https://github.com/keeweb/keeweb"
+  description="跨平台 KeePass 密码管理器"
+  lang="JavaScript"
+  stars="12k"
+  updated="近期"
+  site="https://keeweb.app"
+/>
+
+<ProjectCard
+  name="xournalpp/xournalpp"
+  github="https://github.com/xournalpp/xournalpp"
+  description="手写笔记与 PDF 标注工具"
+  lang="C++"
+  stars="11k"
+  updated="近期"
+  site="https://xournalpp.org"
+/>
+
+<ProjectCard
+  name="notesnook/notesnook"
+  github="https://github.com/notesnook/notesnook"
+  description="端到端加密隐私笔记"
+  lang="TypeScript"
+  stars="10k"
+  updated="近期"
+  site="https://notesnook.com"
+/>
+
+<ProjectCard
+  name="zotero/zotero"
+  github="https://github.com/zotero/zotero"
+  description="文献管理与研究工具"
+  lang="JavaScript"
+  stars="10k"
+  updated="近期"
+  site="https://www.zotero.org"
+/>
 </div>
