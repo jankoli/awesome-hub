@@ -10,12 +10,13 @@
 
 - [🎨 ФРОНТЕНД-РАЗРАБОТКА (106)](#frontend-development)
 - [⚙️ БЭКЕНД-РАЗРАБОТКА (70)](#backend-development)
-- [🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ (88)](#ai--machine-learning)
+- [🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ (82)](#ai--machine-learning)
 - [🚀 DEVOPS (70)](#devops)
 - [💾 БАЗЫ ДАННЫХ (68)](#database)
 - [📱 МОБИЛЬНАЯ РАЗРАБОТКА (96)](#mobile-development)
 - [✨ ДИЗАЙН-РЕСУРСЫ (79)](#design-resources)
 - [🛠️ ИНСТРУМЕНТЫ ПРОДУКТИВНОСТИ (110)](#productivity-tools)
+- [🤝 ФРЕЙМВОРКИ ИИ-АГЕНТОВ (20)](#ai-agent-frameworks)
 
 ---
 
@@ -215,98 +216,92 @@
 
 <h2 id="ai--machine-learning">🤖 ИИ / МАШИННОЕ ОБУЧЕНИЕ</h2>
 
-> 88 проектов
+> 82 проектов
 
 | # | Проект | Описание | Язык | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [langgenius/dify](https://github.com/langgenius/dify) | Универсальная платформа разработки приложений для больших моделей, визуально координирующая рабоч... | TypeScript | 54.2k |
-| 2 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Основная платформа для создания приложений LLM, предоставляющая полный набор компонентов: от опер... | Python | 95.2k |
-| 3 | [huggingface/transformers](https://github.com/huggingface/transformers) | Предварительно обученная библиотека моделей, созданная Hugging Face, поддерживает PyTorch/TensorF... | Python | 129k |
-| 4 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | Самая популярная на сегодняшний день среда глубокого обучения, динамическая графика, Pythonic-диз... | Python | 80.8k |
-| 5 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Самый популярный локальный веб-интерфейс Stable Diffusion с огромной экосистемой плагинов, необхо... | Python | 140k |
-| 6 | [ollama/ollama](https://github.com/ollama/ollama) | Артефакт для локального запуска больших моделей одной строкой команд, поддерживающий десятки моде... | Go | 89.6k |
-| 7 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | Используйте несколько агентов ИИ, чтобы создать виртуальную компанию по разработке программного о... | Python | 31.8k |
-| 8 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | Самый мощный собственный интерфейс чата LLM, поддерживающий многомодельные серверные части, ролев... | JavaScript | 17.7k |
-| 9 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Официальный репозиторий большой языковой модели Llama от Meta с открытым исходным кодом, код выво... | Python | 53k |
-| 10 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Стиль рабочего процесса Node. Веб-интерфейс Stable Diffusion с надежным контролем, лучший выбор д... | Python | 54.6k |
-| 11 | [modelscope/swift](https://github.com/modelscope/swift) | Система LLM/мультимодального обучения с открытым исходным кодом сообщества Moda поддерживает боле... | Python | 8.4k |
-| 12 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | Эффективная структура дерева решений, повышающая градиент, конкуренция Kaggle и артефакт сортиров... | C++ | 17k |
-| 13 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | Серия исследований с открытым исходным кодом в области искусственного интеллекта, подготовленная ... | Python | 4.5k |
-| 14 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Платформа комплексного машинного обучения Google с открытым исходным кодом является наиболее широ... | C++ | 188k |
-| 15 | [keras-team/keras](https://github.com/keras-team/keras) | API нейронной сети высокого уровня, известный своей простотой использования, может работать на Te... | Python | 62k |
-| 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Самая классическая библиотека машинного обучения Python, классификация/регрессия/кластеризация/ум... | Python | 60k |
-| 17 | [google/jax](https://github.com/google/jax) | Библиотека высокопроизводительных численных вычислений, созданная Google, автоматическое дифферен... | Python | 31k |
-| 18 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | Среда глубокого обучения Baidu Flying Paddle, единственная в Китае полностью самостоятельно разра... | C++ | 22k |
-| 19 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | Облегченная платформа обучения PyTorch, структурированный код, обучение нескольким графическим пр... | Python | 28k |
-| 20 | [fastai/fastai](https://github.com/fastai/fastai) | Библиотека глубокого обучения, API высокого уровня прост, подходит для быстрого начала работы, ул... | Python | 26k |
-| 21 | [openai/whisper](https://github.com/openai/whisper) | Многоязычная модель распознавания речи OpenAI с открытым исходным кодом, 99 языков, чрезвычайно н... | Python | 72k |
-| 22 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | Механизм вывода LLM, реализованный на C/C++, CPU/Mac также может работать с большими моделями, а ... | C++ | 70k |
-| 23 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Официальный репозиторий языковых моделей Meta Llama 3, вес с открытым исходным кодом, производите... | Python | 48k |
-| 24 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | Платформа данных LLM, лучший выбор для приложений RAG, объединяющая частные данные и большие модели. | Python | 37k |
-| 25 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | Высокопроизводительный механизм вывода LLM, технология PagedAttention, пропускная способность нам... | Python | 30k |
-| 26 | [microsoft/autogen](https://github.com/microsoft/autogen) | Многоагентная диалоговая платформа Microsoft с открытым исходным кодом: несколько агентов ИИ взаи... | Python | 35k |
-| 27 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Структура многоагентной оркестровки, ролевая игра, распределение задач, совместная оркестровка пр... | Python | 25k |
-| 28 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Персональный помощник AI с открытым исходным кодом, подключайте свои заметки/документы/GitHub, за... | Python | 25k |
-| 29 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | Академический инструмент ChatGPT, перевод документов/полировка/анализ кода/пакетная обработка, ар... | Python | 65k |
-| 30 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | Бесплатная агрегация GPT API, реверс-инжиниринг нескольких платформ искусственного интеллекта и б... | Python | 63k |
-| 31 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | Локальный частный GPT, вопросы и ответы по документам, полностью автономная работа, данные не вых... | Python | 54k |
-| 32 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | Инструмент генерации кода AI, опишите требования и сгенерируйте полный код проекта. | Python | 52k |
-| 33 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | Официальные примеры и лучшие практики OpenAI API, руководства по использованию и сборник советов ... | Python | 60k |
-| 34 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | Модель двуязычного китайско-английского диалога ChatGLM-6B с открытым исходным кодом Tsinghua, не... | Python | 41k |
-| 35 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | Модель серии Alibaba Tongyi Qianwen Qwen2.5, вес с открытым исходным кодом, первоклассные возможн... | Python | 12k |
-| 36 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Оригинальная реализация Stable Diffusion, модель скрытой диффузии, этап создания изображения | Python | 67k |
-| 37 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Пользовательский интерфейс создания изображений, ориентированный на подсказки, упрощает операции ... | Python | 42k |
-| 38 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | Условное управление генерацией изображения, набросок линий/карта глубины/контроль положения, точн... | Python | 30k |
-| 39 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | Библиотека диффузионных моделей, поддерживает SD/SDXL/Flux и т. д., предварительно обученные моде... | Python | 25k |
-| 40 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Склад моделей, созданный Stability AI, где выпускаются SDXL/SD3 и другие модели. | Python | 25k |
-| 41 | [opencv/opencv](https://github.com/opencv/opencv) | Библиотека компьютерного зрения с открытым исходным кодом, обработка изображений/обнаружение функ... | C++ | 78k |
-| 42 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | Модель обнаружения целей YOLOv5, комплексное обучение/вывод/развертывание, YOLO с самым активным ... | Python | 52k |
-| 43 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 обнаружение/сегментация/классификация/поза целей, новейшая и самая совершенная верс... | Python | 30k |
-| 44 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM может сегментировать все модели, нулевые выборки могут сегментировать любую цель, а базовая м... | Python | 48k |
-| 45 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | Набор инструментов для обнаружения объектов OpenMMLab, поддерживает более 50 алгоритмов, блок обн... | Python | 28k |
-| 46 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Библиотека визуального контроля производства FAIR, обнаружение/сегментация/ключевые точки, модуль... | Python | 30k |
-| 47 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU оценка позы человека в реальном времени, 2D/3D обнаружение скелета нескольких человек, инстру... | C++ | 31k |
-| 48 | [explosion/spaCy](https://github.com/explosion/spaCy) | Библиотека НЛП промышленного уровня, сегментация слов/распознавание именованных объектов/классифи... | Python | 30k |
-| 49 | [google-research/bert](https://github.com/google-research/bert) | Модель предварительного обучения Google BERT, этап NLM, понимание контрольного показателя задачи | Python | 32k |
-| 50 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | Клонирование голоса в реальном времени: вы можете клонировать голос говорящего всего за несколько... | Python | 52k |
-| 51 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | Набор инструментов для моделирования последовательности FAIR, перевод/суммирование/речь, реализац... | Python | 30k |
-| 52 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Система оптимизации обучения больших моделей Microsoft, параллель ZeRO/3D, обучает сотни миллиард... | Python | 35k |
-| 53 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | Структура параллельного обучения больших моделей, недорогое обучение больших моделей, поддержка т... | Python | 39k |
-| 54 | [ray-project/ray](https://github.com/ray-project/ray) | Платформа распределенных вычислений, служба распределенного обучения/настройки гиперпараметров/вы... | Python | 33k |
-| 55 | [huggingface/peft](https://github.com/huggingface/peft) | Эффективная библиотека точной настройки параметров LoRA/Prefix Tuning/AdaLoRA, недорогая точная н... | Python | 16k |
-| 56 | [apache/spark](https://github.com/apache/spark) | Унифицированный механизм анализа больших данных, распределенная обработка данных, MLlib/GraphX/SQ... | Scala | 40k |
-| 57 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | Платформа управления жизненным циклом машинного обучения, отслеживание экспериментов/регистрация ... | Python | 18k |
-| 58 | [huggingface/datasets](https://github.com/huggingface/datasets) | Библиотека загрузки и обработки наборов данных, более 1000 наборов данных, загрузка одной строки ... | Python | 19k |
-| 59 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | Библиотека поиска по сходству векторов, поиск векторов на миллиардном уровне, ускорение на графич... | C++ | 32k |
-| 60 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Автономный ИИ-агент, автоматическое планирование и достижение поставленной цели, новаторский прое... | Python | 165k |
-| 61 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | Коллекция подсказок ChatGPT, более 100 ролевых слов, стимулирующих максимальную производительност... | HTML | 115k |
-| 62 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Простейшая реализация GPT от Karpathy, код уровня обучения, понимание основных принципов GPT. | Python | 40k |
-| 63 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Практическая китайская версия глубокого обучения, разработанная Ли Му, теория + код + упражнения,... | Python | 60k |
-| 64 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | Простая в использовании система тонкой настройки обучения LLM | Python | 60k |
-| 65 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | Быстро создавайте данные и пользовательские интерфейсы приложений машинного обучения. | Python | 36k |
-| 66 | [openai/gym](https://github.com/openai/gym) | Набор инструментов для интерфейса среды обучения с подкреплением | Python | 35k |
-| 67 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Быстрое создание демонстрационного интерфейса модели машинного обучения | Python | 33k |
-| 68 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Учебник по построению большой языковой модели с нуля | Python | 30k |
-| 69 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Базовая библиотека анализа и обработки данных | Python | 44k |
-| 70 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Многоязычный набор инструментов оптического распознавания символов Baidu | Python | 44k |
-| 71 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | Оптимизированный древовидный банк повышения распределенного градиента | C++ | 26k |
-| 72 | [openai/CLIP](https://github.com/openai/CLIP) | Модель обучения сравнению изображений и текста | Python | 26k |
-| 73 | [shap/shap](https://github.com/shap/shap) | Объяснение модели и библиотека визуализации атрибуции функций | Python | 23k |
-| 74 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Агент автоматизации браузера на базе искусственного интеллекта | Python | 30k |
-| 75 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Создание визуального агента ИИ с помощью перетаскивания | TypeScript | 45k |
-| 76 | [numpy/numpy](https://github.com/numpy/numpy) | Базовая библиотека научных вычислений | Python | 28k |
-| 77 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Реализация Vision Transformer PyTorch | Python | 19k |
-| 78 | [facebook/prophet](https://github.com/facebook/prophet) | Инструменты автоматического прогнозирования временных рядов | Python | 18k |
-| 79 | [gensim/gensim](https://github.com/gensim/gensim) | Библиотека тематического моделирования и сходства документов | Python | 16k |
-| 80 | [networkx/networkx](https://github.com/networkx/networkx) | Библиотека анализа комплексной теории сетей и графов | Python | 15k |
-| 81 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Библиотека привязки графиков и визуализации данных Python | Python | 20k |
-| 82 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | Набор инструментов для моделирования последовательностей | Python | 20k |
-| 83 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter, интерактивная среда разработки нового поколения. | TypeScript | 14k |
-| 84 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | Аннотированный сборник реализаций документов по глубокому обучению | Python | 14k |
-| 85 | [microsoft/nni](https://github.com/microsoft/nni) | Набор инструментов AutoML для автоматизированного машинного обучения | Python | 14k |
-| 86 | [nltk/nltk](https://github.com/nltk/nltk) | Набор инструментов для обработки естественного языка | Python | 13k |
-| 87 | [scipy/scipy](https://github.com/scipy/scipy) | Библиотека научно-технической вычислительной техники | Python | 13k |
-| 88 | [meta-llama/llama](https://github.com/meta-llama/llama) | Веса и вывод большой языковой модели Meta LLaMA | Python | 12k |
+| 1 | [huggingface/transformers](https://github.com/huggingface/transformers) | Предварительно обученная библиотека моделей, созданная Hugging Face, поддерживает PyTorch/TensorF... | Python | 129k |
+| 2 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | Самая популярная на сегодняшний день среда глубокого обучения, динамическая графика, Pythonic-диз... | Python | 80.8k |
+| 3 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Самый популярный локальный веб-интерфейс Stable Diffusion с огромной экосистемой плагинов, необхо... | Python | 140k |
+| 4 | [ollama/ollama](https://github.com/ollama/ollama) | Артефакт для локального запуска больших моделей одной строкой команд, поддерживающий десятки моде... | Go | 89.6k |
+| 5 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | Самый мощный собственный интерфейс чата LLM, поддерживающий многомодельные серверные части, ролев... | JavaScript | 17.7k |
+| 6 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Официальный репозиторий большой языковой модели Llama от Meta с открытым исходным кодом, код выво... | Python | 53k |
+| 7 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Стиль рабочего процесса Node. Веб-интерфейс Stable Diffusion с надежным контролем, лучший выбор д... | Python | 54.6k |
+| 8 | [modelscope/swift](https://github.com/modelscope/swift) | Система LLM/мультимодального обучения с открытым исходным кодом сообщества Moda поддерживает боле... | Python | 8.4k |
+| 9 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | Эффективная структура дерева решений, повышающая градиент, конкуренция Kaggle и артефакт сортиров... | C++ | 17k |
+| 10 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | Серия исследований с открытым исходным кодом в области искусственного интеллекта, подготовленная ... | Python | 4.5k |
+| 11 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Платформа комплексного машинного обучения Google с открытым исходным кодом является наиболее широ... | C++ | 188k |
+| 12 | [keras-team/keras](https://github.com/keras-team/keras) | API нейронной сети высокого уровня, известный своей простотой использования, может работать на Te... | Python | 62k |
+| 13 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Самая классическая библиотека машинного обучения Python, классификация/регрессия/кластеризация/ум... | Python | 60k |
+| 14 | [google/jax](https://github.com/google/jax) | Библиотека высокопроизводительных численных вычислений, созданная Google, автоматическое дифферен... | Python | 31k |
+| 15 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | Среда глубокого обучения Baidu Flying Paddle, единственная в Китае полностью самостоятельно разра... | C++ | 22k |
+| 16 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | Облегченная платформа обучения PyTorch, структурированный код, обучение нескольким графическим пр... | Python | 28k |
+| 17 | [fastai/fastai](https://github.com/fastai/fastai) | Библиотека глубокого обучения, API высокого уровня прост, подходит для быстрого начала работы, ул... | Python | 26k |
+| 18 | [openai/whisper](https://github.com/openai/whisper) | Многоязычная модель распознавания речи OpenAI с открытым исходным кодом, 99 языков, чрезвычайно н... | Python | 72k |
+| 19 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | Механизм вывода LLM, реализованный на C/C++, CPU/Mac также может работать с большими моделями, а ... | C++ | 70k |
+| 20 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Официальный репозиторий языковых моделей Meta Llama 3, вес с открытым исходным кодом, производите... | Python | 48k |
+| 21 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | Платформа данных LLM, лучший выбор для приложений RAG, объединяющая частные данные и большие модели. | Python | 37k |
+| 22 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | Высокопроизводительный механизм вывода LLM, технология PagedAttention, пропускная способность нам... | Python | 30k |
+| 23 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Персональный помощник AI с открытым исходным кодом, подключайте свои заметки/документы/GitHub, за... | Python | 25k |
+| 24 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | Академический инструмент ChatGPT, перевод документов/полировка/анализ кода/пакетная обработка, ар... | Python | 65k |
+| 25 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | Бесплатная агрегация GPT API, реверс-инжиниринг нескольких платформ искусственного интеллекта и б... | Python | 63k |
+| 26 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | Локальный частный GPT, вопросы и ответы по документам, полностью автономная работа, данные не вых... | Python | 54k |
+| 27 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | Инструмент генерации кода AI, опишите требования и сгенерируйте полный код проекта. | Python | 52k |
+| 28 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | Официальные примеры и лучшие практики OpenAI API, руководства по использованию и сборник советов ... | Python | 60k |
+| 29 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | Модель двуязычного китайско-английского диалога ChatGLM-6B с открытым исходным кодом Tsinghua, не... | Python | 41k |
+| 30 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | Модель серии Alibaba Tongyi Qianwen Qwen2.5, вес с открытым исходным кодом, первоклассные возможн... | Python | 12k |
+| 31 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Оригинальная реализация Stable Diffusion, модель скрытой диффузии, этап создания изображения | Python | 67k |
+| 32 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Пользовательский интерфейс создания изображений, ориентированный на подсказки, упрощает операции ... | Python | 42k |
+| 33 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | Условное управление генерацией изображения, набросок линий/карта глубины/контроль положения, точн... | Python | 30k |
+| 34 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | Библиотека диффузионных моделей, поддерживает SD/SDXL/Flux и т. д., предварительно обученные моде... | Python | 25k |
+| 35 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Склад моделей, созданный Stability AI, где выпускаются SDXL/SD3 и другие модели. | Python | 25k |
+| 36 | [opencv/opencv](https://github.com/opencv/opencv) | Библиотека компьютерного зрения с открытым исходным кодом, обработка изображений/обнаружение функ... | C++ | 78k |
+| 37 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | Модель обнаружения целей YOLOv5, комплексное обучение/вывод/развертывание, YOLO с самым активным ... | Python | 52k |
+| 38 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 обнаружение/сегментация/классификация/поза целей, новейшая и самая совершенная верс... | Python | 30k |
+| 39 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM может сегментировать все модели, нулевые выборки могут сегментировать любую цель, а базовая м... | Python | 48k |
+| 40 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | Набор инструментов для обнаружения объектов OpenMMLab, поддерживает более 50 алгоритмов, блок обн... | Python | 28k |
+| 41 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | Библиотека визуального контроля производства FAIR, обнаружение/сегментация/ключевые точки, модуль... | Python | 30k |
+| 42 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU оценка позы человека в реальном времени, 2D/3D обнаружение скелета нескольких человек, инстру... | C++ | 31k |
+| 43 | [explosion/spaCy](https://github.com/explosion/spaCy) | Библиотека НЛП промышленного уровня, сегментация слов/распознавание именованных объектов/классифи... | Python | 30k |
+| 44 | [google-research/bert](https://github.com/google-research/bert) | Модель предварительного обучения Google BERT, этап NLM, понимание контрольного показателя задачи | Python | 32k |
+| 45 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | Клонирование голоса в реальном времени: вы можете клонировать голос говорящего всего за несколько... | Python | 52k |
+| 46 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | Набор инструментов для моделирования последовательности FAIR, перевод/суммирование/речь, реализац... | Python | 30k |
+| 47 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Система оптимизации обучения больших моделей Microsoft, параллель ZeRO/3D, обучает сотни миллиард... | Python | 35k |
+| 48 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | Структура параллельного обучения больших моделей, недорогое обучение больших моделей, поддержка т... | Python | 39k |
+| 49 | [ray-project/ray](https://github.com/ray-project/ray) | Платформа распределенных вычислений, служба распределенного обучения/настройки гиперпараметров/вы... | Python | 33k |
+| 50 | [huggingface/peft](https://github.com/huggingface/peft) | Эффективная библиотека точной настройки параметров LoRA/Prefix Tuning/AdaLoRA, недорогая точная н... | Python | 16k |
+| 51 | [apache/spark](https://github.com/apache/spark) | Унифицированный механизм анализа больших данных, распределенная обработка данных, MLlib/GraphX/SQ... | Scala | 40k |
+| 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | Платформа управления жизненным циклом машинного обучения, отслеживание экспериментов/регистрация ... | Python | 18k |
+| 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | Библиотека загрузки и обработки наборов данных, более 1000 наборов данных, загрузка одной строки ... | Python | 19k |
+| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | Библиотека поиска по сходству векторов, поиск векторов на миллиардном уровне, ускорение на графич... | C++ | 32k |
+| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | Коллекция подсказок ChatGPT, более 100 ролевых слов, стимулирующих максимальную производительност... | HTML | 115k |
+| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Простейшая реализация GPT от Karpathy, код уровня обучения, понимание основных принципов GPT. | Python | 40k |
+| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Практическая китайская версия глубокого обучения, разработанная Ли Му, теория + код + упражнения,... | Python | 60k |
+| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | Простая в использовании система тонкой настройки обучения LLM | Python | 60k |
+| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | Быстро создавайте данные и пользовательские интерфейсы приложений машинного обучения. | Python | 36k |
+| 60 | [openai/gym](https://github.com/openai/gym) | Набор инструментов для интерфейса среды обучения с подкреплением | Python | 35k |
+| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | Быстрое создание демонстрационного интерфейса модели машинного обучения | Python | 33k |
+| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Учебник по построению большой языковой модели с нуля | Python | 30k |
+| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | Базовая библиотека анализа и обработки данных | Python | 44k |
+| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Многоязычный набор инструментов оптического распознавания символов Baidu | Python | 44k |
+| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | Оптимизированный древовидный банк повышения распределенного градиента | C++ | 26k |
+| 66 | [openai/CLIP](https://github.com/openai/CLIP) | Модель обучения сравнению изображений и текста | Python | 26k |
+| 67 | [shap/shap](https://github.com/shap/shap) | Объяснение модели и библиотека визуализации атрибуции функций | Python | 23k |
+| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Агент автоматизации браузера на базе искусственного интеллекта | Python | 30k |
+| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Создание визуального агента ИИ с помощью перетаскивания | TypeScript | 45k |
+| 70 | [numpy/numpy](https://github.com/numpy/numpy) | Базовая библиотека научных вычислений | Python | 28k |
+| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Реализация Vision Transformer PyTorch | Python | 19k |
+| 72 | [facebook/prophet](https://github.com/facebook/prophet) | Инструменты автоматического прогнозирования временных рядов | Python | 18k |
+| 73 | [gensim/gensim](https://github.com/gensim/gensim) | Библиотека тематического моделирования и сходства документов | Python | 16k |
+| 74 | [networkx/networkx](https://github.com/networkx/networkx) | Библиотека анализа комплексной теории сетей и графов | Python | 15k |
+| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Библиотека привязки графиков и визуализации данных Python | Python | 20k |
+| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | Набор инструментов для моделирования последовательностей | Python | 20k |
+| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter, интерактивная среда разработки нового поколения. | TypeScript | 14k |
+| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | Аннотированный сборник реализаций документов по глубокому обучению | Python | 14k |
+| 79 | [microsoft/nni](https://github.com/microsoft/nni) | Набор инструментов AutoML для автоматизированного машинного обучения | Python | 14k |
+| 80 | [nltk/nltk](https://github.com/nltk/nltk) | Набор инструментов для обработки естественного языка | Python | 13k |
+| 81 | [scipy/scipy](https://github.com/scipy/scipy) | Библиотека научно-технической вычислительной техники | Python | 13k |
+| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Веса и вывод большой языковой модели Meta LLaMA | Python | 12k |
 
 ---
 

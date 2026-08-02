@@ -10,12 +10,13 @@
 
 - [🎨 프론트엔드 개발 (106)](#frontend-development)
 - [⚙️ 백엔드 개발 (70)](#backend-development)
-- [🤖 AI / 머신러닝 (88)](#ai--machine-learning)
+- [🤖 AI / 머신러닝 (82)](#ai--machine-learning)
 - [🚀 DevOps (70)](#devops)
 - [💾 데이터베이스 (68)](#database)
 - [📱 모바일 개발 (96)](#mobile-development)
 - [✨ 디자인 리소스 (79)](#design-resources)
 - [🛠️ 생산성 도구 (110)](#productivity-tools)
+- [🤝 AI 에이전트 프레임워크 (20)](#ai-agent-frameworks)
 
 ---
 
@@ -215,98 +216,92 @@
 
 <h2 id="ai--machine-learning">🤖 AI / 머신러닝</h2>
 
-> 88 프로젝트
+> 82 프로젝트
 
 | # | 프로젝트 | 설명 | 언어 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [langgenius/dify](https://github.com/langgenius/dify) | 원스톱 대규모 모델 애플리케이션 개발 플랫폼, 에이전트/RAG 워크플로를 시각적으로 조정하고 원클릭 배포를 지원합니다. | TypeScript | 54.2k |
-| 2 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LLM 애플리케이션 구축을 위한 주류 프레임워크로 프롬프트 엔지니어링, RAG에서 에이전트까지 완전한 구성요소 세트를 제공합니다. | Python | 95.2k |
-| 3 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face에서 생성된 사전 훈련된 모델 라이브러리는 PyTorch/TensorFlow를 지원하며 수천 개의 모델을 즉시 사용할 수 있습니다. | Python | 129k |
-| 4 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 오늘날 가장 인기 있는 딥 러닝 프레임워크, 동적 그래픽, Pythonic 디자인, 과학 연구 및 산업 분야에서 널리 사용됨 | Python | 80.8k |
-| 5 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | AI 페인팅에 꼭 필요한 대규모 플러그인 생태계를 갖춘 가장 인기 있는 Stable Diffusion 로컬 웹 UI | Python | 140k |
-| 6 | [ollama/ollama](https://github.com/ollama/ollama) | Llama, Qwen, Mistral 등과 같은 수십 개의 모델을 지원하는 한 줄의 명령으로 대규모 모델을 로컬에서 실행하기 위한 아티팩트입니다. | Go | 89.6k |
-| 7 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 여러 AI 에이전트를 활용해 가상 소프트웨어 회사를 구성하고 AI 팀이 채팅과 같은 방식으로 독립적으로 완전한 소프트웨어를 개발할 수 있도록 하세요. | Python | 31.8k |
-| 8 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 다중 모델 백엔드, 롤플레잉, 확장 기능, 그룹 채팅을 지원하는 가장 강력한 기본 LLM 채팅 프런트엔드 | JavaScript | 17.7k |
-| 9 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta의 오픈 소스 Llama 대규모 언어 모델 공식 저장소, Llama 1에서 Llama 3까지의 추론 코드 | Python | 53k |
-| 10 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | 강력한 제어 기능을 갖춘 노드 워크플로우 스타일 안정적인 확산 WebUI, 고급 플레이어를 위한 첫 번째 선택 | Python | 54.6k |
-| 11 | [modelscope/swift](https://github.com/modelscope/swift) | Moda 커뮤니티의 오픈 소스 LLM/다중 모드 교육 추론 프레임워크는 300개 이상의 모델을 지원하며 사용이 매우 쉽습니다. | Python | 8.4k |
-| 12 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 효율적인 그래디언트 부스팅 의사결정 트리 프레임워크, Kaggle 경쟁 및 Microsoft에서 생성한 산업 등급 정렬/CTR 아티팩트 | C++ | 17k |
-| 13 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | Microsoft Research Asia에서 제작한 AI 음악 오픈소스 연구 시리즈, 작사/작곡/노래 전체 링크 | Python | 4.5k |
-| 14 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google의 오픈소스 엔드 투 엔드 머신러닝 플랫폼은 업계에서 가장 널리 배포되어 있으며 성숙한 생태계를 갖추고 있습니다. | C++ | 188k |
-| 15 | [keras-team/keras](https://github.com/keras-team/keras) | 사용하기 쉬운 것으로 알려진 고급 신경망 API를 TensorFlow/JAX에서 실행할 수 있습니다. | Python | 62k |
-| 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python의 가장 고전적인 기계 학습 라이브러리, 분류/회귀/클러스터링/차원 축소, 간단하고 효율적 | Python | 60k |
-| 17 | [google/jax](https://github.com/google/jax) | Google이 제작한 고성능 수치 계산 라이브러리, 자동 미분, XLA 컴파일, 병렬 컴퓨팅 | Python | 31k |
-| 18 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | Baidu Flying Paddle 딥 러닝 프레임워크는 중국 유일의 완전 자체 개발 산업급 오픈 소스 플랫폼입니다. | C++ | 22k |
-| 19 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 경량 PyTorch 훈련 프레임워크, 구조화된 코드, 다중 GPU/TPU 훈련, 연구 코드 및 생산 분리 | Python | 28k |
-| 20 | [fastai/fastai](https://github.com/fastai/fastai) | 딥 러닝 라이브러리, 고급 API는 간단하고 빠르게 시작하는 데 적합하며 최고 수준의 데이터 향상 및 교육 전략을 제공합니다. | Python | 26k |
-| 21 | [openai/whisper](https://github.com/openai/whisper) | OpenAI 오픈 소스 다국어 음성 인식 모델, 99개 언어, 매우 강력함 | Python | 72k |
-| 22 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++로 구현된 LLM 추론 엔진, CPU/Mac도 대규모 모델을 실행할 수 있으며 정량적 추론이 매우 빠릅니다. | C++ | 70k |
-| 23 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 공식 언어 모델 저장소, 오픈 소스 가중치, 폐쇄 소스 모델과 유사한 성능 | Python | 48k |
-| 24 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | 개인 데이터와 대규모 모델을 연결하는 RAG 애플리케이션을 위한 첫 번째 선택인 LLM 데이터 프레임워크 | Python | 37k |
-| 25 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 높은 처리량의 LLM 추론 엔진, PagedAttention 기술, HuggingFace를 훨씬 능가하는 처리량 | Python | 30k |
-| 26 | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft의 오픈 소스 다중 에이전트 대화 프레임워크인 여러 AI 에이전트가 협력하여 복잡한 작업을 완료합니다. | Python | 35k |
-| 27 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 다중 에이전트 오케스트레이션 프레임워크, 역할극, 작업 할당, 협업 프로세스 오케스트레이션, 간단하고 사용하기 쉽습니다. | Python | 25k |
-| 28 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 오픈 소스 AI 개인 비서, 메모/문서/GitHub 연결, 로컬 또는 클라우드에서 실행 | Python | 25k |
-| 29 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT 학술 도구, 논문 번역/연마/코드 분석/일괄 처리, 학술 작문 결과물 | Python | 65k |
-| 30 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 무료 GPT API 집계, 여러 AI 플랫폼 리버스 엔지니어링, 여러 대형 모델 무료 사용 | Python | 63k |
-| 31 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 로컬 프라이빗 GPT, 문서 Q&A, 완전 오프라인 운영, 데이터가 로컬 영역을 벗어나지 않음 | Python | 54k |
-| 32 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI 코드 생성 도구, 요구 사항 설명 및 전체 프로젝트 코드 생성 | Python | 52k |
-| 33 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API 공식 예제 및 모범 사례, 사용 가이드 및 사용 팁 모음 | Python | 60k |
-| 34 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | Tsinghua의 오픈 소스 ChatGLM-6B 중국어-영어 이중 언어 대화 모델, 저렴한 배포, 좋은 중국어 효과 | Python | 41k |
-| 35 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | Alibaba Tongyi Qianwen Qwen2.5 시리즈 모델, 오픈 소스 가중치, 최고의 중국어 및 영어 기능 | Python | 12k |
-| 36 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion 원본 구현, 잠재 확산 모델, 이미지 생성 마일스톤 | Python | 67k |
-| 37 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Focus on Prompting의 이미지 생성 UI는 SD 작업을 단순화하고 매우 높은 품질의 이미지를 생성합니다. | Python | 42k |
-| 38 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 이미지 생성 조건 제어, 선 도안/깊이 맵/자세 제어, AI 페인팅 정밀 제어 | Python | 30k |
-| 39 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 확산 모델 라이브러리, SD/SDXL/Flux 등 지원, 사전 훈련된 모델 및 추론 파이프라인 | Python | 25k |
-| 40 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | SDXL/SD3 및 기타 모델이 출시되는 Stability AI 생성 모델 창고 | Python | 25k |
-| 41 | [opencv/opencv](https://github.com/opencv/opencv) | 오픈소스 컴퓨터 비전 라이브러리, 이미지 처리/특징 탐지/타겟 추적, CV 현장 인프라 | C++ | 78k |
-| 42 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 타겟 탐지 모델, 원스톱 학습/추론/배포, 가장 활발한 커뮤니티를 갖춘 YOLO | Python | 52k |
-| 43 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 표적 탐지/분할/분류/자세, 최신이자 가장 발전된 YOLO | Python | 30k |
-| 44 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM은 모든 모델을 분할할 수 있고, 제로 샘플은 모든 대상을 분할할 수 있으며, CV 기본 모델은 돌파할 수 있습니다. | Python | 48k |
-| 45 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab 개체 감지 도구 상자, 50개 이상의 알고리즘 지원, 감지/분할/회전 상자 | Python | 28k |
-| 46 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR에서 제작한 시각적 검사 라이브러리, 감지/분할/핵심점, 모듈형 설계 | Python | 30k |
-| 47 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU 실시간 인간 자세 추정, 2D/3D 다인원 골격 탐지, 체성감각 상호작용 도구 | C++ | 31k |
-| 48 | [explosion/spaCy](https://github.com/explosion/spaCy) | 산업용 등급 NLP 라이브러리, 단어 분할/명명된 엔터티 인식/텍스트 분류/훈련 프로세스 | Python | 30k |
-| 49 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 사전 학습 모델, NLM 마일스톤, 작업 벤치마크 이해 | Python | 32k |
-| 50 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | 실시간 음성 복제를 통해 단 몇 초의 오디오만으로 화자의 음성을 복제할 수 있습니다. | Python | 52k |
-| 51 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR 시퀀스-투-시퀀스 모델링 툴박스, 번역/요약/음성, PyTorch 구현 | Python | 30k |
-| 52 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft 대규모 모델 교육 최적화 시스템인 ZeRO/3D 병렬은 수천억 개의 매개변수 모델을 교육합니다. | Python | 35k |
-| 53 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 대형 모델 병렬 훈련 프레임워크, 대형 모델의 저비용 훈련, 수조 개의 매개변수 지원 | Python | 39k |
-| 54 | [ray-project/ray](https://github.com/ray-project/ray) | 분산 컴퓨팅 프레임워크, 분산 학습/초매개변수 튜닝/추론 서비스, Python 네이티브 | Python | 33k |
-| 55 | [huggingface/peft](https://github.com/huggingface/peft) | 효율적인 매개변수 미세 조정 라이브러리, LoRA/Prefix Tuning/AdaLoRA, 대형 모델의 저비용 미세 조정 | Python | 16k |
-| 56 | [apache/spark](https://github.com/apache/spark) | 통합 빅데이터 분석 엔진, 분산 데이터 처리, MLlib/GraphX/SQL/Streaming | Scala | 40k |
-| 57 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML 수명주기 관리 플랫폼, 실험 추적/모델 등록/배포/모니터링, MLOps 표준 | Python | 18k |
-| 58 | [huggingface/datasets](https://github.com/huggingface/datasets) | 데이터 세트 로딩 및 처리 라이브러리, 1000개 이상의 데이터 세트, 한 줄의 코드 로딩, 효율적인 전처리 | Python | 19k |
-| 59 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 벡터 유사성 검색 라이브러리, 10억 단위 벡터 검색, GPU 가속, RAG 시스템 코어 | C++ | 32k |
-| 60 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 자율 AI 에이전트, 주어진 목표의 자동 계획 및 실행, AI 자율 행동의 선구자 프로젝트 | Python | 165k |
-| 61 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 프롬프트 단어 수집, 100개 이상의 역할 프롬프트 단어, 대형 모델의 최고의 성능 자극 | HTML | 115k |
-| 62 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy의 가장 간단한 GPT 구현, 교육 수준 코드, GPT의 핵심 원칙 이해 | Python | 40k |
-| 63 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Li Mu가 제작한 실습형 딥러닝 중국어 버전, 이론+코드+연습, 초보자를 위한 1순위 교과서 | Python | 60k |
-| 64 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 사용하기 쉬운 LLM 미세 조정 교육 프레임워크 | Python | 60k |
-| 65 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 데이터 및 ML 애플리케이션 UI를 빠르게 구축 | Python | 36k |
-| 66 | [openai/gym](https://github.com/openai/gym) | 강화 학습 환경 인터페이스 툴킷 | Python | 35k |
-| 67 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML 모델 데모 인터페이스를 빠르게 생성 | Python | 33k |
-| 68 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 대규모 언어 모델을 처음부터 구축하는 방법에 대한 튜토리얼 | Python | 30k |
-| 69 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 데이터 분석 및 처리 핵심 라이브러리 | Python | 44k |
-| 70 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 다국어 OCR 도구 상자 | Python | 44k |
-| 71 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 최적화된 분산 그래디언트 부스팅 트리뱅크 | C++ | 26k |
-| 72 | [openai/CLIP](https://github.com/openai/CLIP) | 이미지와 텍스트 비교 학습 모델 | Python | 26k |
-| 73 | [shap/shap](https://github.com/shap/shap) | 모델 설명 및 특징 속성 시각화 라이브러리 | Python | 23k |
-| 74 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 기반 브라우저 자동화 에이전트 | Python | 30k |
-| 75 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 드래그 앤 드롭 방식의 시각적 AI 에이전트 구성 | TypeScript | 45k |
-| 76 | [numpy/numpy](https://github.com/numpy/numpy) | 과학 컴퓨팅 기본 라이브러리 | Python | 28k |
-| 77 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 구현 | Python | 19k |
-| 78 | [facebook/prophet](https://github.com/facebook/prophet) | 자동화된 시계열 예측 도구 | Python | 18k |
-| 79 | [gensim/gensim](https://github.com/gensim/gensim) | 주제 모델링 및 문서 유사성 라이브러리 | Python | 16k |
-| 80 | [networkx/networkx](https://github.com/networkx/networkx) | 복잡한 네트워크 및 그래프 이론 분석 라이브러리 | Python | 15k |
-| 81 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 그래프 바인딩 및 데이터 시각화 라이브러리 | Python | 20k |
-| 82 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 시퀀스-투-시퀀스 모델링 툴킷 | Python | 20k |
-| 83 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 차세대 대화형 개발 환경, Jupyter | TypeScript | 14k |
-| 84 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 주석이 달린 딥러닝 논문 구현 모음 | Python | 14k |
-| 85 | [microsoft/nni](https://github.com/microsoft/nni) | 자동화된 머신러닝 AutoML 툴킷 | Python | 14k |
-| 86 | [nltk/nltk](https://github.com/nltk/nltk) | 자연어 처리 툴킷 | Python | 13k |
-| 87 | [scipy/scipy](https://github.com/scipy/scipy) | 과학 및 기술 컴퓨팅 라이브러리 | Python | 13k |
-| 88 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 대규모 언어 모델 가중치 및 추론 | Python | 12k |
+| 1 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face에서 생성된 사전 훈련된 모델 라이브러리는 PyTorch/TensorFlow를 지원하며 수천 개의 모델을 즉시 사용할 수 있습니다. | Python | 129k |
+| 2 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 오늘날 가장 인기 있는 딥 러닝 프레임워크, 동적 그래픽, Pythonic 디자인, 과학 연구 및 산업 분야에서 널리 사용됨 | Python | 80.8k |
+| 3 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | AI 페인팅에 꼭 필요한 대규모 플러그인 생태계를 갖춘 가장 인기 있는 Stable Diffusion 로컬 웹 UI | Python | 140k |
+| 4 | [ollama/ollama](https://github.com/ollama/ollama) | Llama, Qwen, Mistral 등과 같은 수십 개의 모델을 지원하는 한 줄의 명령으로 대규모 모델을 로컬에서 실행하기 위한 아티팩트입니다. | Go | 89.6k |
+| 5 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 다중 모델 백엔드, 롤플레잉, 확장 기능, 그룹 채팅을 지원하는 가장 강력한 기본 LLM 채팅 프런트엔드 | JavaScript | 17.7k |
+| 6 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta의 오픈 소스 Llama 대규모 언어 모델 공식 저장소, Llama 1에서 Llama 3까지의 추론 코드 | Python | 53k |
+| 7 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | 강력한 제어 기능을 갖춘 노드 워크플로우 스타일 안정적인 확산 WebUI, 고급 플레이어를 위한 첫 번째 선택 | Python | 54.6k |
+| 8 | [modelscope/swift](https://github.com/modelscope/swift) | Moda 커뮤니티의 오픈 소스 LLM/다중 모드 교육 추론 프레임워크는 300개 이상의 모델을 지원하며 사용이 매우 쉽습니다. | Python | 8.4k |
+| 9 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 효율적인 그래디언트 부스팅 의사결정 트리 프레임워크, Kaggle 경쟁 및 Microsoft에서 생성한 산업 등급 정렬/CTR 아티팩트 | C++ | 17k |
+| 10 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | Microsoft Research Asia에서 제작한 AI 음악 오픈소스 연구 시리즈, 작사/작곡/노래 전체 링크 | Python | 4.5k |
+| 11 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google의 오픈소스 엔드 투 엔드 머신러닝 플랫폼은 업계에서 가장 널리 배포되어 있으며 성숙한 생태계를 갖추고 있습니다. | C++ | 188k |
+| 12 | [keras-team/keras](https://github.com/keras-team/keras) | 사용하기 쉬운 것으로 알려진 고급 신경망 API를 TensorFlow/JAX에서 실행할 수 있습니다. | Python | 62k |
+| 13 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python의 가장 고전적인 기계 학습 라이브러리, 분류/회귀/클러스터링/차원 축소, 간단하고 효율적 | Python | 60k |
+| 14 | [google/jax](https://github.com/google/jax) | Google이 제작한 고성능 수치 계산 라이브러리, 자동 미분, XLA 컴파일, 병렬 컴퓨팅 | Python | 31k |
+| 15 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | Baidu Flying Paddle 딥 러닝 프레임워크는 중국 유일의 완전 자체 개발 산업급 오픈 소스 플랫폼입니다. | C++ | 22k |
+| 16 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 경량 PyTorch 훈련 프레임워크, 구조화된 코드, 다중 GPU/TPU 훈련, 연구 코드 및 생산 분리 | Python | 28k |
+| 17 | [fastai/fastai](https://github.com/fastai/fastai) | 딥 러닝 라이브러리, 고급 API는 간단하고 빠르게 시작하는 데 적합하며 최고 수준의 데이터 향상 및 교육 전략을 제공합니다. | Python | 26k |
+| 18 | [openai/whisper](https://github.com/openai/whisper) | OpenAI 오픈 소스 다국어 음성 인식 모델, 99개 언어, 매우 강력함 | Python | 72k |
+| 19 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++로 구현된 LLM 추론 엔진, CPU/Mac도 대규모 모델을 실행할 수 있으며 정량적 추론이 매우 빠릅니다. | C++ | 70k |
+| 20 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 공식 언어 모델 저장소, 오픈 소스 가중치, 폐쇄 소스 모델과 유사한 성능 | Python | 48k |
+| 21 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | 개인 데이터와 대규모 모델을 연결하는 RAG 애플리케이션을 위한 첫 번째 선택인 LLM 데이터 프레임워크 | Python | 37k |
+| 22 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 높은 처리량의 LLM 추론 엔진, PagedAttention 기술, HuggingFace를 훨씬 능가하는 처리량 | Python | 30k |
+| 23 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 오픈 소스 AI 개인 비서, 메모/문서/GitHub 연결, 로컬 또는 클라우드에서 실행 | Python | 25k |
+| 24 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT 학술 도구, 논문 번역/연마/코드 분석/일괄 처리, 학술 작문 결과물 | Python | 65k |
+| 25 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 무료 GPT API 집계, 여러 AI 플랫폼 리버스 엔지니어링, 여러 대형 모델 무료 사용 | Python | 63k |
+| 26 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 로컬 프라이빗 GPT, 문서 Q&A, 완전 오프라인 운영, 데이터가 로컬 영역을 벗어나지 않음 | Python | 54k |
+| 27 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI 코드 생성 도구, 요구 사항 설명 및 전체 프로젝트 코드 생성 | Python | 52k |
+| 28 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API 공식 예제 및 모범 사례, 사용 가이드 및 사용 팁 모음 | Python | 60k |
+| 29 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | Tsinghua의 오픈 소스 ChatGLM-6B 중국어-영어 이중 언어 대화 모델, 저렴한 배포, 좋은 중국어 효과 | Python | 41k |
+| 30 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | Alibaba Tongyi Qianwen Qwen2.5 시리즈 모델, 오픈 소스 가중치, 최고의 중국어 및 영어 기능 | Python | 12k |
+| 31 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion 원본 구현, 잠재 확산 모델, 이미지 생성 마일스톤 | Python | 67k |
+| 32 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Focus on Prompting의 이미지 생성 UI는 SD 작업을 단순화하고 매우 높은 품질의 이미지를 생성합니다. | Python | 42k |
+| 33 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 이미지 생성 조건 제어, 선 도안/깊이 맵/자세 제어, AI 페인팅 정밀 제어 | Python | 30k |
+| 34 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 확산 모델 라이브러리, SD/SDXL/Flux 등 지원, 사전 훈련된 모델 및 추론 파이프라인 | Python | 25k |
+| 35 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | SDXL/SD3 및 기타 모델이 출시되는 Stability AI 생성 모델 창고 | Python | 25k |
+| 36 | [opencv/opencv](https://github.com/opencv/opencv) | 오픈소스 컴퓨터 비전 라이브러리, 이미지 처리/특징 탐지/타겟 추적, CV 현장 인프라 | C++ | 78k |
+| 37 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 타겟 탐지 모델, 원스톱 학습/추론/배포, 가장 활발한 커뮤니티를 갖춘 YOLO | Python | 52k |
+| 38 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 표적 탐지/분할/분류/자세, 최신이자 가장 발전된 YOLO | Python | 30k |
+| 39 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM은 모든 모델을 분할할 수 있고, 제로 샘플은 모든 대상을 분할할 수 있으며, CV 기본 모델은 돌파할 수 있습니다. | Python | 48k |
+| 40 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab 개체 감지 도구 상자, 50개 이상의 알고리즘 지원, 감지/분할/회전 상자 | Python | 28k |
+| 41 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR에서 제작한 시각적 검사 라이브러리, 감지/분할/핵심점, 모듈형 설계 | Python | 30k |
+| 42 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU 실시간 인간 자세 추정, 2D/3D 다인원 골격 탐지, 체성감각 상호작용 도구 | C++ | 31k |
+| 43 | [explosion/spaCy](https://github.com/explosion/spaCy) | 산업용 등급 NLP 라이브러리, 단어 분할/명명된 엔터티 인식/텍스트 분류/훈련 프로세스 | Python | 30k |
+| 44 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 사전 학습 모델, NLM 마일스톤, 작업 벤치마크 이해 | Python | 32k |
+| 45 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | 실시간 음성 복제를 통해 단 몇 초의 오디오만으로 화자의 음성을 복제할 수 있습니다. | Python | 52k |
+| 46 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR 시퀀스-투-시퀀스 모델링 툴박스, 번역/요약/음성, PyTorch 구현 | Python | 30k |
+| 47 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft 대규모 모델 교육 최적화 시스템인 ZeRO/3D 병렬은 수천억 개의 매개변수 모델을 교육합니다. | Python | 35k |
+| 48 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 대형 모델 병렬 훈련 프레임워크, 대형 모델의 저비용 훈련, 수조 개의 매개변수 지원 | Python | 39k |
+| 49 | [ray-project/ray](https://github.com/ray-project/ray) | 분산 컴퓨팅 프레임워크, 분산 학습/초매개변수 튜닝/추론 서비스, Python 네이티브 | Python | 33k |
+| 50 | [huggingface/peft](https://github.com/huggingface/peft) | 효율적인 매개변수 미세 조정 라이브러리, LoRA/Prefix Tuning/AdaLoRA, 대형 모델의 저비용 미세 조정 | Python | 16k |
+| 51 | [apache/spark](https://github.com/apache/spark) | 통합 빅데이터 분석 엔진, 분산 데이터 처리, MLlib/GraphX/SQL/Streaming | Scala | 40k |
+| 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML 수명주기 관리 플랫폼, 실험 추적/모델 등록/배포/모니터링, MLOps 표준 | Python | 18k |
+| 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | 데이터 세트 로딩 및 처리 라이브러리, 1000개 이상의 데이터 세트, 한 줄의 코드 로딩, 효율적인 전처리 | Python | 19k |
+| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 벡터 유사성 검색 라이브러리, 10억 단위 벡터 검색, GPU 가속, RAG 시스템 코어 | C++ | 32k |
+| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 프롬프트 단어 수집, 100개 이상의 역할 프롬프트 단어, 대형 모델의 최고의 성능 자극 | HTML | 115k |
+| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy의 가장 간단한 GPT 구현, 교육 수준 코드, GPT의 핵심 원칙 이해 | Python | 40k |
+| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Li Mu가 제작한 실습형 딥러닝 중국어 버전, 이론+코드+연습, 초보자를 위한 1순위 교과서 | Python | 60k |
+| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 사용하기 쉬운 LLM 미세 조정 교육 프레임워크 | Python | 60k |
+| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 데이터 및 ML 애플리케이션 UI를 빠르게 구축 | Python | 36k |
+| 60 | [openai/gym](https://github.com/openai/gym) | 강화 학습 환경 인터페이스 툴킷 | Python | 35k |
+| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML 모델 데모 인터페이스를 빠르게 생성 | Python | 33k |
+| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 대규모 언어 모델을 처음부터 구축하는 방법에 대한 튜토리얼 | Python | 30k |
+| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 데이터 분석 및 처리 핵심 라이브러리 | Python | 44k |
+| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 다국어 OCR 도구 상자 | Python | 44k |
+| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 최적화된 분산 그래디언트 부스팅 트리뱅크 | C++ | 26k |
+| 66 | [openai/CLIP](https://github.com/openai/CLIP) | 이미지와 텍스트 비교 학습 모델 | Python | 26k |
+| 67 | [shap/shap](https://github.com/shap/shap) | 모델 설명 및 특징 속성 시각화 라이브러리 | Python | 23k |
+| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 기반 브라우저 자동화 에이전트 | Python | 30k |
+| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 드래그 앤 드롭 방식의 시각적 AI 에이전트 구성 | TypeScript | 45k |
+| 70 | [numpy/numpy](https://github.com/numpy/numpy) | 과학 컴퓨팅 기본 라이브러리 | Python | 28k |
+| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 구현 | Python | 19k |
+| 72 | [facebook/prophet](https://github.com/facebook/prophet) | 자동화된 시계열 예측 도구 | Python | 18k |
+| 73 | [gensim/gensim](https://github.com/gensim/gensim) | 주제 모델링 및 문서 유사성 라이브러리 | Python | 16k |
+| 74 | [networkx/networkx](https://github.com/networkx/networkx) | 복잡한 네트워크 및 그래프 이론 분석 라이브러리 | Python | 15k |
+| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 그래프 바인딩 및 데이터 시각화 라이브러리 | Python | 20k |
+| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 시퀀스-투-시퀀스 모델링 툴킷 | Python | 20k |
+| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | 차세대 대화형 개발 환경, Jupyter | TypeScript | 14k |
+| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 주석이 달린 딥러닝 논문 구현 모음 | Python | 14k |
+| 79 | [microsoft/nni](https://github.com/microsoft/nni) | 자동화된 머신러닝 AutoML 툴킷 | Python | 14k |
+| 80 | [nltk/nltk](https://github.com/nltk/nltk) | 자연어 처리 툴킷 | Python | 13k |
+| 81 | [scipy/scipy](https://github.com/scipy/scipy) | 과학 및 기술 컴퓨팅 라이브러리 | Python | 13k |
+| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 대규모 언어 모델 가중치 및 추론 | Python | 12k |
 
 ---
 

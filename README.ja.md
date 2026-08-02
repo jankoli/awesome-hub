@@ -10,12 +10,13 @@
 
 - [🎨 フロントエンド開発 (106)](#frontend-development)
 - [⚙️ バックエンド開発 (70)](#backend-development)
-- [🤖 AI / 機械学習 (88)](#ai--machine-learning)
+- [🤖 AI / 機械学習 (82)](#ai--machine-learning)
 - [🚀 DevOps (70)](#devops)
 - [💾 データベース (68)](#database)
 - [📱 モバイル開発 (96)](#mobile-development)
 - [✨ デザインリソース (79)](#design-resources)
 - [🛠️ 生産性ツール (110)](#productivity-tools)
+- [🤝 AI エージェントフレームワーク (20)](#ai-agent-frameworks)
 
 ---
 
@@ -215,98 +216,92 @@
 
 <h2 id="ai--machine-learning">🤖 AI / 機械学習</h2>
 
-> 88 プロジェクト
+> 82 プロジェクト
 
 | # | プロジェクト | 概要 | 言語 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [langgenius/dify](https://github.com/langgenius/dify) | ワンストップの大規模モデル アプリケーション開発プラットフォーム、エージェント/RAG ワークフローを視覚的に調整し、ワンクリック展開をサポート | TypeScript | 54.2k |
-| 2 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | LLM アプリケーションを構築するための主流のフレームワークで、プロンプト エンジニアリング、RAG、エージェントに至るコンポーネントの完全なセットを提供します。 | Python | 95.2k |
-| 3 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face によって生成された事前トレーニング済みモデル ライブラリ、PyTorch/TensorFlow をサポート、数千のモデルがすぐに使用可能 | Python | 129k |
-| 4 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 現在最も人気のある深層学習フレームワーク、ダイナミック グラフィックス、Python デザイン、科学研究や業界で広く使用されています。 | Python | 80.8k |
-| 5 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | AI ペイントに必須の巨大なプラグイン エコシステムを備えた、最も人気のある Stable Diffusion ローカル Web UI | Python | 140k |
-| 6 | [ollama/ollama](https://github.com/ollama/ollama) | 1 行のコマンドで大規模なモデルをローカルで実行するためのアーティファクト。Llama、Qwen、Mistral などの数十のモデルをサポートします。 | Go | 89.6k |
-| 7 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 複数のAIエージェントを使用して仮想ソフトウェア会社を形成し、AIチームがチャットのような方法で完全なソフトウェアを独立して開発できるようにします | Python | 31.8k |
-| 8 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 最も強力なネイティブ LLM チャット フロントエンド、マルチモデル バックエンド、ロールプレイング、拡張機能、グループ チャットをサポート | JavaScript | 17.7k |
-| 9 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta のオープンソース Llama 大規模言語モデル公式リポジトリ、Llama 1 から Llama 3 までの推論コード | Python | 53k |
-| 10 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | ノード ワークフロー スタイル 安定した拡散 WebUI、強力なコントロールを備え、上級プレイヤー向けの最初の選択肢 | Python | 54.6k |
-| 11 | [modelscope/swift](https://github.com/modelscope/swift) | Moda コミュニティのオープンソース LLM/マルチモーダル トレーニング推論フレームワークは 300 以上のモデルをサポートしており、非常に使いやすいです。 | Python | 8.4k |
-| 12 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 効率的な勾配ブースティング デシジョン ツリー フレームワーク、Kaggle コンペティション、および Microsoft が作成した産業グレードの並べ替え/CTR アーティファクト | C++ | 17k |
-| 13 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | Microsoft Research Asia制作のAI音楽オープンソース研究シリーズ、作詞・作曲・歌唱へのフルリンク | Python | 4.5k |
-| 14 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google のオープンソースのエンドツーエンド機械学習プラットフォームは、業界で最も広く導入されており、成熟したエコシステムを備えています。 | C++ | 188k |
-| 15 | [keras-team/keras](https://github.com/keras-team/keras) | 使いやすさで知られる高レベルのニューラル ネットワーク API は TensorFlow/JAX 上で実行可能 | Python | 62k |
-| 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python の最も古典的な機械学習ライブラリ、分類/回帰/クラスタリング/次元削減、シンプルかつ効率的 | Python | 60k |
-| 17 | [google/jax](https://github.com/google/jax) | Google社製高性能数値計算ライブラリ、自動微分、XLAコンパイル、並列計算 | Python | 31k |
-| 18 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | Baidu Flying Paddle ディープラーニング フレームワークは、中国で唯一完全に自社開発された産業グレードのオープンソース プラットフォームです | C++ | 22k |
-| 19 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 軽量の PyTorch トレーニング フレームワーク、構造化コード、マルチ GPU/TPU トレーニング、研究コードと本番環境の分離 | Python | 28k |
-| 20 | [fastai/fastai](https://github.com/fastai/fastai) | ディープ ラーニング ライブラリ、高レベルの API はシンプルで、すぐに始めるのに適しており、トップレベルのデータ強化とトレーニング戦略 | Python | 26k |
-| 21 | [openai/whisper](https://github.com/openai/whisper) | OpenAI オープンソース多言語音声認識モデル、99 言語、非常に堅牢 | Python | 72k |
-| 22 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ で実装された LLM 推論エンジン、CPU/Mac も大規模なモデルを実行でき、定量的推論は非常に高速です | C++ | 70k |
-| 23 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 公式言語モデル リポジトリ、オープン ソースの重み、クローズド ソース モデルに匹敵するパフォーマンス | Python | 48k |
-| 24 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | LLM データ フレームワーク。プライベート データと大規模モデルを接続する、RAG アプリケーションの最初の選択肢 | Python | 37k |
-| 25 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高スループットの LLM 推論エンジン、PatedAttendant テクノロジー、スループットは HuggingFace をはるかに上回ります | Python | 30k |
-| 26 | [microsoft/autogen](https://github.com/microsoft/autogen) | Microsoft のオープンソース マルチエージェント対話フレームワーク。複数の AI エージェントが連携して複雑なタスクを完了します。 | Python | 35k |
-| 27 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | マルチエージェント オーケストレーション フレームワーク、ロール プレイング、タスク割り当て、共同プロセス オーケストレーション、シンプルで使いやすい | Python | 25k |
-| 28 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | オープンソース AI パーソナル アシスタント、メモ/ドキュメント/GitHub に接続し、ローカルまたはクラウドで実行 | Python | 25k |
-| 29 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT アカデミック ツール、論文翻訳/洗練/コード分析/バッチ処理、アカデミック ライティング アーティファクト | Python | 65k |
-| 30 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 無料の GPT API アグリゲーション、複数の AI プラットフォームのリバース エンジニアリング、複数の大規模モデルの無料使用 | Python | 63k |
-| 31 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | ローカルプライベートGPT、ドキュメントQ&A、完全オフライン操作、データはローカルエリアから出ません。 | Python | 54k |
-| 32 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI コード生成ツール。要件を記述し、完全なプロジェクト コードを生成します。 | Python | 52k |
-| 33 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API の公式サンプルとベスト プラクティス、使用ガイドと使用ヒントのコレクション | Python | 60k |
-| 34 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | 清華社のオープンソース ChatGLM-6B 中国語と英語のバイリンガル対話モデル、低コストの導入、優れた中国語効果 | Python | 41k |
-| 35 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | Alibaba Tongyi Qianwen Qwen2.5 シリーズ モデル、オープンソースの重量、一流の中国語と英語の機能 | Python | 12k |
-| 36 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion独自実装、潜在拡散モデル、イメージ生成マイルストーン | Python | 67k |
-| 37 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | プロンプトの画像生成 UI に重点を置くことで SD 操作が簡素化され、非常に高品質な画像が生成されます | Python | 42k |
-| 38 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 画像生成の条件制御、線画・デプスマップ・姿勢制御、AIペイントの精密制御 | Python | 30k |
-| 39 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 拡散モデル ライブラリ、SD/SDXL/Flux など、事前トレーニング済みモデルと推論パイプラインをサポート | Python | 25k |
-| 40 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Stability AI が生成したモデル ウェアハウス。SDXL/SD3 およびその他のモデルがリリースされます。 | Python | 25k |
-| 41 | [opencv/opencv](https://github.com/opencv/opencv) | オープンソースのコンピュータビジョンライブラリ、画像処理/特徴検出/ターゲット追跡、CVフィールドインフラストラクチャ | C++ | 78k |
-| 42 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 ターゲット検出モデル、ワンストップのトレーニング/推論/展開、最も活発なコミュニティを備えた YOLO | Python | 52k |
-| 43 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 ターゲット検出/セグメンテーション/分類/ポーズ、最新かつ最先端の YOLO | Python | 30k |
-| 44 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM はすべてのモデルをセグメント化でき、ゼロサンプルはあらゆるターゲットをセグメント化でき、CV 基本モデルはブレークスルーできます。 | Python | 48k |
-| 45 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab オブジェクト検出ツールボックス、50 以上のアルゴリズム、検出/セグメンテーション/回転ボックスをサポート | Python | 28k |
-| 46 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR製外観検査ライブラリ、検出・セグメンテーション・キーポイント、モジュール設計 | Python | 30k |
-| 47 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU リアルタイム人間姿勢推定、2D/3D 複数人の骨格検出、体性感覚インタラクション ツール | C++ | 31k |
-| 48 | [explosion/spaCy](https://github.com/explosion/spaCy) | 産業グレードの NLP ライブラリ、単語分割/固有表現認識/テキスト分類/トレーニング プロセス | Python | 30k |
-| 49 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 事前トレーニング モデル、NLM マイルストーン、タスク ベンチマークの理解 | Python | 32k |
-| 50 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | リアルタイム音声クローン作成。わずか数秒の音声で話者の声をクローン作成できます。 | Python | 52k |
-| 51 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR シーケンスツーシーケンス モデリング ツールボックス、翻訳/要約/音声、PyTorch 実装 | Python | 30k |
-| 52 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft 大規模モデル トレーニング最適化システム、ZeRO/3D パラレルは、数千億のパラメーター モデルをトレーニングします | Python | 35k |
-| 53 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 大規模モデルの並列トレーニング フレームワーク、大規模モデルの低コスト トレーニング、数兆個のパラメータのサポート | Python | 39k |
-| 54 | [ray-project/ray](https://github.com/ray-project/ray) | 分散コンピューティング フレームワーク、分散トレーニング/ハイパーパラメータ調整/推論サービス、Python ネイティブ | Python | 33k |
-| 55 | [huggingface/peft](https://github.com/huggingface/peft) | 効率的なパラメータ微調整ライブラリ、LoRA/Prefix Tuning/AdaLoRA、大規模モデルの低コスト微調整 | Python | 16k |
-| 56 | [apache/spark](https://github.com/apache/spark) | 統合ビッグデータ分析エンジン、分散データ処理、MLlib/GraphX/SQL/Streaming | Scala | 40k |
-| 57 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML ライフサイクル管理プラットフォーム、実験追跡/モデル登録/展開/モニタリング、MLOps 標準 | Python | 18k |
-| 58 | [huggingface/datasets](https://github.com/huggingface/datasets) | データセットのロードおよび処理ライブラリ、1000 以上のデータセット、1 行のコードロード、効率的な前処理 | Python | 19k |
-| 59 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | ベクトル類似検索ライブラリ、10億レベルのベクトル検索、GPUアクセラレーション、RAGシステムコア | C++ | 32k |
-| 60 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 自律型 AI エージェント、指定された目標の自動計画と実行、AI 自律型アクションの先駆的プロジェクト | Python | 165k |
-| 61 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT プロンプト ワード コレクション、100 以上の役割プロンプト ワード、大規模モデルの最高のパフォーマンスを刺激 | HTML | 115k |
-| 62 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy の最も単純な GPT 実装、教育レベルのコード、GPT の中心原則の理解 | Python | 40k |
-| 63 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 実践型ディープラーニング中国語版、Li Mu プロデュース、理論 + コード + 演習、初心者向けの第一選択教科書 | Python | 60k |
-| 64 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 使いやすい LLM 微調整トレーニング フレームワーク | Python | 60k |
-| 65 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | データと ML アプリケーション UI を迅速に構築する | Python | 36k |
-| 66 | [openai/gym](https://github.com/openai/gym) | 強化学習環境インターフェイス ツールキット | Python | 35k |
-| 67 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML モデルのデモンストレーション インターフェイスを迅速に作成 | Python | 33k |
-| 68 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 大規模な言語モデルをゼロから構築するチュートリアル | Python | 30k |
-| 69 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | データ分析・処理コアライブラリ | Python | 44k |
-| 70 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 多言語 OCR ツールボックス | Python | 44k |
-| 71 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 最適化された分散勾配ブースティング ツリーバンク | C++ | 26k |
-| 72 | [openai/CLIP](https://github.com/openai/CLIP) | 画像とテキストの比較学習モデル | Python | 26k |
-| 73 | [shap/shap](https://github.com/shap/shap) | モデルの説明と特徴属性の視覚化ライブラリ | Python | 23k |
-| 74 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI を活用したブラウザ自動化エージェント | Python | 30k |
-| 75 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | ドラッグ＆ドロップによるビジュアルAIエージェント構築 | TypeScript | 45k |
-| 76 | [numpy/numpy](https://github.com/numpy/numpy) | 科学技術計算基礎ライブラリ | Python | 28k |
-| 77 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch の実装 | Python | 19k |
-| 78 | [facebook/prophet](https://github.com/facebook/prophet) | 自動時系列予測ツール | Python | 18k |
-| 79 | [gensim/gensim](https://github.com/gensim/gensim) | トピックモデリングとドキュメント類似性ライブラリ | Python | 16k |
-| 80 | [networkx/networkx](https://github.com/networkx/networkx) | 複雑なネットワークとグラフ理論の解析ライブラリ | Python | 15k |
-| 81 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python グラフ バインディングおよびデータ視覚化ライブラリ | Python | 20k |
-| 82 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | シーケンスツーシーケンス モデリング ツールキット | Python | 20k |
-| 83 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter、次世代のインタラクティブな開発環境 | TypeScript | 14k |
-| 84 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 深層学習に関する論文実装の注釈付きコレクション | Python | 14k |
-| 85 | [microsoft/nni](https://github.com/microsoft/nni) | 自動機械学習 AutoML ツールキット | Python | 14k |
-| 86 | [nltk/nltk](https://github.com/nltk/nltk) | 自然言語処理ツールキット | Python | 13k |
-| 87 | [scipy/scipy](https://github.com/scipy/scipy) | 科学技術コンピューティング図書館 | Python | 13k |
-| 88 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 大規模言語モデルの重みと推論 | Python | 12k |
+| 1 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face によって生成された事前トレーニング済みモデル ライブラリ、PyTorch/TensorFlow をサポート、数千のモデルがすぐに使用可能 | Python | 129k |
+| 2 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 現在最も人気のある深層学習フレームワーク、ダイナミック グラフィックス、Python デザイン、科学研究や業界で広く使用されています。 | Python | 80.8k |
+| 3 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | AI ペイントに必須の巨大なプラグイン エコシステムを備えた、最も人気のある Stable Diffusion ローカル Web UI | Python | 140k |
+| 4 | [ollama/ollama](https://github.com/ollama/ollama) | 1 行のコマンドで大規模なモデルをローカルで実行するためのアーティファクト。Llama、Qwen、Mistral などの数十のモデルをサポートします。 | Go | 89.6k |
+| 5 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 最も強力なネイティブ LLM チャット フロントエンド、マルチモデル バックエンド、ロールプレイング、拡張機能、グループ チャットをサポート | JavaScript | 17.7k |
+| 6 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta のオープンソース Llama 大規模言語モデル公式リポジトリ、Llama 1 から Llama 3 までの推論コード | Python | 53k |
+| 7 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | ノード ワークフロー スタイル 安定した拡散 WebUI、強力なコントロールを備え、上級プレイヤー向けの最初の選択肢 | Python | 54.6k |
+| 8 | [modelscope/swift](https://github.com/modelscope/swift) | Moda コミュニティのオープンソース LLM/マルチモーダル トレーニング推論フレームワークは 300 以上のモデルをサポートしており、非常に使いやすいです。 | Python | 8.4k |
+| 9 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 効率的な勾配ブースティング デシジョン ツリー フレームワーク、Kaggle コンペティション、および Microsoft が作成した産業グレードの並べ替え/CTR アーティファクト | C++ | 17k |
+| 10 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | Microsoft Research Asia制作のAI音楽オープンソース研究シリーズ、作詞・作曲・歌唱へのフルリンク | Python | 4.5k |
+| 11 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google のオープンソースのエンドツーエンド機械学習プラットフォームは、業界で最も広く導入されており、成熟したエコシステムを備えています。 | C++ | 188k |
+| 12 | [keras-team/keras](https://github.com/keras-team/keras) | 使いやすさで知られる高レベルのニューラル ネットワーク API は TensorFlow/JAX 上で実行可能 | Python | 62k |
+| 13 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python の最も古典的な機械学習ライブラリ、分類/回帰/クラスタリング/次元削減、シンプルかつ効率的 | Python | 60k |
+| 14 | [google/jax](https://github.com/google/jax) | Google社製高性能数値計算ライブラリ、自動微分、XLAコンパイル、並列計算 | Python | 31k |
+| 15 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | Baidu Flying Paddle ディープラーニング フレームワークは、中国で唯一完全に自社開発された産業グレードのオープンソース プラットフォームです | C++ | 22k |
+| 16 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 軽量の PyTorch トレーニング フレームワーク、構造化コード、マルチ GPU/TPU トレーニング、研究コードと本番環境の分離 | Python | 28k |
+| 17 | [fastai/fastai](https://github.com/fastai/fastai) | ディープ ラーニング ライブラリ、高レベルの API はシンプルで、すぐに始めるのに適しており、トップレベルのデータ強化とトレーニング戦略 | Python | 26k |
+| 18 | [openai/whisper](https://github.com/openai/whisper) | OpenAI オープンソース多言語音声認識モデル、99 言語、非常に堅牢 | Python | 72k |
+| 19 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ で実装された LLM 推論エンジン、CPU/Mac も大規模なモデルを実行でき、定量的推論は非常に高速です | C++ | 70k |
+| 20 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 公式言語モデル リポジトリ、オープン ソースの重み、クローズド ソース モデルに匹敵するパフォーマンス | Python | 48k |
+| 21 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | LLM データ フレームワーク。プライベート データと大規模モデルを接続する、RAG アプリケーションの最初の選択肢 | Python | 37k |
+| 22 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高スループットの LLM 推論エンジン、PatedAttendant テクノロジー、スループットは HuggingFace をはるかに上回ります | Python | 30k |
+| 23 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | オープンソース AI パーソナル アシスタント、メモ/ドキュメント/GitHub に接続し、ローカルまたはクラウドで実行 | Python | 25k |
+| 24 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT アカデミック ツール、論文翻訳/洗練/コード分析/バッチ処理、アカデミック ライティング アーティファクト | Python | 65k |
+| 25 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 無料の GPT API アグリゲーション、複数の AI プラットフォームのリバース エンジニアリング、複数の大規模モデルの無料使用 | Python | 63k |
+| 26 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | ローカルプライベートGPT、ドキュメントQ&A、完全オフライン操作、データはローカルエリアから出ません。 | Python | 54k |
+| 27 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI コード生成ツール。要件を記述し、完全なプロジェクト コードを生成します。 | Python | 52k |
+| 28 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API の公式サンプルとベスト プラクティス、使用ガイドと使用ヒントのコレクション | Python | 60k |
+| 29 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | 清華社のオープンソース ChatGLM-6B 中国語と英語のバイリンガル対話モデル、低コストの導入、優れた中国語効果 | Python | 41k |
+| 30 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | Alibaba Tongyi Qianwen Qwen2.5 シリーズ モデル、オープンソースの重量、一流の中国語と英語の機能 | Python | 12k |
+| 31 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion独自実装、潜在拡散モデル、イメージ生成マイルストーン | Python | 67k |
+| 32 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | プロンプトの画像生成 UI に重点を置くことで SD 操作が簡素化され、非常に高品質な画像が生成されます | Python | 42k |
+| 33 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 画像生成の条件制御、線画・デプスマップ・姿勢制御、AIペイントの精密制御 | Python | 30k |
+| 34 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 拡散モデル ライブラリ、SD/SDXL/Flux など、事前トレーニング済みモデルと推論パイプラインをサポート | Python | 25k |
+| 35 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Stability AI が生成したモデル ウェアハウス。SDXL/SD3 およびその他のモデルがリリースされます。 | Python | 25k |
+| 36 | [opencv/opencv](https://github.com/opencv/opencv) | オープンソースのコンピュータビジョンライブラリ、画像処理/特徴検出/ターゲット追跡、CVフィールドインフラストラクチャ | C++ | 78k |
+| 37 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 ターゲット検出モデル、ワンストップのトレーニング/推論/展開、最も活発なコミュニティを備えた YOLO | Python | 52k |
+| 38 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 ターゲット検出/セグメンテーション/分類/ポーズ、最新かつ最先端の YOLO | Python | 30k |
+| 39 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM はすべてのモデルをセグメント化でき、ゼロサンプルはあらゆるターゲットをセグメント化でき、CV 基本モデルはブレークスルーできます。 | Python | 48k |
+| 40 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab オブジェクト検出ツールボックス、50 以上のアルゴリズム、検出/セグメンテーション/回転ボックスをサポート | Python | 28k |
+| 41 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR製外観検査ライブラリ、検出・セグメンテーション・キーポイント、モジュール設計 | Python | 30k |
+| 42 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU リアルタイム人間姿勢推定、2D/3D 複数人の骨格検出、体性感覚インタラクション ツール | C++ | 31k |
+| 43 | [explosion/spaCy](https://github.com/explosion/spaCy) | 産業グレードの NLP ライブラリ、単語分割/固有表現認識/テキスト分類/トレーニング プロセス | Python | 30k |
+| 44 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 事前トレーニング モデル、NLM マイルストーン、タスク ベンチマークの理解 | Python | 32k |
+| 45 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | リアルタイム音声クローン作成。わずか数秒の音声で話者の声をクローン作成できます。 | Python | 52k |
+| 46 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR シーケンスツーシーケンス モデリング ツールボックス、翻訳/要約/音声、PyTorch 実装 | Python | 30k |
+| 47 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft 大規模モデル トレーニング最適化システム、ZeRO/3D パラレルは、数千億のパラメーター モデルをトレーニングします | Python | 35k |
+| 48 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 大規模モデルの並列トレーニング フレームワーク、大規模モデルの低コスト トレーニング、数兆個のパラメータのサポート | Python | 39k |
+| 49 | [ray-project/ray](https://github.com/ray-project/ray) | 分散コンピューティング フレームワーク、分散トレーニング/ハイパーパラメータ調整/推論サービス、Python ネイティブ | Python | 33k |
+| 50 | [huggingface/peft](https://github.com/huggingface/peft) | 効率的なパラメータ微調整ライブラリ、LoRA/Prefix Tuning/AdaLoRA、大規模モデルの低コスト微調整 | Python | 16k |
+| 51 | [apache/spark](https://github.com/apache/spark) | 統合ビッグデータ分析エンジン、分散データ処理、MLlib/GraphX/SQL/Streaming | Scala | 40k |
+| 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML ライフサイクル管理プラットフォーム、実験追跡/モデル登録/展開/モニタリング、MLOps 標準 | Python | 18k |
+| 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | データセットのロードおよび処理ライブラリ、1000 以上のデータセット、1 行のコードロード、効率的な前処理 | Python | 19k |
+| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | ベクトル類似検索ライブラリ、10億レベルのベクトル検索、GPUアクセラレーション、RAGシステムコア | C++ | 32k |
+| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT プロンプト ワード コレクション、100 以上の役割プロンプト ワード、大規模モデルの最高のパフォーマンスを刺激 | HTML | 115k |
+| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy の最も単純な GPT 実装、教育レベルのコード、GPT の中心原則の理解 | Python | 40k |
+| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 実践型ディープラーニング中国語版、Li Mu プロデュース、理論 + コード + 演習、初心者向けの第一選択教科書 | Python | 60k |
+| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 使いやすい LLM 微調整トレーニング フレームワーク | Python | 60k |
+| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | データと ML アプリケーション UI を迅速に構築する | Python | 36k |
+| 60 | [openai/gym](https://github.com/openai/gym) | 強化学習環境インターフェイス ツールキット | Python | 35k |
+| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | ML モデルのデモンストレーション インターフェイスを迅速に作成 | Python | 33k |
+| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 大規模な言語モデルをゼロから構築するチュートリアル | Python | 30k |
+| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | データ分析・処理コアライブラリ | Python | 44k |
+| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Baidu 多言語 OCR ツールボックス | Python | 44k |
+| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 最適化された分散勾配ブースティング ツリーバンク | C++ | 26k |
+| 66 | [openai/CLIP](https://github.com/openai/CLIP) | 画像とテキストの比較学習モデル | Python | 26k |
+| 67 | [shap/shap](https://github.com/shap/shap) | モデルの説明と特徴属性の視覚化ライブラリ | Python | 23k |
+| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI を活用したブラウザ自動化エージェント | Python | 30k |
+| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | ドラッグ＆ドロップによるビジュアルAIエージェント構築 | TypeScript | 45k |
+| 70 | [numpy/numpy](https://github.com/numpy/numpy) | 科学技術計算基礎ライブラリ | Python | 28k |
+| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch の実装 | Python | 19k |
+| 72 | [facebook/prophet](https://github.com/facebook/prophet) | 自動時系列予測ツール | Python | 18k |
+| 73 | [gensim/gensim](https://github.com/gensim/gensim) | トピックモデリングとドキュメント類似性ライブラリ | Python | 16k |
+| 74 | [networkx/networkx](https://github.com/networkx/networkx) | 複雑なネットワークとグラフ理論の解析ライブラリ | Python | 15k |
+| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python グラフ バインディングおよびデータ視覚化ライブラリ | Python | 20k |
+| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | シーケンスツーシーケンス モデリング ツールキット | Python | 20k |
+| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter、次世代のインタラクティブな開発環境 | TypeScript | 14k |
+| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 深層学習に関する論文実装の注釈付きコレクション | Python | 14k |
+| 79 | [microsoft/nni](https://github.com/microsoft/nni) | 自動機械学習 AutoML ツールキット | Python | 14k |
+| 80 | [nltk/nltk](https://github.com/nltk/nltk) | 自然言語処理ツールキット | Python | 13k |
+| 81 | [scipy/scipy](https://github.com/scipy/scipy) | 科学技術コンピューティング図書館 | Python | 13k |
+| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 大規模言語モデルの重みと推論 | Python | 12k |
 
 ---
 

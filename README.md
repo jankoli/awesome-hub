@@ -3,12 +3,12 @@
 [![GitHub stars](https://img.shields.io/github/stars/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
 [![GitHub forks](https://img.shields.io/github/forks/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Projects](https://img.shields.io/badge/Projects-678+-brightgreen)](https://github.com/jankoli/awesome-hub)
-[![Categories](https://img.shields.io/badge/Categories-8-blue)](https://github.com/jankoli/awesome-hub)
+[![Projects](https://img.shields.io/badge/Projects-698+-brightgreen)](https://github.com/jankoli/awesome-hub)
+[![Categories](https://img.shields.io/badge/Categories-9-blue)](https://github.com/jankoli/awesome-hub)
 [![Languages](https://img.shields.io/badge/Languages-5-red)](https://github.com/jankoli/awesome-hub)
 [![Updated](https://img.shields.io/badge/Updated-2026-success)](https://github.com/jankoli/awesome-hub)
 
-> 精选 678+ 个 10k+ Stars 优质开源项目导航，按 8 大分类整理，涵盖前端开发、后端开发、AI/机器学习、DevOps、数据库、移动开发、设计资源、效率工具。点击项目名直接跳转原作者仓库。
+> 精选 698+ 个 10k+ Stars 优质开源项目导航，按 9 大分类整理，涵盖前端开发、后端开发、AI/机器学习、DevOps、数据库、移动开发、设计资源、效率工具。点击项目名直接跳转原作者仓库。
 
 **Language / 语言:** **简体中文** | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
 
@@ -20,12 +20,13 @@
 
 - [🎨 前端开发 (106)](#frontend-development)
 - [⚙️ 后端开发 (70)](#backend-development)
-- [🤖 AI / 机器学习 (88)](#ai--machine-learning)
+- [🤖 AI / 机器学习 (82)](#ai--machine-learning)
 - [🚀 DevOps (70)](#devops)
 - [💾 数据库 (68)](#database)
 - [📱 移动开发 (96)](#mobile-development)
 - [✨ 设计资源 (79)](#design-resources)
 - [🛠️ 效率工具 (110)](#productivity-tools)
+- [🤝 智能体框架 (20)](#ai-agent-frameworks)
 
 ---
 
@@ -225,98 +226,92 @@
 
 <h2 id="ai--machine-learning">🤖 AI / 机器学习</h2>
 
-> 88 个项目
+> 82 个项目
 
 | # | 项目 | 简介 | 语言 | ⭐ Stars |
 |---|---|---|---|---|
-| 1 | [langgenius/dify](https://github.com/langgenius/dify) | 一站式大模型应用开发平台，可视化编排 Agent/RAG 工作流，支持一键部署 | TypeScript | 54.2k |
-| 2 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 构建 LLM 应用的主流框架，提供从提示工程、RAG 到 Agent 的一整套组件 | Python | 95.2k |
-| 3 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face 出品的预训练模型库，支持 PyTorch/TensorFlow，数千种模型开箱即用 | Python | 129k |
-| 4 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 当今最流行的深度学习框架，动态图、Pythonic 设计，科研和工业界都广泛使用 | Python | 80.8k |
-| 5 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 最受欢迎的 Stable Diffusion 本地 Web UI，插件生态庞大，AI 绘画必备 | Python | 140k |
-| 6 | [ollama/ollama](https://github.com/ollama/ollama) | 一行命令本地运行大模型的神器，支持 Llama、Qwen、Mistral 等数十种模型 | Go | 89.6k |
-| 7 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 用多个 AI Agent 组成虚拟软件公司，聊天式地让 AI 团队自主开发完整软件 | Python | 31.8k |
-| 8 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 最强大的本地 LLM 聊天前端，支持多模型后端、角色扮演、扩展、群组聊天 | JavaScript | 17.7k |
-| 9 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta 开源的 Llama 大语言模型官方仓库，从 Llama 1 到 Llama 3 的推理代码 | Python | 53k |
-| 10 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | 节点工作流式 Stable Diffusion WebUI，控制力极强，高级玩家首选 | Python | 54.6k |
-| 11 | [modelscope/swift](https://github.com/modelscope/swift) | 魔搭社区开源的 LLM/多模态训练推理框架，支持 300+ 模型，极简易用 | Python | 8.4k |
-| 12 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 微软出品的高效梯度提升决策树框架，Kaggle 竞赛和工业级排序/CTR 神器 | C++ | 17k |
-| 13 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | 微软亚洲研究院出品的 AI 音乐开源研究系列，歌词/作曲/演唱全链路 | Python | 4.5k |
-| 14 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google 开源的端到端机器学习平台，工业界部署最广泛，生态成熟 | C++ | 188k |
-| 15 | [keras-team/keras](https://github.com/keras-team/keras) | 高层神经网络 API，以易用性著称，可运行在 TensorFlow/JAX 之上 | Python | 62k |
-| 16 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python 最经典的机器学习库，分类/回归/聚类/降维，简单高效 | Python | 60k |
-| 17 | [google/jax](https://github.com/google/jax) | Google 出品的高性能数值计算库，自动微分、XLA 编译、并行计算 | Python | 31k |
-| 18 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 百度飞桨深度学习框架，国产唯一全套自研，产业级开源平台 | C++ | 22k |
-| 19 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 轻量 PyTorch 训练框架，结构化代码，多 GPU/TPU 训练，研究代码和生产解耦 | Python | 28k |
-| 20 | [fastai/fastai](https://github.com/fastai/fastai) | 深度学习库，高层 API 简洁，适合快速上手，顶层数据增强和训练策略 | Python | 26k |
-| 21 | [openai/whisper](https://github.com/openai/whisper) | OpenAI 开源的多语言语音识别模型，99 种语言，鲁棒性极强 | Python | 72k |
-| 22 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ 实现的 LLM 推理引擎，CPU/Mac 也能跑大模型，量化推理极快 | C++ | 70k |
-| 23 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 大语言模型官方仓库，开源权重，性能媲美闭源模型 | Python | 48k |
-| 24 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | LLM 数据框架，RAG 应用的首选，连接私有数据与大模型 | Python | 37k |
-| 25 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高吞吐 LLM 推理引擎，PagedAttention 技术，吞吐量远超 HuggingFace | Python | 30k |
-| 26 | [microsoft/autogen](https://github.com/microsoft/autogen) | 微软开源的多智能体对话框架，多个 AI Agent 协作完成复杂任务 | Python | 35k |
-| 27 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 多智能体编排框架，角色扮演、任务分配、协作流程编排，简洁好用 | Python | 25k |
-| 28 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 开源 AI 个人助手，连接你的笔记/文档/GitHub，本地或云端运行 | Python | 25k |
-| 29 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT 学术工具，论文翻译/润色/代码解析/批量处理，学术写作神器 | Python | 65k |
-| 30 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 免费 GPT API 聚合，逆向多个 AI 平台，免费使用多种大模型 | Python | 63k |
-| 31 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 本地私有 GPT，文档问答，完全离线运行，数据不出本地 | Python | 54k |
-| 32 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI 代码生成工具，描述需求即生成完整项目代码 | Python | 52k |
-| 33 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API 官方示例和最佳实践，使用指南和使用技巧合集 | Python | 60k |
-| 34 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | 清华开源的 ChatGLM-6B 中英双语对话模型，低成本部署，中文效果好 | Python | 41k |
-| 35 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | 阿里通义千问 Qwen2.5 系列模型，开源权重，中英文能力顶尖 | Python | 12k |
-| 36 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion 原始实现，潜在扩散模型，图像生成里程碑 | Python | 67k |
-| 37 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Focus on prompting 的图像生成 UI，简化 SD 操作，出图质量极高 | Python | 42k |
-| 38 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 条件控制图像生成，线稿/深度图/姿态控制，精确控制 AI 绘画 | Python | 30k |
-| 39 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 扩散模型库，支持 SD/SDXL/Flux 等，预训练模型和推理管道 | Python | 25k |
-| 40 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Stability AI 的生成模型仓库，SDXL/SD3 等模型发布地 | Python | 25k |
-| 41 | [opencv/opencv](https://github.com/opencv/opencv) | 开源计算机视觉库，图像处理/特征检测/目标跟踪，CV 领域基础设施 | C++ | 78k |
-| 42 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 目标检测模型，训练/推理/部署一站式，社区最活跃的 YOLO | Python | 52k |
-| 43 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 目标检测/分割/分类/姿态，最新最先进的 YOLO | Python | 30k |
-| 44 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM 分割一切模型，零样本分割任意目标，CV 基础模型突破 | Python | 48k |
-| 45 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab 目标检测工具箱，支持 50+ 算法，检测/分割/旋转框 | Python | 28k |
-| 46 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR 出品的视觉检测库，检测/分割/关键点，模块化设计 | Python | 30k |
-| 47 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU 实时人体姿态估计，2D/3D 多人骨架检测，体感交互利器 | C++ | 31k |
-| 48 | [explosion/spaCy](https://github.com/explosion/spaCy) | 工业级 NLP 库，分词/命名实体识别/文本分类/训练流程 | Python | 30k |
-| 49 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 预训练模型，NLM 里程碑，理解类任务标杆 | Python | 32k |
-| 50 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | 实时语音克隆，几秒钟音频即可克隆说话人声音 | Python | 52k |
-| 51 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR 序列到序列建模工具箱，翻译/摘要/语音，PyTorch 实现 | Python | 30k |
-| 52 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | 微软大模型训练优化系统，ZeRO/3D 并行，训练千亿参数模型 | Python | 35k |
-| 53 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 大模型并行训练框架，低成本训练大模型，支持万亿参数 | Python | 39k |
-| 54 | [ray-project/ray](https://github.com/ray-project/ray) | 分布式计算框架，分布式训练/超参调优/推理服务，Python 原生 | Python | 33k |
-| 55 | [huggingface/peft](https://github.com/huggingface/peft) | 参数高效微调库，LoRA/Prefix Tuning/AdaLoRA，低成本微调大模型 | Python | 16k |
-| 56 | [apache/spark](https://github.com/apache/spark) | 统一大数据分析引擎，分布式数据处理，MLlib/GraphX/SQL/Streaming | Scala | 40k |
-| 57 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML 生命周期管理平台，实验追踪/模型注册/部署/监控，MLOps 标配 | Python | 18k |
-| 58 | [huggingface/datasets](https://github.com/huggingface/datasets) | 数据集加载与处理库，1000+ 数据集，一行代码加载，预处理高效 | Python | 19k |
-| 59 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 向量相似性搜索库，十亿级向量检索，GPU 加速，RAG 系统核心 | C++ | 32k |
-| 60 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 自主 AI Agent，给定目标自动规划执行，AI 自主行动的先驱项目 | Python | 165k |
-| 61 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 提示词大全，100+ 角色提示词，激发大模型最佳表现 | HTML | 115k |
-| 62 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy 的最简 GPT 实现，教学级代码，理解 GPT 核心原理 | Python | 40k |
-| 63 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 动手学深度学习中文版，李沐出品，理论+代码+练习，入门首选教材 | Python | 60k |
-| 64 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 易用的 LLM 微调训练框架 | Python | 60k |
-| 65 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 快速构建数据与 ML 应用 UI | Python | 36k |
-| 66 | [openai/gym](https://github.com/openai/gym) | 强化学习环境接口工具包 | Python | 35k |
-| 67 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | 快速创建 ML 模型演示界面 | Python | 33k |
-| 68 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 从零构建大语言模型教程 | Python | 30k |
-| 69 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 数据分析与处理核心库 | Python | 44k |
-| 70 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 百度多语言 OCR 工具箱 | Python | 44k |
-| 71 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 优化的分布式梯度提升树库 | C++ | 26k |
-| 72 | [openai/CLIP](https://github.com/openai/CLIP) | 图文对比学习模型 | Python | 26k |
-| 73 | [shap/shap](https://github.com/shap/shap) | 模型解释与特征归因可视化库 | Python | 23k |
-| 74 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 驱动的浏览器自动化代理 | Python | 30k |
-| 75 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 拖拽式可视化 AI 智能体构建 | TypeScript | 45k |
-| 76 | [numpy/numpy](https://github.com/numpy/numpy) | 科学计算基础库 | Python | 28k |
-| 77 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 实现 | Python | 19k |
-| 78 | [facebook/prophet](https://github.com/facebook/prophet) | 自动化时间序列预测工具 | Python | 18k |
-| 79 | [gensim/gensim](https://github.com/gensim/gensim) | 主题建模与文档相似度库 | Python | 16k |
-| 80 | [networkx/networkx](https://github.com/networkx/networkx) | 复杂网络与图论分析库 | Python | 15k |
-| 81 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 绑图与数据可视化库 | Python | 20k |
-| 82 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 序列到序列建模工具包 | Python | 20k |
-| 83 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter 下一代交互式开发环境 | TypeScript | 14k |
-| 84 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 带注释的深度学习论文实现集 | Python | 14k |
-| 85 | [microsoft/nni](https://github.com/microsoft/nni) | 自动化机器学习 AutoML 工具包 | Python | 14k |
-| 86 | [nltk/nltk](https://github.com/nltk/nltk) | 自然语言处理工具包 | Python | 13k |
-| 87 | [scipy/scipy](https://github.com/scipy/scipy) | 科学与技术计算库 | Python | 13k |
-| 88 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 大语言模型权重与推理 | Python | 12k |
+| 1 | [huggingface/transformers](https://github.com/huggingface/transformers) | Hugging Face 出品的预训练模型库，支持 PyTorch/TensorFlow，数千种模型开箱即用 | Python | 129k |
+| 2 | [pytorch/pytorch](https://github.com/pytorch/pytorch) | 当今最流行的深度学习框架，动态图、Pythonic 设计，科研和工业界都广泛使用 | Python | 80.8k |
+| 3 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 最受欢迎的 Stable Diffusion 本地 Web UI，插件生态庞大，AI 绘画必备 | Python | 140k |
+| 4 | [ollama/ollama](https://github.com/ollama/ollama) | 一行命令本地运行大模型的神器，支持 Llama、Qwen、Mistral 等数十种模型 | Go | 89.6k |
+| 5 | [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) | 最强大的本地 LLM 聊天前端，支持多模型后端、角色扮演、扩展、群组聊天 | JavaScript | 17.7k |
+| 6 | [facebookresearch/llama](https://github.com/facebookresearch/llama) | Meta 开源的 Llama 大语言模型官方仓库，从 Llama 1 到 Llama 3 的推理代码 | Python | 53k |
+| 7 | [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) | 节点工作流式 Stable Diffusion WebUI，控制力极强，高级玩家首选 | Python | 54.6k |
+| 8 | [modelscope/swift](https://github.com/modelscope/swift) | 魔搭社区开源的 LLM/多模态训练推理框架，支持 300+ 模型，极简易用 | Python | 8.4k |
+| 9 | [microsoft/LightGBM](https://github.com/microsoft/LightGBM) | 微软出品的高效梯度提升决策树框架，Kaggle 竞赛和工业级排序/CTR 神器 | C++ | 17k |
+| 10 | [lmc-ai/muzic-ai](https://github.com/lmc-ai/muzic-ai) | 微软亚洲研究院出品的 AI 音乐开源研究系列，歌词/作曲/演唱全链路 | Python | 4.5k |
+| 11 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | Google 开源的端到端机器学习平台，工业界部署最广泛，生态成熟 | C++ | 188k |
+| 12 | [keras-team/keras](https://github.com/keras-team/keras) | 高层神经网络 API，以易用性著称，可运行在 TensorFlow/JAX 之上 | Python | 62k |
+| 13 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | Python 最经典的机器学习库，分类/回归/聚类/降维，简单高效 | Python | 60k |
+| 14 | [google/jax](https://github.com/google/jax) | Google 出品的高性能数值计算库，自动微分、XLA 编译、并行计算 | Python | 31k |
+| 15 | [PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle) | 百度飞桨深度学习框架，国产唯一全套自研，产业级开源平台 | C++ | 22k |
+| 16 | [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 轻量 PyTorch 训练框架，结构化代码，多 GPU/TPU 训练，研究代码和生产解耦 | Python | 28k |
+| 17 | [fastai/fastai](https://github.com/fastai/fastai) | 深度学习库，高层 API 简洁，适合快速上手，顶层数据增强和训练策略 | Python | 26k |
+| 18 | [openai/whisper](https://github.com/openai/whisper) | OpenAI 开源的多语言语音识别模型，99 种语言，鲁棒性极强 | Python | 72k |
+| 19 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | C/C++ 实现的 LLM 推理引擎，CPU/Mac 也能跑大模型，量化推理极快 | C++ | 70k |
+| 20 | [meta-llama/llama3](https://github.com/meta-llama/llama3) | Meta Llama 3 大语言模型官方仓库，开源权重，性能媲美闭源模型 | Python | 48k |
+| 21 | [llama-index/llama_index](https://github.com/llama-index/llama_index) | LLM 数据框架，RAG 应用的首选，连接私有数据与大模型 | Python | 37k |
+| 22 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 高吞吐 LLM 推理引擎，PagedAttention 技术，吞吐量远超 HuggingFace | Python | 30k |
+| 23 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | 开源 AI 个人助手，连接你的笔记/文档/GitHub，本地或云端运行 | Python | 25k |
+| 24 | [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic) | ChatGPT 学术工具，论文翻译/润色/代码解析/批量处理，学术写作神器 | Python | 65k |
+| 25 | [xtekky/gpt4free](https://github.com/xtekky/gpt4free) | 免费 GPT API 聚合，逆向多个 AI 平台，免费使用多种大模型 | Python | 63k |
+| 26 | [imartinez/privateGPT](https://github.com/imartinez/privateGPT) | 本地私有 GPT，文档问答，完全离线运行，数据不出本地 | Python | 54k |
+| 27 | [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | AI 代码生成工具，描述需求即生成完整项目代码 | Python | 52k |
+| 28 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | OpenAI API 官方示例和最佳实践，使用指南和使用技巧合集 | Python | 60k |
+| 29 | [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B) | 清华开源的 ChatGLM-6B 中英双语对话模型，低成本部署，中文效果好 | Python | 41k |
+| 30 | [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5) | 阿里通义千问 Qwen2.5 系列模型，开源权重，中英文能力顶尖 | Python | 12k |
+| 31 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | Stable Diffusion 原始实现，潜在扩散模型，图像生成里程碑 | Python | 67k |
+| 32 | [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) | Focus on prompting 的图像生成 UI，简化 SD 操作，出图质量极高 | Python | 42k |
+| 33 | [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet) | 条件控制图像生成，线稿/深度图/姿态控制，精确控制 AI 绘画 | Python | 30k |
+| 34 | [huggingface/diffusers](https://github.com/huggingface/diffusers) | 扩散模型库，支持 SD/SDXL/Flux 等，预训练模型和推理管道 | Python | 25k |
+| 35 | [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models) | Stability AI 的生成模型仓库，SDXL/SD3 等模型发布地 | Python | 25k |
+| 36 | [opencv/opencv](https://github.com/opencv/opencv) | 开源计算机视觉库，图像处理/特征检测/目标跟踪，CV 领域基础设施 | C++ | 78k |
+| 37 | [ultralytics/yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 目标检测模型，训练/推理/部署一站式，社区最活跃的 YOLO | Python | 52k |
+| 38 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | YOLOv8/YOLO11 目标检测/分割/分类/姿态，最新最先进的 YOLO | Python | 30k |
+| 39 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | SAM 分割一切模型，零样本分割任意目标，CV 基础模型突破 | Python | 48k |
+| 40 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab 目标检测工具箱，支持 50+ 算法，检测/分割/旋转框 | Python | 28k |
+| 41 | [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) | FAIR 出品的视觉检测库，检测/分割/关键点，模块化设计 | Python | 30k |
+| 42 | [CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | CMU 实时人体姿态估计，2D/3D 多人骨架检测，体感交互利器 | C++ | 31k |
+| 43 | [explosion/spaCy](https://github.com/explosion/spaCy) | 工业级 NLP 库，分词/命名实体识别/文本分类/训练流程 | Python | 30k |
+| 44 | [google-research/bert](https://github.com/google-research/bert) | Google BERT 预训练模型，NLM 里程碑，理解类任务标杆 | Python | 32k |
+| 45 | [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | 实时语音克隆，几秒钟音频即可克隆说话人声音 | Python | 52k |
+| 46 | [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq) | FAIR 序列到序列建模工具箱，翻译/摘要/语音，PyTorch 实现 | Python | 30k |
+| 47 | [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) | 微软大模型训练优化系统，ZeRO/3D 并行，训练千亿参数模型 | Python | 35k |
+| 48 | [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI) | 大模型并行训练框架，低成本训练大模型，支持万亿参数 | Python | 39k |
+| 49 | [ray-project/ray](https://github.com/ray-project/ray) | 分布式计算框架，分布式训练/超参调优/推理服务，Python 原生 | Python | 33k |
+| 50 | [huggingface/peft](https://github.com/huggingface/peft) | 参数高效微调库，LoRA/Prefix Tuning/AdaLoRA，低成本微调大模型 | Python | 16k |
+| 51 | [apache/spark](https://github.com/apache/spark) | 统一大数据分析引擎，分布式数据处理，MLlib/GraphX/SQL/Streaming | Scala | 40k |
+| 52 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | ML 生命周期管理平台，实验追踪/模型注册/部署/监控，MLOps 标配 | Python | 18k |
+| 53 | [huggingface/datasets](https://github.com/huggingface/datasets) | 数据集加载与处理库，1000+ 数据集，一行代码加载，预处理高效 | Python | 19k |
+| 54 | [facebookresearch/faiss](https://github.com/facebookresearch/faiss) | 向量相似性搜索库，十亿级向量检索，GPU 加速，RAG 系统核心 | C++ | 32k |
+| 55 | [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) | ChatGPT 提示词大全，100+ 角色提示词，激发大模型最佳表现 | HTML | 115k |
+| 56 | [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) | Karpathy 的最简 GPT 实现，教学级代码，理解 GPT 核心原理 | Python | 40k |
+| 57 | [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | 动手学深度学习中文版，李沐出品，理论+代码+练习，入门首选教材 | Python | 60k |
+| 58 | [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | 易用的 LLM 微调训练框架 | Python | 60k |
+| 59 | [streamlit/streamlit](https://github.com/streamlit/streamlit) | 快速构建数据与 ML 应用 UI | Python | 36k |
+| 60 | [openai/gym](https://github.com/openai/gym) | 强化学习环境接口工具包 | Python | 35k |
+| 61 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | 快速创建 ML 模型演示界面 | Python | 33k |
+| 62 | [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 从零构建大语言模型教程 | Python | 30k |
+| 63 | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | 数据分析与处理核心库 | Python | 44k |
+| 64 | [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 百度多语言 OCR 工具箱 | Python | 44k |
+| 65 | [dmlc/xgboost](https://github.com/dmlc/xgboost) | 优化的分布式梯度提升树库 | C++ | 26k |
+| 66 | [openai/CLIP](https://github.com/openai/CLIP) | 图文对比学习模型 | Python | 26k |
+| 67 | [shap/shap](https://github.com/shap/shap) | 模型解释与特征归因可视化库 | Python | 23k |
+| 68 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | AI 驱动的浏览器自动化代理 | Python | 30k |
+| 69 | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | 拖拽式可视化 AI 智能体构建 | TypeScript | 45k |
+| 70 | [numpy/numpy](https://github.com/numpy/numpy) | 科学计算基础库 | Python | 28k |
+| 71 | [lucidrains/vit-pytorch](https://github.com/lucidrains/vit-pytorch) | Vision Transformer PyTorch 实现 | Python | 19k |
+| 72 | [facebook/prophet](https://github.com/facebook/prophet) | 自动化时间序列预测工具 | Python | 18k |
+| 73 | [gensim/gensim](https://github.com/gensim/gensim) | 主题建模与文档相似度库 | Python | 16k |
+| 74 | [networkx/networkx](https://github.com/networkx/networkx) | 复杂网络与图论分析库 | Python | 15k |
+| 75 | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | Python 绑图与数据可视化库 | Python | 20k |
+| 76 | [pytorch/fairseq](https://github.com/pytorch/fairseq) | 序列到序列建模工具包 | Python | 20k |
+| 77 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | Jupyter 下一代交互式开发环境 | TypeScript | 14k |
+| 78 | [labmlai/annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 带注释的深度学习论文实现集 | Python | 14k |
+| 79 | [microsoft/nni](https://github.com/microsoft/nni) | 自动化机器学习 AutoML 工具包 | Python | 14k |
+| 80 | [nltk/nltk](https://github.com/nltk/nltk) | 自然语言处理工具包 | Python | 13k |
+| 81 | [scipy/scipy](https://github.com/scipy/scipy) | 科学与技术计算库 | Python | 13k |
+| 82 | [meta-llama/llama](https://github.com/meta-llama/llama) | Meta LLaMA 大语言模型权重与推理 | Python | 12k |
 
 ---
 
@@ -779,7 +774,38 @@
 
 ---
 
-**共 678 个精选项目** | 基于 MIT 协议开源
+**共 698 个精选项目** | 基于 MIT 协议开源
+
+---
+
+<h2 id="ai-agent-frameworks">🤝 智能体框架</h2>
+
+> 20 个项目
+
+
+| # | 项目 | 简介 | 语言 | ⭐ Stars |
+|---|---|---|---|---|
+| 1 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 自主 AI Agent 先驱，给定目标自动规划执行，AI 自主行动的开创性项目 | Python | 186k |
+| 2 | [langgenius/dify](https://github.com/langgenius/dify) | 一站式大模型应用开发平台，可视化编排 Agent/RAG 工作流，支持一键部署 | TypeScript | 151k |
+| 3 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 构建 LLM 应用的主流框架，提示工程、RAG、Agent 全栈组件库 | Python | 143k |
+| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 让 AI Agent 控制浏览器，自动完成网页操作和交互任务 | Python | 108k |
+| 5 | [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter) | 本地代码执行 Agent，让 LLM 直接操控电脑完成各种任务 | Python | 68k |
+| 6 | [microsoft/autogen](https://github.com/microsoft/autogen) | 微软开源的多智能体对话框架，多个 AI Agent 协作完成复杂任务 | Python | 60k |
+| 7 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 多智能体编排框架，角色扮演、任务分配、协作流程编排，简洁好用 | Python | 56k |
+| 8 | [flowiseai/flowise](https://github.com/flowiseai/flowise) | 可视化拖拽构建 LLM 应用和 Agent 工作流，低代码无代码开发 | TypeScript | 55k |
+| 9 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 有向图建模 Agent 流程，支持状态持久化和 Human-in-the-loop | Python | 39k |
+| 10 | [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy) | 斯坦福出品，用编程范式构建 LLM 应用，自动优化提示词 | Python | 37k |
+| 11 | [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev) | 多 Agent 组成虚拟软件公司，聊天式自主开发完整软件 | Python | 34k |
+| 12 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | HuggingFace 轻量级 Agent 框架，代码 Agent 优先设计，极简易用 | Python | 29k |
+| 13 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | OpenAI 官方 Agent SDK，原生工具调用和智能体交接机制 | Python | 28k |
+| 14 | [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) | 微软 LLM 集成框架，插件化架构，支持 .NET/Python/Java 多语言 | C# | 28k |
+| 15 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | LLM 应用框架，侧重搜索和问答流水线，组件可自由替换 | Python | 26k |
+| 16 | [openai/swarm](https://github.com/openai/swarm) | OpenAI 多智能体实验框架，轻量级 Agent 交接和路由机制 | Python | 22k |
+| 17 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Pydantic 风格 Agent 框架，类型安全，结构化输出 | Python | 19k |
+| 18 | [frdel/agent-zero](https://github.com/frdel/agent-zero) | 开源自主 AI Agent 框架，支持自定义工具和记忆系统 | Python | 19k |
+| 19 | [camel-ai/camel](https://github.com/camel-ai/camel) | 多智能体角色扮演框架，探索大规模 LLM 社会智能 | Python | 18k |
+| 20 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | AI Agent 安全代码执行沙箱，支持任意语言运行，云端隔离 | Python | 13k |
+
 
 ---
 
@@ -797,6 +823,7 @@
 - **移动开发框架** / mobile development / モバイル開発
 - **设计资源** / design resources / デザインリソース
 - **效率工具** / productivity tools / 生産性ツール
+- **智能体框架** / AI agent frameworks / AIエージェントフレームワーク
 - **awesome list** / 精选项目列表 / オープンソースナビ
 
 ---
