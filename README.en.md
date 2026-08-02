@@ -28,8 +28,7 @@
 
 ---
 
-<a id="frontend-development"></a>
-## 🎨 FRONTEND DEVELOPMENT
+<h2 id="frontend-development">🎨 FRONTEND DEVELOPMENT</h2>
 
 > 106 projects
 
@@ -144,8 +143,7 @@
 
 ---
 
-<a id="backend-development"></a>
-## ⚙️ BACKEND DEVELOPMENT
+<h2 id="backend-development">⚙️ BACKEND DEVELOPMENT</h2>
 
 > 70 projects
 
@@ -224,8 +222,7 @@
 
 ---
 
-<a id="ai--machine-learning"></a>
-## 🤖 AI / MACHINE LEARNING
+<h2 id="ai--machine-learning">🤖 AI / MACHINE LEARNING</h2>
 
 > 88 projects
 
@@ -322,8 +319,7 @@
 
 ---
 
-<a id="devops"></a>
-## 🚀 DEVOPS
+<h2 id="devops">🚀 DEVOPS</h2>
 
 > 70 projects
 
@@ -402,8 +398,7 @@
 
 ---
 
-<a id="database"></a>
-## 💾 DATABASE
+<h2 id="database">💾 DATABASE</h2>
 
 > 68 projects
 
@@ -480,8 +475,7 @@
 
 ---
 
-<a id="mobile-development"></a>
-## 📱 MOBILE DEVELOPMENT
+<h2 id="mobile-development">📱 MOBILE DEVELOPMENT</h2>
 
 > 93 projects
 
@@ -583,8 +577,7 @@
 
 ---
 
-<a id="design-resources"></a>
-## ✨ DESIGN RESOURCES
+<h2 id="design-resources">✨ DESIGN RESOURCES</h2>
 
 > 75 projects
 
@@ -668,8 +661,7 @@
 
 ---
 
-<a id="productivity-tools"></a>
-## 🛠️ PRODUCTIVITY TOOLS
+<h2 id="productivity-tools">🛠️ PRODUCTIVITY TOOLS</h2>
 
 > 108 projects
 
