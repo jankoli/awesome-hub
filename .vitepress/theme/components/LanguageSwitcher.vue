@@ -1,39 +1,19 @@
 <script setup lang="ts">
-import { ref, onMounted, watch } from 'vue'
+import { ref, onMounted } from 'vue'
 
-type Lang = 'en' | 'zh-CN' | 'zh-TW' | 'ja'
+type Lang = 'zh-CN' | 'en' | 'ja' | 'ko' | 'ru'
 
 const currentLang = ref<Lang>('zh-CN')
-const isOpen = ref(false)
 
-const langs: { code: Lang; label: string; flag: string }[] = [
-  { code: 'en', label: 'English', flag: '🇺🇸' },
-  { code: 'zh-CN', label: '简体中文', flag: '🇨🇳' },
-  { code: 'zh-TW', label: '繁體中文', flag: '🇭🇰' },
-  { code: 'ja', label: '日本語', flag: '🇯🇵' },
+const langs: { code: Lang; label: string; short: string }[] = [
+  { code: 'zh-CN', label: '中文', short: '中' },
+  { code: 'en', label: 'English', short: 'EN' },
+  { code: 'ja', label: '日本語', short: '日' },
+  { code: 'ko', label: '한국어', short: '한' },
+  { code: 'ru', label: 'Русский', short: 'RU' },
 ]
 
 const translations: Record<Lang, Record<string, string>> = {
-  'en': {
-    'nav.home': 'Home',
-    'nav.quickJump': 'Quick Jump',
-    'nav.contributing': 'Contributing',
-    'hero.text': 'Open Source精选',
-    'hero.tagline': '600+ curated open-source projects across Frontend, Backend, AI, DevOps, Database, Mobile, Design & Productivity.',
-    'hero.action.explore': '👇 Browse 600+ Projects',
-    'hero.action.guide': 'Contributing Guide',
-    'cat.frontend': '🎨 FRONTEND DEVELOPMENT',
-    'cat.backend': '⚙️ BACKEND DEVELOPMENT',
-    'cat.ai': '🤖 AI / MACHINE LEARNING',
-    'cat.devops': '🚀 DEVOPS',
-    'cat.database': '💾 DATABASE',
-    'cat.mobile': '📱 MOBILE DEVELOPMENT',
-    'cat.design': '✨ DESIGN RESOURCES',
-    'cat.productivity': '🛠️ PRODUCTIVITY TOOLS',
-    'footer.message': 'Open source under MIT License · Made with ❤️',
-    'footer.copyright': '© 2026 Awesome Hub · Open Source精选',
-    'search.placeholder': 'Search projects...',
-  },
   'zh-CN': {
     'nav.home': '首页',
     'nav.quickJump': '快速跳转',
@@ -54,31 +34,31 @@ const translations: Record<Lang, Record<string, string>> = {
     'footer.copyright': '© 2026 Awesome Hub · 开源精选',
     'search.placeholder': '搜索项目...',
   },
-  'zh-TW': {
-    'nav.home': '首頁',
-    'nav.quickJump': '快速跳轉',
-    'nav.contributing': '貢獻指南',
-    'hero.text': '開源精選',
-    'hero.tagline': '600+ 精選優質開源項目，涵蓋前端、後端、AI、DevOps、資料庫、行動開發、設計資源、效率工具全品類，助你發現好用的輪子。',
-    'hero.action.explore': '👇 直接往下看 600+ 精選',
-    'hero.action.guide': '貢獻指南',
-    'cat.frontend': '🎨 前端開發',
-    'cat.backend': '⚙️ 後端開發',
-    'cat.ai': '🤖 AI / 機器學習',
-    'cat.devops': '🚀 DevOps',
-    'cat.database': '💾 資料庫',
-    'cat.mobile': '📱 行動開發',
-    'cat.design': '✨ 設計資源',
-    'cat.productivity': '🛠️ 效率工具',
-    'footer.message': '基於 MIT 協議開源 · 用 ❤️ 維護',
-    'footer.copyright': '© 2026 Awesome Hub · 開源精選',
-    'search.placeholder': '搜尋項目...',
+  'en': {
+    'nav.home': 'Home',
+    'nav.quickJump': 'Quick Jump',
+    'nav.contributing': 'Contributing',
+    'hero.text': 'Open Source',
+    'hero.tagline': '600+ curated open-source projects across Frontend, Backend, AI, DevOps, Database, Mobile, Design & Productivity.',
+    'hero.action.explore': '👇 Browse 600+ Projects',
+    'hero.action.guide': 'Contributing Guide',
+    'cat.frontend': '🎨 FRONTEND DEVELOPMENT',
+    'cat.backend': '⚙️ BACKEND DEVELOPMENT',
+    'cat.ai': '🤖 AI / MACHINE LEARNING',
+    'cat.devops': '🚀 DEVOPS',
+    'cat.database': '💾 DATABASE',
+    'cat.mobile': '📱 MOBILE DEVELOPMENT',
+    'cat.design': '✨ DESIGN RESOURCES',
+    'cat.productivity': '🛠️ PRODUCTIVITY TOOLS',
+    'footer.message': 'Open source under MIT License · Made with ❤️',
+    'footer.copyright': '© 2026 Awesome Hub · Open Source',
+    'search.placeholder': 'Search projects...',
   },
   'ja': {
     'nav.home': 'ホーム',
     'nav.quickJump': 'クイックジャンプ',
     'nav.contributing': '貢献ガイド',
-    'hero.text': 'オープンソース厳選',
+    'hero.text': 'オープンソース',
     'hero.tagline': '600+ の厳選オープンソースプロジェクト。フロントエンド、バックエンド、AI、DevOps、データベース、モバイル、デザイン、生産性ツールを網羅。',
     'hero.action.explore': '👇 600+ プロジェクトを見る',
     'hero.action.guide': '貢献ガイド',
@@ -91,8 +71,48 @@ const translations: Record<Lang, Record<string, string>> = {
     'cat.design': '✨ デザインリソース',
     'cat.productivity': '🛠️ 生産性ツール',
     'footer.message': 'MIT ライセンスでオープンソース · ❤️ で維持',
-    'footer.copyright': '© 2026 Awesome Hub · オープンソース厳選',
+    'footer.copyright': '© 2026 Awesome Hub · オープンソース',
     'search.placeholder': 'プロジェクトを検索...',
+  },
+  'ko': {
+    'nav.home': '홈',
+    'nav.quickJump': '빠른 이동',
+    'nav.contributing': '기여 가이드',
+    'hero.text': '오픈소스',
+    'hero.tagline': '600+ 엄선된 오픈소스 프로젝트. 프론트엔드, 백엔드, AI, DevOps, 데이터베이스, 모바일, 디자인, 생산성 도구를 망라.',
+    'hero.action.explore': '👇 600+ 프로젝트 보기',
+    'hero.action.guide': '기여 가이드',
+    'cat.frontend': '🎨 프론트엔드 개발',
+    'cat.backend': '⚙️ 백엔드 개발',
+    'cat.ai': '🤖 AI / 머신러닝',
+    'cat.devops': '🚀 DevOps',
+    'cat.database': '💾 데이터베이스',
+    'cat.mobile': '📱 모바일 개발',
+    'cat.design': '✨ 디자인 리소스',
+    'cat.productivity': '🛠️ 생산성 도구',
+    'footer.message': 'MIT 라이선스 오픈소스 · ❤️로 유지',
+    'footer.copyright': '© 2026 Awesome Hub · 오픈소스',
+    'search.placeholder': '프로젝트 검색...',
+  },
+  'ru': {
+    'nav.home': 'Главная',
+    'nav.quickJump': 'Быстрый переход',
+    'nav.contributing': 'Руководство',
+    'hero.text': 'Open Source',
+    'hero.tagline': '600+ отобранных open-source проектов: Frontend, Backend, AI, DevOps, базы данных, мобильная разработка, дизайн и инструменты.',
+    'hero.action.explore': '👇 Смотреть 600+ проектов',
+    'hero.action.guide': 'Руководство',
+    'cat.frontend': '🎨 FRONTEND РАЗРАБОТКА',
+    'cat.backend': '⚙️ BACKEND РАЗРАБОТКА',
+    'cat.ai': '🤖 AI / МАШИННОЕ ОБУЧЕНИЕ',
+    'cat.devops': '🚀 DEVOPS',
+    'cat.database': '💾 БАЗЫ ДАННЫХ',
+    'cat.mobile': '📱 МОБИЛЬНАЯ РАЗРАБОТКА',
+    'cat.design': '✨ ДИЗАЙН РЕСУРСЫ',
+    'cat.productivity': '🛠️ ИНСТРУМЕНТЫ',
+    'footer.message': 'Open source под MIT лицензией · Сделано с ❤️',
+    'footer.copyright': '© 2026 Awesome Hub · Open Source',
+    'search.placeholder': 'Поиск проектов...',
   },
 }
 
@@ -100,30 +120,27 @@ function applyTranslations(lang: Lang) {
   const t = translations[lang]
   if (!t) return
 
-  // Translate nav items
+  // Nav items
   document.querySelectorAll('.VPNavBarMenuLink').forEach(el => {
     const text = el.textContent?.trim() || ''
-    if (text === '首页' || text === '首頁' || text === 'Home' || text === 'ホーム') {
-      el.textContent = t['nav.home']
-    } else if (text === '贡献指南' || text === '貢獻指南' || text === 'Contributing' || text === '貢献ガイド') {
-      el.textContent = t['nav.contributing']
+    for (const [, v] of Object.entries(translations)) {
+      if (v['nav.home'] === text) { el.textContent = t['nav.home']; break }
+      if (v['nav.contributing'] === text) { el.textContent = t['nav.contributing']; break }
     }
   })
 
-  // Translate "快速跳转" dropdown trigger
-  document.querySelectorAll('.VPNavBarMenuGroup .button-text, .VPFlyout .button-text').forEach(el => {
+  // Quick jump dropdown
+  document.querySelectorAll('.VPFlyout .button-text').forEach(el => {
     const text = el.textContent?.trim() || ''
-    if (text.includes('快速跳转') || text.includes('快速跳轉') || text.includes('Quick Jump') || text.includes('ジャンプ')) {
-      el.textContent = t['nav.quickJump']
+    for (const [, v] of Object.entries(translations)) {
+      if (v['nav.quickJump'] === text) { el.textContent = t['nav.quickJump']; break }
     }
   })
 
-  // Translate hero text
-  const heroName = document.querySelector('.VPHero .name')
-  const heroText = document.querySelector('.VPHero .text')
-  const heroTagline = document.querySelector('.VPHero .tagline')
+  // Hero
+  const heroText = document.querySelector('.VPHero .text') as HTMLElement
+  const heroTagline = document.querySelector('.VPHero .tagline') as HTMLElement
   const heroActions = document.querySelectorAll('.VPHero .VPButton')
-
   if (heroText) heroText.textContent = t['hero.text']
   if (heroTagline) heroTagline.textContent = t['hero.tagline']
   heroActions.forEach((btn, i) => {
@@ -131,57 +148,41 @@ function applyTranslations(lang: Lang) {
     if (i === 1) btn.textContent = t['hero.action.guide']
   })
 
-  // Translate category headings
+  // Category headings
   const headingMap: Record<string, string> = {
-    '🎨': 'cat.frontend',
-    '⚙️': 'cat.backend',
-    '🤖': 'cat.ai',
-    '🚀': 'cat.devops',
-    '💾': 'cat.database',
-    '📱': 'cat.mobile',
-    '✨': 'cat.design',
-    '🛠️': 'cat.productivity',
+    '🎨': 'cat.frontend', '⚙️': 'cat.backend', '🤖': 'cat.ai',
+    '🚀': 'cat.devops', '💾': 'cat.database', '📱': 'cat.mobile',
+    '✨': 'cat.design', '🛠️': 'cat.productivity',
   }
-
   document.querySelectorAll('h2').forEach(el => {
     const text = el.textContent || ''
     for (const [emoji, key] of Object.entries(headingMap)) {
       if (text.includes(emoji)) {
-        // Preserve the count suffix
         const countMatch = text.match(/\(\d+\)/)
         const count = countMatch ? ` ${countMatch[0]}` : ''
-        el.innerHTML = el.innerHTML.replace(/<span[^>]*>.*?<\/span>/g, `<span>${t[key]}${count}</span>`)
-        // Fallback: direct text replacement
-        if (!el.innerHTML.includes('<span>')) {
-          el.textContent = t[key] + count
-        }
+        el.textContent = t[key] + count
         break
       }
     }
   })
 
-  // Translate search placeholder
-  const searchInput = document.querySelector('.DocSearch-Button-Placeholder') as HTMLElement
-  if (searchInput) {
-    searchInput.textContent = t['search.placeholder']
-  }
+  // Search
+  const searchEl = document.querySelector('.DocSearch-Button-Placeholder') as HTMLElement
+  if (searchEl) searchEl.textContent = t['search.placeholder']
 
-  // Translate footer
-  const footerMsg = document.querySelector('.VPFooter .message')
-  const footerCopyright = document.querySelector('.VPFooter .copyright')
+  // Footer
+  const footerMsg = document.querySelector('.VPFooter .message') as HTMLElement
+  const footerCopy = document.querySelector('.VPFooter .copyright') as HTMLElement
   if (footerMsg) footerMsg.textContent = t['footer.message']
-  if (footerCopyright) footerCopyright.textContent = t['footer.copyright']
+  if (footerCopy) footerCopy.textContent = t['footer.copyright']
 
-  // Update html lang
   document.documentElement.lang = lang
 }
 
 function switchLang(lang: Lang) {
   currentLang.value = lang
   localStorage.setItem('ah-lang', lang)
-  isOpen.value = false
   applyTranslations(lang)
-  // Re-apply after Vue re-renders
   setTimeout(() => applyTranslations(lang), 100)
   setTimeout(() => applyTranslations(lang), 300)
 }
@@ -191,141 +192,89 @@ onMounted(() => {
   if (saved && translations[saved]) {
     currentLang.value = saved
   }
-  // Apply after page load
   setTimeout(() => applyTranslations(currentLang.value), 200)
   setTimeout(() => applyTranslations(currentLang.value), 500)
 })
 </script>
 
 <template>
-  <div class="ah-lang-switcher">
-    <button class="ah-lang-btn" @click="isOpen = !isOpen" :aria-expanded="isOpen">
-      <span class="ah-lang-flag">{{ langs.find(l => l.code === currentLang)?.flag }}</span>
-      <span class="ah-lang-label">{{ langs.find(l => l.code === currentLang)?.label }}</span>
-      <svg class="ah-lang-arrow" :class="{ open: isOpen }" width="10" height="6" viewBox="0 0 10 6">
-        <path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+  <div class="ah-lang-bar">
+    <button
+      v-for="lang in langs"
+      :key="lang.code"
+      class="ah-lang-pill"
+      :class="{ active: lang.code === currentLang }"
+      @click="switchLang(lang.code)"
+    >
+      <span class="ah-lang-short">{{ lang.short }}</span>
+      <span class="ah-lang-label">{{ lang.label }}</span>
     </button>
-    <Transition name="ah-lang-dropdown">
-      <ul v-if="isOpen" class="ah-lang-dropdown">
-        <li v-for="lang in langs" :key="lang.code">
-          <button
-            :class="{ active: lang.code === currentLang }"
-            @click="switchLang(lang.code)"
-          >
-            <span>{{ lang.flag }}</span>
-            <span>{{ lang.label }}</span>
-          </button>
-        </li>
-      </ul>
-    </Transition>
   </div>
 </template>
 
 <style scoped>
-.ah-lang-switcher {
-  position: relative;
-  display: inline-flex;
+.ah-lang-bar {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 8px;
+  margin-top: 24px;
 }
 
-.ah-lang-btn {
-  display: flex;
+.ah-lang-pill {
+  display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 5px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
+  padding: 6px 14px;
+  border: 1.5px solid var(--vp-c-divider);
+  border-radius: 999px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-2);
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
   white-space: nowrap;
+  line-height: 1.4;
 }
 
-.ah-lang-btn:hover {
+.ah-lang-pill:hover {
   border-color: var(--vp-c-brand-1);
   color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
 }
 
-.ah-lang-flag {
-  font-size: 15px;
-}
-
-.ah-lang-arrow {
-  transition: transform 0.2s ease;
-  opacity: 0.6;
-}
-
-.ah-lang-arrow.open {
-  transform: rotate(180deg);
-}
-
-.ah-lang-dropdown {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  margin-top: 6px;
-  padding: 6px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 10px;
-  background: var(--vp-c-bg);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  list-style: none;
-  z-index: 100;
-  min-width: 150px;
-}
-
-.ah-lang-dropdown li {
-  margin: 0;
-}
-
-.ah-lang-dropdown button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 6px;
-  background: transparent;
-  color: var(--vp-c-text-1);
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  text-align: left;
-}
-
-.ah-lang-dropdown button:hover {
-  background: var(--vp-c-bg-soft);
-}
-
-.ah-lang-dropdown button.active {
-  color: var(--vp-c-brand-1);
+.ah-lang-pill.active {
+  border-color: var(--vp-c-brand-1);
   background: var(--vp-c-brand-1);
-  background-color: rgba(102, 126, 234, 0.1);
+  color: #fff;
 }
 
-.ah-lang-dropdown-transition-enter-active,
-.ah-lang-dropdown-transition-leave-active {
-  transition: all 0.2s ease;
+.ah-lang-pill.active .ah-lang-short {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
 }
 
-.ah-lang-dropdown-transition-enter-from,
-.ah-lang-dropdown-transition-leave-to {
-  opacity: 0;
-  transform: translateY(-4px);
+.ah-lang-short {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-2);
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .ah-lang-label {
     display: none;
   }
-  .ah-lang-btn {
-    padding: 5px 8px;
+  .ah-lang-pill {
+    padding: 6px 10px;
   }
 }
 </style>

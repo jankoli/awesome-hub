@@ -20,7 +20,7 @@ hero:
 </script>
 
 
-## 🎨 FRONTEND DEVELOPMENT (106)
+## 🎨 前端开发 (106)
 
 <div class="ah-project-grid">
 
@@ -1082,7 +1082,7 @@ hero:
 </div>
 
 
-## ⚙️ BACKEND DEVELOPMENT (70)
+## ⚙️ 后端开发 (70)
 
 <div class="ah-project-grid">
 
@@ -1788,7 +1788,7 @@ hero:
 </div>
 
 
-## 🤖 AI / MACHINE LEARNING (88)
+## 🤖 AI / 机器学习 (88)
 
 <div class="ah-project-grid">
 
@@ -2638,7 +2638,7 @@ hero:
 </div>
 
 
-## 🚀 DEVOPS (70)
+## 🚀 DevOps (70)
 
 <div class="ah-project-grid">
 
@@ -3342,7 +3342,7 @@ hero:
 </div>
 
 
-## 💾 DATABASE (68)
+## 💾 数据库 (68)
 
 <div class="ah-project-grid">
 
@@ -4028,7 +4028,7 @@ hero:
 </div>
 
 
-## 📱 MOBILE DEVELOPMENT (96)
+## 📱 移动开发 (96)
 
 <div class="ah-project-grid">
 
@@ -4952,7 +4952,7 @@ hero:
 </div>
 
 
-## ✨ DESIGN RESOURCES (79)
+## ✨ 设计资源 (79)
 
 <div class="ah-project-grid">
 
@@ -5727,7 +5727,7 @@ hero:
 </div>
 
 
-## 🛠️ PRODUCTIVITY TOOLS (110)
+## 🛠️ 效率工具 (110)
 
 <div class="ah-project-grid">
 

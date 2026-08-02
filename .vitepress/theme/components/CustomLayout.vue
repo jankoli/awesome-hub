@@ -7,7 +7,7 @@ const { Layout } = DefaultTheme
 
 <template>
   <Layout>
-    <template #nav-bar-content-after>
+    <template #home-hero-info-after>
       <LanguageSwitcher />
     </template>
   </Layout>
