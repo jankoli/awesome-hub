@@ -12,7 +12,7 @@
 
 **Language / 语言:** **简体中文** | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
 
-**🔗 Links:** [GitHub Repository](https://github.com/jankoli/awesome-hub) | [Online Website](https://jankoli.github.io/awesome-hub/) | [Contributing Guide](CONTRIBUTING.md)
+**🔗 Links:** [GitHub Repository](https://github.com/jankoli/awesome-hub) | [Contributing Guide](CONTRIBUTING.md)
 
 ---
 
