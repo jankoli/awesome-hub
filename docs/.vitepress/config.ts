@@ -2,13 +2,62 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Awesome Hub · 开源精选',
-  description: '600+ curated open-source projects across Frontend, Backend, AI, DevOps, Database, Mobile, Design & Productivity.',
+  description: '678+ curated open-source projects with 10k+ stars. Frontend, Backend, AI/ML, DevOps, Database, Mobile, Design & Productivity. Best awesome list for developers.',
   lang: 'zh-CN',
   base: '/awesome-hub/',
+
+  sitemap: {
+    hostname: 'https://jankoli.github.io/awesome-hub/',
+    transformItems(items) {
+      return items.filter((item) => !item.url.includes('404'))
+    },
+  },
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+
+    // SEO Meta Tags
+    ['meta', { name: 'description', content: '678+ curated open-source projects with 10k+ stars across Frontend, Backend, AI/ML, DevOps, Database, Mobile, Design & Productivity. The best awesome list for developers.' }],
+    ['meta', { name: 'keywords', content: 'awesome, awesome-list, open-source, curated, frontend, backend, ai, machine-learning, devops, database, mobile, design, productivity, developer-tools, github-stars, best-projects, navigation, resources' }],
+    ['meta', { name: 'author', content: 'jankoli' }],
+    ['meta', { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }],
+
+    // Open Graph Tags
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Awesome Hub · 678+ Curated Open-Source Projects' }],
+    ['meta', { property: 'og:description', content: '678+ curated open-source projects with 10k+ stars. Frontend, Backend, AI/ML, DevOps, Database, Mobile, Design & Productivity.' }],
+    ['meta', { property: 'og:url', content: 'https://jankoli.github.io/awesome-hub/' }],
+    ['meta', { property: 'og:image', content: 'https://opengraph.githubassets.com/77a652d2d097a4390025f83bfe1aaf5d7e88e9e1de9cac85d6bca803dc3af30c/jankoli/awesome-hub' }],
+    ['meta', { property: 'og:site_name', content: 'Awesome Hub · 开源精选' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
+    ['meta', { property: 'og:locale:alternate', content: 'en_US' }],
+    ['meta', { property: 'og:locale:alternate', content: 'ja_JP' }],
+    ['meta', { property: 'og:locale:alternate', content: 'ko_KR' }],
+    ['meta', { property: 'og:locale:alternate', content: 'ru_RU' }],
+
+    // Twitter Card Tags
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Awesome Hub · 678+ Curated Open-Source Projects' }],
+    ['meta', { name: 'twitter:description', content: '678+ curated open-source projects with 10k+ stars. Frontend, Backend, AI/ML, DevOps, Database, Mobile, Design & Productivity.' }],
+    ['meta', { name: 'twitter:image', content: 'https://opengraph.githubassets.com/77a652d2d097a4390025f83bfe1aaf5d7e88e9e1de9cac85d6bca803dc3af30c/jankoli/awesome-hub' }],
+
+    // Canonical URL
+    ['link', { rel: 'canonical', href: 'https://jankoli.github.io/awesome-hub/' }],
+
+    // Structured Data (JSON-LD)
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      'name': 'Awesome Hub · 开源精选',
+      'description': '678+ curated open-source projects with 10k+ stars across 8 categories.',
+      'url': 'https://jankoli.github.io/awesome-hub/',
+      'potentialAction': {
+        '@type': 'SearchAction',
+        'target': 'https://jankoli.github.io/awesome-hub/?q={search_term_string}',
+        'query-input': 'required name=search_term_string',
+      },
+    })],
   ],
 
   themeConfig: {

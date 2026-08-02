@@ -1,8 +1,18 @@
-# 🎉 Awesome Hub · 开源精选
+# 🎉 Awesome Hub · 开源精选 — 678+ Best Open-Source Projects with 10k+ Stars
 
-> 精选优质开源项目导航，按分类整理，点击项目名直接跳转原作者仓库。
+[![GitHub stars](https://img.shields.io/github/stars/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
+[![GitHub forks](https://img.shields.io/github/forks/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Projects](https://img.shields.io/badge/Projects-678+-brightgreen)](https://github.com/jankoli/awesome-hub)
+[![Categories](https://img.shields.io/badge/Categories-8-blue)](https://github.com/jankoli/awesome-hub)
+[![Languages](https://img.shields.io/badge/Languages-5-red)](https://github.com/jankoli/awesome-hub)
+[![Updated](https://img.shields.io/badge/Updated-2026-success)](https://github.com/jankoli/awesome-hub)
+
+> 精选 678+ 个 10k+ Stars 优质开源项目导航，按 8 大分类整理，涵盖前端开发、后端开发、AI/机器学习、DevOps、数据库、移动开发、设计资源、效率工具。点击项目名直接跳转原作者仓库。
 
 **Language / 语言:** **简体中文** | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
+
+**🔗 Links:** [GitHub Repository](https://github.com/jankoli/awesome-hub) | [Online Website](https://jankoli.github.io/awesome-hub/) | [Contributing Guide](CONTRIBUTING.md)
 
 ---
 
@@ -770,3 +780,37 @@
 ---
 
 **共 678 个精选项目** | 基于 MIT 协议开源
+
+---
+
+## 🔍 你能在这里找到什么？
+
+如果你正在搜索以下内容，这个项目就是为你准备的：
+
+- **最佳开源项目推荐** / best open source projects / オープンソースプロジェクト
+- **GitHub 高星项目导航** / GitHub stars navigation / GitHubスター
+- **前端开发工具** / frontend development tools / フロントエンド開発
+- **后端开发框架** / backend frameworks / バックエンド開発
+- **AI / 机器学习项目** / AI machine learning projects / AI機械学習
+- **DevOps 工具链** / DevOps tools / DevOpsツール
+- **数据库项目** / database projects / データベース
+- **移动开发框架** / mobile development / モバイル開発
+- **设计资源** / design resources / デザインリソース
+- **效率工具** / productivity tools / 生産性ツール
+- **awesome list** / 精选项目列表 / オープンソースナビ
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jankoli/awesome-hub&type=Date)](https://star-history.com/#jankoli/awesome-hub&Date)
+
+---
+
+## 🤝 贡献
+
+欢迎提交 PR 添加更多优质项目！请阅读 [贡献指南](CONTRIBUTING.md)。
+
+## 📄 License
+
+[MIT](LICENSE) © 2026 Awesome Hub

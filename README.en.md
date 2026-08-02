@@ -1,8 +1,17 @@
-# 🎉 Awesome Hub · Open Source
+# 🎉 Awesome Hub · Open Source — 678+ Best Projects with 10k+ Stars
 
-> Curated open-source projects, organized by category. Click project name to visit the original repo.
+[![GitHub stars](https://img.shields.io/github/stars/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
+[![GitHub forks](https://img.shields.io/github/forks/jankoli/awesome-hub?style=social)](https://github.com/jankoli/awesome-hub)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Projects](https://img.shields.io/badge/Projects-678+-brightgreen)](https://github.com/jankoli/awesome-hub)
+[![Categories](https://img.shields.io/badge/Categories-8-blue)](https://github.com/jankoli/awesome-hub)
+[![Languages](https://img.shields.io/badge/Languages-5-red)](https://github.com/jankoli/awesome-hub)
+
+> 678+ curated open-source projects with 10k+ stars, organized into 8 categories: Frontend, Backend, AI/ML, DevOps, Database, Mobile, Design & Productivity. Click any project to visit its original repository.
 
 **Language / 语言:** [简体中文](README.md) | **English** | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
+
+**🔗 Links:** [GitHub Repository](https://github.com/jankoli/awesome-hub) | [Online Website](https://jankoli.github.io/awesome-hub/) | [Contributing Guide](CONTRIBUTING.md)
 
 ---
 
@@ -770,3 +779,37 @@
 ---
 
 **678 curated projects in total** | Open source under MIT License
+
+---
+
+## 🔍 What can you find here?
+
+If you're searching for any of these, this project is for you:
+
+- **Best open source projects** / 最佳开源项目 / 最高のオープンソース
+- **GitHub high-star projects** / GitHub高星项目 / GitHubスター
+- **Frontend development tools** / 前端开发工具 / フロントエンド開発
+- **Backend frameworks** / 后端框架 / バックエンド開発
+- **AI / Machine learning projects** / AI机器学习 / AI機械学習
+- **DevOps toolchain** / DevOps工具 / DevOpsツール
+- **Database projects** / 数据库项目 / データベース
+- **Mobile development frameworks** / 移动开发 / モバイル開発
+- **Design resources** / 设计资源 / デザインリソース
+- **Productivity tools** / 效率工具 / 生産性ツール
+- **Awesome list** / 精选项目列表 / オープンソースナビ
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jankoli/awesome-hub&type=Date)](https://star-history.com/#jankoli/awesome-hub&Date)
+
+---
+
+## 🤝 Contributing
+
+PRs are welcome to add more great projects! Please read the [Contributing Guide](CONTRIBUTING.md).
+
+## 📄 License
+
+[MIT](LICENSE) © 2026 Awesome Hub
