@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Awesome Hub · 开源精选',
-  description: '精心收集的优质开源项目导航，600+ 项目涵盖前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具全品类',
+  description: '600+ curated open-source projects across Frontend, Backend, AI, DevOps, Database, Mobile, Design & Productivity.',
   lang: 'zh-CN',
   cleanUrls: true,
   base: '/awesome-hub/',
@@ -20,14 +20,14 @@ export default defineConfig({
       {
         text: '快速跳转',
         items: [
-          { text: '🎨 前端开发', link: '/#🎨-前端开发' },
-          { text: '⚙️ 后端开发', link: '/#⚙️-后端开发' },
-          { text: '🤖 AI / 机器学习', link: '/#🤖-ai-机器学习' },
-          { text: '🚀 DevOps', link: '/#🚀-devops' },
-          { text: '💾 数据库', link: '/#💾-数据库' },
-          { text: '📱 移动开发', link: '/#📱-移动开发' },
-          { text: '✨ 设计资源', link: '/#✨-设计资源' },
-          { text: '🛠️ 效率工具', link: '/#🛠️-效率工具' },
+          { text: '🎨 FRONTEND DEVELOPMENT', link: '/#🎨-frontend-development' },
+          { text: '⚙️ BACKEND DEVELOPMENT', link: '/#⚙️-backend-development' },
+          { text: '🤖 AI / MACHINE LEARNING', link: '/#🤖-ai-machine-learning' },
+          { text: '🚀 DEVOPS', link: '/#🚀-devops' },
+          { text: '💾 DATABASE', link: '/#💾-database' },
+          { text: '📱 MOBILE DEVELOPMENT', link: '/#📱-mobile-development' },
+          { text: '✨ DESIGN RESOURCES', link: '/#✨-design-resources' },
+          { text: '🛠️ PRODUCTIVITY TOOLS', link: '/#🛠️-productivity-tools' },
         ],
       },
       { text: '贡献指南', link: '/contributing' },

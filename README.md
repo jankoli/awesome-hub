@@ -1,10 +1,10 @@
 # 🎉 Awesome Hub · 开源精选
 
-> 我的 GitHub Star 收藏精选项目，按分类整理，点击项目名直接跳转原作者仓库。
+> 精选优质开源项目导航，按分类整理，点击项目名直接跳转原作者仓库。
 
 ---
 
-## agent-记忆
+## AGENT MEMORY
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -27,7 +27,7 @@
 
 ---
 
-## agent框架
+## AGENT FRAMEWORK
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -64,7 +64,7 @@
 
 ---
 
-## ai-自动化框架-操作电脑
+## AI AUTOMATION & COMPUTER CONTROL
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -101,7 +101,7 @@
 
 ---
 
-## aigc-软件-绘画-写作-脑图-设计-视频知识库
+## AIGC SOFTWARE (Painting / Writing / Mindmap / Design / Video / Knowledge Base)
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -118,7 +118,7 @@
 | 11 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | 开源大模型知识平台：将原始文档转化为可查询的 RAG、自主推理 Agent 和自维护 Wiki | 19,235 |
 | 12 | [duixcom/Duix-Avatar](https://github.com/duixcom/Duix-Avatar) | 🚀 真正开源的 AI 数字人工具包，用于离线视频生成和数字人克隆 | 14,289 |
 | 13 | [creativetimofficial/ui](https://github.com/creativetimofficial/ui) | 开源组件、区块和 AI Agent，加速你的工作流，可通过 Registry 和 MCP 无缝导入喜爱的工具 | 11,984 |
-| 14 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-pow... | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端 | 11,844 |
+| 14 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 逆向工程/授权渗透测试/安全研究 AI 技能路由包 | 11,844 |
 | 15 | [hua1995116/awesome-ai-painting](https://github.com/hua1995116/awesome-ai-painting) | AI绘画资料合集（包含国内外可使用平台、使用教程、参数教程、部署教程、业界新闻等等） Stable diffusion、AnimateDiff、Stable Cascade...  | 11,788 |
 | 16 | [krillinai/KrillinAI](https://github.com/krillinai/KrillinAI) | AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline...  | 10,588 |
 | 17 | [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) | Obsidian + Claude Code 的自组织 AI 第二大脑。投入任意来源，Claude 阅读、链接并归档为你拥有的纯 Markdown 知识图谱。AI 笔记、个人知识管理（PKM...  | 10,239 |
@@ -138,7 +138,7 @@
 
 ---
 
-## ai测试
+## AI TESTING
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -162,7 +162,7 @@
 
 ---
 
-## dify-工具
+## DIFY TOOLS
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -187,7 +187,7 @@
 
 ---
 
-## rag-评估框架
+## RAG EVALUATION FRAMEWORK
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -210,7 +210,7 @@
 
 ---
 
-## rag框架
+## RAG FRAMEWORK
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -234,7 +234,7 @@
 
 ---
 
-## 云容器
+## CLOUD CONTAINER
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -257,7 +257,7 @@
 
 ---
 
-## 云平台计费项目
+## CLOUD PLATFORM BILLING
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -276,7 +276,7 @@
 
 ---
 
-## 低代码前端引擎
+## LOW-CODE FRONTEND ENGINE
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -298,7 +298,7 @@
 
 ---
 
-## 大模型微调
+## LLM FINE-TUNING
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -315,7 +315,7 @@
 
 ---
 
-## 大模型评估框架
+## LLM EVALUATION FRAMEWORK
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -339,7 +339,7 @@
 
 ---
 
-## 大模型问数
+## LLM DATA QUERY
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -368,7 +368,7 @@
 
 ---
 
-## 大模型问答客户端
+## LLM QA CLIENT
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -395,7 +395,7 @@
 
 ---
 
-## 导航-资讯
+## NAVIGATION & NEWS
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -422,7 +422,7 @@
 
 ---
 
-## 小工具
+## MINI TOOLS
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -457,7 +457,7 @@
 
 ---
 
-## 推理框架
+## INFERENCE FRAMEWORK
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -482,7 +482,7 @@
 
 ---
 
-## 科学上网
+## NETWORK PROXY
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|
@@ -508,7 +508,7 @@
 
 ---
 
-## 网盘
+## CLOUD STORAGE
 
 | # | 项目 | 简介 | ⭐ |
 |---|---|---|---|

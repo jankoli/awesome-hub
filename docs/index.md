@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Awesome Hub
   text: 开源精选
-  tagline: 精心收集 600+ 优质开源项目导航，涵盖前端、后端、AI、DevOps、数据库、移动开发、设计资源、效率工具全品类，助你发现好用的轮子。
+  tagline: 600+ curated open-source projects across Frontend, Backend, AI, DevOps, Database, Mobile, Design & Productivity.
   actions:
     - theme: brand
       text: 👇 直接往下看 600+ 精选
@@ -16,11 +16,15 @@ hero:
 
 <a id="所有项目"></a>
 
+<div class="ah-lang-bar">
+  <LanguageSwitcher />
+</div>
+
 <script setup>
 </script>
 
 
-## 🎨 前端开发（106 个）
+## 🎨 FRONTEND DEVELOPMENT (106)
 
 <div class="ah-project-grid">
 
@@ -1082,7 +1086,7 @@ hero:
 </div>
 
 
-## ⚙️ 后端开发（70 个）
+## ⚙️ BACKEND DEVELOPMENT (70)
 
 <div class="ah-project-grid">
 
@@ -1788,7 +1792,7 @@ hero:
 </div>
 
 
-## 🤖 AI / 机器学习（88 个）
+## 🤖 AI / MACHINE LEARNING (88)
 
 <div class="ah-project-grid">
 
@@ -2638,7 +2642,7 @@ hero:
 </div>
 
 
-## 🚀 DevOps（70 个）
+## 🚀 DEVOPS (70)
 
 <div class="ah-project-grid">
 
@@ -3342,7 +3346,7 @@ hero:
 </div>
 
 
-## 💾 数据库（68 个）
+## 💾 DATABASE (68)
 
 <div class="ah-project-grid">
 
@@ -4028,7 +4032,7 @@ hero:
 </div>
 
 
-## 📱 移动开发（96 个）
+## 📱 MOBILE DEVELOPMENT (96)
 
 <div class="ah-project-grid">
 
@@ -4952,7 +4956,7 @@ hero:
 </div>
 
 
-## ✨ 设计资源（79 个）
+## ✨ DESIGN RESOURCES (79)
 
 <div class="ah-project-grid">
 
@@ -5727,7 +5731,7 @@ hero:
 </div>
 
 
-## 🛠️ 效率工具（110 个）
+## 🛠️ PRODUCTIVITY TOOLS (110)
 
 <div class="ah-project-grid">
 
