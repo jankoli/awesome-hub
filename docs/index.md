@@ -16,10 +16,6 @@ hero:
 
 <a id="所有项目"></a>
 
-<div class="ah-lang-bar">
-  <LanguageSwitcher />
-</div>
-
 <script setup>
 </script>
 
