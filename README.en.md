@@ -1,14 +1,14 @@
-# 🎉 Awesome Hub · 开源精选
+# 🎉 Awesome Hub · Open Source
 
-> 精选优质开源项目导航，按分类整理，点击项目名直接跳转原作者仓库。
+> Curated open-source project navigation, organized by category. Click project name to visit the original repository.
 
-**Language / 语言:** **简体中文** | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
+**Language / 语言:** [简体中文](README.md) | **English** | [日本語](README.ja.md) | [한국어](README.ko.md) | [Русский](README.ru.md)
 
 ---
 
-## Agent 记忆
+## Agent Memory
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | Agent 框架性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全和研究优先的开发 | 236,829 |
 | 2 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 🌊 原创的 Agent 元框架。部署智能多玩家群体、协调自主工作流、构建对话式 AI 系统。具备自适应记忆、自学习智能、RAG 集成，原生集成 Claude Code、Codex、Hermes 等 | 66,771 |
@@ -29,9 +29,9 @@
 
 ---
 
-## Agent 框架
+## Agent Framework
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [obra/superpowers](https://github.com/obra/superpowers) | 切实可行的 Agent 技能框架与软件开发方法论 | 264,786 |
 | 2 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 与你共同成长的 Agent | 223,824 |
@@ -66,9 +66,9 @@
 
 ---
 
-## AI 自动化框架（操作电脑）
+## AI Automation Framework (Computer Control)
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发 | 157,441 |
 | 2 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🌐 让 AI Agent 轻松访问网站，便捷地自动化在线任务 | 107,513 |
@@ -103,9 +103,9 @@
 
 ---
 
-## AIGC 软件（绘画/写作/脑图/设计/视频知识库）
+## AIGC Software (Painting/Writing/Mindmap/Design/Video/Knowledge Base)
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Stable Diffusion 网页界面 | 164,331 |
 | 2 | [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 用 AI 将项目、Wiki 和团队整合在一起。AI 协作工作区，让你在不失控数据的前提下高效工作，领先的开源 Notion 替代方案 | 74,744 |
@@ -140,9 +140,9 @@
 
 ---
 
-## AI 测试
+## AI Testing
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [aaif-goose/goose](https://github.com/aaif-goose/goose) | 开源可扩展的 AI Agent，超越代码补全——用任意大模型安装、执行、编辑和测试 | 52,076 |
 | 2 | [usestrix/strix](https://github.com/usestrix/strix) | 开源 AI 渗透测试工具，发现并修复应用漏洞 | 46,436 |
@@ -164,9 +164,9 @@
 
 ---
 
-## Dify 工具
+## Dify Tools
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [svcvit/Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow) | 分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows. | 10,722 |
 | 2 | [wwwzhouhui/dify-for-dsl](https://github.com/wwwzhouhui/dify-for-dsl) | 本项目是基于dify开源项目实现的dsl工作流脚本合集 | 3,839 |
@@ -189,9 +189,9 @@
 
 ---
 
-## RAG 评估框架
+## RAG Evaluation Framework
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [comet-ml/opik](https://github.com/comet-ml/opik) | 调试、评估和监控大模型应用、RAG 系统和 Agent 工作流，提供全面追踪、自动评估和生产级仪表盘 | 21,034 |
 | 2 | [raga-ai-hub/RagaAI-Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst) | Agent AI 可观测、监控和评估框架的 Python SDK，含 Agent、大模型和工具追踪、多 Agent 系统调试、自托管仪表盘和时间线与执行图高级分析 | 16,142 |
@@ -212,9 +212,9 @@
 
 ---
 
-## RAG 框架
+## RAG Framework
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 领先的开源 RAG 引擎，融合前沿 RAG 与 Agent 能力，为大模型打造卓越的上下文层 | 86,571 |
 | 2 | [pathwaycom/pathway](https://github.com/pathwaycom/pathway) | Python ETL 框架，用于流处理、实时分析、大模型管道和 RAG | 62,561 |
@@ -236,9 +236,9 @@
 
 ---
 
-## 云容器
+## Cloud Container
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [traefik/traefik](https://github.com/traefik/traefik) | 云原生应用代理 | 64,221 |
 | 2 | [milvus-io/milvus](https://github.com/milvus-io/milvus) | 高性能云原生向量数据库，为可扩展向量近似最近邻搜索而生 | 45,454 |
@@ -259,9 +259,9 @@
 
 ---
 
-## 云平台计费项目
+## Cloud Platform Billing
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [kubesphere/kubesphere](https://github.com/kubesphere/kubesphere) | 为 Kubernetes 多云、数据中心和边缘管理量身打造的容器平台 ⎈ 🖥 ☁️ | 17,014 |
 | 2 | [getlago/lago](https://github.com/getlago/lago) | 开源的计量与按量计费 API ⭐️ 消费跟踪、订阅管理、定价迭代、支付编排和收入分析 | 10,280 |
@@ -278,9 +278,9 @@
 
 ---
 
-## 低代码前端引擎
+## Low-Code Frontend Engine
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | 【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖...  | 47,229 |
 | 2 | [reflex-dev/reflex](https://github.com/reflex-dev/reflex) | 🕸️ 用纯 Python 构建 Web 应用 🐍 | 28,743 |
@@ -300,9 +300,9 @@
 
 ---
 
-## 大模型微调
+## LLM Fine-Tuning
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 用于训练和运行 Kimi K3、Gemma 4、Qwen3.6、DeepSeek-V4、GLM 等模型的本地界面 | 69,354 |
 | 2 | [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 用 PEFT 或全参数对 600+ 大模型（Qwen3.6、DeepSeek-V4、GLM-5.1、InternLM3、Llama4 等）和 300+ 多模态大模型（Qwen3-VL...  | 15,017 |
@@ -317,9 +317,9 @@
 
 ---
 
-## 大模型评估框架
+## LLM Evaluation Framework
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [santifer/career-ops](https://github.com/santifer/career-ops) | 开源 AI 求职：扫描招聘门户，用 A-F 评分体系将岗位评为 1.0-5.0 分，量身定制简历，跟踪投递——本地运行于 AI 编码 CLI（Claude Code、Codex...  | 62,470 |
 | 2 | [langfuse/langfuse](https://github.com/langfuse/langfuse) | 🪢 开源 AI 工程平台：大模型评估、可观测性、指标、提示管理、演练场、数据集，集成 OpenTelemetry、LangChain、OpenAI SDK、LiteLLM 等 🍊YC W23 | 32,285 |
@@ -341,9 +341,9 @@
 
 ---
 
-## 大模型问数
+## LLM Data Query
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [fighting41love/funNLP](https://github.com/fighting41love/funNLP) | 几乎最全的中文 NLP 资源库，涵盖敏感词、语言检测、手机号抽取、情感分析等  | 82,183 |
 | 2 | [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) | 本地模型上私有 AI 应用的完整 API 层：RAG、技能、工具、MCP、Text-to-SQL 等，兼容任意 OpenAI 兼容推理服务器 | 57,394 |
@@ -370,9 +370,9 @@
 
 ---
 
-## 大模型问答客户端
+## LLM QA Client
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 友好的 AI 界面（支持 Ollama、OpenAI API 等） | 147,544 |
 | 2 | [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | 强大的 AI 客户端 | 41,247 |
@@ -397,9 +397,9 @@
 
 ---
 
-## 导航资讯
+## Navigation & News
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 主观精选的 Python 框架、库、工具和资源 | 311,587 |
 | 2 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 可在自有服务器上托管的自由软件网络服务和 Web 应用列表 | 309,979 |
@@ -424,9 +424,9 @@
 
 ---
 
-## 小工具
+## Mini Tools
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | 启发性列表、手册、速查表、博客、技巧、单行命令、CLI/Web 工具等合集 | 236,203 |
 | 2 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 🙃 令人愉悦的社区驱动（2500+ 贡献者）的 zsh 配置管理框架，含 300+ 可选插件（rails、git、macOS、hub、docker、homebrew、node、php...  | 188,941 |
@@ -459,9 +459,9 @@
 
 ---
 
-## 推理框架
+## Inference Framework
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [ollama/ollama](https://github.com/ollama/ollama) | 快速运行 Kimi-K2.6、GLM-5.2、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等模型 | 177,522 |
 | 2 | [huggingface/transformers](https://github.com/huggingface/transformers) | 🤗 Transformers：面向文本、视觉、音频和多模态最先进机器学习模型的模型定义框架，支持推理和训练 | 163,225 |
@@ -484,9 +484,9 @@
 
 ---
 
-## 科学上网
+## Network Proxy
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | 基于 Tauri 的现代图形客户端，在 Windows、macOS 和 Linux 上提供定制化代理体验 | 134,928 |
 | 2 | [2dust/v2rayN](https://github.com/2dust/v2rayN) | Windows、Linux 和 macOS 的图形客户端，支持 Xray、sing-box 等 | 112,780 |
@@ -510,9 +510,9 @@
 
 ---
 
-## 网盘
+## Cloud Storage
 
-| # | 项目 | 简介 | ⭐ |
+| # | Project | Description | ⭐ |
 |---|---|---|---|
 | 1 | [appwrite/appwrite](https://github.com/appwrite/appwrite) | Appwrite®——面向 Web、移动和 AI 应用的完整云基础设施，含认证、数据库、存储、函数、消息、托管、实时等 | 56,753 |
 | 2 | [HeyPuter/puter](https://github.com/HeyPuter/puter) | 🌐 互联网电脑！免费、开源、可自托管 | 42,923 |
